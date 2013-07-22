@@ -1,0 +1,272 @@
+                                          The SAS System      17:00 Tuesday, December 28, 2010   8
+
+-------------------------------------------- region=1 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: CGS
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    7.92842E-14    7.92842E-14       1.05    0.3118
+          Error                    45    3.41003E-12    7.57784E-14
+          Corrected Total          46    3.48931E-12
+
+
+                       Root MSE          2.752787E-7    R-Square     0.0227
+                       Dependent Mean     0.00001054    Adj R-Sq     0.0010
+                       Coeff Var             2.61080
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00001049    6.976243E-8     150.30      <.0001
+               GDP           1    2.49663E-11    2.44081E-11       1.02      0.3118
+                                          The SAS System      17:00 Tuesday, December 28, 2010   9
+
+-------------------------------------------- region=2 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: CGS
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    6.25743E-10    6.25743E-10      57.02    <.0001
+          Error                    45    4.93854E-10    1.09745E-11
+          Corrected Total          46    1.119596E-9
+
+
+                       Root MSE           0.00000331    R-Square     0.5589
+                       Dependent Mean     0.00004856    Adj R-Sq     0.5491
+                       Coeff Var             6.82270
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00005380    8.466075E-7      63.55      <.0001
+               GDP           1    -2.8937E-10     3.8322E-11      -7.55      <.0001
+                                          The SAS System      17:00 Tuesday, December 28, 2010  10
+
+-------------------------------------------- region=1 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                    Dependent Variable: dairy
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    3.18476E-10    3.18476E-10     105.89    <.0001
+          Error                    45    1.35337E-10    3.00748E-12
+          Corrected Total          46    4.53813E-10
+
+
+                       Root MSE           0.00000173    R-Square     0.7018
+                       Dependent Mean     0.00006832    Adj R-Sq     0.6952
+                       Coeff Var             2.53839
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00006462    4.394916E-7     147.04      <.0001
+               GDP           1    1.582338E-9    1.53767E-10      10.29      <.0001
+                                          The SAS System      17:00 Tuesday, December 28, 2010  11
+
+-------------------------------------------- region=2 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                    Dependent Variable: dairy
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1     2.2274E-10     2.2274E-10       4.09    0.0490
+          Error                    45    2.448127E-9    5.44028E-11
+          Corrected Total          46    2.670867E-9
+
+
+                       Root MSE           0.00000738    R-Square     0.0834
+                       Dependent Mean     0.00025319    Adj R-Sq     0.0630
+                       Coeff Var             2.91319
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00025006     0.00000188     132.66      <.0001
+               GDP           1    1.72645E-10    8.53229E-11       2.02      0.0490
+                                          The SAS System      17:00 Tuesday, December 28, 2010  12
+
+-------------------------------------------- region=1 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: pig
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    2.45271E-10    2.45271E-10     457.39    <.0001
+          Error                    45    2.41306E-11    5.36237E-13
+          Corrected Total          46    2.69402E-10
+
+
+                       Root MSE          7.322818E-7    R-Square     0.9104
+                       Dependent Mean     0.00001089    Adj R-Sq     0.9084
+                       Coeff Var             6.72251
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00000765    1.855783E-7      41.21      <.0001
+               GDP           1    1.388622E-9     6.4929E-11      21.39      <.0001
+                                          The SAS System      17:00 Tuesday, December 28, 2010  13
+
+-------------------------------------------- region=2 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: pig
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    5.92832E-12    5.92832E-12       2.25    0.1410
+          Error                    45    1.18828E-10    2.64063E-12
+          Corrected Total          46    1.24757E-10
+
+
+                       Root MSE           0.00000163    R-Square     0.0475
+                       Dependent Mean     0.00002901    Adj R-Sq     0.0264
+                       Coeff Var             5.60181
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00002850    4.152818E-7      68.62      <.0001
+               GDP           1    2.81657E-11    1.87979E-11       1.50      0.1410
+                                          The SAS System      17:00 Tuesday, December 28, 2010  14
+
+-------------------------------------------- region=1 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                   Dependent Variable: poultry
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    3.04176E-10    3.04176E-10     789.64    <.0001
+          Error                    45    1.73344E-11    3.85209E-13
+          Corrected Total          46    3.21511E-10
+
+
+                       Root MSE          6.206518E-7    R-Square     0.9461
+                       Dependent Mean     0.00000546    Adj R-Sq     0.9449
+                       Coeff Var            11.36813
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00000185    1.572885E-7      11.73      <.0001
+               GDP           1    1.546405E-9    5.50312E-11      28.10      <.0001
+                                          The SAS System      17:00 Tuesday, December 28, 2010  15
+
+-------------------------------------------- region=2 --------------------------------------------
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                   Dependent Variable: poultry
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    6.403183E-9    6.403183E-9    1654.84    <.0001
+          Error                    45    1.74122E-10    3.86938E-12
+          Corrected Total          46    6.577305E-9
+
+
+                       Root MSE           0.00000197    R-Square     0.9735
+                       Dependent Mean     0.00003261    Adj R-Sq     0.9729
+                       Coeff Var             6.03200
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00001582     5.02701E-7      31.47      <.0001
+               GDP           1    9.25663E-10    2.27549E-11      40.68      <.0001

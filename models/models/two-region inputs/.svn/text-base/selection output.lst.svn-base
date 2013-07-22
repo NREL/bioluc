@@ -1,0 +1,240 @@
+                                  PRESS Statistic in Regression                                512
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=ROW -------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: CGS
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.0227     34.1761    7.57784E-14    GDP
+                     1       0.0032     35.7181    7.72925E-14    GDPsq
+                     1       0.0013     35.8654    7.74371E-14    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.1115     29.1621    7.04571E-14    GDP GDPsq
+                     2       0.0587     33.3380    7.46505E-14    GDP GDPcu
+                     2       0.0097     37.2080    7.85368E-14    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.4555      4.0000     4.4185E-14    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                513
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=US --------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: CGS
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.5589     15.9788    1.09745E-11    GDP
+                     1       0.5315     19.6397    1.16557E-11    GDPsq
+                     1       0.4420     31.6063    1.38824E-11    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.6086     11.3275    9.95818E-12    GDPsq GDPcu
+                     2       0.5599     17.8467    1.11988E-11    GDP GDPcu
+                     2       0.5594     17.9119    1.12112E-11    GDP GDPsq
+              ----------------------------------------------------------------------
+                     3       0.6784      4.0000    8.37341E-12    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                514
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=ROW -------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                    Dependent Variable: dairy
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.7018     29.6555    3.00748E-12    GDP
+                     1       0.6828     34.2785    3.19884E-12    GDPsq
+                     1       0.6385     45.0651    3.64534E-12    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.7229     26.5035    2.85773E-12    GDP GDPcu
+                     2       0.7094     29.8105    2.99772E-12    GDP GDPsq
+                     2       0.6833     36.1644    3.26672E-12    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.8235      4.0000    1.86272E-12    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                515
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=US --------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                    Dependent Variable: dairy
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.0853     14.5039    5.42904E-11    GDPsq
+                     1       0.0834     14.6230    5.44028E-11    GDP
+                     1       0.0632     15.8933    5.56021E-11    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.1221     14.1914    5.32913E-11    GDPsq GDPcu
+                     2       0.0859     16.4661    5.54878E-11    GDP GDPsq
+                     2       0.0840     16.5835    5.56011E-11    GDP GDPcu
+              ----------------------------------------------------------------------
+                     3       0.3160      4.0000    4.24852E-11    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                516
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=ROW -------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: pig
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.9104     54.9199    5.36237E-13    GDP
+                     1       0.7171    266.2324    1.69344E-12    GDPsq
+                     1       0.5132    489.1878    2.91441E-12    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.9606      2.0836      2.413E-13    GDP GDPcu
+                     2       0.9597      3.0515    2.46721E-13    GDP GDPsq
+                     2       0.9353     29.7528    3.96268E-13    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.9607      4.0000    2.46433E-13    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                517
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=US --------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: pig
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.0475      0.6782    2.64063E-12    GDP
+                     1       0.0333      1.3285    2.67994E-12    GDPsq
+                     1       0.0237      1.7695    2.70661E-12    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.0601      2.0992    2.66484E-12    GDP GDPsq
+                     2       0.0583      2.1842     2.6701E-12    GDP GDPcu
+                     2       0.0521      2.4693    2.68773E-12    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.0623      4.0000    2.72054E-12    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                518
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=ROW -------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                   Dependent Variable: poultry
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.9461      5.8645    3.85209E-13    GDP
+                     1       0.8365    105.1544    1.16793E-12    GDPsq
+                     1       0.6613    263.9965    2.42012E-12    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.9499      4.4261    3.66242E-13    GDP GDPcu
+                     2       0.9487      5.4635    3.74606E-13    GDP GDPsq
+                     2       0.9476      6.5330    3.83228E-13    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.9526      4.0000    3.54744E-13    GDP GDPsq GDPcu
+
+
+                                  PRESS Statistic in Regression                                519
+                                                                    07:33 Tuesday, January 4, 2011
+
+------------------------------------------- region=US --------------------------------------------
+
+                                      The RSQUARE Procedure
+                                          Model: MODEL1
+                                   Dependent Variable: poultry
+
+                                    R-Square Selection Method
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+
+              Number in
+                Model      R-Square        C(p)            MSE    Variables in Model
+
+                     1       0.9735     76.3580    3.86938E-12    GDP
+                     1       0.8580    597.1649     2.0753E-11    GDPsq
+                     1       0.7119    1255.847    4.21064E-11    GDPcu
+              ----------------------------------------------------------------------
+                     2       0.9883     11.7605    1.74928E-12    GDP GDPcu
+                     2       0.9863     20.9431    2.05373E-12    GDP GDPsq
+                     2       0.9862     21.2738    2.06469E-12    GDPsq GDPcu
+              ----------------------------------------------------------------------
+                     3       0.9905      4.0000    1.45882E-12    GDP GDPsq GDPcu
+
+

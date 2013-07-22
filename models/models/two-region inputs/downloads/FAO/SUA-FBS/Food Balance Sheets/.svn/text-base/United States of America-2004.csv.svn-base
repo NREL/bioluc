@@ -1,0 +1,118 @@
+countries	countries (codes)	item	item (codes)	year	Total Population - Both sexes (1000)	Production (1000 tonnes)	Import Quantity (1000 tonnes)	Stock Variation (1000 tonnes)	Export Quantity (1000 tonnes)	Domestic supply quantity (1000 tonnes)	Feed (1000 tonnes)	Seed (1000 tonnes)	Processing (1000 tonnes)	Other Util (1000 tonnes)	Food (1000 tonnes)	Food supply quantity (kg/capita/yr)	Food supply (kcal/capita/day)	Protein supply quantity (g/capita/day)	Fat supply quantity (g/capita/day)	
+United States of America	231	Population	2501	2004	299821														
+United States of America	231	Grand Total +	2901	2004													3785	114.7	160.2
+United States of America	231	Vegetal Products +	2903	2004													2758	41.1	89.9
+United States of America	231	Animal Products +	2941	2004													1027	73.6	70.3
+United States of America	231	Cereals - Excluding Beer +	2905	2004		385591	6711	-23665	92641	275996	170880	3174	60209	9233	32508	108.4	811	23.8	3.6
+United States of America	231	Wheat	2511	2004		58738	2744	4728	34617	31593	4953	2122	7	0	24511	81.8	593	19.2	2.9
+United States of America	231	Rice (Milled Equivalent)	2805	2004		7030	671	85	3321	4465		127	445	1479	2414	8.1	85	1.6	0.1
+United States of America	231	Barley	2513	2004		6091	725	-884	546	5386	2238	139	2850	0	158	0.5	5	0.1	0.0
+United States of America	231	Maize	2514	2004		299914	563	-26853	49318	224305	156397	528	55841	7661	3879	12.9	97	1.8	0.3
+United States of America	231	Rye	2515	2004		210	162	-24	5	343	107	76		76	83	0.3	2	0.1	0.0
+United States of America	231	Oats	2516	2004		1679	1698	-32	112	3233	1977	159			1097	3.7	18	0.7	0.3
+United States of America	231	Millet	2517	2004		342	2		40	304	287			17					
+United States of America	231	Sorghum	2518	2004		11523	0	-684	4585	6254	4860	20	1066		308	1.0	10	0.3	0.1
+United States of America	231	Cereals, Other	2520	2004		65	146	-1	98	113	60	3			58	0.2	2	0.0	0.0
+United States of America	231	Starchy Roots +	2907	2004		21419	3457	700	1870	23706	351	1249		2293	19813	66.1	106	2.8	0.2
+United States of America	231	Cassava	2532	2004			299		5	294	180			79	35	0.1	0	0.0	0.0
+United States of America	231	Potatoes	2531	2004		20686	3059	700	1830	22615	142	1205		2201	19067	63.6	101	2.7	0.2
+United States of America	231	Sweet Potatoes	2533	2004		731	5		29	707	29	44		7	626	2.1	4	0.1	0.0
+United States of America	231	Yams	2535	2004			33			33					33	0.1	0	0.0	0.0
+United States of America	231	Roots, Other	2534	2004		2	60		6	57				5	53	0.2	0	0.0	0.0
+United States of America	231	Sugarcrops +	2908	2004		53555	13		1	53566		1435	52131						
+United States of America	231	Sugar Cane	2536	2004		26320	13		1	26332		1435	24897						
+United States of America	231	Sugar Beet	2537	2004		27235	0		1	27234			27234						
+United States of America	231	Sugar & Sweeteners +	2909	2004		19308	2416	1293	1013	22004			13	1110	20940	69.8	651	0.2	
+United States of America	231	Sugar, Non-Centrifugal	2541	2004															
+United States of America	231	Sugar (Raw Equivalent)	2542	2004		7144	1793	1293	228	10003			13	51	9940	33.2	334		
+United States of America	231	Sweeteners, Other	2543	2004		12080	541	0	781	11841			0	1060	10840	36.2	312	0.2	
+United States of America	231	Honey	2745	2004		83	81		4	160					160	0.5	4	0.0	
+United States of America	231	Pulses +	2911	2004		1559	259	267	561	1523	50	55		1	1418	4.7	44	3.0	0.2
+United States of America	231	Beans	2546	2004		807	154	265	270	956	1	35		1	920	3.1	29	1.9	0.1
+United States of America	231	Peas	2547	2004		518	49	-20	180	367		20			347	1.2	11	0.8	0.0
+United States of America	231	Pulses, Other	2549	2004		234	56	21	111	201	50	0			151	0.5	5	0.3	0.0
+United States of America	231	Treenuts +	2912	2004		1382	724	5	803	1309				127	1182	3.9	28	0.8	2.5
+United States of America	231	Oilcrops +	2913	2004		95827	1349	-4047	27969	65160	7224	2661	50546	4322	1781	5.9	73	3.1	6.3
+United States of America	231	Soyabeans	2555	2004		85013	146	-4000	25607	55552	2748	2395	46160	4237	12	0.0	0	0.0	0.0
+United States of America	231	Groundnuts (Shelled Eq)	2556	2004		1362	29	5	196	1199		65	125		1009	3.4	56	2.5	4.9
+United States of America	231	Sunflowerseed	2557	2004		930	66	48	134	909	350	13	276		270	0.9	8	0.3	0.7
+United States of America	231	Rape and Mustardseed	2558	2004		638	528	4	406	765		4	896	14	68	0.2	3	0.2	0.2
+United States of America	231	Cottonseed	2559	2004		7437	4	-133	370	6939	4126	161	2652						
+United States of America	231	Coconuts - Incl Copra	2560	2004			201	1	4	198			0	8	190	0.6	2	0.0	0.2
+United States of America	231	Sesameseed	2561	2004		0	43		3	40				2	38	0.1	2	0.1	0.2
+United States of America	231	Palmkernels	2562	2004			0		1	0									
+United States of America	231	Olives	2563	2004		98	118		4	212			10	10	191	0.6	2	0.0	0.2
+United States of America	231	Oilcrops, Other	2570	2004		350	214	29	1246			23	427	51	4	0.0	0	0.0	0.0
+United States of America	231	Vegetable Oils +	2914	2004		10217	2371	602	1972	11218			0	3401	8039	26.8	655	0.2	73.9
+United States of America	231	Soyabean Oil	2571	2004		7876	258	445	626	7953				1738	6215	20.7	507	0.2	57.2
+United States of America	231	Groundnut Oil	2572	2004		57	67	-8	26	90				25	65	0.2	5	0.0	0.6
+United States of America	231	Sunflowerseed Oil	2573	2004		120	18	0	116	22				12	10	0.0	1	0.0	0.1
+United States of America	231	Rape and Mustard Oil	2574	2004		358	478	0	148	689			0	268	420	1.4	34	0.0	3.9
+United States of America	231	Cottonseed Oil	2575	2004		434	0	-43	45	347				133	213	0.7	17	0.0	2.0
+United States of America	231	Palmkernel Oil	2576	2004			250	0	17	233			0	218	15	0.1	1	0.0	0.1
+United States of America	231	Palm Oil	2577	2004			387	0	164	223				273	0	0.0	0	0.0	0.0
+United States of America	231	Coconut Oil	2578	2004			416	0	8	408			0	318	90	0.3	7	0.0	0.8
+United States of America	231	Sesameseed Oil	2579	2004			11		1	10				10					
+United States of America	231	Olive Oil	2580	2004		2	246	0	14	234					234	0.8	19		2.1
+United States of America	231	Ricebran Oil	2581	2004															
+United States of America	231	Maize Germ Oil	2582	2004		1067	28	150	361	884				150	734	2.4	59	0.0	6.7
+United States of America	231	Oilcrops Oil, Other	2586	2004		302	212	58	447	125			0	253	43	0.1	4	0.0	0.4
+United States of America	231	Vegetables +	2918	2004		37981	5910		4044	39847	187		0	2281	37380	124.7	78	3.6	0.7
+United States of America	231	Tomatoes	2601	2004		12854	993		747	13100				689	12410	41.4	19	0.9	0.2
+United States of America	231	Onions	2602	2004		3768	313		302	3778				204	3574	11.9	10	0.4	0.1
+United States of America	231	Vegetables, Other	2605	2004		21359	4605		2995	22969	187		0	1388	21396	71.4	48	2.3	0.4
+United States of America	231	Fruits - Excluding Wine +	2919	2004		30148	16106	356	7498	39112			3464	1344	34329	114.5	117	1.4	0.8
+United States of America	231	Oranges, Mandarines	2611	2004		12056	1566		1564	12058			0	258	11800	39.4	32	0.6	0.1
+United States of America	231	Lemons, Limes	2612	2004		724	1304		130	1897			0	52	1845	6.2	2	0.1	0.0
+United States of America	231	Grapefruit	2613	2004		1964	120	176	1360	901			0	99	802	2.7	1	0.0	0.0
+United States of America	231	Citrus, Other	2614	2004		57	20		14	63					63	0.2	0	0.0	0.0
+United States of America	231	Bananas	2615	2004		8	3886		556	3338				194	3143	10.5	17	0.2	0.1
+United States of America	231	Plantains	2616	2004			269			269					269	0.9	2	0.0	0.0
+United States of America	231	Apples	2617	2004		4736	4104		1413	7426			0	247	7179	23.9	23	0.1	0.1
+United States of America	231	Pineapples	2618	2004		200	1675	0	80	1795				36	1759	5.9	7	0.0	0.0
+United States of America	231	Dates	2619	2004		16	6		4	17				1	16	0.1	0	0.0	0.0
+United States of America	231	Grapes	2620	2004		5661	794		1009	5446			3464	160	1822	6.1	10	0.1	0.0
+United States of America	231	Fruits, Other	2625	2004		4728	2363	180	1368	5903			0	297	5631	18.8	22	0.3	0.4
+United States of America	231	Stimulants +	2922	2004		3	2644	-75	393	2179			0		2179	7.3	22	1.3	1.4
+United States of America	231	Coffee	2630	2004		3	1405	-50	180	1178			0		1178	3.9	5	0.7	
+United States of America	231	Cocoa Beans	2633	2004			1055	-20	195	840					840	2.8	17	0.6	1.4
+United States of America	231	Tea	2635	2004			184	-5	18	162					162	0.5	0	0.1	
+United States of America	231	Spices +	2923	2004		3	248	0	22	229					229	0.8	7	0.2	0.2
+United States of America	231	Pepper	2640	2004			66		4	62					62	0.2	2	0.1	0.0
+United States of America	231	Pimento	2641	2004		0	88		7	81					81	0.3	2	0.1	0.1
+United States of America	231	Cloves	2642	2004			1		0	1					1	0.0	0	0.0	0.0
+United States of America	231	Spices, Other	2645	2004		3	93	0	11	85					85	0.3	3	0.1	0.1
+United States of America	231	Alcoholic Beverages +	2924	2004		35587	4888	10	1108	39377				9450	29971	100.0	167	0.7	
+United States of America	231	Wine	2655	2004		2466	650	10	394	2732				580	2152	7.2	13	0.0	
+United States of America	231	Beer	2656	2004		23249	2799		237	25810					25810	86.1	99	0.7	
+United States of America	231	Beverages, Fermented	2657	2004			24		63						5	0.0	0	0.0	
+United States of America	231	Beverages, Alcoholic	2658	2004		1650	496		141	2004					2004	6.7	54		
+United States of America	231	Alcohol, Non-Food	2659	2004		8222	920		273	8870				8870					
+United States of America	231	Meat +	2943	2004		38746	2422	-73	3748	37347	14		0	141	37193	124.1	454	41.1	30.8
+United States of America	231	Bovine Meat	2731	2004		11135	1787	-54	241	12628			0	30	12598	42.0	116	14.3	6.1
+United States of America	231	Mutton & Goat Meat	2732	2004		88	83	1	7	165	9				156	0.5	3	0.2	0.3
+United States of America	231	Pigmeat	2733	2004		9303	506	-5	854	8951				34	8917	29.7	131	8.0	10.7
+United States of America	231	Poultry Meat	2734	2004		18004	38	-18	2623	15401			0	77	15324	51.1	201	18.4	13.6
+United States of America	231	Meat, Other	2735	2004		217	7	3	23	203	4				198	0.7	2	0.3	0.1
+United States of America	231	Offals +	2945	2004		1347	35	0	307	1075	690			0	386	1.3	4	0.6	0.1
+United States of America	231	Animal Fats +	2946	2004		6749	146	18	1596	5317	1495		0	2184	1638	5.5	106	0.1	11.9
+United States of America	231	Butter, Ghee	2740	2004		565	65	18	12	637				4	633	2.1	42	0.1	4.7
+United States of America	231	Cream	2743	2004		6	9		12	3					3	0.0	0	0.0	0.0
+United States of America	231	Fats, Animals, Raw	2737	2004		6094	50	0	1522	4622	1495		0	2126	1001	3.3	64	0.0	7.2
+United States of America	231	Fish, Body Oil	2781	2004		82	19	0	48	54	0			54	0	0.0	0	0.0	0.0
+United States of America	231	Fish, Liver Oil	2782	2004		1	2	0	3	1				1	0	0.0	0	0.0	0.0
+United States of America	231	Eggs +	2949	2004		5287	9	-1	108	5187		702		110	4375	14.6	56	4.3	3.9
+United States of America	231	Milk - Excluding Butter +	2948	2004		77535	5108	691	3629	79705	459		0	3438	76008	253.5	374	22.1	22.4
+United States of America	231	Fish, Seafood +	2960	2004		5549	4490	180	2309	7910	467	154		0	7289	24.3	34	5.4	1.1
+United States of America	231	Freshwater Fish	2761	2004		708	704	0	224	1187	0	60			1127	3.8	6	1.0	0.2
+United States of America	231	Demersal Fish	2762	2004		2445	1083	113	1172	2469	0	75		0	2394	8.0	11	1.8	0.4
+United States of America	231	Pelagic Fish	2763	2004		1073	809	35	675	1242	467	0		0	775	2.6	7	0.8	0.4
+United States of America	231	Marine Fish, Other	2764	2004		5				5				0	5	0.0	0	0.0	0.0
+United States of America	231	Crustaceans	2765	2004		372	1408	32	111	1701		0		0	1701	5.7	7	1.4	0.1
+United States of America	231	Cephalopods	2766	2004		79	74	0	47	106		0		0	106	0.4	1	0.1	0.0
+United States of America	231	Molluscs, Other	2767	2004		867	411		78	1200		19		0	1181	3.9	2	0.2	0.0
+United States of America	231	Aquatic Products, Other +	2961	2004		53	44		6	91				91	0	0.0	0	0.0	0.0
+United States of America	231	Meat, Aquatic Mammals	2768	2004															
+United States of America	231	Aquatic Animals, Others	2769	2004		17	2		3	16				16	0	0.0	0	0.0	0.0
+United States of America	231	Aquatic Plants	2775	2004		35	42		3	75				75	0	0.0	0	0.0	0.0
+United States of America	231	Miscellaneous +	2928	2004													0	0.0	0.0

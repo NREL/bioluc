@@ -1,0 +1,242 @@
+/* CSS for Faostat Module "MetaData" */
+
+/**********
+   Table */
+.MDtable{
+width: 100%;
+max-width: 974px;
+}
+
+.MDtable th{
+text-align:left;
+}
+
+.MDtable td{
+text-align:left;
+}
+
+.MDtableFirstCol{
+width: 400px;
+}
+
+.MDsearchBox{
+width: 395px;
+font-weight:bold;
+color: #fff;
+background-color: #8AA3D4;
+border-top: 1px solid #1445A8;
+border-left: 1px solid #1445A8;
+border-bottom: 1px solid #97CBE4;
+border-right: 1px solid #97CBE4;
+margin: 0px 0px 0px 0px;
+padding: 2px 2px 2px 2px;
+}
+
+.MDsearchButton{
+font-weight:bold;
+color: #fff;
+background-color: #8AA3D4;
+border-top: 1px solid #1445A8;
+border-left: 1px solid #1445A8;
+border-bottom: 1px solid #97CBE4;
+border-right: 1px solid #97CBE4;
+margin: 0px 0px 0px 0px;
+padding: 2px 2px 2px 2px;
+}
+
+.MDalphabet{
+margin: 0px;
+padding: 0px;
+}
+
+
+/***********
+   Result */
+.MDresult{
+border-collapse: separate;
+width: 100%;
+}
+
+.MDresultTitle{
+text-align:left;
+}
+
+.MDresultDefinition{
+margin-bottom: 10px;
+}
+
+/*****************
+   ResultDetail */
+.MDresultDetail{
+border-collapse: separate;
+width: 100%;
+}
+
+/*****************
+   Listing Grid */
+.MDlistingGrid { /*table*/
+color:#333333;
+border-collapse: collapse;
+/*border: 1px solid #fff;*/
+}
+
+.MDlistingGrid td {
+	border: 1px solid #cccccc;
+	/*white-space: nowrap;*/
+	padding: 5px 5px 5px 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.MDlistingGrid th {
+	vertical-align: middle;
+	background-color: #8AA3D4;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-align: left;
+	padding: 2px 5px 2px 5px;
+	white-space: nowrap;
+}
+
+.MDlistingGridColumnBold {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.MDlistingGridColumnBoldBlue {
+	font-weight: bold;
+	background-color: #F2F8FF;	
+	vertical-align: top;
+}
+
+
+.MDlistingGridHeader { /*sets properties for TR!!!! */ 
+
+}
+
+.MDlistingGridFooter{
+}
+
+.MDlistingGridRow{
+color: #000;
+background-color: #EFF3FB;
+text-align: left;
+border: 1px solid #cccccc;
+font-size: 12px;
+}
+
+.MDlistingGridAlternatingRow{
+background-color:#FFFFFF;
+text-align: left;
+border: 1px solid #cccccc;
+}
+
+.MDlistingGridSelectedRow{
+}
+
+.MDlistingGridNoData{
+}
+
+/***********
+   Groups */
+
+.MDlistingGroup_1 {
+	background-color: #FFF4EA;
+}
+
+.MDlistingGroup_2 {
+	background-color: #F5F9EC;
+}
+
+.MDlistingGroup_3 {
+	background-color: #F2F8FF;
+}
+
+.MDlistingGroup_4 {
+	background-color: #F6E5BE;
+}
+
+.MDlistingGroup_5 {
+	background-color: #FFFCCF;
+}
+
+.MDlistingGroup_6 {
+	background-color: #F6EEFB;
+}
+
+.MDlistingGroup_7 {
+	background-color: #FAFAFA;
+}
+
+.MDlistingGroup_8 {
+	background-color: #F2FFF2;
+}
+
+.MDlistingGroup_9 {
+	background-color: #FFF0F0;
+}
+
+.MDlistingGroup_10 {
+	background-color: #E5FFFF;
+}
+
+.MDlistingGroup_11 {
+	background-color: #FFFFF6;
+}
+
+.MDlistingGroup_12 {
+	background-color: #FFEFD5;
+}
+
+.MDlistingGroup_13 {
+	background-color: #F7FBFC;
+}
+
+.MDlistingGroup_14 {
+	background-color: #F3F2E5;
+}
+
+.MDlistingGroup_15 {
+	background-color: #fff;
+}
+
+.MDlistingGroup_16 {
+	background-color: #FFFFA2;
+}
+
+.MDlistingGroup_17 {
+	background-color: #E6F4FE;
+}
+
+.MDlistingGroup_18 {
+	background-color: #DEEBDE;
+}
+
+.MDlistingGroup_50 {
+	background-color: #F2F8FF;	
+}
+
+.MDlistingGroup_60 {
+	background-color: #F2FFF2;	
+}
+
+.MDlistingGroup_Y {
+	background-color: #F2F8FF;
+}
+
+/***********
+   Error */
+.MDerror{
+text-align: center;
+vertical-align: middle;
+color: #EF7C03;
+font-weight:bold;
+font-size: 12px;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}

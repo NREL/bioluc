@@ -1,0 +1,76 @@
+/* CSS for Faostat Module "LoginInfoPanel" */
+
+DIV.LoginInfoPanelContainer
+{
+	background: transparent url(/Portals/_Faostat/images/images/login_icon_03.gif) no-repeat left;
+	color: #5F9EA0;
+	font-size: 11px;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 0px 2px 15px;
+}
+
+.LoggedAs
+{
+	color: #5F9EA0;
+	font-weight: bold;
+}
+
+.LoggedAsText
+{
+	color: #08AE39;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.LastVisit
+{
+	font-weight: bold;
+}
+
+.LastVisitText
+{
+	color: #999999;
+	padding-right: 10px;
+}
+
+.SubscriptionType
+{
+	font-weight: bold;
+}
+
+.SubscriptionTypeText
+{
+	color: #999999;
+	padding-right: 10px;
+}
+
+.ExpirationDate
+{
+	font-weight: bold;
+}
+
+.ExpirationDateText
+{
+	color: #999999;
+	padding-right: 10px;
+}
+
+.ExpirationDateWarning
+{	
+	background: transparent url(/Portals/_Faostat/images/images/warning.gif) no-repeat left;
+	color: #FF0000;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 14px;
+}
+
+.NumRecords
+{
+	font-weight: bold;
+}
+
+.NumRecordsText
+{
+	color: #999999;
+	padding-right: 10px;
+}

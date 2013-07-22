@@ -1,0 +1,1113 @@
+@import url(MenuHWDropDown.css);
+@import url(MenuHWLeft.css);
+@import url(MenuSolpart.css);
+@import url(TabsSubTabs.css);
+@import url(TabControl.css);
+
+/* Standard HTML tags */
+BODY {
+font-family: Verdana,Helvetica,sans-serif;
+padding: 0px 0px 0px 0px;
+margin:5px 7px 5px 7px;
+background-color: #fff;
+}
+
+P {
+font-size: 12px;
+color: #333333;
+}
+
+P.TextBlue {
+	font-size: 11px;
+	font-weight: bold;
+	color: #1445A8;
+}
+
+P.textOrange {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #EF7C03;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+/* Important the order:link,visited,hover,focus,active. see http://www.w3.org/TR/REC-CSS2/selector.html  */
+A:link{
+
+color:#1445A8;
+text-decoration:none;
+}
+
+A:visited{
+
+color:#1445A8;
+text-decoration:none;
+}
+
+A:hover{
+color:#1445A8;
+text-decoration:underline;
+}
+
+A:focus{
+color:#1445A8;
+text-decoration:none;
+}
+
+A:active{
+color:#1445A8;
+text-decoration:underline;
+}
+
+A.language:link {
+font-size:11px;
+color:#08A933;
+text-decoration:none;
+font-weight: bold;
+padding-left: 7px;
+}
+
+A.language:visited {
+font-size:11px;
+color:#08A933;
+text-decoration:none;
+font-weight: bold;
+padding-left: 7px;
+}
+
+A.language:hover {
+color:#08A933;
+text-decoration:underline;
+}
+
+A.language:focus {
+color:#08A933;
+text-decoration:none;
+}
+
+A.language:active {
+color:#08A933;
+text-decoration:underline;
+}
+
+DIV{
+font-size:10pt;
+}
+
+H1{
+font-weight:bold;
+font-size:15pt;
+}
+
+H2{
+font-weight:bold;
+font-size:14pt;
+}
+
+H3{
+font-weight:bold;
+font-size:13pt;
+}
+
+H4{
+font-weight:bold;
+font-size:12pt;
+}
+
+H5{
+font-weight:bold;
+font-size:11pt;
+}
+
+H6{
+font-weight:bold;
+font-size:10pt;
+}
+
+HR{
+color:#999999;
+height:1px;
+text-align:center;
+}
+
+INPUT.CommandButton{
+border-right:#333333 thin solid;
+padding-right:3pt;
+border-top:#cccccc thin solid;
+padding-left:3pt;
+font-weight:600;
+font-size:8pt;
+padding-bottom:3pt;
+border-left:#cccccc thin solid;
+color:#ffffff;
+line-height:7pt;
+padding-top:3pt;
+border-bottom:#333333 thin solid;
+background-color: #999999;
+text-decoration:none;
+}
+
+INPUT{
+font-size:8pt;
+}
+
+TABLE{
+height:inherit;
+font-size:10pt;
+border-top-style:none;
+border-right-style:none;
+border-left-style:none;
+border-bottom-style:none;
+}
+
+THEAD{
+font-size:10pt;
+border-top-style:none;
+border-right-style:none;
+border-left-style:none;
+border-bottom-style:none;
+}
+
+TR{
+font-size:10pt;
+border-top-style:none;
+border-right-style:none;
+border-left-style:none;
+border-bottom-style:none;
+}
+
+TH{
+font-size:10pt;
+vertical-align:baseline;
+color:#333333;
+border-top-style:none;
+border-right-style:none;
+border-left-style:none;
+border-bottom-style:none;
+}
+
+TD{
+font-size: 11px;
+color: #333333;
+}
+
+TD.intro {
+font-size: 12px;
+color: #333333;
+text-align: justify;
+}
+
+p.justify {
+font-size: 12px;
+color: #333333;
+text-align: justify;
+padding: 3px;
+}
+
+TD.intro_left_align {
+font-size: 12px;
+color: #333333;
+text-align: left;
+}
+
+TD.img {
+text-align: center;
+}
+
+TD.mapText {
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #1445A8;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+/*IMG{
+border-right:none;
+border-top:none;
+border-left:none;
+border-bottom:none;
+}*/
+
+img {
+	border: 1px solid #000000;
+}
+
+img.Border {
+	border: 1px solid #000000;
+}
+
+img.NoBorder {
+	border: none;
+}
+
+img.doc {
+border: none;
+vertical-align: middle;
+}
+
+TFOOT{
+font-size:10pt;
+}
+
+TEXTAREA{
+font-size:8pt;
+}
+
+OL{
+font-size:10pt;
+}
+
+UL{
+font-size:10pt;
+list-style: disc;
+text-align: left;
+/*list-style-image:url(img/bulleye.gif);*/
+}
+
+/* Standard Rainbow Classes */
+/* Command buttons */
+.CommandButton{
+font-size:8pt;
+font-weight:600;
+color:#333333;
+background-color:silver;
+text-decoration:none;
+white-space:nowrap;
+line-height:18pt;
+padding-right:5px;
+padding-left:5px;
+padding-bottom:3px;
+padding-top:3px;
+border-bottom: #999999 2px solid;
+border-left: 2px solid #DDDDDD;
+border-top: #DDDDDD 2px solid;
+border-right: #999999 2px solid;
+display:inline;
+}
+
+/* Important the order:link,visited,hover,focus,active. see http://www.w3.org/TR/REC-CSS2/selector.html  */
+A.CommandButton:link{
+font-size:8pt;
+color:#333333;
+text-decoration:none;
+}
+
+A.CommandButton:visited{
+font-size:8pt;
+color:#333333;
+text-decoration:none;
+}
+
+A.CommandButton:hover{
+font-size:8pt;
+color:White;
+text-decoration:none;
+}
+
+A.CommandButton:focus{
+font-size:8pt;
+color:White;
+text-decoration:none;
+}
+
+A.CommandButton:active{
+font-size:8pt;
+color:White;
+text-decoration:none;
+}
+
+.Error /* Error and warning messages */{
+color:Red;
+}
+
+.Grid_Header,.Grid_Header TD,.Grid_Header TH /* Search Modules */{
+background-color:#999999;
+font-weight:600;
+}
+
+.Grid_Footer{
+}
+
+.Grid_Item{
+}
+
+.Grid_Item TD A{
+font-weight:600;
+}
+
+.Grid_AlternatingItem{
+background-color:#CCCCCC;
+}
+
+.Grid_AlternatingItem TD A{
+font-weight:600;
+}
+
+.Grid_SelectedItem{
+}
+
+.Grid_Pager{
+}
+
+.Head /* Add,announcements,articles,blog,ecc ecc */{
+font-weight:bold;
+font-size:12pt;
+color:#999999;
+}
+
+INPUT.NormalTextBox,.NormalTextBox{
+font-size:10pt;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+SELECT,SELECT.NormalTextBox{
+font-size:10pt;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+OPTION{
+font-size:10pt;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+.ItemTitle{
+font-weight:bolder;
+font-size:10pt;
+color:#999999;
+}
+
+.ItemDate{
+font-size:10pt;
+color:#999999;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+.Message /* Informative messages */{
+font-weight:normal;
+font-size:10pt;
+color: #999999;
+background-color:#ffcc00;
+}
+
+.ModuleTitle /* Title of each module */{
+background: #999999 url(/Portals/_Faostat/images/images/black_b.gif) no-repeat left;
+font-weight: bold;
+font-size:11px;
+color: White;
+white-space:nowrap;
+overflow:hidden;
+border: 0;
+margin: 0px 0px 0px 0px;
+padding: 1px 1px 1px 17px;
+background-position: 3px;
+}
+
+.ModuleTitleAlt /* Title of each module */{
+background: #999999 url(/Portals/_Faostat/images/images/black_b.gif) no-repeat left;;
+font-weight: bold;
+font-size:11px;
+color: White;
+white-space:nowrap;
+overflow:hidden;
+border: 0;
+margin: 0px 0px 0px 0px;
+padding: 1px 1px 1px 17px;
+background-position: 3px;
+}
+
+.Module /* Module */{
+background-color: #F6F6F6;
+padding-right: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+padding-top: 5px;
+border-left: 1px solid #CCCCCC;
+border-right: 1px solid #CCCCCC;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #CCCCCC;
+margin: 0px 0px 0px 0px;
+}
+
+.Module td img {
+border: none;
+}
+
+.ModuleAlt /* Module variant */{
+background-color: #F6F6F6;
+padding-right: 5px;
+padding-left: 5px;
+padding-bottom: 5px;
+padding-top: 5px;
+border-left: 1px solid #CCCCCC;
+border-right: 1px solid #CCCCCC;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #CCCCCC;
+margin: 0px 0px 0px 0px;
+}
+
+/* Module Options*/
+#sectionBodyDiv {
+padding: 0px 0px 0px 0px;
+margin:  5px 5px 5px 5px;
+}
+
+#addText {
+	background-color: #ECF0F8;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: justify;
+	border: 1px solid #CCCCCC;
+}
+
+#addText p {
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+#addText h3 {
+	font-size: 13px;
+	font-weight: bold;
+	color: #1445A8;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+#addText ol li {
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+#addText ul li {
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+#addText p table {
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+
+#addText p table td.header {
+	font-size: 12px;
+	color: #FFF;
+   background-color: #8AA3D4;
+	text-align: center;
+	padding: 3px;
+}
+
+#addText p table td {
+	background-color: #F6F6F6;
+   text-align: center;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 3px;
+}
+
+#addText p table td.first_column {
+	background-color: #DDDDDD;
+   text-align: center;
+	font-weight: bold;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 3px 3px 3px 3px;
+}
+
+#addTextTable {
+	background-color: #ECF0F8;
+   text-align: center;
+	border-top: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;
+}
+
+#addTextTable td {
+   text-align: center;
+	border-bottom: solid 1px #CCCCCC;
+	border-right: solid 1px #CCCCCC;
+	padding: 2px;
+}
+
+#addTextTable td.header {
+color: #FFF;
+background-color: #8AA3D4;
+}
+
+.link_arrows {
+padding-right: 5px;
+}
+
+.link_arrows img {
+border: none;
+}
+
+#addText A:link{
+font-size: 11px;
+color:#1445A8;
+text-decoration:none;
+}
+
+#addText A:visited{
+font-size: 11px;
+color:#1445A8;
+text-decoration:none;
+}
+
+#addText A:hover{
+color:#1445A8;
+text-decoration:underline;
+}
+
+#addText A:focus{
+color:#1445A8;
+text-decoration:none;
+}
+
+#addText A:active{
+color:#1445A8;
+text-decoration:underline;
+}
+
+.Normal{
+padding-right:0pt;
+font-size:10pt;
+color:#333333;
+line-height:normal;
+letter-spacing:normal;
+}
+
+.NormalBold{
+padding-left:5pt;
+font-weight:bold;
+font-size:10pt;
+color:#333333;
+}
+
+.NormalItalic{
+font-size:10pt;
+font-style:italic;
+}
+
+.slogan {
+	color: #E5EBF5; /*#8AA3D4*/
+	font-weight: bold;
+	font-style: italic;
+}
+
+#footer {
+   background-color: #F6F6F6;
+	text-align: left;
+	border-top: solid 1px #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer A:link {
+	font-family:Verdana,Helvetica,sans-serif;
+	color:#1445A8;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#footer A:visited {
+	 font-family:Verdana,Helvetica,sans-serif;
+	color:#1445A8;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#footer A:hover {
+	color: #8AA3D4;
+	text-decoration:none;
+}
+
+#footer A:focus {
+	color: #1445A8;
+	text-decoration:none;
+}
+
+#footer A:active {
+	color: #1445A8;
+	text-decoration:none;
+}
+	
+#footer td {
+	text-align: left;
+	padding: 2px 10px 2px 10px;
+}
+
+#footer td.right {
+	text-align: right;
+	padding: 2px 10px 2px 10px;
+}
+
+/*Footer Emails*/
+
+#footer-emails {
+   /*background-color: #F6F6F6;*/
+	text-align: left;
+	border-top: solid 1px #CCCCCC;
+	/*border-bottom: 1px solid #CCCCCC;*/
+	margin: 20px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#footer-emails A:link {
+	color:#1445A8;
+   font-family:Verdana,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#footer-emails A:visited {
+	color:#1445A8;
+	font-family:Verdana,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#footer-emails A:hover {
+	color: #8AA3D4;
+	text-decoration:none;
+}
+
+#footer-emails A:focus {
+	color: #1445A8;
+	text-decoration:none;
+}
+
+#footer-emails A:active {
+	color: #1445A8;
+	text-decoration:none;
+}
+	
+#footer-emails td {
+font-weight: bold;
+text-align: left;
+padding: 2px 10px 3px 10px;
+}
+
+#footer-emails span.pipe {
+color: #cccccc;
+font-weight: normal;
+padding: 0px 10px 0px 10px;
+}
+
+span.footerLogLabel {
+	font-size: 10px;
+	color: #999999;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+/* Styles for default Tabs */
+.rb_DefaultLayoutTable{
+}
+
+.rb_DefaultPortalHeader{
+background-color: #fff;
+}
+
+.rb_DefaultLayoutDiv{
+}
+
+.rb_DefaultPortalFooter{
+}
+
+/* Alternate styles for admin and edit Tabs */
+.rb_AlternateLayoutTable{
+margin:0px;
+padding:0px;
+width:100%;
+}
+
+.rb_AlternatePortalHeader{
+background-color: #fff;
+}
+
+.rb_AlternateLayoutDiv{
+}
+
+.rb_AlternatePortalFooter{
+}
+
+.rb_mod_btn /* Buttons support */{
+display:block;
+margin:0px 0px 0px 2px;
+}
+
+.btn-img-txt{
+}
+
+.btn-img-only{
+}
+
+.btn-img-txt{
+overflow:hidden;
+}
+
+.btn-img-only-css{
+overflow:hidden;
+}
+
+DIV.btn-img-only{
+display:block;
+overflow:hidden;
+width:0px;
+height:0px;
+}
+
+DIV.btn-img-only-css{
+display:block;
+overflow:hidden;
+width:0px;
+height:0px;
+}
+
+DIV.btn-img-txt{
+display:block;
+overflow:hidden;
+width:0px;
+height:0px;
+}
+
+DIV.btn-txt-only{
+font-size:9pt;
+line-height:0.8;
+}
+
+.rb_mod_btn{
+display:block;
+margin:0px 0px 0px 2px;
+}
+
+.SiteLink /* Used on Header menu in Layouts */{
+font-weight:normal;
+font-size:7pt;
+color: #EF7C03;
+font-family:Verdana,Helvetica,sans-serif;
+background-color:#f9ccb0;
+text-align:center;
+display:block;
+padding-bottom:0px;
+margin-bottom:0px;
+padding-right:4px;
+padding-left:4px;
+}
+
+/* Important the order:link,visited,hover,focus,active. see http://www.w3.org/TR/REC-CSS2/selector.html  */
+.SiteLink A:link{
+display:block;
+font-size:7pt;
+color:#333333;
+text-align:center;
+text-decoration:none;
+}
+
+.SiteLink A:visited{
+color:#333333;
+font-size:7pt;
+}
+
+.SiteLink A:hover{
+color: #EF7C03;
+font-size:7pt;
+}
+
+.SiteLink A:focus{
+color: #EF7C03;
+font-size:7pt;
+}
+
+.SiteLink A:active{
+color:#333333;
+font-size:7pt;
+}
+
+.SiteTitle /* Portal title in Header,in layout file */{
+font-size:12px;
+font-family:Verdana,Helvetica,sans-serif;
+color:#1445A8;
+font-weight:bold;
+text-decoration:none;
+padding-right:0px;
+padding-left:0px;
+padding-bottom:0px;
+padding-top:0px;
+margin: 0px 0px 0px 0px;
+}
+
+.SubHead{
+font-weight:600;
+font-size:10pt;
+color:#333333;
+padding-top:4px;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+.SubSubHead{
+margin-top:10pt;
+font-weight:600;
+font-size:10pt;
+color: #EF7C03;
+}
+
+/* Three panes */
+.LeftPane{
+padding-right:0px;
+padding-left:10px;
+padding-bottom:0px;
+margin:0px;
+padding-top:10px;
+}
+
+.RightPane{
+padding-right:10px;
+padding-left:0px;
+padding-bottom:0px;
+margin:0px;
+padding-top:10px;
+}
+
+.ContentPane{
+border-right:none;
+padding-right:10px;
+border-top:none;
+padding-left:10px;
+padding-bottom:0px;
+margin:0px;
+border-left:none;
+padding-top:10px;
+border-bottom:none;
+}
+
+.DefaultBanner1 /* Graphics */{
+background-color: #ffffff;
+}
+
+.DefaultBanner2 /* Graphics */{
+background-color:#ffffff;
+}
+
+.DefaultTD /* Graphics Blue Menu */{
+background-color:#DCE3F2;
+border-top: solid 1px #1445A8;
+border-bottom: solid 1px #ADBEE1;
+}
+
+.DefaultTDSub /* Graphics Green Menu */{
+background-color:#DAF2E1;
+border-bottom: solid 1px #A9E1B8;
+}
+
+.DefaultTDSubLevel3 /* Graphics Green Menu */{
+background-color: #FEE3C9;
+border-bottom: solid 1px #FECA96;
+}
+
+/* The Date Element in the Header */
+.dateCurrent{
+padding-right:4px;
+font-size:7pt;
+line-height:7pt;
+}
+
+/* The Last Visit Element in the Header */
+.dateLastVisit{
+padding-right:4px;
+font-size:7pt;
+line-height:7pt;
+}
+
+/* Subscription Matrix */
+
+#subscription_matrix {
+margin: 15px 0px 10px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+#subscription_matrix table {
+width: 745px;
+border-top: 1px solid #CCCCCC;
+border-left: 1px solid #CCCCCC;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+
+#subscription_matrix td {
+border-right: 1px solid #CCCCCC;
+border-bottom: 1px solid #CCCCCC;
+padding: 3px 3px 3px 3px;
+margin: 0px 0px 0px 0px;
+}
+
+#subscription_matrix table td.sm_col_0 {
+	background-color: #333333;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_dim1 {
+	background-color: #606060;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_dim2 {
+	background-color: #606060;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CCCCCC;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_dim2_header {
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_dim2_header_silver {
+	background-color: #c0c0c0;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_dim2_header_gold {
+	background-color: #FDD017;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+#subscription_matrix table td.sm_col1 {
+	background-color: #F6F6F6;
+	font-weight: bold;
+	text-align: center;
+	width: 37%;
+}
+
+#subscription_matrix table td.sm_col {
+	width: 21%;
+	text-align: center;
+	font-size: 11px;
+}
+
+#subscription_matrix table td.sm_col_silver {
+	background-color: #EAEAEA;
+	width: 21%;
+	text-align: center;
+	font-size: 11px;
+}
+
+#subscription_matrix table td.sm_col_gold {
+	background-color: #FEEEAD;
+	width: 21%;
+	text-align: center;
+	font-size: 11px;
+}
+
+#subscription_matrix table td.sm_col_1x {
+	background: transparent url(/Portals/_Faostat/images/images/check1.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td.sm_col_2x {
+	background: transparent url(/Portals/_Faostat/images/images/check2.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td.sm_col_2x_silver {
+	background: #EAEAEA url(/Portals/_Faostat/images/images/check2.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td.sm_col_3x {
+	background: transparent url(/Portals/_Faostat/images/images/check3.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td.sm_col_3x_silver {
+	background: #EAEAEA url(/Portals/_Faostat/images/images/check3.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td.sm_col_3x_gold {
+	background: #FEEEAD url(/Portals/_Faostat/images/images/check3.gif) no-repeat center; 
+	width: 21%;
+	text-align: center;
+	font-size: 10px;
+}
+
+#subscription_matrix table td img {
+	border:none;
+}
+
+#subscription_matrix_legend table td {
+font-size: 10px;
+color: #606060;
+margin: 15px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+ white-space: nowrap;
+}
+
+#prices_table table {
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+
+#prices_table table td.header {
+color: #1445A8;
+background-color: #DCE3F2;
+text-align: center;
+font-weight: bold;
+padding: 3px;
+border-left: 1px solid #999999;
+border-top: 1px solid #999999;
+}
+
+#prices_table table td {
+padding: 3px;
+border-left: 1px solid #999999;
+border-top: 1px solid #999999;
+text-align: center;
+}
+
+#prices_table table td.comments {
+color: #606060;
+padding: 3px;
+border-left: 1px solid #999999;
+border-top: 1px solid #999999;
+text-align: justify;
+}
+
+#prices_table p {
+font-size: 12px;
+text-align: justify;
+}

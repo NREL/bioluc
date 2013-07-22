@@ -1,0 +1,883 @@
+                                          The SAS System     09:56 Wednesday, January 26, 2011  59
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: CGS
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     3    1.58936E-12    5.29785E-13      11.99    <.0001
+          Error                    43    1.89996E-12     4.4185E-14
+          Corrected Total          46    3.48931E-12
+
+
+                       Root MSE          2.102023E-7    R-Square     0.4555
+                       Dependent Mean     0.00001054    Adj R-Sq     0.4175
+                       Coeff Var             1.99360
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00000995    1.062387E-7      93.68      <.0001
+               GDP           1     9.8614E-10    1.66195E-10       5.93      <.0001
+               GDPsq         1    -3.5115E-13    6.27279E-14      -5.60      <.0001
+               GDPcu         1    3.41075E-17    6.54438E-18       5.21      <.0001
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  60
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                             Moments
+
+                 N                          47    Sum Weights                 47
+                 Mean                        0    Sum Observations             0
+                 Std Deviation      2.03232E-7    Variance            4.1303E-14
+                 Skewness           0.26940028    Kurtosis            -0.6446224
+                 Uncorrected SS        1.9E-12    Corrected SS           1.9E-12
+                 Coeff Variation             .    Std Error Mean      2.96445E-8
+
+
+                                    Basic Statistical Measures
+
+                          Location                    Variability
+
+                      Mean            0     Std Deviation         2.03232E-7
+                      Median   -1.45E-8     Variance              4.1303E-14
+                      Mode            .     Range                 8.01075E-7
+                                            Interquartile Range   3.16413E-7
+
+
+                                    Tests for Location: Mu0=0
+
+                         Test           -Statistic-    -----p Value------
+
+                         Student's t    t         0    Pr > |t|    1.0000
+                         Sign           M      -1.5    Pr >= |M|   0.7709
+                         Signed Rank    S       -13    Pr >= |S|   0.8923
+
+
+                                       Tests for Normality
+
+                    Test                  --Statistic---    -----p Value------
+
+                    Shapiro-Wilk          W     0.976469    Pr < W      0.4554
+                    Kolmogorov-Smirnov    D     0.075141    Pr > D     >0.1500
+                    Cramer-von Mises      W-Sq  0.037419    Pr > W-Sq  >0.2500
+                    Anderson-Darling      A-Sq  0.272244    Pr > A-Sq  >0.2500
+
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    100% Max       4.44949E-07
+                                    99%            4.44949E-07
+                                    95%            3.68146E-07
+                                    90%            2.94908E-07
+                                    75% Q3         1.47147E-07
+                                    50% Median    -1.44507E-08
+                                    25% Q1        -1.69266E-07
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  61
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    10%           -2.84978E-07
+                                    5%            -2.88681E-07
+                                    1%            -3.56127E-07
+                                    0% Min        -3.56127E-07
+
+
+                                       Extreme Observations
+
+                        --------Lowest-------        -------Highest-------
+
+                               Value      Obs               Value      Obs
+
+                        -3.56127E-07        1         2.94908E-07       31
+                        -3.26194E-07       41         3.17726E-07       10
+                        -2.88681E-07       22         3.68146E-07       30
+                        -2.86379E-07       23         3.72350E-07        8
+                        -2.84978E-07        5         4.44949E-07        9
+
+
+                         Stem Leaf                     #             Boxplot
+                            4 4                        1                |
+                            3 77                       2                |
+                            3 2                        1                |
+                            2 99                       2                |
+                            2 034                      3                |
+                            1 569                      3             +-----+
+                            1 123                      3             |     |
+                            0 69                       2             |     |
+                            0 11224                    5             |  +  |
+                           -0 3311                     4             *-----*
+                           -0 8775                     4             |     |
+                           -1 11000                    5             |     |
+                           -1 9987                     4             +-----+
+                           -2 0                        1                |
+                           -2 99876                    5                |
+                           -3 3                        1                |
+                           -3 6                        1                |
+                              ----+----+----+----+
+                          Multiply Stem.Leaf by 10**-7
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  62
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                          Normal Probability Plot
+                    4.25E-7+                                             ++*
+                           |                                         * *+
+                           |                                       *+++
+                           |                                     **+
+                           |                                   **+
+                           |                                 **
+                           |                              ***
+                           |                            +*
+                     2.5E-8+                         +***
+                           |                       ****
+                           |                     ***
+                           |                  +***
+                           |                ***
+                           |             ++*
+                           |         * ****
+                           |       *+++
+                   -3.75E-7+   *  ++
+                            +----+----+----+----+----+----+----+----+----+----+
+                                -2        -1         0        +1        +2
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  63
+
+                     Plot of yhat*resid.  Legend: A = 1 obs, B = 2 obs, etc.
+
+            ‚
+  0.0000109 ˆ
+            ‚
+            ‚                               A
+            ‚
+            ‚
+            ‚
+  0.0000108 ˆ                    A                 A
+            ‚           B        B                 B
+            ‚
+            ‚                                         A                 A
+P           ‚
+r           ‚                                             A                 A
+e 0.0000107 ˆ                                                       A
+d           ‚
+i           ‚                                                          A
+c           ‚                                                  A
+t           ‚                                                                      A
+e           ‚                           A
+d 0.0000106 ˆ                                                                A
+            ‚                              A
+V           ‚                                                 A
+a           ‚              A
+l           ‚        A                         A
+u           ‚                                    A
+e 0.0000105 ˆ                   A        B
+            ‚                                       A        A
+o           ‚                      A
+f           ‚                                 A                 A
+            ‚
+C           ‚                                    A
+G 0.0000104 ˆ                           A
+S           ‚                                               A                  A
+            ‚                               A
+            ‚                                                                             A
+            ‚                                                                       A
+            ‚                                                      A
+  0.0000103 ˆ                            A
+            ‚           A
+            ‚             A
+            ‚                                          A
+            ‚                                  A
+            ‚     A
+  0.0000102 ˆ
+            ‚
+            Šƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒ
+            -4E-7    -3E-7    -2E-7    -1E-7      0      1E-7     2E-7     3E-7     4E-7     5E-7
+
+                                                   Residual
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  64
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                    Dependent Variable: dairy
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     3    3.73716E-10    1.24572E-10      66.88    <.0001
+          Error                    43    8.00968E-11    1.86272E-12
+          Corrected Total          46    4.53813E-10
+
+
+                       Root MSE           0.00000136    R-Square     0.8235
+                       Dependent Mean     0.00006832    Adj R-Sq     0.8112
+                       Coeff Var             1.99770
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00006245    6.897929E-7      90.54      <.0001
+               GDP           1    6.307264E-9    1.079081E-9       5.85      <.0001
+               GDPsq         1    -2.0161E-12    4.07283E-13      -4.95      <.0001
+               GDPcu         1    2.24083E-16    4.24917E-17       5.27      <.0001
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  65
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                             Moments
+
+                 N                          47    Sum Weights                 47
+                 Mean                        0    Sum Observations             0
+                 Std Deviation      1.31956E-6    Variance            1.7412E-12
+                 Skewness           -0.5709468    Kurtosis            0.16957505
+                 Uncorrected SS     8.0097E-11    Corrected SS        8.0097E-11
+                 Coeff Variation             .    Std Error Mean      1.92477E-7
+
+
+                                    Basic Statistical Measures
+
+                          Location                    Variability
+
+                      Mean            0     Std Deviation         1.31956E-6
+                      Median   4.796E-8     Variance              1.7412E-12
+                      Mode            .     Range                 5.96038E-6
+                                            Interquartile Range    1.7117E-6
+
+
+                                    Tests for Location: Mu0=0
+
+                         Test           -Statistic-    -----p Value------
+
+                         Student's t    t         0    Pr > |t|    1.0000
+                         Sign           M       1.5    Pr >= |M|   0.7709
+                         Signed Rank    S        33    Pr >= |S|   0.7310
+
+
+                                       Tests for Normality
+
+                    Test                  --Statistic---    -----p Value------
+
+                    Shapiro-Wilk          W     0.968257    Pr < W      0.2272
+                    Kolmogorov-Smirnov    D     0.096171    Pr > D     >0.1500
+                    Cramer-von Mises      W-Sq  0.062429    Pr > W-Sq  >0.2500
+                    Anderson-Darling      A-Sq  0.447057    Pr > A-Sq  >0.2500
+
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    100% Max       2.32154E-06
+                                    99%            2.32154E-06
+                                    95%            1.93676E-06
+                                    90%            1.59516E-06
+                                    75% Q3         9.75724E-07
+                                    50% Median     4.79641E-08
+                                    25% Q1        -7.35980E-07
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  66
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    10%           -2.02721E-06
+                                    5%            -2.31990E-06
+                                    1%            -3.63884E-06
+                                    0% Min        -3.63884E-06
+
+
+                                       Extreme Observations
+
+                        --------Lowest-------        -------Highest-------
+
+                               Value      Obs               Value      Obs
+
+                        -3.63884E-06       32         1.59516E-06        8
+                        -2.42183E-06       34         1.61102E-06        9
+                        -2.31990E-06       33         1.93676E-06       43
+                        -2.27037E-06       31         2.13699E-06       25
+                        -2.02721E-06       47         2.32154E-06       45
+
+
+                         Stem Leaf                     #             Boxplot
+                            2 13                       2                |
+                            1 6669                     4                |
+                            1 001444                   6             +-----+
+                            0 5555899                  7             |     |
+                            0 002223                   6             *--+--*
+                           -0 432100                   6             |     |
+                           -0 88776555                 8             +-----+
+                           -1 3                        1                |
+                           -1 8                        1                |
+                           -2 43300                    5                |
+                           -2
+                           -3
+                           -3 6                        1                0
+                              ----+----+----+----+
+                          Multiply Stem.Leaf by 10**-6
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  67
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                          Normal Probability Plot
+                    2.25E-6+                                         ++*   *
+                           |                                     ***+*
+                           |                                 ****
+                           |                             *****
+                           |                        ******
+                           |                    *****
+                    -7.5E-7+                ****++
+                           |              +*++
+                           |          ++++*
+                           |       *+* ***
+                           |   ++++
+                           |+++
+                   -3.75E-6+   *
+                            +----+----+----+----+----+----+----+----+----+----+
+                                -2        -1         0        +1        +2
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  68
+
+                     Plot of yhat*resid.  Legend: A = 1 obs, B = 2 obs, etc.
+
+           ‚
+           ‚
+   0.00008 ˆ
+           ‚                        A
+           ‚
+           ‚
+           ‚
+  0.000078 ˆ
+           ‚
+           ‚
+P          ‚
+r          ‚
+e 0.000076 ˆ
+d          ‚
+i          ‚
+c          ‚
+t          ‚                                                                 A
+e 0.000074 ˆ
+d          ‚
+           ‚
+V          ‚
+a          ‚                                                                            A
+l 0.000072 ˆ
+u          ‚
+e          ‚                                                                 A
+           ‚
+o          ‚
+f  0.00007 ˆ                                 A     A                               A
+           ‚    A              AA                     A    A  A      A  A    A
+d          ‚                     A                    A           A   A A
+a          ‚                                              A   A                A
+i          ‚                                          A    A      A    A              A
+r 0.000068 ˆ                                                 A
+y          ‚                                                A
+           ‚                                           A        A
+           ‚                                                A
+           ‚                           A
+  0.000066 ˆ                                             A
+           ‚                                                      A
+           ‚                                                              A    A
+           ‚                        A             A               A            A
+           ‚                                       A A         A
+  0.000064 ˆ                                       A
+           ‚
+           Šˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒ
+          -4E-6       -3E-6       -2E-6       -1E-6         0         1E-6        2E-6        3E-6
+
+                                                   Residual
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  69
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                     Dependent Variable: pig
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     3    2.58805E-10    8.62685E-11     350.07    <.0001
+          Error                    43    1.05966E-11    2.46433E-13
+          Corrected Total          46    2.69402E-10
+
+
+                       Root MSE          4.964198E-7    R-Square     0.9607
+                       Dependent Mean     0.00001089    Adj R-Sq     0.9579
+                       Coeff Var             4.55725
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00000695    2.508964E-7      27.69      <.0001
+               GDP           1    2.067678E-9    3.92491E-10       5.27      <.0001
+               GDPsq         1    -4.2826E-14     1.4814E-13      -0.29      0.7739
+               GDPcu         1    -1.5849E-17    1.54554E-17      -1.03      0.3109
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  70
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                             Moments
+
+                 N                          47    Sum Weights                 47
+                 Mean                        0    Sum Observations             0
+                 Std Deviation      4.79959E-7    Variance            2.3036E-13
+                 Skewness            -0.018062    Kurtosis            -0.8545926
+                 Uncorrected SS     1.0597E-11    Corrected SS        1.0597E-11
+                 Coeff Variation             .    Std Error Mean      7.00093E-8
+
+
+                                    Basic Statistical Measures
+
+                          Location                    Variability
+
+                      Mean            0     Std Deviation         4.79959E-7
+                      Median   -5.55E-8     Variance              2.3036E-13
+                      Mode            .     Range                 1.85796E-6
+                                            Interquartile Range   7.48053E-7
+
+
+                                    Tests for Location: Mu0=0
+
+                         Test           -Statistic-    -----p Value------
+
+                         Student's t    t         0    Pr > |t|    1.0000
+                         Sign           M      -1.5    Pr >= |M|   0.7709
+                         Signed Rank    S        -3    Pr >= |S|   0.9751
+
+
+                                       Tests for Normality
+
+                    Test                  --Statistic---    -----p Value------
+
+                    Shapiro-Wilk          W     0.970703    Pr < W      0.2817
+                    Kolmogorov-Smirnov    D      0.07913    Pr > D     >0.1500
+                    Cramer-von Mises      W-Sq  0.051597    Pr > W-Sq  >0.2500
+                    Anderson-Darling      A-Sq  0.380684    Pr > A-Sq  >0.2500
+
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    100% Max       8.17319E-07
+                                    99%            8.17319E-07
+                                    95%            7.38537E-07
+                                    90%            7.03841E-07
+                                    75% Q3         4.40911E-07
+                                    50% Median    -5.54961E-08
+                                    25% Q1        -3.07142E-07
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  71
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    10%           -6.15909E-07
+                                    5%            -6.84350E-07
+                                    1%            -1.04064E-06
+                                    0% Min        -1.04064E-06
+
+
+                                       Extreme Observations
+
+                        --------Lowest-------        -------Highest-------
+
+                               Value      Obs               Value      Obs
+
+                        -1.04064E-06        1         7.03841E-07       42
+                        -8.12279E-07        2         7.18528E-07       41
+                        -6.84350E-07       36         7.38537E-07       38
+                        -6.50616E-07       31         7.89863E-07       25
+                        -6.15909E-07       17         8.17319E-07       12
+
+
+                         Stem Leaf                     #             Boxplot
+                            8 2                        1                |
+                            7 0249                     4                |
+                            6 9                        1                |
+                            5 467                      3                |
+                            4 467                      3             +-----+
+                            3 79                       2             |     |
+                            2 26                       2             |     |
+                            1 159                      3             |     |
+                            0 579                      3             |  +  |
+                           -0 64                       2             *-----*
+                           -1 43320                    5             |     |
+                           -2 974200                   6             |     |
+                           -3 91                       2             +-----+
+                           -4 5                        1                |
+                           -5 984                      3                |
+                           -6 8520                     4                |
+                           -7                                           |
+                           -8 1                        1                |
+                           -9                                           |
+                          -10 4                        1                |
+                              ----+----+----+----+
+                          Multiply Stem.Leaf by 10**-7
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  72
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                          Normal Probability Plot
+                     8.5E-7+                                          ++   *
+                           |                                      **+* *
+                           |                                     *++
+                           |                                  ***+
+                           |                                **++
+                           |                               *++
+                           |                             **+
+                           |                            **
+                           |                         +**
+                           |                       ++**
+                           |                     +***
+                           |                   ***
+                           |                 **
+                           |               ++*
+                           |             +***
+                           |         * ***
+                           |         ++
+                           |       *+
+                           |     ++
+                   -1.05E-6+   *+
+                            +----+----+----+----+----+----+----+----+----+----+
+                                -2        -1         0        +1        +2
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  73
+
+                     Plot of yhat*resid.  Legend: A = 1 obs, B = 2 obs, etc.
+
+           ‚
+           ‚
+  0.000015 ˆ
+           ‚
+           ‚
+           ‚                                              A       A
+           ‚                                          AA
+  0.000014 ˆ
+           ‚                                                             A
+           ‚                      A  A
+           ‚                                          A                        A    A
+P          ‚                                     A                                  AAA
+r 0.000013 ˆ                          A            A
+e          ‚                        A
+d          ‚                          A
+i          ‚
+c          ‚                                           A
+t 0.000012 ˆ                                          A
+e          ‚
+d          ‚                                        A
+           ‚
+V          ‚
+a 0.000011 ˆ                                                   A
+l          ‚
+u          ‚                                    AA
+e          ‚                                       A     A         A       A           A
+           ‚
+o  0.00001 ˆ                            A
+f          ‚
+           ‚
+p          ‚                         A
+i          ‚                                        A         A
+g     9E-6 ˆ                                                    A
+           ‚
+           ‚                                                                   A
+           ‚                                                                            A
+           ‚                                                                   A
+      8E-6 ˆ                                                 B
+           ‚                                                         A  A  AA
+           ‚          A       A            A A
+           ‚
+           ‚
+      7E-6 ˆ
+           ‚
+           Šƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒ
+          -1.25E-6   -1E-6   -7.5E-7   -5E-7   -2.5E-7     0     2.5E-7    5E-7    7.5E-7    1E-6
+
+                                                   Residual
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  74
+
+                                        The REG Procedure
+                                          Model: MODEL1
+                                   Dependent Variable: poultry
+
+                             Number of Observations Read          47
+                             Number of Observations Used          47
+
+
+                                       Analysis of Variance
+
+                                              Sum of           Mean
+          Source                   DF        Squares         Square    F Value    Pr > F
+
+          Model                     1    3.04176E-10    3.04176E-10     789.64    <.0001
+          Error                    45    1.73344E-11    3.85209E-13
+          Corrected Total          46    3.21511E-10
+
+
+                       Root MSE          6.206518E-7    R-Square     0.9461
+                       Dependent Mean     0.00000546    Adj R-Sq     0.9449
+                       Coeff Var            11.36813
+
+
+                                       Parameter Estimates
+
+                                    Parameter       Standard
+               Variable     DF       Estimate          Error    t Value    Pr > |t|
+
+               Intercept     1     0.00000185    1.572885E-7      11.73      <.0001
+               GDP           1    1.546405E-9    5.50312E-11      28.10      <.0001
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  75
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                             Moments
+
+                 N                          47    Sum Weights                 47
+                 Mean                        0    Sum Observations             0
+                 Std Deviation      6.13868E-7    Variance            3.7683E-13
+                 Skewness           1.02528861    Kurtosis            1.85599031
+                 Uncorrected SS     1.7334E-11    Corrected SS        1.7334E-11
+                 Coeff Variation             .    Std Error Mean      8.95419E-8
+
+
+                                    Basic Statistical Measures
+
+                          Location                    Variability
+
+                      Mean            0     Std Deviation         6.13868E-7
+                      Median   -5.99E-8     Variance              3.7683E-13
+                      Mode            .     Range                 3.05253E-6
+                                            Interquartile Range   5.95446E-7
+
+
+                                    Tests for Location: Mu0=0
+
+                         Test           -Statistic-    -----p Value------
+
+                         Student's t    t         0    Pr > |t|    1.0000
+                         Sign           M      -2.5    Pr >= |M|   0.5601
+                         Signed Rank    S       -72    Pr >= |S|   0.4520
+
+
+                                       Tests for Normality
+
+                    Test                  --Statistic---    -----p Value------
+
+                    Shapiro-Wilk          W     0.923658    Pr < W      0.0045
+                    Kolmogorov-Smirnov    D      0.17307    Pr > D     <0.0100
+                    Cramer-von Mises      W-Sq     0.186    Pr > W-Sq   0.0078
+                    Anderson-Darling      A-Sq  1.164592    Pr > A-Sq  <0.0050
+
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    100% Max       1.80773E-06
+                                    99%            1.80773E-06
+                                    95%            1.27390E-06
+                                    90%            8.66583E-07
+                                    75% Q3         2.28196E-07
+                                    50% Median    -5.99303E-08
+                                    25% Q1        -3.67250E-07
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  76
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                     Quantiles (Definition 5)
+
+                                    Quantile          Estimate
+
+                                    10%           -6.40129E-07
+                                    5%            -8.71659E-07
+                                    1%            -1.24480E-06
+                                    0% Min        -1.24480E-06
+
+
+                                       Extreme Observations
+
+                        --------Lowest-------        -------Highest-------
+
+                               Value      Obs               Value      Obs
+
+                        -1.24480E-06       47         8.66583E-07       39
+                        -8.85961E-07       30         1.09247E-06       43
+                        -8.71659E-07       32         1.27390E-06       40
+                        -8.18036E-07       31         1.72083E-06       41
+                        -6.40129E-07       29         1.80773E-06       42
+
+
+                         Stem Leaf                     #             Boxplot
+                           18 1                        1                0
+                           16 2                        1                0
+                           14
+                           12 7                        1                0
+                           10 9                        1                |
+                            8 7                        1                |
+                            6 9                        1                |
+                            4                                           |
+                            2 112358122                9             +-----+
+                            0 144903                   6             |  +  |
+                           -0 73199650                 8             *-----*
+                           -2 7517641                  7             +-----+
+                           -4 830986                   6                |
+                           -6 4                        1                |
+                           -8 972                      3                |
+                          -10                                           |
+                          -12 4                        1                |
+                              ----+----+----+----+
+                          Multiply Stem.Leaf by 10**-7
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  77
+
+                                     The UNIVARIATE Procedure
+                                   Variable:  resid  (Residual)
+
+                                          Normal Probability Plot
+                     1.9E-6+                                               *
+                           |                                           *
+                           |                                                +++
+                           |                                         *   +++
+                           |                                       *  +++
+                           |                                      *+++
+                           |                                   ++*+
+                           |                                +++
+                       3E-7+                             +*******
+                           |                         ++***
+                           |                      *****
+                           |                  *****
+                           |             *****+
+                           |            *+++
+                           |       * *+*
+                           |      +++
+                    -1.3E-6+   *++
+                            +----+----+----+----+----+----+----+----+----+----+
+                                -2        -1         0        +1        +2
+
+
+
+                                          The SAS System     09:56 Wednesday, January 26, 2011  78
+
+                     Plot of yhat*resid.  Legend: A = 1 obs, B = 2 obs, etc.
+
+           ‚
+           ‚
+  0.000012 ˆ
+           ‚      A
+           ‚
+           ‚
+P          ‚
+r          ‚                         A
+e          ‚
+d  0.00001 ˆ                                  A
+i          ‚
+c          ‚                                            A
+t          ‚
+e          ‚
+d          ‚                                                              A
+           ‚                      A
+V     8E-6 ˆ                       A                 A
+a          ‚                                                     A   A         A           A
+l          ‚                        A                                                    A
+u          ‚               A        A
+e          ‚               AA
+           ‚
+o          ‚                     A  A
+f     6E-6 ˆ
+           ‚                              A
+p          ‚
+o          ‚                                   A
+u          ‚                            A    A
+l          ‚                               A       A B A
+t          ‚                                  A
+r     4E-6 ˆ
+y          ‚                                     B
+           ‚                                    A A
+           ‚                                         A
+           ‚                                           AA
+           ‚                                AA AA A   A
+           ‚                           A AB
+      2E-6 ˆ
+           ‚
+           Šˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒƒƒƒˆƒ
+         -1.5E-6      -1E-6       -5E-7         0         5E-7        1E-6       1.5E-6       2E-6
+
+                                                   Residual
