@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xmile version="1.0" level="3" xmlns="http://www.systemdynamics.org/XMILE" xmlns:isee="http://iseesystems.com/XMILE">
     <header>
-        <smile version="1.0" namespace="std, isee">
+        <smile version="1.0">
             <uses_arrays>2</uses_arrays>
-            <uses_submodels />
         </smile>
         <name>LUC</name>
-        <uuid>1139c489-3814-4e15-bb66-d5860363eabc</uuid>
-        <vendor>isee systems, inc.</vendor>
-        <product version="10.0.3" lang="en">STELLA</product>
+        <uuid>534ff157-a9cf-4801-98a3-df03b4c034d2</uuid>
+        <vendor>isee systems</vendor>
+        <product version="10.0.2" lang="en">iThink</product>
     </header>
     <style>
         <model font-family="Arial Black" font-size="14" />
-        <interface font-family="Arial" font-size="9" />
     </style>
-    <sim_specs method="Euler" time_units="Years">
+    <sim_specs time_units="Years">
         <start>1991</start>
         <stop>2031</stop>
         <dt reciprocal="true">0.03125</dt>
-        <isee:analyze_mode>false</isee:analyze_mode>
+        <method>Euler</method>
     </sim_specs>
     <dimensions>
         <dim name="test_input">
@@ -117,7 +115,7 @@
     </model_units>
     <data>
         <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 9\Data\Outputs.xlsx" worksheet="RawData">
-            <table name="interface:LandUseAndPop: p1" use_settings="true" />
+            <table name="LandUseAndPop: p1" use_settings="true" />
         </export>
         <import type="Excel" enabled="false" frequency="on_demand" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\data\kludgita.xlsx" worksheet="kludgita" />
         <import type="Excel" enabled="false" frequency="on_demand" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 9\Data\2013-01-09-inputsMOD.xlsx" worksheet="LUC-2013-01-08-Run1" />
@@ -141,73 +139,112 @@
         <import type="Excel" enabled="false" frequency="on_demand" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 9\Data\2013-01-09-inputs.xlsx" worksheet="LUC-2013-01-08-Run1" />
     </data>
     <isee:prefs layer="interface" grid_width="20" grid_height="50" divide_by_zero_alert="true" hide_taskbar="true" show_module_prefix="true">
-        <isee:window width="1280" height="718" />
+        <isee:window width="1676" height="968" />
         <isee:security />
-        <isee:print_setup width="768" height="588" />
+        <isee:print_setup width="768" height="588" orientation="landscape" />
     </isee:prefs>
     <isee:equation_prefs order_by="module" show_pages="true" />
     <model>
-        <module name="USA" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region USA.itmx">
-            <display x="190" y="171" color="red" label_side="center" />
+        <module name="USA" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region USA.itmx">
+            <display x="190" y="171" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="A_Global" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\Rollups.itmx">
-            <display x="398" y="384" color="red" label_side="center" />
+        <module name="A_Global" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\Rollups.itmx">
+            <display x="398" y="384" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="EU27" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region EU27.itmx">
-            <display x="389" y="148" color="red" label_side="center" />
+        <module name="EU27" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region EU27.itmx">
+            <display x="389" y="148" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="BRAZIL" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region BRAZIL.itmx">
-            <display x="291" y="286" color="red" label_side="center" />
+        <module name="BRAZIL" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region BRAZIL.itmx">
+            <display x="291" y="286" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="CAN" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region CAN.itmx">
-            <display x="194" y="127" color="red" label_side="center" />
+        <module name="CAN" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region CAN.itmx">
+            <display x="194" y="127" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="JAPAN" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region JAPAN.itmx">
-            <display x="658" y="183" color="red" label_side="center" />
+        <module name="JAPAN" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region JAPAN.itmx">
+            <display x="658" y="183" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="CHIHKG" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region CHIHKG.itmx">
-            <display x="571" y="182" color="red" label_side="center" />
+        <module name="CHIHKG" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region CHIHKG.itmx">
+            <display x="571" y="182" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="INDIA" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region INDIA.itmx">
-            <display x="519" y="213" color="red" label_side="center" />
+        <module name="INDIA" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region INDIA.itmx">
+            <display x="519" y="213" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="C_C_Amer" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region C C Amer.itmx">
-            <display x="213" y="245" color="red" label_side="center" />
+        <module name="C_C_Amer" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region C C Amer.itmx">
+            <display x="213" y="245" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="S_o_Amer" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region S o Amer.itmx">
-            <display x="251" y="350" color="red" label_side="center" />
+        <module name="S_o_Amer" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region S o Amer.itmx">
+            <display x="251" y="350" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="E_Asia" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region E Asia.itmx">
+        <module name="E_Asia" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region E Asia.itmx">
             <display x="629" y="156" color="red" />
         </module>
-        <module name="Mala_Indo" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Mala Indo.itmx">
-            <display x="615" y="263" color="red" label_side="center" />
+        <module name="Mala_Indo" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Mala Indo.itmx">
+            <display x="615" y="263" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="R_SE_Asia" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R SE Asia.itmx">
-            <display x="620" y="223" color="red" label_side="center" />
+        <module name="R_SE_Asia" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R SE Asia.itmx">
+            <display x="620" y="223" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="R_S_Asia" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R S Asia.itmx">
-            <display x="541" y="282" color="red" label_side="center" />
+        <module name="R_S_Asia" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R S Asia.itmx">
+            <display x="541" y="282" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="Russia" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Russia.itmx">
-            <display x="492" y="131" color="red" label_side="center" />
+        <module name="Russia" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Russia.itmx">
+            <display x="492" y="131" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="Oth_CEE_CIS" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Oth CEE CIS.itmx">
-            <display x="443" y="175" color="red" label_side="center" />
+        <module name="Oth_CEE_CIS" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Oth CEE CIS.itmx">
+            <display x="443" y="175" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="R_Europe" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R Europe.itmx">
-            <display x="347" y="126" color="red" label_side="center" />
+        <module name="R_Europe" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region R Europe.itmx">
+            <display x="347" y="126" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="MEAS_NAfr" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region MEAS NAfr.itmx">
-            <display x="415" y="213" color="red" label_side="center" />
+        <module name="MEAS_NAfr" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region MEAS NAfr.itmx">
+            <display x="415" y="213" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="S_S_AFR" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region S S AFR.itmx">
-            <display x="420" y="287" color="red" label_side="center" />
+        <module name="S_S_AFR" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region S S AFR.itmx">
+            <display x="420" y="287" color="red">
+                <label_side>center</label_side>
+            </display>
         </module>
-        <module name="Oceania" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Oceania.itmx">
-            <display x="629" y="325" color="red" label_side="bottom" label_angle="275" />
+        <module name="Oceania" url="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\Modules\LUC Region Oceania.itmx">
+            <display x="629" y="325" color="red">
+                <label_side>bottom</label_side>
+                <label_angle>275</label_angle>
+            </display>
         </module>
-        <display show_pages="true" page_width="768" page_height="588" page_cols="11" page_rows="5" isee:show_values_on_hover="true" isee:converter_size="medium" isee:name_only_modules="true" scroll_x="215">
+        <display show_pages="true" page_width="768" page_height="588" page_sequence="row" page_rows="11" page_cols="5" isee:show_values_on_hover="true" isee:converter_size="medium" isee:name_only_modules="true" zoom="100" scroll_x="0" scroll_y="0">
             <connector x="201" y="182" uid="0" color="#E0E0E0">
                 <from>USA</from>
                 <to>A_Global</to>
@@ -356,1389 +393,1456 @@
                 <from>A_Global</from>
                 <to>R_SE_Asia</to>
             </connector>
-            <connector x="426" y="395" uid="37" color="#E0E0E0">
+            <connector x="425" y="395" uid="37" color="#E0E0E0">
                 <from>A_Global</from>
                 <to>Mala_Indo</to>
             </connector>
             <graphics_frame x="1" y="37" uid="38" width="762" height="557" border-color="#E0E0E0" border-style="solid" border-width="thin" fill="none">
-                <image width="727" height="470">C:/Users/Steve Peterson/Documents/@ Work/NREL LUC/models/luc-2/version 10/BioLUC3 STELLA 9/Graphics/ClimateMapWorld.png</image>
+                <image width="727" height="470">C:/Users/ewarner/Desktop/LUC SVN/bsm/trunk/global/models/luc-2/version 10/BioLUC3 STELLA 9/Graphics/ClimateMapWorld.png</image>
             </graphics_frame>
             <text_box x="0" y="0" uid="39" color="black" font-family="Arial" font-size="24" font-weight="bold" margin="1" width="746" height="40" appearance="transparent">NREL Global Land Use Change Model (BioLUC)</text_box>
             <text_box x="4" y="38" uid="40" color="black" font-family="Arial" font-size="18" font-style="italic" lock_text="true" margin="1" width="360" height="32" appearance="transparent">Double-click to enter a module</text_box>
         </display>
-        <interface show_pages="true" page_cols="11" page_rows="8" page_width="1012" page_height="696">
+        <interface scroll_x="5467" scroll_y="0" zoom="100">
             <simulation_delay>0</simulation_delay>
-            <pages />
-            <stacked_container x="6118" y="99" height="273" width="492" visible_index="0" uid="41">
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="5.691e+008" />
-                        <entity name="BRAZIL.NPL_Data" />
+            <pages show="true" row_count="11" column_count="8" home_page="1" width="1012" height="696" />
+            <stacked_container x="6075" y="67" height="282" width="492" visible_index="0" uid="pad_89993228">
+                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" locked="true" isee:date_time="-836831582" time_precision="2" from="1991" to="2031">
+                    <plot pen_width="1" precision="0">
+                        <index>0</index>
+                        <color>blue</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.NPL" />
+                        <data name="Run 1 data" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="3.101e+008" />
-                        <entity name="CAN.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>1</index>
+                        <color>red</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Latent" />
+                        <data name="Run 1 data" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.127e+008" />
-                        <entity name="CHIHKG.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>2</index>
+                        <color>fuchsia</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Crop" />
+                        <data name="Run 1 data" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.259e+008" />
-                        <entity name="C_C_Amer.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>3</index>
+                        <color>#008F44</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Built_UP" />
+                        <data name="Run 1 data" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.809e+008" />
-                        <entity name="EU27.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.668e+007" />
-                        <entity name="E_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.798e+008" />
-                        <entity name="INDIA.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.494e+007" />
-                        <entity name="JAPAN.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.369e+008" />
-                        <entity name="Mala_Indo.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.797e+008" />
-                        <entity name="MEAS_NAfr.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.831e+008" />
-                        <entity name="Oceania.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.806e+008" />
-                        <entity name="Oth_CEE_CIS.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="8.09e+008" />
-                        <entity name="Russia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.034e+007" />
-                        <entity name="R_Europe.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.055e+008" />
-                        <entity name="R_SE_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="5.366e+007" />
-                        <entity name="R_S_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.037e+008" />
-                        <entity name="S_o_Amer.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.139e+009" />
-                        <entity name="S_S_AFR.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="3" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4e+008" />
-                        <entity name="USA.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>4</index>
+                        <color>#FF7F00</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Abandoned" />
+                        <data name="Run 1 data" />
                     </plot>
                 </graph>
             </stacked_container>
-            <pad_icon x="6171" y="124" width="26" height="22" color="#008F44" label_side="bottom" label="Graph 1" type="graph" icon_of="41" />
-            <stacked_container x="6102" y="474" height="282" width="492" visible_index="0" uid="42">
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="5.691e+008" />
-                        <entity name="BRAZIL.NPL_Data" />
+            <pad_icon x="6097" y="83" width="26" height="22" color="#008F44" label="Graph 1" type="graph" icon_of="pad_89993228">
+                <label_side>bottom</label_side>
+            </pad_icon>
+            <stacked_container x="6078" y="447" height="282" width="492" visible_index="0" uid="pad_92044038">
+                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-836831582" time_precision="2" from="1991" to="2031">
+                    <plot pen_width="1" precision="0">
+                        <index>0</index>
+                        <color>blue</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.NPL" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="3.101e+008" />
-                        <entity name="CAN.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>1</index>
+                        <color>red</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Latent" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.127e+008" />
-                        <entity name="CHIHKG.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>2</index>
+                        <color>fuchsia</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Crop" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.259e+008" />
-                        <entity name="C_C_Amer.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>3</index>
+                        <color>#008F44</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Built_UP" />
                     </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.809e+008" />
-                        <entity name="EU27.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.668e+007" />
-                        <entity name="E_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.798e+008" />
-                        <entity name="INDIA.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.494e+007" />
-                        <entity name="JAPAN.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.369e+008" />
-                        <entity name="Mala_Indo.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.797e+008" />
-                        <entity name="MEAS_NAfr.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.831e+008" />
-                        <entity name="Oceania.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="2.806e+008" />
-                        <entity name="Oth_CEE_CIS.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="8.09e+008" />
-                        <entity name="Russia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.034e+007" />
-                        <entity name="R_Europe.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.055e+008" />
-                        <entity name="R_SE_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="5.366e+007" />
-                        <entity name="R_S_Asia.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="4.037e+008" />
-                        <entity name="S_o_Amer.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="1.139e+009" />
-                        <entity name="S_S_AFR.NPL_Data" />
-                    </plot>
-                </graph>
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031">
-                    <plot index="0" pen_width="1" color="red" precision="0" show_y_axis="true">
-                        <scale min="0" max="3.128e+008" />
-                        <entity name="USA.NPL_Data" />
+                    <plot pen_width="1" precision="0">
+                        <index>4</index>
+                        <color>#FF7F00</color>
+                        <show_y_axis>true</show_y_axis>
+                        <scale min="0" max="6e+009" />
+                        <entity name="A_Global.Abandoned" />
                     </plot>
                 </graph>
             </stacked_container>
-            <pad_icon x="6203" y="514" width="26" height="22" color="#008F44" label_side="bottom" label="Graph 2" type="graph" icon_of="42" />
-            <stacked_container x="7209" y="96" height="282" width="492" visible_index="0" uid="43">
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031" />
-            </stacked_container>
-            <pad_icon x="7313" y="90" width="26" height="22" color="#008F44" label_side="bottom" label="Graph 3" type="graph" icon_of="43" />
-            <stacked_container x="7222" y="473" height="282" width="492" visible_index="0" uid="44">
-                <graph type="time_series" title="Untitled" background="#FFFFC9" show_grid="false" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-837671816" cleared="true" time_precision="2" from="1991" to="2031" />
-            </stacked_container>
-            <pad_icon x="7273" y="499" width="26" height="22" color="#008F44" label_side="bottom" label="Graph 4" type="graph" icon_of="44" />
-            <stacked_container x="6668" y="95" height="270" width="475" visible_index="0" uid="45">
-                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="59" orientation="vertical" report_interval="1" isee:date_time="-845487349" cleared="true">
-                    <item type="time" color="black" text-align="left" precision="3" width="100" />
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="0">
-                        <entity name="BRAZIL.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="1">
-                        <entity name="CAN.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="2">
-                        <entity name="CHIHKG.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="3">
-                        <entity name="C_C_Amer.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="4">
-                        <entity name="EU27.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="5">
-                        <entity name="E_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="6">
-                        <entity name="INDIA.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="7">
-                        <entity name="JAPAN.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="8">
-                        <entity name="Mala_Indo.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="9">
-                        <entity name="MEAS_NAfr.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="10">
-                        <entity name="Oceania.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="11">
-                        <entity name="Oth_CEE_CIS.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="12">
-                        <entity name="Russia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="13">
-                        <entity name="R_Europe.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="14">
-                        <entity name="R_SE_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="15">
-                        <entity name="R_S_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="16">
-                        <entity name="S_o_Amer.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="17">
-                        <entity name="S_S_AFR.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="18">
-                        <entity name="USA.NPL_Data" />
-                    </item>
-                </table>
-            </stacked_container>
-            <pad_icon x="6754" y="118" width="26" height="22" color="#008F44" label_side="bottom" label_angle="280" label="Table 1" type="table" icon_of="45" />
-            <stacked_container x="6636" y="475" height="270" width="475" visible_index="0" uid="46">
-                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="59" orientation="vertical" report_interval="1" isee:date_time="-837672825" cleared="true">
-                    <item type="time" color="black" text-align="left" precision="3" width="100" />
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="0">
-                        <entity name="BRAZIL.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="1">
-                        <entity name="CAN.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="2">
-                        <entity name="CHIHKG.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="3">
-                        <entity name="C_C_Amer.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="4">
-                        <entity name="EU27.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="5">
-                        <entity name="E_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="6">
-                        <entity name="INDIA.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="7">
-                        <entity name="JAPAN.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="8">
-                        <entity name="Mala_Indo.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="9">
-                        <entity name="MEAS_NAfr.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="10">
-                        <entity name="Oceania.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="11">
-                        <entity name="Oth_CEE_CIS.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="12">
-                        <entity name="Russia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="13">
-                        <entity name="R_Europe.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="14">
-                        <entity name="R_SE_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="15">
-                        <entity name="R_S_Asia.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="16">
-                        <entity name="S_o_Amer.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="17">
-                        <entity name="S_S_AFR.NPL_Data" />
-                    </item>
-                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="18">
-                        <entity name="USA.NPL_Data" />
-                    </item>
-                </table>
-            </stacked_container>
-            <pad_icon x="6686" y="524" width="26" height="22" color="#008F44" label_side="bottom" label="Table 2" type="table" icon_of="46" />
-            <stacked_container x="7796" y="101" height="270" width="475" visible_index="0" uid="47">
-                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="59" orientation="vertical" report_interval="1" isee:date_time="-845487349" cleared="true">
-                    <item type="time" color="black" text-align="left" precision="3" width="100" />
-                </table>
-            </stacked_container>
-            <pad_icon x="7933" y="118" width="26" height="22" color="#008F44" label_side="bottom" label="Table 3" type="table" icon_of="47" />
-            <stacked_container x="7759" y="470" height="270" width="475" visible_index="0" uid="48">
-                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="59" orientation="vertical" report_interval="1" isee:date_time="-838577917" cleared="true">
-                    <item type="time" color="black" text-align="left" precision="3" width="100" />
-                </table>
-            </stacked_container>
-            <pad_icon x="7927" y="562" width="26" height="22" color="#008F44" label_side="bottom" label="Table 4" type="table" icon_of="48" />
-            <stacked_container x="5118" y="143" height="455" width="888" visible_index="0" uid="49">
-                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="64" orientation="horizontal" report_interval="1" isee:date_time="-837672825" cleared="true">
+            <pad_icon x="6100" y="463" width="26" height="22" color="#008F44" label="Graph 2" type="graph" icon_of="pad_92044038">
+                <label_side>bottom</label_side>
+            </pad_icon>
+            <stacked_container x="5118" y="143" height="455" width="888" visible_index="0" uid="pad_89993200">
+                <table title="Untitled Table" font-size="9" background="#E0E0E0" columns_width="64" orientation="horizontal" report_interval="1" isee:periods="41" report_from="1991" report_to="2031" isee:date_time="-836831587">
                     <item type="time" color="black" text-align="left" precision="0" width="242" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="0">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Set_Aside_Land" />
+                        <index>0</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="1">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Built_Up_Land" />
+                        <index>1</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="2">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Abandoned_Land" />
+                        <index>2</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="3">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Near_Pristine__Land" />
+                        <index>3</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="4">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Latent__Land" />
+                        <index>4</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="5">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Actual_Forage_Land" />
+                        <index>5</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="6">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Crop_Land_Alloc_to_Fallow" />
+                        <index>6</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="7">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>7</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="8">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>8</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="9">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>9</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="10">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>10</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="11">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>11</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="12">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.total_crop_land_allocated_to_all_other_uses" />
+                        <index>12</index>
                     </item>
-                    <item type="blank" index="13" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="14">
+                    <item type="blank">
+                        <index>13</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Set_Aside_Land" />
+                        <index>14</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="15">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Built_Up_Land" />
+                        <index>15</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="16">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Abandoned_Land" />
+                        <index>16</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="17">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Near_Pristine__Land" />
+                        <index>17</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="18">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Latent__Land" />
+                        <index>18</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="19">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Actual_Forage_Land" />
+                        <index>19</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="20">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Crop_Land_Alloc_to_Fallow" />
+                        <index>20</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="21">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>21</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="22">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>22</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="23">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>23</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="24">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>24</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="25">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>25</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="26">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.total_crop_land_allocated_to_all_other_uses" />
+                        <index>26</index>
                     </item>
-                    <item type="blank" index="27" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="28">
+                    <item type="blank">
+                        <index>27</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Set_Aside_Land" />
+                        <index>28</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="29">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Built_Up_Land" />
+                        <index>29</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="30">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Abandoned_Land" />
+                        <index>30</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="31">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Near_Pristine__Land" />
+                        <index>31</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="32">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Latent__Land" />
+                        <index>32</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="33">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Actual_Forage_Land" />
+                        <index>33</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="34">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Crop_Land_Alloc_to_Fallow" />
+                        <index>34</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="35">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>35</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="36">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>36</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="37">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>37</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="38">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>38</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="39">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>39</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="40">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.total_crop_land_allocated_to_all_other_uses" />
+                        <index>40</index>
                     </item>
-                    <item type="blank" index="41" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="42">
+                    <item type="blank">
+                        <index>41</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Set_Aside_Land" />
+                        <index>42</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="43">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Built_Up_Land" />
+                        <index>43</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="44">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Abandoned_Land" />
+                        <index>44</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="45">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Near_Pristine__Land" />
+                        <index>45</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="46">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Latent__Land" />
+                        <index>46</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="47">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Actual_Forage_Land" />
+                        <index>47</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="48">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Crop_Land_Alloc_to_Fallow" />
+                        <index>48</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="49">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>49</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="50">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>50</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="51">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>51</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="52">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>52</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="53">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>53</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="54">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.total_crop_land_allocated_to_all_other_uses" />
+                        <index>54</index>
                     </item>
-                    <item type="blank" index="55" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="56">
+                    <item type="blank">
+                        <index>55</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Set_Aside_Land" />
+                        <index>56</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="57">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Built_Up_Land" />
+                        <index>57</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="58">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Abandoned_Land" />
+                        <index>58</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="59">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Near_Pristine__Land" />
+                        <index>59</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="60">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Latent__Land" />
+                        <index>60</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="61">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Actual_Forage_Land" />
+                        <index>61</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="62">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Crop_Land_Alloc_to_Fallow" />
+                        <index>62</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="63">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>63</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="64">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>64</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="65">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>65</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="66">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>66</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="67">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>67</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="68">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.total_crop_land_allocated_to_all_other_uses" />
+                        <index>68</index>
                     </item>
-                    <item type="blank" index="69" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="70">
+                    <item type="blank">
+                        <index>69</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Set_Aside_Land" />
+                        <index>70</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="71">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Built_Up_Land" />
+                        <index>71</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="72">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Abandoned_Land" />
+                        <index>72</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="73">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Near_Pristine__Land" />
+                        <index>73</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="74">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Latent__Land" />
+                        <index>74</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="75">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Actual_Forage_Land" />
+                        <index>75</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="76">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Crop_Land_Alloc_to_Fallow" />
+                        <index>76</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="77">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>77</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="78">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>78</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="79">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>79</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="80">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>80</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="81">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>81</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="82">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.total_crop_land_allocated_to_all_other_uses" />
+                        <index>82</index>
                     </item>
-                    <item type="blank" index="83" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="84">
+                    <item type="blank">
+                        <index>83</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Set_Aside_Land" />
+                        <index>84</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="85">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Built_Up_Land" />
+                        <index>85</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="86">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Abandoned_Land" />
+                        <index>86</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="87">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Near_Pristine__Land" />
+                        <index>87</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="88">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Latent__Land" />
+                        <index>88</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="89">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Actual_Forage_Land" />
+                        <index>89</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="90">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Crop_Land_Alloc_to_Fallow" />
+                        <index>90</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="91">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>91</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="92">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>92</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="93">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>93</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="94">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>94</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="95">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>95</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="96">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.total_crop_land_allocated_to_all_other_uses" />
+                        <index>96</index>
                     </item>
-                    <item type="blank" index="97" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="98">
+                    <item type="blank">
+                        <index>97</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Set_Aside_Land" />
+                        <index>98</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="99">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Built_Up_Land" />
+                        <index>99</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="100">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Abandoned_Land" />
+                        <index>100</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="101">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Near_Pristine__Land" />
+                        <index>101</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="102">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Latent__Land" />
+                        <index>102</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="103">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Actual_Forage_Land" />
+                        <index>103</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="104">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Crop_Land_Alloc_to_Fallow" />
+                        <index>104</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="105">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>105</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="106">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>106</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="107">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>107</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="108">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>108</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="109">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>109</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="110">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.total_crop_land_allocated_to_all_other_uses" />
+                        <index>110</index>
                     </item>
-                    <item type="blank" index="111" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="112">
+                    <item type="blank">
+                        <index>111</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Set_Aside_Land" />
+                        <index>112</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="113">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Built_Up_Land" />
+                        <index>113</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="114">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Abandoned_Land" />
+                        <index>114</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="115">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Near_Pristine__Land" />
+                        <index>115</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="116">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Latent__Land" />
+                        <index>116</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="117">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Actual_Forage_Land" />
+                        <index>117</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="118">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Crop_Land_Alloc_to_Fallow" />
+                        <index>118</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="119">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>119</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="120">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>120</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="121">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>121</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="122">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>122</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="123">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>123</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="124">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.total_crop_land_allocated_to_all_other_uses" />
+                        <index>124</index>
                     </item>
-                    <item type="blank" index="125" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="126">
+                    <item type="blank">
+                        <index>125</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Set_Aside_Land" />
+                        <index>126</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="127">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Built_Up_Land" />
+                        <index>127</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="128">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Abandoned_Land" />
+                        <index>128</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="129">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Near_Pristine__Land" />
+                        <index>129</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="130">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Latent__Land" />
+                        <index>130</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="131">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Actual_Forage_Land" />
+                        <index>131</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="132">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Crop_Land_Alloc_to_Fallow" />
+                        <index>132</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="133">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>133</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="134">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>134</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="135">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>135</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="136">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>136</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="137">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>137</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="138">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.total_crop_land_allocated_to_all_other_uses" />
+                        <index>138</index>
                     </item>
-                    <item type="blank" index="139" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="140">
+                    <item type="blank">
+                        <index>139</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Set_Aside_Land" />
+                        <index>140</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="141">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Built_Up_Land" />
+                        <index>141</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="142">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Abandoned_Land" />
+                        <index>142</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="143">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Near_Pristine__Land" />
+                        <index>143</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="144">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Latent__Land" />
+                        <index>144</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="145">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Actual_Forage_Land" />
+                        <index>145</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="146">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Crop_Land_Alloc_to_Fallow" />
+                        <index>146</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="147">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>147</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="148">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>148</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="149">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>149</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="150">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>150</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="151">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>151</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="152">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.total_crop_land_allocated_to_all_other_uses" />
+                        <index>152</index>
                     </item>
-                    <item type="blank" index="153" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="154">
+                    <item type="blank">
+                        <index>153</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Set_Aside_Land" />
+                        <index>154</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="155">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Built_Up_Land" />
+                        <index>155</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="156">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Abandoned_Land" />
+                        <index>156</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="157">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Near_Pristine__Land" />
+                        <index>157</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="158">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Latent__Land" />
+                        <index>158</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="159">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Actual_Forage_Land" />
+                        <index>159</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="160">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Crop_Land_Alloc_to_Fallow" />
+                        <index>160</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="161">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>161</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="162">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>162</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="163">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>163</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="164">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>164</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="165">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>165</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="166">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.total_crop_land_allocated_to_all_other_uses" />
+                        <index>166</index>
                     </item>
-                    <item type="blank" index="167" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="168">
+                    <item type="blank">
+                        <index>167</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Set_Aside_Land" />
+                        <index>168</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="169">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Built_Up_Land" />
+                        <index>169</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="170">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Abandoned_Land" />
+                        <index>170</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="171">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Near_Pristine__Land" />
+                        <index>171</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="172">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Latent__Land" />
+                        <index>172</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="173">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Actual_Forage_Land" />
+                        <index>173</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="174">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Crop_Land_Alloc_to_Fallow" />
+                        <index>174</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="175">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>175</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="176">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>176</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="177">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>177</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="178">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>178</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="179">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>179</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="180">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.total_crop_land_allocated_to_all_other_uses" />
+                        <index>180</index>
                     </item>
-                    <item type="blank" index="181" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="182">
+                    <item type="blank">
+                        <index>181</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Set_Aside_Land" />
+                        <index>182</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="183">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Built_Up_Land" />
+                        <index>183</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="184">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Abandoned_Land" />
+                        <index>184</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="185">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Near_Pristine__Land" />
+                        <index>185</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="186">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Latent__Land" />
+                        <index>186</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="187">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Actual_Forage_Land" />
+                        <index>187</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="188">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Crop_Land_Alloc_to_Fallow" />
+                        <index>188</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="189">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>189</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="190">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>190</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="191">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>191</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="192">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>192</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="193">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>193</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="194">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.total_crop_land_allocated_to_all_other_uses" />
+                        <index>194</index>
                     </item>
-                    <item type="blank" index="195" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="196">
+                    <item type="blank">
+                        <index>195</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Set_Aside_Land" />
+                        <index>196</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="197">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Built_Up_Land" />
+                        <index>197</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="198">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Abandoned_Land" />
+                        <index>198</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="199">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Near_Pristine__Land" />
+                        <index>199</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="200">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Latent__Land" />
+                        <index>200</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="201">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Actual_Forage_Land" />
+                        <index>201</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="202">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Crop_Land_Alloc_to_Fiber" />
+                        <index>202</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="203">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>203</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="204">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>204</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="205">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>205</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="206">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>206</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="207">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>207</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="208">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.total_crop_land_allocated_to_all_other_uses" />
+                        <index>208</index>
                     </item>
-                    <item type="blank" index="209" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="210">
+                    <item type="blank">
+                        <index>209</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Set_Aside_Land" />
+                        <index>210</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="211">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Built_Up_Land" />
+                        <index>211</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="212">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Abandoned_Land" />
+                        <index>212</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="213">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Near_Pristine__Land" />
+                        <index>213</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="214">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Latent__Land" />
+                        <index>214</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="215">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Actual_Forage_Land" />
+                        <index>215</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="216">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Crop_Land_Alloc_to_Fallow" />
+                        <index>216</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="217">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>217</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="218">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>218</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="219">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>219</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="220">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.kg_commodity_per_kg_finished_product" />
+                        <index>220</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="221">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.kg_commodity_per_kg_finished_product" index="CowSheepGoat, Maize" />
+                        <index>221</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="222">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.total_crop_land_allocated_to_all_other_uses" />
+                        <index>222</index>
                     </item>
-                    <item type="blank" index="223" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="224">
+                    <item type="blank">
+                        <index>223</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Set_Aside_Land" />
+                        <index>224</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="225">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Built_Up_Land" />
+                        <index>225</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="226">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Abandoned_Land" />
+                        <index>226</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="227">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Near_Pristine__Land" />
+                        <index>227</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="228">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Latent__Land" />
+                        <index>228</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="229">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Actual_Forage_Land" />
+                        <index>229</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="230">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Crop_Land_Alloc_to_Fallow" />
+                        <index>230</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="231">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>231</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="232">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>232</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="233">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>233</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="234">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>234</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="235">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>235</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="236">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.total_crop_land_allocated_to_all_other_uses" />
+                        <index>236</index>
                     </item>
-                    <item type="blank" index="237" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="238">
+                    <item type="blank">
+                        <index>237</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Set_Aside_Land" />
+                        <index>238</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="239">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Built_Up_Land" />
+                        <index>239</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="240">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Abandoned_Land" />
+                        <index>240</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="241">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Near_Pristine__Land" />
+                        <index>241</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="242">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Latent__Land" />
+                        <index>242</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="243">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Actual_Forage_Land" />
+                        <index>243</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="244">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Crop_Land_Alloc_to_Fallow" />
+                        <index>244</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="245">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>245</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="246">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>246</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="247">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>247</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="248">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>248</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="249">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>249</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="250">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.total_crop_land_allocated_to_all_other_uses" />
+                        <index>250</index>
                     </item>
-                    <item type="blank" index="251" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="252">
+                    <item type="blank">
+                        <index>251</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Set_Aside_Land" />
+                        <index>252</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="253">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Built_Up_Land" />
+                        <index>253</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="254">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Abandoned_Land" />
+                        <index>254</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="255">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Near_Pristine__Land" />
+                        <index>255</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="256">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Latent__Land" />
+                        <index>256</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="257">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Actual_Forage_Land" />
+                        <index>257</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="258">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Crop_Land_Alloc_to_Fallow" />
+                        <index>258</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="259">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.allocation_of_crop_lands_to_commodities" index="Maize" />
+                        <index>259</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="260">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.allocation_of_crop_lands_to_commodities" index="Wheat" />
+                        <index>260</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="261">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.allocation_of_crop_lands_to_commodities" index="Rice" />
+                        <index>261</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="262">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.allocation_of_crop_lands_to_commodities" index="OilCrop" />
+                        <index>262</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="263">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.allocation_of_crop_lands_to_commodities" index="Sugar" />
+                        <index>263</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="264">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.total_crop_land_allocated_to_all_other_uses" />
+                        <index>264</index>
                     </item>
-                    <item type="blank" index="265" />
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="266">
+                    <item type="blank">
+                        <index>265</index>
+                    </item>
+                    <item color="black" text-align="left" precision="0">
                         <entity name="BRAZIL.Population" />
+                        <index>266</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="267">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CAN.Population" />
+                        <index>267</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="268">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="CHIHKG.Population" />
+                        <index>268</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="269">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="C_C_Amer.Population" />
+                        <index>269</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="270">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="EU27.Population" />
+                        <index>270</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="271">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="E_Asia.Population" />
+                        <index>271</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="272">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="INDIA.Population" />
+                        <index>272</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="273">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="JAPAN.Population" />
+                        <index>273</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="274">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Mala_Indo.Population" />
+                        <index>274</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="275">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="MEAS_NAfr.Population" />
+                        <index>275</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="276">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oceania.Population" />
+                        <index>276</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="277">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Oth_CEE_CIS.Population" />
+                        <index>277</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="278">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="Russia.Population" />
+                        <index>278</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="279">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_Europe.Population" />
+                        <index>279</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="280">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_SE_Asia.Population" />
+                        <index>280</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="281">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="R_S_Asia.Population" />
+                        <index>281</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="282">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_o_Amer.Population" />
+                        <index>282</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="283">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="S_S_AFR.Population" />
+                        <index>283</index>
                     </item>
-                    <item color="black" text-align="left" precision="0" units="unspecified" index="284">
+                    <item color="black" text-align="left" precision="0">
                         <entity name="USA.Population" />
+                        <index>284</index>
                     </item>
                 </table>
             </stacked_container>
-            <pad_icon x="5219" y="153" width="26" height="22" color="#008F44" label_side="bottom" label="LandUseAndPop" type="table" icon_of="49" />
-            <gid x="1205" y="2487" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <pad_icon x="5219" y="153" width="26" height="22" color="#008F44" label="LandUseAndPop" type="table" icon_of="pad_89993200">
+                <label_side>bottom</label_side>
+            </pad_icon>
+            <gid x="1205" y="2487" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="BRAZIL.population_scenario" />
             </gid>
-            <text_box x="4085" y="2088" uid="50" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Biofuel Scenarios</text_box>
-            <gid x="4176" y="2324" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <text_box x="4085" y="2088" uid="41" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Biofuel Scenarios</text_box>
+            <gid x="4176" y="2324" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="CAN.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <text_box x="6073" y="2" uid="51" color="black" font-family="Arial" font-size="18" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="2244" height="42">Test Results</text_box>
-            <text_box x="6074" y="400" uid="52" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="1125" height="383">Regional Alternative Scenario</text_box>
-            <text_box x="7196" y="41" uid="53" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="1122" height="367">Global Business-as-Usual</text_box>
-            <text_box x="7197" y="403" uid="54" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="1121" height="379">Global Alternative Scenario</text_box>
-            <gid x="1093" y="2335" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <text_box x="6073" y="2" uid="42" color="black" font-family="Arial" font-size="18" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="547" height="42">Global Test Results</text_box>
+            <text_box x="6074" y="400" uid="43" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="549" height="381">Alternative Scenario</text_box>
+            <gid x="1093" y="2335" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="CAN.population_scenario" />
             </gid>
-            <gid x="1699" y="2335" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1699" y="2335" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="CHIHKG.population_scenario" />
             </gid>
-            <gid x="1367" y="2479" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1367" y="2479" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="EU27.population_scenario" />
             </gid>
-            <gid x="1701" y="2458" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1701" y="2458" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="INDIA.population_scenario" />
             </gid>
-            <gid x="1814" y="2336" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1814" y="2336" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="E_Asia.population_scenario" />
             </gid>
-            <gid x="1940" y="2590" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1940" y="2590" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="JAPAN.population_scenario" />
             </gid>
-            <gid x="1491" y="2346" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1491" y="2346" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Oth_CEE_CIS.population_scenario" />
             </gid>
-            <gid x="1939" y="2462" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1939" y="2462" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Mala_Indo.population_scenario" />
             </gid>
-            <gid x="1092" y="2635" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1092" y="2635" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="S_o_Amer.population_scenario" />
             </gid>
-            <gid x="1202" y="2337" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1202" y="2337" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="USA.population_scenario" />
             </gid>
-            <gid x="1363" y="2344" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1363" y="2344" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="S_S_AFR.population_scenario" />
             </gid>
-            <gid x="1814" y="2461" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1814" y="2461" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_S_Asia.population_scenario" />
             </gid>
-            <gid x="1091" y="2461" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1091" y="2461" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="C_C_Amer.population_scenario" />
             </gid>
-            <gid x="1715" y="2607" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1715" y="2607" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_SE_Asia.population_scenario" />
             </gid>
-            <gid x="1492" y="2484" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1492" y="2484" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_Europe.population_scenario" />
             </gid>
-            <gid x="1932" y="2335" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="1932" y="2335" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Oceania.population_scenario" />
             </gid>
-            <gid x="1369" y="2627" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1369" y="2627" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="MEAS_NAfr.population_scenario" />
             </gid>
-            <gid x="1499" y="2618" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="1499" y="2618" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Russia.population_scenario" />
             </gid>
-            <gid x="4173" y="2453" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4173" y="2453" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="USA.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4173" y="2591" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4173" y="2591" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="C_C_Amer.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4165" y="2732" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4165" y="2732" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="BRAZIL.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4169" y="2865" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4169" y="2865" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="S_o_Amer.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4469" y="2857" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4469" y="2857" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="S_S_AFR.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4471" y="2331" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4471" y="2331" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_Europe.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4469" y="2982" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4469" y="2982" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Russia.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4948" y="2798" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4948" y="2798" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Oceania.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4784" y="2614" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4784" y="2614" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Mala_Indo.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4782" y="2774" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4782" y="2774" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_SE_Asia.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4954" y="2498" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4954" y="2498" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="R_S_Asia.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4467" y="2600" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4467" y="2600" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="Oth_CEE_CIS.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4779" y="2328" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4779" y="2328" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="CHIHKG.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4463" y="2463" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4463" y="2463" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="EU27.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4950" y="2347" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4950" y="2347" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="E_Asia.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4788" y="2463" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4788" y="2463" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="INDIA.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4946" y="2651" label_side="bottom" color="black" width="100" height="103" x_axis_label="time">
+            <gid x="4946" y="2651" color="black" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="JAPAN.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <gid x="4466" y="2727" label_side="bottom" color="red" width="100" height="103" x_axis_label="time">
+            <gid x="4466" y="2727" color="red" width="100" height="103" x_axis_label="time">
+                <label_side>bottom</label_side>
                 <entity name="MEAS_NAfr.Crop_Land_Alloc_to_Cellulosic_Energy_Crop" />
             </gid>
-            <text_box x="1048" y="130" uid="55" color="black" font-family="Arial" font-size="18" margin="5" border-style="solid" border-width="thin" width="645" height="64">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
-            <button x="4998" y="2102" width="52" height="24" uid="56" appearance="opaque" background="black" color="white" style="square">
+            <button x="2956" y="23" width="52" height="24" uid="44" appearance="opaque" background="black" color="white" style="square">
+                <link target="interface" x="0" y="0" />
+                <image width="68" height="40">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAoCAIAAADIR8vEAAABVklEQVRoge2YwYrCMBCG/yz7NIKHCkLfxdPCIiy+jeDF7jO4t32JhfbQpT5OPBRkaMw0GWMdSz48pYn9P8dMQ421FnPh7dkBUpJltJJltJJltPLuu2CMmTJHFL5no1eGWfNcmF/5xf5mZVkyV7nKADj/N0nD3MXp55ef8GKV4ckyWskyAIDFcpUwR5KvHelmPjb7ImQaTda1texe4Ugqs9kXu2Po5K6t+8+DKkmJrgw1cevTVGa0Aler60x3pB+MLWacDDX5dg47hwqohkvcoNShr5gbWmCCWJmmMoe1xRr4C10yiI6ALS4zQaxM19aLpSmOFkCzlRyraVCfla9co0TvGerzuAYl85G05t4ncPJgz7htjY7Q9AIf4XMmsNXejOIODhz45QzyE8AED8FY8tlMK7OSGWkAH59f0+RIAiej+W3TTYzO90kyZrVnsoxWsoxWsoxWLnDFlT0sU4cH</image>
+            </button>
+            <text_box x="1048" y="130" uid="45" color="black" font-family="Arial" font-size="18" margin="5" border-style="solid" border-width="thin" width="645" height="64">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
+            <button x="4998" y="2102" width="52" height="24" uid="46" appearance="opaque" background="black" color="white" style="square">
                 <link target="back" />
                 <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
             </button>
-            <text_box x="6074" y="41" uid="57" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="1125" height="364">Regional Business-as-Usual</text_box>
-            <text_box x="4099" y="2204" uid="58" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Americas</text_box>
-            <text_box x="7" y="1" uid="59" color="black" font-family="Arial" font-size="24" font-weight="bold" margin="1" width="737" height="44" appearance="transparent">NREL Global Land Use Change Model </text_box>
-            <text_box x="1029" y="2107" uid="60" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Baseline Population Scenarios</text_box>
-            <text_box x="4369" y="2203" uid="61" color="red" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Europe | Russia | Africa</text_box>
-            <button x="82" y="162" width="208" height="38" uid="62" appearance="transparent" color="black" style="square" label="Population Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <text_box x="6074" y="41" uid="47" color="black" font-family="Arial" font-size="14" font-weight="bold" text-decoration="underline" text-align="center" margin="5" border-style="solid" border-width="5px" width="548" height="363">Business-as-Usual</text_box>
+            <text_box x="4099" y="2204" uid="48" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Americas</text_box>
+            <button x="3972" y="26" width="52" height="24" uid="49" appearance="opaque" background="black" color="white" style="square">
+                <link target="interface" x="0" y="0" />
+                <image width="68" height="40">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAoCAIAAADIR8vEAAABVklEQVRoge2YwYrCMBCG/yz7NIKHCkLfxdPCIiy+jeDF7jO4t32JhfbQpT5OPBRkaMw0GWMdSz48pYn9P8dMQ421FnPh7dkBUpJltJJltJJltPLuu2CMmTJHFL5no1eGWfNcmF/5xf5mZVkyV7nKADj/N0nD3MXp55ef8GKV4ckyWskyAIDFcpUwR5KvHelmPjb7ImQaTda1texe4Ugqs9kXu2Po5K6t+8+DKkmJrgw1cevTVGa0Aler60x3pB+MLWacDDX5dg47hwqohkvcoNShr5gbWmCCWJmmMoe1xRr4C10yiI6ALS4zQaxM19aLpSmOFkCzlRyraVCfla9co0TvGerzuAYl85G05t4ncPJgz7htjY7Q9AIf4XMmsNXejOIODhz45QzyE8AED8FY8tlMK7OSGWkAH59f0+RIAiej+W3TTYzO90kyZrVnsoxWsoxWsoxWLnDFlT0sU4cH</image>
+            </button>
+            <button x="3975" y="720" width="52" height="24" uid="50" appearance="opaque" background="black" color="white" style="square">
+                <link target="interface" x="0" y="0" />
+                <image width="68" height="40">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAoCAIAAADIR8vEAAABVklEQVRoge2YwYrCMBCG/yz7NIKHCkLfxdPCIiy+jeDF7jO4t32JhfbQpT5OPBRkaMw0GWMdSz48pYn9P8dMQ421FnPh7dkBUpJltJJltJJltPLuu2CMmTJHFL5no1eGWfNcmF/5xf5mZVkyV7nKADj/N0nD3MXp55ef8GKV4ckyWskyAIDFcpUwR5KvHelmPjb7ImQaTda1texe4Ugqs9kXu2Po5K6t+8+DKkmJrgw1cevTVGa0Aler60x3pB+MLWacDDX5dg47hwqohkvcoNShr5gbWmCCWJmmMoe1xRr4C10yiI6ALS4zQaxM19aLpSmOFkCzlRyraVCfla9co0TvGerzuAYl85G05t4ncPJgz7htjY7Q9AIf4XMmsNXejOIODhz45QzyE8AED8FY8tlMK7OSGWkAH59f0+RIAiej+W3TTYzO90kyZrVnsoxWsoxWsoxWLnDFlT0sU4cH</image>
+            </button>
+            <button x="4989" y="19" width="52" height="24" uid="51" appearance="opaque" background="black" color="white" style="square">
+                <link target="interface" x="0" y="0" />
+                <image width="68" height="40">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAoCAIAAADIR8vEAAABVklEQVRoge2YwYrCMBCG/yz7NIKHCkLfxdPCIiy+jeDF7jO4t32JhfbQpT5OPBRkaMw0GWMdSz48pYn9P8dMQ421FnPh7dkBUpJltJJltJJltPLuu2CMmTJHFL5no1eGWfNcmF/5xf5mZVkyV7nKADj/N0nD3MXp55ef8GKV4ckyWskyAIDFcpUwR5KvHelmPjb7ImQaTda1texe4Ugqs9kXu2Po5K6t+8+DKkmJrgw1cevTVGa0Aler60x3pB+MLWacDDX5dg47hwqohkvcoNShr5gbWmCCWJmmMoe1xRr4C10yiI6ALS4zQaxM19aLpSmOFkCzlRyraVCfla9co0TvGerzuAYl85G05t4ncPJgz7htjY7Q9AIf4XMmsNXejOIODhz45QzyE8AED8FY8tlMK7OSGWkAH59f0+RIAiej+W3TTYzO90kyZrVnsoxWsoxWsoxWLnDFlT0sU4cH</image>
+            </button>
+            <text_box x="7" y="1" uid="52" color="black" font-family="Arial" font-size="24" font-weight="bold" margin="1" width="737" height="44" appearance="transparent">NREL Global Land Use Change Model </text_box>
+            <text_box x="1029" y="2107" uid="53" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Baseline Population Scenarios</text_box>
+            <text_box x="4369" y="2203" uid="54" color="red" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Europe | Russia | Africa</text_box>
+            <button x="82" y="162" width="208" height="38" uid="55" appearance="transparent" color="black" style="square" label="Population Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="1012" y="0" />
             </button>
-            <button x="1960" y="2116" width="52" height="24" uid="63" appearance="opaque" background="black" color="white" style="square">
+            <button x="1960" y="2116" width="52" height="24" uid="56" appearance="opaque" background="black" color="white" style="square">
                 <link target="back" />
                 <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
             </button>
-            <text_box x="4720" y="2205" uid="64" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="272" height="34">Russia | Asia | India | Oceania</text_box>
-            <text_box x="59" y="119" uid="65" color="black" font-family="Arial" font-size="24" margin="1" width="180" height="39" appearance="transparent">Configure... </text_box>
-            <text_box x="1022" y="1" uid="66" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Population Scenarios</text_box>
-            <button x="82" y="236" width="208" height="38" uid="67" appearance="transparent" color="black" style="square" label="Crop Yield Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <text_box x="4720" y="2205" uid="57" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="272" height="34">Russia | Asia | India | Oceania</text_box>
+            <text_box x="59" y="119" uid="58" color="black" font-family="Arial" font-size="24" margin="1" width="180" height="39" appearance="transparent">Configure... </text_box>
+            <text_box x="1022" y="1" uid="59" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Population Scenarios</text_box>
+            <button x="82" y="236" width="208" height="38" uid="60" appearance="transparent" color="black" style="square" label="Crop Yield Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="3036" y="0" />
             </button>
-            <button x="82" y="199" width="208" height="38" uid="68" appearance="transparent" color="black" style="square" label="DemandScenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <button x="82" y="199" width="208" height="38" uid="61" appearance="transparent" color="black" style="square" label="DemandScenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="2024" y="0" />
             </button>
-            <button x="82" y="310" width="208" height="38" uid="69" appearance="transparent" color="black" style="square" label="Biofuel Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <button x="82" y="310" width="208" height="38" uid="62" appearance="transparent" color="black" style="square" label="Biofuel Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="4048" y="0" />
             </button>
-            <text_box x="448" y="119" uid="70" color="black" font-family="Arial" font-size="24" margin="1" width="269" height="42" appearance="transparent">Run Simulations... </text_box>
-            <button x="5911" y="634" width="36" height="36" uid="71" appearance="opaque" background="white" color="white" style="square">
+            <text_box x="448" y="119" uid="63" color="black" font-family="Arial" font-size="24" margin="1" width="269" height="42" appearance="transparent">Run Simulations... </text_box>
+            <button x="5911" y="634" width="36" height="36" uid="64" appearance="opaque" background="white" color="white" style="square">
                 <image width="34" height="31">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAAkklEQVRIie2VOw7AIAhAa8NxHBy9/+To4IE6mBACqE1KG5PCBEh8fIyEVsvxvpwfMP6MiSlPTDPME3GMYxyzLSb4ItgWA6jRj918YEANvD2mbEuC+TGW2KkUj7qMYUmvMcv6mF/Ng2NkInc2sSTJGH02amoqgzaq62rRNg961E/UZ7NptbAipIf1mQZQtv9p+2IuYmxU+mgd7jY=</image>
                 <menu_action>pause</menu_action>
             </button>
-            <button x="5946" y="634" width="36" height="36" uid="72" appearance="opaque" background="white" color="white" style="square">
+            <button x="5946" y="634" width="36" height="36" uid="65" appearance="opaque" background="white" color="white" style="square">
                 <image width="34" height="31">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAAlUlEQVRIiWO8cuEEA+0BEx3sGHbWsBBUoWNggV8BMbFL2BoGBob/uKUYidE/3OJm1JpRa+hjDVHZk8g8iM+E0Ypg0FqDPQkgF/5XLpzQMbCgMAqxWEO5oURZgxVA/AexHu5XNC4D7ioOizWQUELTBmcg+xXOxipL2DcEtZEKhleCxlLYYI1SCpMAFco0YuJvtOgkAwAAC6JKFweQHW4=</image>
                 <menu_action>stop</menu_action>
             </button>
-            <button x="5981" y="634" width="36" height="36" uid="73" appearance="opaque" background="white" color="white" style="square">
+            <button x="5981" y="634" width="36" height="36" uid="66" appearance="opaque" background="white" color="white" style="square">
                 <image width="34" height="31">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAAxElEQVRIie2VOxKFIAxFwxuXY2Hp8liepYULsmCGF0kgJBkZC26lePXkB4brPOB9/QYwJuYtzLrtokH0uLJJgBij6FzMAADoARgxWoAaYwPoMJ098GKu8xiRTSLBgN54YMaB1sKMGAprK8z/jV7/3uASeyq5bjt9/TEC+TFr9UietJwlDgKv1Aw4UAGD00rXRaLUAFzNHxgaF3DbgpLasZYYdrsVoWFPLXYqZqDzYVxIHMVGWqE2Xfm2s+F0BX9tHjbfxdzx9YGVeOAvtw==</image>
                 <menu_action>restore_all</menu_action>
             </button>
-            <button x="5875" y="634" width="36" height="36" uid="74" appearance="opaque" background="white" color="white" style="square">
+            <button x="5875" y="634" width="36" height="36" uid="67" appearance="opaque" background="white" color="white" style="square">
                 <image width="34" height="31">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAfCAIAAAANwYjmAAAAqUlEQVRIie3WPQ6AIAwF4IfxOAyM3H9iZOA+OmAMLvbnqTFRJgbDR2mhhlYL7h/TA8bXmJhyTJlnZvmTBTFkAEyxKBgACwAK0zE0ZmEIzM64MC8ToAS8jBGwMy7AwhCAmgkUsK3xN4LXMmclMLYAMoVCpe2rx5QZyXxoY4h93lvfeQP0vmnHIQYtMPsGydwIh9ZqueT+qnLTaiF/PLS56VIPzkH+b9p7mRWwlEyLSXil9g==</image>
                 <menu_action>run</menu_action>
             </button>
-            <button x="1953" y="10" width="52" height="24" uid="75" appearance="opaque" background="black" color="white" style="square">
-                <link target="back" />
+            <button x="1953" y="10" width="52" height="24" uid="68" appearance="opaque" background="black" color="white" style="square">
+                <link target="interface" x="0" y="0" />
                 <image width="68" height="40">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAoCAIAAADIR8vEAAABVklEQVRoge2YwYrCMBCG/yz7NIKHCkLfxdPCIiy+jeDF7jO4t32JhfbQpT5OPBRkaMw0GWMdSz48pYn9P8dMQ421FnPh7dkBUpJltJJltJJltPLuu2CMmTJHFL5no1eGWfNcmF/5xf5mZVkyV7nKADj/N0nD3MXp55ef8GKV4ckyWskyAIDFcpUwR5KvHelmPjb7ImQaTda1texe4Ugqs9kXu2Po5K6t+8+DKkmJrgw1cevTVGa0Aler60x3pB+MLWacDDX5dg47hwqohkvcoNShr5gbWmCCWJmmMoe1xRr4C10yiI6ALS4zQaxM19aLpSmOFkCzlRyraVCfla9co0TvGerzuAYl85G05t4ncPJgz7htjY7Q9AIf4XMmsNXejOIODhz45QzyE8AED8FY8tlMK7OSGWkAH59f0+RIAiej+W3TTYzO90kyZrVnsoxWsoxWsoxWLnDFlT0sU4cH</image>
             </button>
             <stacked_container x="1043" y="206" width="301" height="192" visible_index="0">
@@ -1782,7 +1886,7 @@
                     </numeric_input>
                 </list_input>
             </stacked_container>
-            <text_box x="2035" y="3" uid="76" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Demand Scenarios</text_box>
+            <text_box x="2035" y="3" uid="69" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Demand Scenarios</text_box>
             <stacked_container x="1660" y="207" width="291" height="192" visible_index="0">
                 <list_input x="1660" y="207" color="black" width="291" height="192" index="0" name="India|Asia|Oceania" name_col_width="187">
                     <numeric_input min="-25" max="25" precision="5">
@@ -1811,10 +1915,6 @@
                     </numeric_input>
                 </list_input>
             </stacked_container>
-            <button x="2966" y="12" width="52" height="24" uid="77" appearance="opaque" background="black" color="white" style="square">
-                <link target="back" />
-                <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
-            </button>
             <stacked_container x="2036" y="87" width="281" height="192" visible_index="0">
                 <list_input x="2036" y="87" color="black" width="281" height="192" index="0" name="Americas" name_col_width="177">
                     <numeric_input min="-25" max="25" precision="5">
@@ -2022,14 +2122,10 @@
                     </numeric_input>
                 </list_input>
             </stacked_container>
-            <text_box x="2930" y="151" uid="78" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
-            <text_box x="2937" y="316" uid="79" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Other Crops</text_box>
-            <text_box x="2940" y="524" uid="80" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Animal Products</text_box>
-            <text_box x="3051" y="3" uid="81" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Yield Scenarios</text_box>
-            <button x="3982" y="12" width="52" height="24" uid="82" appearance="opaque" background="black" color="white" style="square">
-                <link target="back" />
-                <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
-            </button>
+            <text_box x="2930" y="151" uid="70" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
+            <text_box x="2937" y="316" uid="71" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Other Crops</text_box>
+            <text_box x="2940" y="524" uid="72" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Animal Products</text_box>
+            <text_box x="3051" y="3" uid="73" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Yield Scenarios</text_box>
             <stacked_container x="3052" y="150" width="281" height="192" visible_index="0">
                 <list_input x="3052" y="150" color="black" width="281" height="192" index="0" name="Americas" name_col_width="177">
                     <numeric_input min="-25" max="25" precision="5">
@@ -2215,6 +2311,9 @@
                         <entity name="A_Global.ForageYieldPct" index="CHIHKG_1" />
                     </numeric_input>
                     <numeric_input min="-25" max="25" precision="5">
+                        <entity name="A_Global.ForageYieldPct" index="INDIA_1" />
+                    </numeric_input>
+                    <numeric_input min="-25" max="25" precision="5">
                         <entity name="A_Global.ForageYieldPct" index="RSASIA_1" />
                     </numeric_input>
                     <numeric_input min="-25" max="25" precision="5">
@@ -2234,14 +2333,10 @@
                     </numeric_input>
                 </list_input>
             </stacked_container>
-            <text_box x="3946" y="214" uid="83" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
-            <text_box x="3953" y="379" uid="84" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">All Other Non-forage Crops</text_box>
-            <text_box x="3954" y="852" uid="85" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Forage</text_box>
-            <text_box x="4064" y="3" uid="86" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Biofuel Scenarios</text_box>
-            <button x="4995" y="12" width="52" height="24" uid="87" appearance="opaque" background="black" color="white" style="square">
-                <link target="back" />
-                <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
-            </button>
+            <text_box x="3946" y="214" uid="74" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
+            <text_box x="3953" y="379" uid="75" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">All Other Non-forage Crops</text_box>
+            <text_box x="3954" y="852" uid="76" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Forage</text_box>
+            <text_box x="4064" y="3" uid="77" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Biofuel Scenarios</text_box>
             <stacked_container x="4065" y="186" width="281" height="192" visible_index="0">
                 <list_input x="4065" y="186" color="black" width="281" height="192" index="0" name="Americas" name_col_width="177">
                     <numeric_input min="-50" max="100" precision="5">
@@ -2311,47 +2406,33 @@
                     </numeric_input>
                 </list_input>
             </stacked_container>
-            <text_box x="5071" y="2" uid="88" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Simulation Control Panel</text_box>
-            <button x="6002" y="11" width="52" height="24" uid="89" appearance="opaque" background="black" color="white" style="square">
+            <text_box x="5071" y="2" uid="78" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Simulation Control Panel</text_box>
+            <button x="6002" y="11" width="52" height="24" uid="79" appearance="opaque" background="black" color="white" style="square">
                 <link target="back" />
                 <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
             </button>
-            <text_box x="1043" y="2223" uid="90" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Americas</text_box>
-            <text_box x="1313" y="2222" uid="91" color="red" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Europe | Russia | Africa</text_box>
-            <text_box x="1664" y="2224" uid="92" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="272" height="34">Russia | Asia | India | Oceania</text_box>
-            <button x="1076" y="481" width="223" height="37" uid="93" appearance="transparent" color="black" style="square" label="Baseline Scenarios" font-family="Arial" font-size="12" text-align="center" text-decoration="underline">
+            <text_box x="1043" y="2223" uid="80" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Americas</text_box>
+            <text_box x="1313" y="2222" uid="81" color="red" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="197" height="36">Europe | Russia | Africa</text_box>
+            <text_box x="1664" y="2224" uid="82" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="272" height="34">Russia | Asia | India | Oceania</text_box>
+            <button x="1076" y="481" width="223" height="37" uid="83" appearance="transparent" color="black" style="square" label="Baseline Scenarios" font-family="Arial" font-size="12" text-align="center" text-decoration="underline">
                 <link target="interface" x="1012" y="2088" />
             </button>
-            <text_box x="4959" y="250" uid="94" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
-            <text_box x="2558" y="14" uid="95" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
-            <stacked_container x="3050" y="1062" width="281" height="192" visible_index="0">
-                <list_input x="3050" y="1062" color="#FCC9FF" width="281" height="192" index="0" name="Americas" name_col_width="177" />
-            </stacked_container>
-            <text_box x="3570" y="11" uid="96" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
-            <stacked_container x="3330" y="1063" width="295" height="192" visible_index="0">
-                <list_input x="3330" y="1063" color="#FCC9FF" width="295" height="192" index="0" name="Europe|Russia|Africa" name_col_width="191" />
-            </stacked_container>
-            <text_box x="4078" y="112" uid="97" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="443" height="60">Set deviations from baseline scenarios&#x0D;+ 100% / - 50%.  change ramps in over period 2015-2020</text_box>
-            <button x="4222" y="525" width="223" height="37" uid="98" appearance="transparent" color="black" style="square" label="Baseline Scenarios" font-family="Arial" font-size="12" text-align="center" text-decoration="underline">
+            <text_box x="4959" y="250" uid="84" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Commodity&#x0D;Crops</text_box>
+            <text_box x="2558" y="14" uid="85" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
+            <text_box x="3570" y="11" uid="86" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
+            <text_box x="4078" y="112" uid="87" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="443" height="60">Set deviations from baseline scenarios&#x0D;+ 100% / - 50%.  change ramps in over period 2015-2020</text_box>
+            <button x="4222" y="525" width="223" height="37" uid="88" appearance="transparent" color="black" style="square" label="Baseline Scenarios" font-family="Arial" font-size="12" text-align="center" text-decoration="underline">
                 <link target="interface" x="4048" y="2088" />
             </button>
-            <stacked_container x="3629" y="1062" width="291" height="192" visible_index="0">
-                <list_input x="3629" y="1062" color="#FCC9FF" width="291" height="192" index="0" name="India|Asia|Oceania" name_col_width="187" />
-            </stacked_container>
-            <text_box x="3954" y="1094" uid="99" color="black" font-family="Arial" font-size="12" margin="5" border-style="solid" border-width="thin" width="77" height="60">Pasture</text_box>
-            <button x="82" y="273" width="331" height="38" uid="100" appearance="transparent" color="black" style="square" label="Forage and Pasture Yield Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <button x="82" y="273" width="331" height="38" uid="89" appearance="transparent" color="black" style="square" label="Forage and Pasture Yield Scenarios" font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="3036" y="696" />
             </button>
-            <text_box x="3044" y="700" uid="101" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Yield Scenarios</text_box>
-            <button x="3975" y="709" width="52" height="24" uid="102" appearance="opaque" background="black" color="white" style="square">
-                <link target="back" />
-                <image width="49" height="22">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAWCAIAAADmV+PFAAAA/ElEQVRIie2VQQqDMBBFJyWnEVxY8DTuu+kRpJcQ3JieQXdeomAWFnucdBGwIZnEEZRU8JPVGGdevpmRKaXgz8Q/bxmb4ae268tHeYmNgehkouloTEl63aPkYlrue1BU2doC0zgQscLCfSqq7N5QU0zjoNdWviI+mUCuW1KwRT9muHmnG9FBNJXNZAI9nRFfCwCxTGCiaP/c2j4ghEkKVucKcoAXuh+RRQCEWxwAQpimcUhSljUKAOSNUbk89XxwPvNwJgtrq1ZahYXPAo1FzG7dJ7cBzYgJ4cPyzidib6MHdYMWSvj10Bzf78OFdbT/XSydTDTxtutjM9j6ArvMjcQTzsdL</image>
-            </button>
-            <text_box x="3563" y="708" uid="103" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
-            <button x="456" y="263" width="208" height="38" uid="104" appearance="transparent" color="black" style="square" label="Run Simulations..." font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
+            <text_box x="3044" y="700" uid="90" color="black" font-family="Arial" font-size="24" margin="1" width="743" height="85" appearance="transparent">NREL Global Land Use Change Model &#x0D;Configure Yield Scenarios</text_box>
+            <text_box x="3563" y="708" uid="91" color="black" font-family="Arial" font-size="14" margin="5" border-style="solid" border-width="thin" width="352" height="60">Set deviations from baseline scenarios&#x0D;+ / - 25%.  change ramps in over period 2015-2020</text_box>
+            <button x="456" y="263" width="208" height="38" uid="92" appearance="transparent" color="black" style="square" label="Run Simulations..." font-family="Arial" font-size="18" text-align="left" text-decoration="underline">
                 <link target="interface" x="5060" y="0" />
             </button>
-            <button x="5343" y="626" width="115" height="35" uid="105" appearance="opaque" background="black" color="white" style="square" label="Export Now" font-family="Arial" font-size="12" text-align="center">
+            <button x="5343" y="626" width="115" height="35" uid="93" appearance="opaque" background="black" color="white" style="square" label="Export Now" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
                 <isee:export_now all="true" />
             </button>
