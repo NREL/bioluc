@@ -1,0 +1,50 @@
+Testing Checklist
+================
+
+- [ ]  Accuracy of the equations in the model 
+- [ ] Consistency of units of measure
+- [ ] Appropriateness of the variable names 
+- [ ] Spelling
+- [ ] Misleading names
+- [ ] Spaces and special characters
+- [ ] Input/output variables need special scrutiny
+- [ ] No fudge factors , unless there is a clear justification for them in terms of deficiencies in input data and modeling assumptions
+- [ ] Usability and functionality of the user interface 
+- [ ] Accuracy of labels
+- [ ] Behavior and ranges on controls
+- [ ] Clarity of graphs
+- [ ] Sufficiency and ability to run and interpret interesting scenarios
+- [ ] Accuracy, clarity, usability of the documentation and tutorials
+- [ ] Purpose, scope, and applicability/usage
+- [ ] Context and conceptual framework
+- [ ] Assumptions (resolution, processes, feedbacks, scenarios, exogeneities)
+- [ ] Inputs
+- [ ] Outputs
+- [ ] Calibration
+- [ ] Validation
+- [ ] Sensitivities
+- [ ] General reasonableness of metrics from canned scenarios, including  
+- [ ] Per capita consumption and shortfalls
+- [ ] Land usage
+- [ ] International trade flows
+- [ ] Ratio of vegetable to animal products
+- [ ] Reasonableness of system behavior, including  
+- [ ] Directionality of trends in response to input parameter changes
+- [ ] Response to perturbations (pulse, steps, ramps, etc.), especially
+- [ ] Stability or instability
+- [ ] Time scales of responses and intensity of damping
+- [ ] Stability of steady-state if inputs are appropriate
+- [ ] Extreme value testing for basic metrics
+- [ ] Non-negative stocks should stay positive
+- [ ] Independent variable in lookup functions stays within the domain of the function
+- [ ] Packaging of the model and data files for release, including license files 
+- [ ] The following items are out of scope:
+- [ ] Overall design of the model
+- [ ] Formulation of feedback
+- [ ] Verification of input data
+- [ ] Validation against historical data
+- [ ] Comparison against results and publications of other models
+- [ ] Sensitivity analysis
+- [ ] Comprehensive extreme value testing
+- [ ] Use on platforms other than STELLA 9.1.410.0.3 running on Windows
+- [ ] Section 508 compliance
