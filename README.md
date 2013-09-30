@@ -33,19 +33,27 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
 
 ##Licensing
 
+Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribute the work distribute the resulting work only under the same or similar license.
+
+Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
+
 ##File Structure and Description
 
 ####Models and Data
-Located within this folder are versions of the BioLUC model and
-The latest version of the BioLUC model is [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model).
+Located within this folder are versions of the BioLUC model. The latest version of the BioLUC model is [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model).
+
 Two files associated with latest version of model are located [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model/data). 
+
 The first file is “Outputs Visualizations.xlsx” which automatically visualizes results exported from BioLUC using the tables in the interface. When exporting data from BioLUC using the interface, the Excel file should already be open. See the “readme” spreadsheet in the “Outputs Visualizations.xlsx” file for additional directions.
+
 The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx “which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was proceed, and multiple alternative scenarios that can be used as input into BIOLUC See the “readme” spreadsheet for details, but this Excel file. THIS FILE IS IN PROGRESS AND WILL BE COMPLETED ON OCTOBER 7th.
+
 An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model)
 
 ####User Guidance
 Documentation of the BioLUC model can be found [here](https://github.com/NREL/bioluc/tree/master/documents).
 Documentation describes the model and directs users through the using the basic features of the BioLUC model.
+
 Portions of these documents are excerpted on the [wiki]( https://github.com/NREL/bioluc/wiki)
 
 ####Model Testing
