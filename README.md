@@ -26,11 +26,14 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
 ###Trial Version Will Not Allow:
 -	The running of the model
 -	The use of the user interface
+
 ###Trail Version Will Not Allow:
 -	Data importing
 -	Making or saving  changes to the model 
+
 ###Full Version Will:
 -	Allow access to all the features of the BioLUC model.
+
 ##Licensing
 ##File Structure and Description
 ###Models and Data
