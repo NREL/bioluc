@@ -3,14 +3,14 @@
 ##Development
 
 ####Project Team (alphabetical order): 
-Daniel Inman (National Renewable Energy Laboratory [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
+Daniel Inman ([National Renewable Energy Laboratory](http://www.nrel.gov/) [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
 
 ####Special Thanks (alphabetical order):
 Eric Bryant (NREL), Virginia Dale ([Oak Ridge National Laboratory](http://www.ornl.gov/) [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
 Gbadebo Oladosu (ORNL), John Sheehan ([University of Minnesota](http://www1.umn.edu/twincities/index.html)), Campbell Skinner ([Bangor University](http://www.bangor.ac.uk/)), Trisha Troop ([Aberystwyth University](http://www.aber.ac.uk/en/)) 
 
 ####Project Location and Funding
-Built in Golden, CO within [NREL's](http://www.nrel.gov/) [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
+Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
 This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
 
 ##Github
