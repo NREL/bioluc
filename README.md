@@ -13,23 +13,42 @@ Gbadebo Oladosu (ORNL), John Sheehan ([University of Minnesota](http://www1.umn.
 Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
 This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
 
-##Github
+##User Guidance
+
+####Github
 For directions on using Github please see Github guide available on the front page of your user profile.
 
-##Software
+####Software
 Running simulations requires [STELLA 10.0.3](http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx).
 See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
 
-####Trial Version Will Allow:
+#####Trial Version Will Allow:
 -	The running of the model
 -	The use of the user interface
 
-####Trail Version Will Not Allow:
+#####Trail Version Will Not Allow:
 -	Importing of data
 -	Making or saving  changes to the model 
 
-####Full Version Will:
+#####Full Version Will:
 -	Allow access to all the features of the BioLUC model.
+
+####Wiki and Frequently Asked Questions (FAQ)
+I wiki and FAQ is under development [here](https://github.com/NREL/bioluc/wiki).
+
+The wiki includes an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of know modeling limitations and data issues, and a FAQ.
+The wiki and FAQ are works in-progress for 2013/2014.
+
+####Interacting with the BioLUC Development Team
+We are open to questions unrelated to troubleshooting Github and Stella, the raising of theoritical associated with the model or the general topic of land use change, and documenting model bugs.
+
+Options for interactions with the project team:
+
+1.	Our prefered method is submission of an issue [ticket](https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open) to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). The use of tickets will prevent duplicatation of issues being raised for the project team and will allow for public tracking or the project teams response.
+
+2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly.
+
+Ethan can direct questions and issues to the appropriate project team member.
 
 ##Licensing
 
@@ -50,30 +69,10 @@ The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx �
 
 An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model)
 
-####User Guidance
-Documentation of the BioLUC model can be found [here](https://github.com/NREL/bioluc/tree/master/documents).
-Documentation describes the model and directs users through the using the basic features of the BioLUC model.
-
-Portions of these documents are excerpted on the [wiki]( https://github.com/NREL/bioluc/wiki)
-
 ####Model Testing
-Includes a presentation documenting the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
+[This](https://github.com/NREL/bioluc/tree/master/Model%20Testing) folder includes a presentation documenting the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
 The [Sensitivity Analysis](https://github.com/NREL/bioluc/tree/master/Model%20Testing/Senstivity%20Analysis) folder includes a report and sensitivity analysis completed by Eric Bryant using a semi-final version of the model.
 
 ####Workshop at Oak Ridge National Laboratory (ORNL) May 7-8th
-This folder contains documents and presentations used in the land use workshop at ORNL on May 7-8th.
+[This](https://github.com/NREL/bioluc/tree/master/Workshop%20at%20ORNL%20May%207-8th) folder contains documents and presentations used in the land use workshop at ORNL on May 7-8th.
 Please note that these documents may not be up to-date.
-
-##Wiki and Frequently Asked Questions (FAQ)
-I wiki and FAQ is under development [here](https://github.com/NREL/bioluc/wiki)
-The wiki include an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of know modeling limitations and data issues, and a FAQ.
-The wiki and FAQ are works in-progress for later in 2014.
-
-####Interacting with the BioLUC Development Team
-We are open to questions unrelated to troubleshooting Github and Stella, the raising of issues associated with the model or the general topic of land use change, and bugs associated with the BioLUC model.
-
-Options for interactions:
-
-1.	Submit an issue [ticket](https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open) to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). 
-
-2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly
