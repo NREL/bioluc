@@ -3,7 +3,7 @@
 ##Development
 ####Project Team (alphabetical order): 
 Daniel Inman (National Renewable Energy Laboratory [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
-###Special Thanks (alphabetical order):
+####Special Thanks (alphabetical order):
 Eric Bryant (NREL), Virginia Dale (Oak Ridge National Laboratory [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
 Gbadebo Oladosu (ORNL), John Sheehan (University of Minnesota), Campbell Skinner (Bangor University), Trisha Troop (Aberystwyth University) 
 ####Publishing Location and Funding
@@ -14,7 +14,7 @@ For directions on using Github please see Github guide available on the front pa
 ##Software
 Running simulations requires [STELLA 10.0.3](http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx).
 See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
-###Trial Version Will Allow:
+####Trial Version Will Allow:
 -	The running of the model
 -	The use of the user interface
 
