@@ -11,7 +11,7 @@ Gbadebo Oladosu (ORNL), John Sheehan ([University of Minnesota](http://www1.umn.
 
 ####Project Location and Funding
 Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
-This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
+This work was funded by the [United States Department of Energy’s](http://energy.gov/) [Bioenergy Technologies Office](http://www1.eere.energy.gov/bioenergy/) under agreement #: 22692
 
 ##Licensing
 
@@ -22,11 +22,11 @@ Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
 ##User Guidance
 
 ####Github
-For directions on using Github please see Github guide available on the front page of your user profile.
+For directions on using Github please see the Github guide available on the front page of your user profile.
 
 ####Software
 Running simulations requires [STELLA 10.0.3](http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx).
-See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
+See [ISEE Systems] (http://www.iseesystems.com) for documentation and training related to the Stella model.
 
 #####Trial Version Will Allow:
 -	The running of the model
