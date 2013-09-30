@@ -15,7 +15,7 @@ This work was funded by the United States Department of Energy’s Bioenergy Tec
 
 ##Licensing
 
-Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribute the work distribute the resulting work only under the same or similar license.
+Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribution. You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
 
 Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
 
