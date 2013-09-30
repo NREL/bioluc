@@ -48,7 +48,7 @@ Please note that these documents may not be up to-date.
 I wiki and FAQ is under development [here](https://github.com/NREL/bioluc/wiki)
 The wiki include an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of know modeling limitations and data issues, and a FAQ.
 The wiki and FAQ are works in-progress for later in 2014.
-###Interacting with the BioLUC Development Team
+####Interacting with the BioLUC Development Team
 We are open to questions unrelated to troubleshooting Github and Stella, the raising of issues associated with the model or the general topic of land use change, and bugs associated with the BioLUC model.
 
 Options for interactions:
