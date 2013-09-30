@@ -1,20 +1,10 @@
 #NEW BIOLUC USERS, PLEASE READ
 ##Development
 ###Project Team (in alphabetical order): 
-Daniel Inman (National Renewable Energy Laboratory [NREL]), 
-Steve Peterson (The Peterson Group)
-Laura Vimmerstadt (NREL)
-Ethan Warner (NREL)
+Daniel Inman (National Renewable Energy Laboratory [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
 ###Special Thanks (in alphabetical order):
-Eric Bryant (NREL)
-Virginia Dale (Oak Ridge National Laboratory [ORNL])
-Keith Kline (ORNL)
-Ben Kuntsman (NREL)
-Jordan Macknick (NREL)
-Gbadebo Oladosu (ORNL)
-John Sheehan (University of Minnesota)
-Campbell Skinner (Bangor University)
-Trisha Troop (Aberystwyth University) 
+Eric Bryant (NREL), Virginia Dale (Oak Ridge National Laboratory [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
+Gbadebo Oladosu (ORNL), John Sheehan (University of Minnesota), Campbell Skinner (Bangor University), Trisha Troop (Aberystwyth University) 
 ###Location and Funding
 Built within (NREL’s)[ http://www.nrel.gov/] in the (Strategic Energy Analysis Center)[http://www.nrel.gov/analysis/about_office.html]
 This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
