@@ -1,4 +1,4 @@
-#BioLUC
+#NEW BIOLUC USERS, PLEASE READ
 ##Development
 ###Project Team (in alphabetical order): 
 Daniel Inman (National Renewable Energy Laboratory [NREL]), 
