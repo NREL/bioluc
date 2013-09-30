@@ -1,12 +1,12 @@
 #NEW BIOLUC USERS, PLEASE READ
 ##Development
-###Project Team (in alphabetical order): 
+###Project Team (alphabetical order): 
 Daniel Inman (National Renewable Energy Laboratory [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
-###Special Thanks (in alphabetical order):
+###Special Thanks (alphabetical order):
 Eric Bryant (NREL), Virginia Dale (Oak Ridge National Laboratory [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
 Gbadebo Oladosu (ORNL), John Sheehan (University of Minnesota), Campbell Skinner (Bangor University), Trisha Troop (Aberystwyth University) 
 ###Publishing Location and Funding
-Built in Golden, CO within [NREL's](http://www.nrel.gov/) in the [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
+Built in Golden, CO within [NREL's](http://www.nrel.gov/) [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
 This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
 ##Github
 For directions on using Github please see Github guide available on the front page of your user profile.
@@ -39,7 +39,7 @@ Documentation describes the model and directs users through the using the basic 
 Portions of these documents are excerpted on the [wiki]( https://github.com/NREL/bioluc/wiki)
 ###Model Testing
 Includes a presentation documenting the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
-The “Sensitivity folder includes a report and sensitivity analysis completed by Eric Bryant using a semi-final version of the model.
+The [Sensitivity Analysis](https://github.com/NREL/bioluc/tree/master/Model%20Testing/Senstivity%20Analysis) folder includes a report and sensitivity analysis completed by Eric Bryant using a semi-final version of the model.
 ### Workshop at Oak Ridge National Laboratory (ORNL) May 7-8th
 This folder contains documents and presentations used in the land use workshop at ORNL on May 7-8th.
 Please note that these documents may not be up to-date.
