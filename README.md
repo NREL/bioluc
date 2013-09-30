@@ -25,7 +25,7 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
 -	The use of the user interface
 
 ####Trail Version Will Not Allow:
--	Data importing
+-	Importing of data
 -	Making or saving  changes to the model 
 
 ####Full Version Will:
