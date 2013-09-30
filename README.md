@@ -50,7 +50,9 @@ The wiki include an overview of the BioLUC model, additional guidance for using 
 The wiki and FAQ are works in-progress for later in 2014.
 ###Interacting with the BioLUC Development Team
 We are open to questions unrelated to troubleshooting Github and Stella, the raising of issues associated with the model or the general topic of land use change, and bugs associated with the BioLUC model.
+
 A couple options for interactions:
+
 1.	Submit an issue ticket to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). 
 
 2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly
