@@ -13,7 +13,7 @@ For directions on using Github please see Github guide available on the front pa
 ##Software
 Running simulations requires [STELLA 10.0.3](http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx).
 See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
-###Trial Version Will Not Allow:
+###Trial Version Will Allow:
 -	The running of the model
 -	The use of the user interface
 
@@ -25,6 +25,7 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training.
 -	Allow access to all the features of the BioLUC model.
 
 ##Licensing
+
 ##File Structure and Description
 ###Models and Data
 Located within this folder are versions of the BioLUC model and
@@ -51,4 +52,5 @@ The wiki and FAQ are works in-progress for later in 2014.
 We are open to questions unrelated to troubleshooting Github and Stella, the raising of issues associated with the model or the general topic of land use change, and bugs associated with the BioLUC model.
 A couple options for interactions:
 1.	Submit an issue ticket to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). 
+
 2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly
