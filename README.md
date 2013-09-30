@@ -59,7 +59,7 @@ Ethan can direct questions and issues to the appropriate project team member.
 ##File Structure and Description
 
 ####Models and Data
-Located within this folder are versions of the BioLUC model. The latest version of the BioLUC model is [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model).
+Located within [this](https://github.com/NREL/bioluc/tree/master/Model%20and%20Data) folder are versions of the BioLUC model. The latest version of the BioLUC model is [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model).
 
 Two files associated with latest version of model are located [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model/data). 
 
