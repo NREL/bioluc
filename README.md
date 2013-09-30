@@ -13,6 +13,12 @@ Gbadebo Oladosu (ORNL), John Sheehan ([University of Minnesota](http://www1.umn.
 Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
 This work was funded by the United States Department of Energy’s Bioenergy Technologies Office under agreement #: 22692
 
+##Licensing
+
+Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribute the work distribute the resulting work only under the same or similar license.
+
+Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
+
 ##User Guidance
 
 ####Github
@@ -49,12 +55,6 @@ Options for interactions with the project team:
 2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly.
 
 Ethan can direct questions and issues to the appropriate project team member.
-
-##Licensing
-
-Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribute the work distribute the resulting work only under the same or similar license.
-
-Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
 
 ##File Structure and Description
 
