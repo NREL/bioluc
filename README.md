@@ -3,7 +3,7 @@
 ##Development
 
 ####Project Team (alphabetical order): 
-Daniel Inman ([National Renewable Energy Laboratory](http://www.nrel.gov/) [NREL]), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
+Daniel Inman ([National Renewable Energy Laboratory](http://www.nrel.gov/) [NREL]), Brian Bush (NREL), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
 
 ####Special Thanks (alphabetical order):
 Eric Bryant (NREL), Virginia Dale ([Oak Ridge National Laboratory](http://www.ornl.gov/) [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
