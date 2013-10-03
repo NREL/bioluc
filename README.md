@@ -46,7 +46,7 @@ The wiki will include an overview of the BioLUC model, additional guidance for u
 The wiki and FAQ are works in-progress for 2013/2014. 
 
 ####Interacting with the BioLUC Development Team
-We are open to questions unrelated to troubleshooting Github and Stella, the raising of theoritical associated with the model or the general topic of land use change, and documenting model bugs.
+We are open to questions unrelated to troubleshooting Github and Stella, the raising of theoritical land use issues associated with the model or the general topic of land use change, and documenting model bugs.
 
 Options for interactions with the project team:
 
