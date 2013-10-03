@@ -40,7 +40,7 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training r
 -	Allow access to all the features of the BioLUC model.
 
 ####Wiki and Frequently Asked Questions (FAQ)
-I wiki and FAQ is under development [here](https://github.com/NREL/bioluc/wiki).
+The wiki and FAQ are under development [here](https://github.com/NREL/bioluc/wiki).
 
 The wiki will include an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of know modeling limitations and data issues, and a FAQ.
 The wiki and FAQ are works in-progress for 2013/2014. 
@@ -67,7 +67,7 @@ The first file is “Outputs Visualizations.xlsx” which automatically visualiz
 
 The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx“ which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was proceed, and multiple alternative scenarios that can be used as input into BIOLUC. See the “readme” spreadsheet for details. THIS DATA FILE IS IN PROGRESS AND WILL BE COMPLETED ON OCTOBER 7th.
 
-An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model). The 2-region version of the model corresponds to our concept paper in [Environmental Research Letters](http://iopscience.iop.org/1748-9326/8/1/015003).
+An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model). The 2-region version of the model corresponds to our concept paper in [Environmental Research Letters](http://iopscience.iop.org/1748-9326/8/1/015003). The 2-region version of the model is only available in version 9.1.4 of Stella.
 
 ####Model Testing
 [This](https://github.com/NREL/bioluc/tree/master/Model%20Testing) folder includes a presentation documenting the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
