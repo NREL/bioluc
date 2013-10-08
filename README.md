@@ -65,7 +65,7 @@ Two data files associated with latest version of model are located [here]( https
 
 The first file is “Outputs Visualizations.xlsx” which automatically visualizes results exported from BioLUC using the tables in the interface. When exporting data from BioLUC using the interface, the Excel file should already be open. See the “readme” spreadsheet in the “Outputs Visualizations.xlsx” file and directions in the user interface of the BioLUC model for additional directions.
 
-The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx“ which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was proceed, and multiple alternative scenarios that can be used as input into BIOLUC. See the “readme” spreadsheet for details. THIS DATA FILE IS IN PROGRESS AND WILL BE COMPLETED ON OCTOBER 7th.
+The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx“ which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was proceed, and multiple alternative scenarios that can be used as input into BIOLUC. See the “readme” spreadsheet for details.
 
 An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model). The 2-region version of the model corresponds to our concept paper in [Environmental Research Letters](http://iopscience.iop.org/1748-9326/8/1/015003). The 2-region version of the model is only available in version 9.1.4 of Stella.
 
