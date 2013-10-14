@@ -115,24 +115,24 @@
         </units>
     </model_units>
     <data>
-        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Data\Outputs.xlsx" worksheet="RawData Demand">
+        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" worksheet="RawData Demand">
             <table name="interface:Demand: p1" />
         </export>
-        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Data\Outputs.xlsx" worksheet="RawData Land">
+        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" worksheet="RawData Land">
             <table name="interface:LandUseAndPop: p1" />
         </export>
-        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Data\Outputs.xlsx" worksheet="RawData Shortfall">
+        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" worksheet="RawData Shortfall">
             <table name="interface:Shortfall: p1" />
         </export>
-        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Data\Outputs.xlsx" worksheet="RawData Trade">
+        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" worksheet="RawData Trade">
             <table name="interface:Trade: p1" />
         </export>
-        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\Steve Peterson\Documents\@ Work\NREL LUC\models\luc-2\version 10\BioLUC3 STELLA 10\Data\Outputs.xlsx" worksheet="RawData Yield">
+        <export type="Excel" frequency="on_demand" interval="1" orientation="horizontal" url="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" worksheet="RawData Yield">
             <table name="interface:Yield: p1" />
         </export>
     </data>
-    <isee:prefs layer="model" grid_width="20" grid_height="50" divide_by_zero_alert="true" hide_taskbar="true" show_module_prefix="true" hide_transparent_buttons="true">
-        <isee:window width="1680" height="968" />
+    <isee:prefs layer="interface" grid_width="20" grid_height="50" divide_by_zero_alert="true" hide_taskbar="true" show_module_prefix="true" hide_transparent_buttons="true">
+        <isee:window width="1600" height="818" />
         <isee:security />
         <isee:print_setup width="768" height="588" />
     </isee:prefs>
@@ -199,157 +199,157 @@
             <display x="618" y="500" color="#000D98" label_side="bottom" label_angle="275" />
         </module>
         <display show_pages="true" page_width="768" page_height="588" page_cols="11" page_rows="5" isee:show_values_on_hover="true" isee:converter_size="medium" zoom="150">
-            <connector x="374" y="264" uid="0" color="#E0E0E0">
+            <connector x="344" y="284" uid="0" color="#E0E0E0">
+                <from>Global</from>
+                <to>C_C_Amer</to>
+            </connector>
+            <connector x="470" y="495" uid="1" color="#E0E0E0">
+                <from>R_S_Asia</from>
+                <to>Global</to>
+            </connector>
+            <connector x="260" y="465" uid="2" color="#E0E0E0">
+                <from>S_S_AFR</from>
+                <to>Global</to>
+            </connector>
+            <connector x="587" y="248" uid="3" color="#E0E0E0">
+                <from>INDIA</from>
+                <to>Global</to>
+            </connector>
+            <connector x="595" y="480" uid="4" color="#E0E0E0">
+                <from>Oceania</from>
+                <to>Global</to>
+            </connector>
+            <connector x="662" y="194" uid="5" color="#E0E0E0">
+                <from>E_Asia</from>
+                <to>Global</to>
+            </connector>
+            <connector x="324" y="129" uid="6" color="#E0E0E0">
+                <from>EU27</from>
+                <to>Global</to>
+            </connector>
+            <connector x="374" y="264" uid="7" color="#E0E0E0">
                 <from>Global</from>
                 <to>Oth_CEE_CIS</to>
-            </connector>
-            <connector x="367" y="304" uid="1" color="#E0E0E0">
-                <from>Global</from>
-                <to>MEAS_NAfr</to>
-            </connector>
-            <connector x="510" y="127" uid="2" color="#E0E0E0">
-                <from>Russia</from>
-                <to>Global</to>
-            </connector>
-            <connector x="101" y="371" uid="3" color="#E0E0E0">
-                <from>BRAZIL</from>
-                <to>Global</to>
-            </connector>
-            <connector x="387" y="264" uid="4" color="#E0E0E0">
-                <from>Global</from>
-                <to>Russia</to>
-            </connector>
-            <connector x="656" y="290" uid="5" color="#E0E0E0">
-                <from>JAPAN</from>
-                <to>Global</to>
-            </connector>
-            <connector x="363" y="264" uid="6" color="#E0E0E0">
-                <from>Global</from>
-                <to>EU27</to>
-            </connector>
-            <connector x="583" y="156" uid="7" color="#E0E0E0">
-                <from>CHIHKG</from>
-                <to>Global</to>
             </connector>
             <connector x="344" y="277" uid="8" color="#E0E0E0">
                 <from>Global</from>
                 <to>USA</to>
             </connector>
-            <connector x="357" y="304" uid="9" color="#E0E0E0">
-                <from>Global</from>
-                <to>S_S_AFR</to>
-            </connector>
-            <connector x="260" y="465" uid="10" color="#E0E0E0">
-                <from>S_S_AFR</from>
+            <connector x="583" y="156" uid="9" color="#E0E0E0">
+                <from>CHIHKG</from>
                 <to>Global</to>
             </connector>
-            <connector x="349" y="264" uid="11" color="#E0E0E0">
-                <from>Global</from>
-                <to>R_Europe</to>
-            </connector>
-            <connector x="662" y="194" uid="12" color="#E0E0E0">
-                <from>E_Asia</from>
-                <to>Global</to>
-            </connector>
-            <connector x="407" y="130" uid="13" color="#E0E0E0">
-                <from>Oth_CEE_CIS</from>
-                <to>Global</to>
-            </connector>
-            <connector x="154" y="447" uid="14" color="#E0E0E0">
-                <from>S_o_Amer</from>
-                <to>Global</to>
-            </connector>
-            <connector x="392" y="304" uid="15" color="#E0E0E0">
-                <from>Global</from>
-                <to>Oceania</to>
-            </connector>
-            <connector x="344" y="284" uid="16" color="#E0E0E0">
-                <from>Global</from>
-                <to>C_C_Amer</to>
-            </connector>
-            <connector x="345" y="489" uid="17" color="#E0E0E0">
-                <from>MEAS_NAfr</from>
-                <to>Global</to>
-            </connector>
-            <connector x="595" y="480" uid="18" color="#E0E0E0">
-                <from>Oceania</from>
-                <to>Global</to>
-            </connector>
-            <connector x="587" y="248" uid="19" color="#E0E0E0">
-                <from>INDIA</from>
-                <to>Global</to>
-            </connector>
-            <connector x="619" y="415" uid="20" color="#E0E0E0">
-                <from>Mala_Indo</from>
-                <to>Global</to>
-            </connector>
-            <connector x="394" y="280" uid="21" color="#E0E0E0">
-                <from>Global</from>
-                <to>INDIA</to>
-            </connector>
-            <connector x="394" y="269" uid="22" color="#E0E0E0">
-                <from>Global</from>
-                <to>CHIHKG</to>
-            </connector>
-            <connector x="394" y="290" uid="23" color="#E0E0E0">
-                <from>Global</from>
-                <to>R_SE_Asia</to>
-            </connector>
-            <connector x="91" y="212" uid="24" color="#E0E0E0">
-                <from>USA</from>
-                <to>Global</to>
-            </connector>
-            <connector x="394" y="297" uid="25" color="#E0E0E0">
-                <from>Global</from>
-                <to>Mala_Indo</to>
-            </connector>
-            <connector x="231" y="142" uid="26" type="info" color="#E0E0E0">
-                <from>R_Europe</from>
-                <to>Global</to>
-            </connector>
-            <connector x="379" y="304" uid="27" color="#E0E0E0">
-                <from>Global</from>
-                <to>R_S_Asia</to>
-            </connector>
-            <connector x="470" y="495" uid="28" color="#E0E0E0">
-                <from>R_S_Asia</from>
-                <to>Global</to>
-            </connector>
-            <connector x="394" y="276" uid="29" color="#E0E0E0">
-                <from>Global</from>
-                <to>E_Asia</to>
-            </connector>
-            <connector x="344" y="303" uid="30" color="#E0E0E0">
-                <from>Global</from>
-                <to>S_o_Amer</to>
-            </connector>
-            <connector x="88" y="286" uid="31" color="#E0E0E0">
-                <from>C_C_Amer</from>
-                <to>Global</to>
-            </connector>
-            <connector x="344" y="270" uid="32" color="#E0E0E0">
-                <from>Global</from>
-                <to>CAN</to>
-            </connector>
-            <connector x="394" y="284" uid="33" color="#E0E0E0">
-                <from>Global</from>
-                <to>JAPAN</to>
-            </connector>
-            <connector x="344" y="292" uid="34" color="#E0E0E0">
-                <from>Global</from>
-                <to>BRAZIL</to>
-            </connector>
-            <connector x="133" y="147" uid="35" color="#E0E0E0">
+            <connector x="133" y="147" uid="10" color="#E0E0E0">
                 <from>CAN</from>
                 <to>Global</to>
             </connector>
-            <connector x="632" y="348" uid="36" color="#E0E0E0">
+            <connector x="394" y="290" uid="11" color="#E0E0E0">
+                <from>Global</from>
+                <to>R_SE_Asia</to>
+            </connector>
+            <connector x="394" y="276" uid="12" color="#E0E0E0">
+                <from>Global</from>
+                <to>E_Asia</to>
+            </connector>
+            <connector x="231" y="142" uid="13" type="info" color="#E0E0E0">
+                <from>R_Europe</from>
+                <to>Global</to>
+            </connector>
+            <connector x="619" y="415" uid="14" color="#E0E0E0">
+                <from>Mala_Indo</from>
+                <to>Global</to>
+            </connector>
+            <connector x="656" y="290" uid="15" color="#E0E0E0">
+                <from>JAPAN</from>
+                <to>Global</to>
+            </connector>
+            <connector x="394" y="269" uid="16" color="#E0E0E0">
+                <from>Global</from>
+                <to>CHIHKG</to>
+            </connector>
+            <connector x="91" y="212" uid="17" color="#E0E0E0">
+                <from>USA</from>
+                <to>Global</to>
+            </connector>
+            <connector x="387" y="264" uid="18" color="#E0E0E0">
+                <from>Global</from>
+                <to>Russia</to>
+            </connector>
+            <connector x="510" y="127" uid="19" color="#E0E0E0">
+                <from>Russia</from>
+                <to>Global</to>
+            </connector>
+            <connector x="392" y="304" uid="20" color="#E0E0E0">
+                <from>Global</from>
+                <to>Oceania</to>
+            </connector>
+            <connector x="88" y="286" uid="21" color="#E0E0E0">
+                <from>C_C_Amer</from>
+                <to>Global</to>
+            </connector>
+            <connector x="632" y="348" uid="22" color="#E0E0E0">
                 <from>R_SE_Asia</from>
                 <to>Global</to>
             </connector>
-            <connector x="324" y="129" uid="37" color="#E0E0E0">
-                <from>EU27</from>
+            <connector x="154" y="447" uid="23" color="#E0E0E0">
+                <from>S_o_Amer</from>
                 <to>Global</to>
+            </connector>
+            <connector x="349" y="264" uid="24" color="#E0E0E0">
+                <from>Global</from>
+                <to>R_Europe</to>
+            </connector>
+            <connector x="379" y="304" uid="25" color="#E0E0E0">
+                <from>Global</from>
+                <to>R_S_Asia</to>
+            </connector>
+            <connector x="363" y="264" uid="26" color="#E0E0E0">
+                <from>Global</from>
+                <to>EU27</to>
+            </connector>
+            <connector x="407" y="130" uid="27" color="#E0E0E0">
+                <from>Oth_CEE_CIS</from>
+                <to>Global</to>
+            </connector>
+            <connector x="101" y="371" uid="28" color="#E0E0E0">
+                <from>BRAZIL</from>
+                <to>Global</to>
+            </connector>
+            <connector x="394" y="297" uid="29" color="#E0E0E0">
+                <from>Global</from>
+                <to>Mala_Indo</to>
+            </connector>
+            <connector x="345" y="489" uid="30" color="#E0E0E0">
+                <from>MEAS_NAfr</from>
+                <to>Global</to>
+            </connector>
+            <connector x="394" y="280" uid="31" color="#E0E0E0">
+                <from>Global</from>
+                <to>INDIA</to>
+            </connector>
+            <connector x="357" y="304" uid="32" color="#E0E0E0">
+                <from>Global</from>
+                <to>S_S_AFR</to>
+            </connector>
+            <connector x="344" y="270" uid="33" color="#E0E0E0">
+                <from>Global</from>
+                <to>CAN</to>
+            </connector>
+            <connector x="394" y="284" uid="34" color="#E0E0E0">
+                <from>Global</from>
+                <to>JAPAN</to>
+            </connector>
+            <connector x="367" y="304" uid="35" color="#E0E0E0">
+                <from>Global</from>
+                <to>MEAS_NAfr</to>
+            </connector>
+            <connector x="344" y="303" uid="36" color="#E0E0E0">
+                <from>Global</from>
+                <to>S_o_Amer</to>
+            </connector>
+            <connector x="344" y="292" uid="37" color="#E0E0E0">
+                <from>Global</from>
+                <to>BRAZIL</to>
             </connector>
             <text_box x="0" y="0" uid="38" color="black" font-family="Arial" font-size="24" font-weight="bold" margin="1" width="746" height="40" appearance="transparent">NREL Global Land Use Change Model (BioLUC)</text_box>
             <text_box x="4" y="38" uid="39" color="black" font-family="Arial" font-size="18" font-style="italic" lock_text="true" margin="1" width="360" height="32" appearance="transparent">Double-click to enter a module</text_box>
@@ -358,7 +358,7 @@
             <simulation_delay>0</simulation_delay>
             <pages />
             <stacked_container x="5070" y="132" height="282" width="492" visible_index="0" uid="40">
-                <graph type="time_series" title="Major Land Categories" background="#FFFFC9" show_grid="true" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-831992923" cleared="true" time_precision="0" from="1991" to="2031">
+                <graph type="time_series" title="Major Land Categories" background="#FFFFC9" show_grid="true" numbers_on_plots="true" isee:use_five_segments="false" isee:date_time="-830425656" time_precision="0" from="1991" to="2031">
                     <plot index="0" pen_width="3" color="blue" precision="0" show_y_axis="true">
                         <scale min="0" max="6e+009" />
                         <entity name="Global.Near_Pristine_Land" />
@@ -383,7 +383,7 @@
             </stacked_container>
             <pad_icon x="5945" y="380" width="26" height="22" color="#008F44" label_side="bottom" label="Global population" type="graph" icon_of="40" />
             <stacked_container x="5570" y="132" height="282" width="492" visible_index="0" uid="41">
-                <graph type="time_series" title="population" background="#FFFFC9" show_grid="true" numbers_on_plots="false" isee:use_five_segments="false" isee:date_time="-831992923" cleared="true" time_precision="0" from="1991" to="2031">
+                <graph type="time_series" title="population" background="#FFFFC9" show_grid="true" numbers_on_plots="false" isee:use_five_segments="false" isee:date_time="-830425656" time_precision="0" from="1991" to="2031">
                     <plot index="0" pen_width="3" color="blue" precision="0" show_y_axis="true">
                         <scale min="0" max="1e+010" />
                         <entity name="Global.population" />
@@ -392,7 +392,7 @@
             </stacked_container>
             <pad_icon x="5715" y="273" width="26" height="22" color="#008F44" label_side="bottom" label="Graph 3" type="graph" icon_of="41" />
             <stacked_container x="6105" y="821" height="549" width="946" visible_index="0" uid="42">
-                <table title="Page 1 of 1" font-size="9" background="#E0E0E0" columns_width="64" orientation="horizontal" report_interval="1" isee:date_time="-831997927" cleared="true">
+                <table title="Page 1 of 1" font-size="9" background="#E0E0E0" columns_width="64" orientation="horizontal" report_interval="1" isee:date_time="-830425656" cleared="true">
                     <item type="time" color="black" text-align="left" precision="0" width="256" />
                     <item color="black" text-align="left" precision="0" thousands_separator="true" index="0">
                         <entity name="BRAZIL.Set_Aside_Land" />
@@ -1272,7 +1272,7 @@
             </stacked_container>
             <pad_icon x="6629" y="857" width="26" height="22" color="#008F44" label_side="bottom" label="LandUseAndPop" type="table" icon_of="42" />
             <stacked_container x="6106" y="2245" height="495" width="944" visible_index="0" uid="43">
-                <table title="(page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="100" orientation="horizontal" report_interval="1" isee:date_time="-831997927" cleared="true">
+                <table title="(page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="100" orientation="horizontal" report_interval="1" isee:date_time="-830425656" cleared="true">
                     <item type="time" color="black" text-align="left" precision="3" width="261" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="0">
                         <entity name="BRAZIL.per_capita_animal_product_demand" index="CowSheepGoat" />
@@ -1980,7 +1980,7 @@
             </stacked_container>
             <pad_icon x="6551" y="2398" width="26" height="22" color="#008F44" label_side="bottom" label="Demand" type="table" icon_of="43" />
             <stacked_container x="6112" y="2969" height="459" width="917" visible_index="0" uid="44">
-                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="121" orientation="horizontal" report_interval="1" isee:date_time="-831997927" cleared="true">
+                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="121" orientation="horizontal" report_interval="1" isee:date_time="-830425656" cleared="true">
                     <item type="time" color="black" text-align="left" precision="3" width="185" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="0">
                         <entity name="BRAZIL.commodity_crop_yield" index="Maize" />
@@ -1997,470 +1997,527 @@
                     <item color="black" text-align="left" precision="3" units="unspecified" index="4">
                         <entity name="BRAZIL.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="5">
-                        <entity name="BRAZIL.fiber_yield" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="5">
+                        <entity name="BRAZIL.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="6">
-                        <entity name="BRAZIL.other_yield" />
+                        <entity name="BRAZIL.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="7">
+                        <entity name="BRAZIL.other_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="8">
                         <entity name="BRAZIL.VFN_yield" />
                     </item>
-                    <item type="blank" index="8" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="9">
+                    <item type="blank" index="9" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="10">
                         <entity name="CAN.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="10">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="11">
                         <entity name="CAN.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="11">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="12">
                         <entity name="CAN.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="12">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="13">
                         <entity name="CAN.commodity_crop_yield" index="OilCrop" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="13">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="14">
                         <entity name="CAN.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="14">
-                        <entity name="CAN.fiber_yield" />
-                    </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="15">
-                        <entity name="CAN.other_yield" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="15">
+                        <entity name="CAN.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="16">
+                        <entity name="CAN.fiber_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="17">
+                        <entity name="CAN.other_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="18">
                         <entity name="CAN.VFN_yield" />
                     </item>
-                    <item type="blank" index="17" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="18">
+                    <item type="blank" index="19" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="20">
                         <entity name="CHIHKG.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="19">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="21">
                         <entity name="CHIHKG.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="20">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="22">
                         <entity name="CHIHKG.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="21">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="23">
                         <entity name="CHIHKG.commodity_crop_yield" index="OilCrop" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="22">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="24">
                         <entity name="CHIHKG.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="23">
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="25">
+                        <entity name="CHIHKG.crop_land_forage_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="26">
                         <entity name="CHIHKG.fiber_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="24">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="27">
                         <entity name="CHIHKG.other_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="25">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="28">
                         <entity name="CHIHKG.VFN_yield" />
                     </item>
-                    <item type="blank" index="26" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="27">
+                    <item type="blank" index="29" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="30">
                         <entity name="C_C_Amer.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="28">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="31">
                         <entity name="C_C_Amer.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="29">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="32">
                         <entity name="C_C_Amer.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="30">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="33">
                         <entity name="C_C_Amer.commodity_crop_yield" index="OilCrop" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="31">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="34">
                         <entity name="C_C_Amer.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="32">
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="35">
+                        <entity name="C_C_Amer.crop_land_forage_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="36">
                         <entity name="C_C_Amer.fiber_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="33">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="37">
                         <entity name="C_C_Amer.other_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="34">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="38">
                         <entity name="C_C_Amer.VFN_yield" />
                     </item>
-                    <item type="blank" index="35" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="36">
+                    <item type="blank" index="39" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="40">
                         <entity name="EU27.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="37">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="41">
                         <entity name="EU27.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="38">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="42">
                         <entity name="EU27.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="39">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="43">
                         <entity name="EU27.commodity_crop_yield" index="OilCrop" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="40">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="44">
                         <entity name="EU27.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="41">
-                        <entity name="EU27.fiber_yield" />
-                    </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="42">
-                        <entity name="EU27.other_yield" />
-                    </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="43">
-                        <entity name="EU27.VFN_yield" />
-                    </item>
-                    <item type="blank" index="44" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="45">
-                        <entity name="E_Asia.commodity_crop_yield" index="Maize" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="45">
+                        <entity name="EU27.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="46">
-                        <entity name="E_Asia.commodity_crop_yield" index="Wheat" />
+                        <entity name="EU27.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="47">
-                        <entity name="E_Asia.commodity_crop_yield" index="Rice" />
+                        <entity name="EU27.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="48">
-                        <entity name="E_Asia.commodity_crop_yield" index="OilCrop" />
+                        <entity name="EU27.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="49">
-                        <entity name="E_Asia.commodity_crop_yield" index="Sugar" />
-                    </item>
+                    <item type="blank" index="49" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="50">
-                        <entity name="E_Asia.fiber_yield" />
+                        <entity name="E_Asia.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="51">
-                        <entity name="E_Asia.other_yield" />
+                        <entity name="E_Asia.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="52">
-                        <entity name="E_Asia.VFN_yield" />
+                        <entity name="E_Asia.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item type="blank" index="53" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="53">
+                        <entity name="E_Asia.commodity_crop_yield" index="OilCrop" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="54">
-                        <entity name="INDIA.commodity_crop_yield" index="Maize" />
+                        <entity name="E_Asia.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="55">
-                        <entity name="INDIA.commodity_crop_yield" index="Wheat" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="55">
+                        <entity name="E_Asia.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="56">
-                        <entity name="INDIA.commodity_crop_yield" index="Rice" />
+                        <entity name="E_Asia.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="57">
-                        <entity name="INDIA.commodity_crop_yield" index="OilCrop" />
+                        <entity name="E_Asia.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="58">
-                        <entity name="INDIA.commodity_crop_yield" index="Sugar" />
+                        <entity name="E_Asia.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="59">
-                        <entity name="INDIA.fiber_yield" />
-                    </item>
+                    <item type="blank" index="59" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="60">
-                        <entity name="INDIA.other_yield" />
+                        <entity name="INDIA.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="61">
-                        <entity name="INDIA.VFN_yield" />
+                        <entity name="INDIA.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item type="blank" index="62" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="62">
+                        <entity name="INDIA.commodity_crop_yield" index="Rice" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="63">
-                        <entity name="JAPAN.commodity_crop_yield" index="Maize" />
+                        <entity name="INDIA.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="64">
-                        <entity name="JAPAN.commodity_crop_yield" index="Wheat" />
+                        <entity name="INDIA.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="65">
-                        <entity name="JAPAN.commodity_crop_yield" index="Rice" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="65">
+                        <entity name="INDIA.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="66">
-                        <entity name="JAPAN.commodity_crop_yield" index="OilCrop" />
+                        <entity name="INDIA.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="67">
-                        <entity name="JAPAN.commodity_crop_yield" index="Sugar" />
+                        <entity name="INDIA.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="68">
-                        <entity name="JAPAN.fiber_yield" />
+                        <entity name="INDIA.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="69">
-                        <entity name="JAPAN.other_yield" />
-                    </item>
+                    <item type="blank" index="69" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="70">
-                        <entity name="JAPAN.VFN_yield" />
+                        <entity name="JAPAN.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item type="blank" index="71" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="71">
+                        <entity name="JAPAN.commodity_crop_yield" index="Wheat" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="72">
-                        <entity name="Mala_Indo.commodity_crop_yield" index="Maize" />
+                        <entity name="JAPAN.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="73">
-                        <entity name="Mala_Indo.commodity_crop_yield" index="Wheat" />
+                        <entity name="JAPAN.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="74">
-                        <entity name="Mala_Indo.commodity_crop_yield" index="Rice" />
+                        <entity name="JAPAN.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="75">
-                        <entity name="Mala_Indo.commodity_crop_yield" index="OilCrop" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="75">
+                        <entity name="JAPAN.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="76">
-                        <entity name="Mala_Indo.commodity_crop_yield" index="Sugar" />
+                        <entity name="JAPAN.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="77">
-                        <entity name="Mala_Indo.fiber_yield" />
+                        <entity name="JAPAN.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="78">
-                        <entity name="Mala_Indo.other_yield" />
+                        <entity name="JAPAN.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="79">
-                        <entity name="Mala_Indo.VFN_yield" />
+                    <item type="blank" index="79" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="80">
+                        <entity name="Mala_Indo.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item type="blank" index="80" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="81">
-                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Maize" />
+                        <entity name="Mala_Indo.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="82">
-                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Wheat" />
+                        <entity name="Mala_Indo.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="83">
-                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Rice" />
+                        <entity name="Mala_Indo.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="84">
-                        <entity name="MEAS_NAfr.commodity_crop_yield" index="OilCrop" />
+                        <entity name="Mala_Indo.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="85">
-                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Sugar" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="85">
+                        <entity name="Mala_Indo.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="86">
-                        <entity name="MEAS_NAfr.fiber_yield" />
+                        <entity name="Mala_Indo.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="87">
-                        <entity name="MEAS_NAfr.other_yield" />
+                        <entity name="Mala_Indo.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="88">
-                        <entity name="MEAS_NAfr.VFN_yield" />
+                        <entity name="Mala_Indo.VFN_yield" />
                     </item>
                     <item type="blank" index="89" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="90">
-                        <entity name="Oceania.commodity_crop_yield" index="Maize" />
+                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="91">
-                        <entity name="Oceania.commodity_crop_yield" index="Wheat" />
+                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="92">
-                        <entity name="Oceania.commodity_crop_yield" index="Rice" />
+                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="93">
-                        <entity name="Oceania.commodity_crop_yield" index="OilCrop" />
+                        <entity name="MEAS_NAfr.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="94">
-                        <entity name="Oceania.commodity_crop_yield" index="Sugar" />
+                        <entity name="MEAS_NAfr.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="95">
-                        <entity name="Oceania.fiber_yield" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="95">
+                        <entity name="MEAS_NAfr.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="96">
-                        <entity name="Oceania.other_yield" />
+                        <entity name="MEAS_NAfr.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="97">
-                        <entity name="Oceania.VFN_yield" />
+                        <entity name="MEAS_NAfr.other_yield" />
                     </item>
-                    <item type="blank" index="98" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="99">
-                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Maize" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="98">
+                        <entity name="MEAS_NAfr.VFN_yield" />
                     </item>
+                    <item type="blank" index="99" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="100">
-                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Wheat" />
+                        <entity name="Oceania.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="101">
-                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Rice" />
+                        <entity name="Oceania.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="102">
-                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="OilCrop" />
+                        <entity name="Oceania.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="103">
-                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Sugar" />
+                        <entity name="Oceania.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="104">
-                        <entity name="Oth_CEE_CIS.fiber_yield" />
+                        <entity name="Oceania.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="105">
-                        <entity name="Oth_CEE_CIS.other_yield" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="105">
+                        <entity name="Oceania.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="106">
-                        <entity name="Oth_CEE_CIS.VFN_yield" />
+                        <entity name="Oceania.fiber_yield" />
                     </item>
-                    <item type="blank" index="107" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="107">
+                        <entity name="Oceania.other_yield" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="108">
-                        <entity name="Russia.commodity_crop_yield" index="Maize" />
+                        <entity name="Oceania.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="109">
-                        <entity name="Russia.commodity_crop_yield" index="Wheat" />
-                    </item>
+                    <item type="blank" index="109" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="110">
-                        <entity name="Russia.commodity_crop_yield" index="Rice" />
+                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="111">
-                        <entity name="Russia.commodity_crop_yield" index="OilCrop" />
+                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="112">
-                        <entity name="Russia.commodity_crop_yield" index="Sugar" />
+                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="113">
-                        <entity name="Russia.fiber_yield" />
+                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="114">
-                        <entity name="Russia.other_yield" />
+                        <entity name="Oth_CEE_CIS.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="115">
-                        <entity name="Russia.VFN_yield" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="115">
+                        <entity name="Oth_CEE_CIS.crop_land_forage_yield" />
                     </item>
-                    <item type="blank" index="116" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="116">
+                        <entity name="Oth_CEE_CIS.fiber_yield" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="117">
-                        <entity name="R_Europe.commodity_crop_yield" index="Maize" />
+                        <entity name="Oth_CEE_CIS.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="118">
-                        <entity name="R_Europe.commodity_crop_yield" index="Wheat" />
+                        <entity name="Oth_CEE_CIS.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="119">
-                        <entity name="R_Europe.commodity_crop_yield" index="Rice" />
-                    </item>
+                    <item type="blank" index="119" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="120">
-                        <entity name="R_Europe.commodity_crop_yield" index="OilCrop" />
+                        <entity name="Russia.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="121">
-                        <entity name="R_Europe.commodity_crop_yield" index="Sugar" />
+                        <entity name="Russia.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="122">
-                        <entity name="R_Europe.fiber_yield" />
+                        <entity name="Russia.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="123">
-                        <entity name="R_Europe.other_yield" />
+                        <entity name="Russia.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="124">
-                        <entity name="R_Europe.VFN_yield" />
+                        <entity name="Russia.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item type="blank" index="125" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="125">
+                        <entity name="Russia.crop_land_forage_yield" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="126">
-                        <entity name="R_SE_Asia.commodity_crop_yield" index="Maize" />
+                        <entity name="Russia.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="127">
-                        <entity name="R_SE_Asia.commodity_crop_yield" index="Wheat" />
+                        <entity name="Russia.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="128">
-                        <entity name="R_SE_Asia.commodity_crop_yield" index="Rice" />
+                        <entity name="Russia.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="129">
-                        <entity name="R_SE_Asia.commodity_crop_yield" index="OilCrop" />
-                    </item>
+                    <item type="blank" index="129" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="130">
-                        <entity name="R_SE_Asia.commodity_crop_yield" index="Sugar" />
+                        <entity name="R_Europe.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="131">
-                        <entity name="R_SE_Asia.fiber_yield" />
+                        <entity name="R_Europe.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="132">
-                        <entity name="R_SE_Asia.other_yield" />
+                        <entity name="R_Europe.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="133">
-                        <entity name="R_SE_Asia.VFN_yield" />
+                        <entity name="R_Europe.commodity_crop_yield" index="OilCrop" />
                     </item>
-                    <item type="blank" index="134" />
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="135">
-                        <entity name="R_S_Asia.commodity_crop_yield" index="Maize" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="134">
+                        <entity name="R_Europe.commodity_crop_yield" index="Sugar" />
+                    </item>
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="135">
+                        <entity name="R_Europe.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="136">
-                        <entity name="R_S_Asia.commodity_crop_yield" index="Wheat" />
+                        <entity name="R_Europe.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="137">
-                        <entity name="R_S_Asia.commodity_crop_yield" index="Rice" />
+                        <entity name="R_Europe.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="138">
-                        <entity name="R_S_Asia.commodity_crop_yield" index="OilCrop" />
+                        <entity name="R_Europe.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="139">
-                        <entity name="R_S_Asia.commodity_crop_yield" index="Sugar" />
-                    </item>
+                    <item type="blank" index="139" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="140">
-                        <entity name="R_S_Asia.fiber_yield" />
+                        <entity name="R_SE_Asia.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="141">
-                        <entity name="R_S_Asia.other_yield" />
+                        <entity name="R_SE_Asia.commodity_crop_yield" index="Wheat" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="142">
-                        <entity name="R_S_Asia.VFN_yield" />
+                        <entity name="R_SE_Asia.commodity_crop_yield" index="Rice" />
                     </item>
-                    <item type="blank" index="143" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="143">
+                        <entity name="R_SE_Asia.commodity_crop_yield" index="OilCrop" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="144">
-                        <entity name="S_o_Amer.commodity_crop_yield" index="Maize" />
+                        <entity name="R_SE_Asia.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="145">
-                        <entity name="S_o_Amer.commodity_crop_yield" index="Wheat" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="145">
+                        <entity name="R_SE_Asia.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="146">
-                        <entity name="S_o_Amer.commodity_crop_yield" index="Rice" />
+                        <entity name="R_SE_Asia.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="147">
-                        <entity name="S_o_Amer.commodity_crop_yield" index="OilCrop" />
+                        <entity name="R_SE_Asia.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="148">
-                        <entity name="S_o_Amer.commodity_crop_yield" index="Sugar" />
+                        <entity name="R_SE_Asia.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="149">
-                        <entity name="S_o_Amer.fiber_yield" />
-                    </item>
+                    <item type="blank" index="149" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="150">
-                        <entity name="S_o_Amer.other_yield" />
+                        <entity name="R_S_Asia.commodity_crop_yield" index="Maize" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="151">
-                        <entity name="S_o_Amer.VFN_yield" />
+                        <entity name="R_S_Asia.commodity_crop_yield" index="Wheat" />
                     </item>
-                    <item type="blank" index="152" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="152">
+                        <entity name="R_S_Asia.commodity_crop_yield" index="Rice" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="153">
-                        <entity name="S_S_AFR.commodity_crop_yield" index="Maize" />
+                        <entity name="R_S_Asia.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="154">
-                        <entity name="S_S_AFR.commodity_crop_yield" index="Wheat" />
+                        <entity name="R_S_Asia.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="155">
-                        <entity name="S_S_AFR.commodity_crop_yield" index="Rice" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="155">
+                        <entity name="R_S_Asia.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="156">
-                        <entity name="S_S_AFR.commodity_crop_yield" index="OilCrop" />
+                        <entity name="R_S_Asia.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="157">
-                        <entity name="S_S_AFR.commodity_crop_yield" index="Sugar" />
+                        <entity name="R_S_Asia.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="158">
-                        <entity name="S_S_AFR.fiber_yield" />
+                        <entity name="R_S_Asia.VFN_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="159">
-                        <entity name="S_S_AFR.other_yield" />
-                    </item>
+                    <item type="blank" index="159" />
                     <item color="black" text-align="left" precision="3" units="unspecified" index="160">
-                        <entity name="S_S_AFR.VFN_yield" />
+                        <entity name="S_o_Amer.commodity_crop_yield" index="Maize" />
                     </item>
-                    <item type="blank" index="161" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="161">
+                        <entity name="S_o_Amer.commodity_crop_yield" index="Wheat" />
+                    </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="162">
-                        <entity name="USA.commodity_crop_yield" index="Maize" />
+                        <entity name="S_o_Amer.commodity_crop_yield" index="Rice" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="163">
-                        <entity name="USA.commodity_crop_yield" index="Wheat" />
+                        <entity name="S_o_Amer.commodity_crop_yield" index="OilCrop" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="164">
-                        <entity name="USA.commodity_crop_yield" index="Rice" />
+                        <entity name="S_o_Amer.commodity_crop_yield" index="Sugar" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="165">
-                        <entity name="USA.commodity_crop_yield" index="OilCrop" />
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="165">
+                        <entity name="S_o_Amer.crop_land_forage_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="166">
-                        <entity name="USA.commodity_crop_yield" index="Sugar" />
+                        <entity name="S_o_Amer.fiber_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="167">
-                        <entity name="USA.fiber_yield" />
+                        <entity name="S_o_Amer.other_yield" />
                     </item>
                     <item color="black" text-align="left" precision="3" units="unspecified" index="168">
+                        <entity name="S_o_Amer.VFN_yield" />
+                    </item>
+                    <item type="blank" index="169" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="170">
+                        <entity name="S_S_AFR.commodity_crop_yield" index="Maize" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="171">
+                        <entity name="S_S_AFR.commodity_crop_yield" index="Wheat" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="172">
+                        <entity name="S_S_AFR.commodity_crop_yield" index="Rice" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="173">
+                        <entity name="S_S_AFR.commodity_crop_yield" index="OilCrop" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="174">
+                        <entity name="S_S_AFR.commodity_crop_yield" index="Sugar" />
+                    </item>
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="175">
+                        <entity name="S_S_AFR.crop_land_forage_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="176">
+                        <entity name="S_S_AFR.fiber_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="177">
+                        <entity name="S_S_AFR.other_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="178">
+                        <entity name="S_S_AFR.VFN_yield" />
+                    </item>
+                    <item type="blank" index="179" />
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="180">
+                        <entity name="USA.commodity_crop_yield" index="Maize" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="181">
+                        <entity name="USA.commodity_crop_yield" index="Wheat" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="182">
+                        <entity name="USA.commodity_crop_yield" index="Rice" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="183">
+                        <entity name="USA.commodity_crop_yield" index="OilCrop" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="184">
+                        <entity name="USA.commodity_crop_yield" index="Sugar" />
+                    </item>
+                    <item color="black" text-align="left" precision="2" thousands_separator="true" index="185">
+                        <entity name="USA.crop_land_forage_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="186">
+                        <entity name="USA.fiber_yield" />
+                    </item>
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="187">
                         <entity name="USA.other_yield" />
                     </item>
-                    <item color="black" text-align="left" precision="3" units="unspecified" index="169">
+                    <item color="black" text-align="left" precision="3" units="unspecified" index="188">
                         <entity name="USA.VFN_yield" />
                     </item>
                 </table>
             </stacked_container>
             <pad_icon x="6674" y="3236" width="26" height="22" color="#008F44" label_side="bottom" label="Yield" type="table" icon_of="44" />
             <stacked_container x="6103" y="1552" height="492" width="947" visible_index="0" uid="45">
-                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="59" orientation="horizontal" report_interval="1" isee:date_time="-831997927" cleared="true">
+                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="59" orientation="horizontal" report_interval="1" isee:date_time="-830425656" cleared="true">
                     <item type="time" color="black" text-align="left" precision="0" width="186" />
                     <item color="black" text-align="left" precision="2" thousands_separator="true" index="0">
                         <entity name="BRAZIL.AP_exports" index="CowSheepGoat" />
@@ -3510,7 +3567,7 @@
             </stacked_container>
             <pad_icon x="6310" y="1618" width="26" height="22" color="#008F44" label_side="bottom" label="Trade" type="table" icon_of="45" />
             <stacked_container x="6127" y="3676" height="454" width="904" visible_index="0" uid="46">
-                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="88" orientation="horizontal" report_interval="1" isee:date_time="-831997927" cleared="true">
+                <table title="(Page 1 of 1)" font-size="9" background="#E0E0E0" columns_width="88" orientation="horizontal" report_interval="1" isee:date_time="-830425656" cleared="true">
                     <item type="time" color="black" text-align="left" precision="0" width="267" />
                     <item color="black" text-align="left" precision="0" thousands_separator="true" flow_concept="true" index="0">
                         <entity name="BRAZIL.AP_commodity_consn_shortfall" index="Maize" />
@@ -5120,23 +5177,23 @@
             </button>
             <button x="6892" y="772" width="159" height="39" uid="65" appearance="opaque" background="black" color="white" style="square" label="Export Land Use and population to Excel" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
-                <isee:export_now location="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\data\Outputs.xlsx" sheet="RawData Land" />
+                <isee:export_now location="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" sheet="RawData Land" />
             </button>
             <button x="6866" y="2188" width="184" height="36" uid="66" appearance="opaque" background="black" color="white" style="square" label="Export Demand  Data to Excel" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
-                <isee:export_now location="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\data\Outputs.xlsx" sheet="RawData Demand" />
+                <isee:export_now location="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" sheet="RawData Demand" />
             </button>
             <button x="6879" y="2906" width="147" height="42" uid="67" appearance="opaque" background="black" color="white" style="square" label="Export Yield Data to Excel" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
-                <isee:export_now location="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\data\Outputs.xlsx" sheet="RawData Yield" />
+                <isee:export_now location="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" sheet="RawData Yield" />
             </button>
             <button x="6888" y="1500" width="160" height="37" uid="68" appearance="opaque" background="black" color="white" style="square" label="Export Trade Data to Excel" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
-                <isee:export_now location="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\data\Outputs.xlsx" sheet="RawData Trade" />
+                <isee:export_now location="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" sheet="RawData Trade" />
             </button>
             <button x="6847" y="3622" width="180" height="34" uid="69" appearance="opaque" background="black" color="white" style="square" label="Export Shortfall Data to Excel" font-family="Arial" font-size="12" text-align="center">
                 <menu_action>export_now</menu_action>
-                <isee:export_now location="C:\Users\ewarner\Desktop\LUC SVN\bsm\trunk\global\models\luc-2\version 10\BioLUC3 STELLA 10\data\Outputs.xlsx" sheet="RawData Shortfall" />
+                <isee:export_now location="C:\Users\ewarner\Documents\GitHub\bioluc\Model and Data\19-Region Model\Data\Outputs Visualizations.xlsx" sheet="RawData Shortfall" />
             </button>
             <button x="1949" y="2100" width="52" height="24" uid="70" appearance="opaque" background="black" color="white" style="square">
                 <link target="interface" x="1012" y="0" />

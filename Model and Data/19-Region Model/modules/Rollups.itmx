@@ -66,25 +66,25 @@
             </dimensions>
             <eqn>BRAZIL.potential_exports[Commodity] + &#x0A;CAN.potential_exports[Commodity] + &#x0A;CHIHKG.potential_exports[Commodity]+&#x0A;C_C_Amer.potential_exports[Commodity]+&#x0A;E_Asia.potential_exports[Commodity]+&#x0A;EU27.potential_exports[Commodity]+&#x0A;INDIA.potential_exports[Commodity]+&#x0A;JAPAN.potential_exports[Commodity]+&#x0A;Mala_Indo.potential_exports[Commodity]+&#x0A;MEAS_NAfr.potential_exports[Commodity]+&#x0A;Oceania.potential_exports[Commodity]+&#x0A;Oth_CEE_CIS.potential_exports[Commodity]+&#x0A;Russia.potential_exports[Commodity]+&#x0A;R_Europe.potential_exports[Commodity]+&#x0A;R_SE_Asia.potential_exports[Commodity]+&#x0A;R_S_Asia.potential_exports[Commodity]+&#x0A;S_o_Amer.potential_exports[Commodity]+&#x0A;S_S_AFR.potential_exports[Commodity]+&#x0A;USA.potential_exports[Commodity]</eqn>
             <units>gigagrams/yr</units>
-            <to>CAN.Total_desired_CP_Export</to>
-            <to>Mala_Indo.Total_desired_CP_Export</to>
-            <to>Russia.Total_desired_CP_Export</to>
-            <to>Oceania.Total_desired_CP_Export</to>
-            <to>EU27.Total_desired_CP_Export</to>
-            <to>R_SE_Asia.Total_desired_CP_Export</to>
-            <to>JAPAN.Total_desired_CP_Export</to>
-            <to>BRAZIL.Total_desired_CP_Export</to>
+            <to>INDIA.Total_desired_CP_Export</to>
             <to>CHIHKG.Total_desired_CP_Export</to>
-            <to>E_Asia.Total_desired_CP_Export</to>
-            <to>R_Europe.Total_desired_CP_Export</to>
-            <to>USA.Total_desired_CP_Export</to>
-            <to>S_o_Amer.Total_desired_CP_Export</to>
+            <to>S_S_AFR.Total_desired_CP_Export</to>
             <to>R_S_Asia.Total_desired_CP_Export</to>
             <to>Oth_CEE_CIS.Total_desired_CP_Export</to>
-            <to>INDIA.Total_desired_CP_Export</to>
+            <to>JAPAN.Total_desired_CP_Export</to>
+            <to>Mala_Indo.Total_desired_CP_Export</to>
+            <to>S_o_Amer.Total_desired_CP_Export</to>
+            <to>BRAZIL.Total_desired_CP_Export</to>
+            <to>E_Asia.Total_desired_CP_Export</to>
             <to>MEAS_NAfr.Total_desired_CP_Export</to>
-            <to>S_S_AFR.Total_desired_CP_Export</to>
+            <to>R_SE_Asia.Total_desired_CP_Export</to>
+            <to>CAN.Total_desired_CP_Export</to>
             <to>C_C_Amer.Total_desired_CP_Export</to>
+            <to>Oceania.Total_desired_CP_Export</to>
+            <to>USA.Total_desired_CP_Export</to>
+            <to>Russia.Total_desired_CP_Export</to>
+            <to>R_Europe.Total_desired_CP_Export</to>
+            <to>EU27.Total_desired_CP_Export</to>
             <display x="1096" y="842" color="#008F44" label_side="top" label_angle="103" />
         </aux>
         <aux name="TOTAL_potential_CP_imports" access="output">
@@ -94,25 +94,25 @@
             </dimensions>
             <eqn>BRAZIL.potential_imports[Commodity]+&#x0A;CAN.potential_imports[Commodity]+&#x0A;CHIHKG.potential_imports[Commodity]+&#x0A;C_C_Amer.potential_imports[Commodity]+&#x0A;EU27.potential_imports[Commodity]+&#x0A;E_Asia.potential_imports[Commodity]+&#x0A;INDIA.potential_imports[Commodity]+&#x0A;JAPAN.potential_imports[Commodity]+&#x0A;Mala_Indo.potential_imports[Commodity]+&#x0A;MEAS_NAfr.potential_imports[Commodity]+&#x0A;Oceania.potential_imports[Commodity]+&#x0A;Oth_CEE_CIS.potential_imports[Commodity]+&#x0A;Russia.potential_imports[Commodity]+&#x0A;R_Europe.potential_imports[Commodity]+&#x0A;R_SE_Asia.potential_imports[Commodity]+&#x0A;R_S_Asia.potential_imports[Commodity]+&#x0A;S_o_Amer.potential_imports[Commodity]+&#x0A;S_S_AFR.potential_imports[Commodity]+&#x0A;USA.potential_imports[Commodity]</eqn>
             <units>gigagrams/yr</units>
-            <to>Oth_CEE_CIS.TOTAL_Desired_CP_Import</to>
-            <to>R_SE_Asia.TOTAL_Desired_CP_Import</to>
-            <to>JAPAN.TOTAL_Desired_CP_Import</to>
-            <to>INDIA.TOTAL_Desired_CP_Import</to>
-            <to>Russia.TOTAL_Desired_CP_Import</to>
-            <to>S_o_Amer.TOTAL_Desired_CP_Import</to>
-            <to>R_Europe.TOTAL_Desired_CP_Import</to>
-            <to>S_S_AFR.TOTAL_Desired_CP_Import</to>
-            <to>BRAZIL.TOTAL_Desired_CP_Import</to>
-            <to>C_C_Amer.TOTAL_Desired_CP_Import</to>
-            <to>CAN.TOTAL_Desired_CP_Import</to>
+            <to>MEAS_NAfr.TOTAL_Desired_CP_Import</to>
             <to>USA.TOTAL_Desired_CP_Import</to>
             <to>CHIHKG.TOTAL_Desired_CP_Import</to>
+            <to>JAPAN.TOTAL_Desired_CP_Import</to>
             <to>R_S_Asia.TOTAL_Desired_CP_Import</to>
-            <to>MEAS_NAfr.TOTAL_Desired_CP_Import</to>
-            <to>E_Asia.TOTAL_Desired_CP_Import</to>
-            <to>EU27.TOTAL_Desired_CP_Import</to>
-            <to>Mala_Indo.TOTAL_Desired_CP_Import</to>
+            <to>Oth_CEE_CIS.TOTAL_Desired_CP_Import</to>
+            <to>INDIA.TOTAL_Desired_CP_Import</to>
+            <to>C_C_Amer.TOTAL_Desired_CP_Import</to>
             <to>Oceania.TOTAL_Desired_CP_Import</to>
+            <to>Russia.TOTAL_Desired_CP_Import</to>
+            <to>S_o_Amer.TOTAL_Desired_CP_Import</to>
+            <to>CAN.TOTAL_Desired_CP_Import</to>
+            <to>EU27.TOTAL_Desired_CP_Import</to>
+            <to>BRAZIL.TOTAL_Desired_CP_Import</to>
+            <to>Mala_Indo.TOTAL_Desired_CP_Import</to>
+            <to>R_SE_Asia.TOTAL_Desired_CP_Import</to>
+            <to>E_Asia.TOTAL_Desired_CP_Import</to>
+            <to>S_S_AFR.TOTAL_Desired_CP_Import</to>
+            <to>R_Europe.TOTAL_Desired_CP_Import</to>
             <display x="313" y="864" color="#008F44" label_side="top" label_angle="43" />
         </aux>
         <aux name="total_interregional_CP_flow" access="output">
@@ -121,25 +121,25 @@
             </dimensions>
             <eqn>MIN(TOTAL_potential_CP_exports[Commodity],TOTAL_potential_CP_imports[Commodity]) </eqn>
             <units>gigagrams/yr</units>
-            <to>R_S_Asia.TOTAL_Actual_CP_import_export</to>
+            <to>Oth_CEE_CIS.TOTAL_Actual_CP_import_export</to>
+            <to>CHIHKG.TOTAL_Actual_CP_import_export</to>
             <to>Oceania.TOTAL_Actual_CP_import_export</to>
-            <to>E_Asia.TOTAL_Actual_CP_import_export</to>
             <to>CAN.TOTAL_Actual_CP_import_export</to>
             <to>MEAS_NAfr.TOTAL_Actual_CP_import_export</to>
-            <to>R_SE_Asia.TOTAL_Actual_CP_import_export</to>
-            <to>CHIHKG.TOTAL_Actual_CP_import_export</to>
-            <to>USA.TOTAL_Actual_CP_import_export</to>
-            <to>Oth_CEE_CIS.TOTAL_Actual_CP_import_export</to>
-            <to>S_o_Amer.TOTAL_Actual_CP_import_export</to>
+            <to>R_S_Asia.TOTAL_Actual_CP_import_export</to>
+            <to>BRAZIL.TOTAL_Actual_CP_import_export</to>
             <to>Russia.TOTAL_Actual_CP_import_export</to>
-            <to>R_Europe.TOTAL_Actual_CP_import_export</to>
-            <to>INDIA.TOTAL_Actual_CP_import_export</to>
+            <to>EU27.TOTAL_Actual_CP_import_export</to>
+            <to>S_o_Amer.TOTAL_Actual_CP_import_export</to>
             <to>C_C_Amer.TOTAL_Actual_CP_import_export</to>
             <to>Mala_Indo.TOTAL_Actual_CP_import_export</to>
-            <to>S_S_AFR.TOTAL_Actual_CP_import_export</to>
-            <to>BRAZIL.TOTAL_Actual_CP_import_export</to>
             <to>JAPAN.TOTAL_Actual_CP_import_export</to>
-            <to>EU27.TOTAL_Actual_CP_import_export</to>
+            <to>INDIA.TOTAL_Actual_CP_import_export</to>
+            <to>E_Asia.TOTAL_Actual_CP_import_export</to>
+            <to>USA.TOTAL_Actual_CP_import_export</to>
+            <to>R_SE_Asia.TOTAL_Actual_CP_import_export</to>
+            <to>S_S_AFR.TOTAL_Actual_CP_import_export</to>
+            <to>R_Europe.TOTAL_Actual_CP_import_export</to>
             <display x="997" y="164" color="#008F44" label_side="right" label_angle="356" />
         </aux>
         <aux name="Near_Pristine_Land">
@@ -262,25 +262,25 @@
             </dimensions>
             <eqn>BRAZIL.potential_AP_exports[AnimalProduct] +&#x0A;CAN.potential_AP_exports[AnimalProduct] +&#x0A;CHIHKG.potential_AP_exports[AnimalProduct] +&#x0A;C_C_Amer.potential_AP_exports[AnimalProduct] +&#x0A;EU27.potential_AP_exports[AnimalProduct] +&#x0A;E_Asia.potential_AP_exports[AnimalProduct] +&#x0A;INDIA.potential_AP_exports[AnimalProduct] +&#x0A;JAPAN.potential_AP_exports[AnimalProduct] +&#x0A;Mala_Indo.potential_AP_exports[AnimalProduct] +&#x0A;MEAS_NAfr.potential_AP_exports[AnimalProduct] +&#x0A;Oceania.potential_AP_exports[AnimalProduct] +&#x0A;Oth_CEE_CIS.potential_AP_exports[AnimalProduct] +&#x0A;Russia.potential_AP_exports[AnimalProduct] +&#x0A;R_Europe.potential_AP_exports[AnimalProduct] +&#x0A;R_SE_Asia.potential_AP_exports[AnimalProduct] +&#x0A;R_S_Asia.potential_AP_exports[AnimalProduct] +&#x0A;S_o_Amer.potential_AP_exports[AnimalProduct] +&#x0A;S_S_AFR.potential_AP_exports[AnimalProduct] +&#x0A;USA.potential_AP_exports[AnimalProduct]</eqn>
             <units>gigagrams/yr</units>
-            <to>R_Europe.TOTAL_desired_AP_export</to>
-            <to>JAPAN.TOTAL_desired_AP_export</to>
-            <to>USA.TOTAL_desired_AP_export</to>
+            <to>C_C_Amer.TOTAL_desired_AP_export</to>
             <to>Oceania.TOTAL_desired_AP_export</to>
-            <to>CHIHKG.TOTAL_desired_AP_export</to>
-            <to>MEAS_NAfr.TOTAL_desired_AP_export</to>
-            <to>Mala_Indo.TOTAL_desired_AP_export</to>
-            <to>EU27.TOTAL_desired_AP_export</to>
+            <to>JAPAN.TOTAL_desired_AP_export</to>
             <to>R_S_Asia.TOTAL_desired_AP_export</to>
             <to>S_S_AFR.TOTAL_desired_AP_export</to>
+            <to>E_Asia.TOTAL_desired_AP_export</to>
             <to>BRAZIL.TOTAL_desired_AP_export</to>
             <to>Oth_CEE_CIS.TOTAL_desired_AP_export</to>
-            <to>C_C_Amer.TOTAL_desired_AP_export</to>
+            <to>R_Europe.TOTAL_desired_AP_export</to>
+            <to>Russia.TOTAL_desired_AP_export</to>
+            <to>CHIHKG.TOTAL_desired_AP_export</to>
+            <to>MEAS_NAfr.TOTAL_desired_AP_export</to>
             <to>S_o_Amer.TOTAL_desired_AP_export</to>
             <to>CAN.TOTAL_desired_AP_export</to>
+            <to>USA.TOTAL_desired_AP_export</to>
+            <to>EU27.TOTAL_desired_AP_export</to>
             <to>INDIA.TOTAL_desired_AP_export</to>
             <to>R_SE_Asia.TOTAL_desired_AP_export</to>
-            <to>E_Asia.TOTAL_desired_AP_export</to>
-            <to>Russia.TOTAL_desired_AP_export</to>
+            <to>Mala_Indo.TOTAL_desired_AP_export</to>
             <display x="1135" y="1473" color="#008F44" label_side="top" label_angle="143" />
         </aux>
         <aux name="TOTAL_potential_AP_imports" access="output">
@@ -290,25 +290,25 @@
             </dimensions>
             <eqn>BRAZIL.potential_AP_imports[AnimalProduct] +&#x0A;CAN.potential_AP_imports[AnimalProduct] +&#x0A;CHIHKG.potential_AP_imports[AnimalProduct] +&#x0A;C_C_Amer.potential_AP_imports[AnimalProduct] +&#x0A;EU27.potential_AP_imports[AnimalProduct] +&#x0A;E_Asia.potential_AP_imports[AnimalProduct] +&#x0A;INDIA.potential_AP_imports[AnimalProduct] +&#x0A;JAPAN.potential_AP_imports[AnimalProduct] +&#x0A;Mala_Indo.potential_AP_imports[AnimalProduct] +&#x0A;MEAS_NAfr.potential_AP_imports[AnimalProduct] +&#x0A;Oceania.potential_AP_imports[AnimalProduct] +&#x0A;Oth_CEE_CIS.potential_AP_imports[AnimalProduct]+&#x0A;Russia.potential_AP_imports[AnimalProduct] +&#x0A;R_Europe.potential_AP_imports[AnimalProduct] +&#x0A;R_SE_Asia.potential_AP_imports[AnimalProduct] +&#x0A;R_S_Asia.potential_AP_imports[AnimalProduct] +&#x0A;S_S_AFR.potential_AP_imports[AnimalProduct] +&#x0A;USA.potential_AP_imports[AnimalProduct] +&#x0A;S_o_Amer.potential_AP_imports</eqn>
             <units>gigagrams/yr</units>
-            <to>MEAS_NAfr.TOTAL_desired_AP_imports</to>
-            <to>INDIA.TOTAL_desired_AP_imports</to>
-            <to>R_Europe.TOTAL_desired_AP_imports</to>
             <to>CHIHKG.TOTAL_desired_AP_imports</to>
-            <to>USA.TOTAL_desired_AP_imports</to>
-            <to>JAPAN.TOTAL_desired_AP_imports</to>
-            <to>Russia.TOTAL_desired_AP_imports</to>
-            <to>S_S_AFR.TOTAL_desired_AP_imports</to>
-            <to>C_C_Amer.TOTAL_desired_AP_imports</to>
-            <to>Oceania.TOTAL_desired_AP_imports</to>
-            <to>R_SE_Asia.TOTAL_desired_AP_imports</to>
-            <to>EU27.TOTAL_desired_AP_imports</to>
-            <to>S_o_Amer.TOTAL_desired_AP_imports</to>
-            <to>Oth_CEE_CIS.TOTAL_desired_AP_imports</to>
-            <to>Mala_Indo.TOTAL_desired_AP_imports</to>
-            <to>E_Asia.TOTAL_desired_AP_imports</to>
-            <to>R_S_Asia.TOTAL_desired_AP_imports</to>
+            <to>INDIA.TOTAL_desired_AP_imports</to>
             <to>CAN.TOTAL_desired_AP_imports</to>
+            <to>Russia.TOTAL_desired_AP_imports</to>
+            <to>S_o_Amer.TOTAL_desired_AP_imports</to>
+            <to>Oceania.TOTAL_desired_AP_imports</to>
+            <to>JAPAN.TOTAL_desired_AP_imports</to>
+            <to>R_Europe.TOTAL_desired_AP_imports</to>
+            <to>Mala_Indo.TOTAL_desired_AP_imports</to>
+            <to>Oth_CEE_CIS.TOTAL_desired_AP_imports</to>
+            <to>USA.TOTAL_desired_AP_imports</to>
+            <to>R_S_Asia.TOTAL_desired_AP_imports</to>
+            <to>MEAS_NAfr.TOTAL_desired_AP_imports</to>
             <to>BRAZIL.TOTAL_desired_AP_imports</to>
+            <to>C_C_Amer.TOTAL_desired_AP_imports</to>
+            <to>E_Asia.TOTAL_desired_AP_imports</to>
+            <to>EU27.TOTAL_desired_AP_imports</to>
+            <to>S_S_AFR.TOTAL_desired_AP_imports</to>
+            <to>R_SE_Asia.TOTAL_desired_AP_imports</to>
             <display x="333" y="1318" color="#008F44" label_side="top" label_angle="94" />
         </aux>
         <aux name="total_interregional_AP_flow" access="output">
@@ -317,24 +317,24 @@
             </dimensions>
             <eqn> MIN(TOTAL_desired_AP_exports[AnimalProduct],TOTAL_potential_AP_imports[AnimalProduct]) </eqn>
             <units>gigagrams/yr</units>
-            <to>USA.TOTAL_Actual_AP_import\export</to>
-            <to>C_C_Amer.TOTAL_Actual_AP_import\export</to>
-            <to>R_Europe.TOTAL_Actual_AP_import\export</to>
-            <to>BRAZIL.TOTAL_Actual_AP_import\export</to>
-            <to>Oceania.TOTAL_Actual_AP_import\export</to>
-            <to>Russia.TOTAL_Actual_AP_import\export</to>
-            <to>E_Asia.TOTAL_Actual_AP_import\export</to>
-            <to>CAN.TOTAL_Actual_AP_import\export</to>
-            <to>R_SE_Asia.TOTAL_Actual_AP_import\export</to>
-            <to>INDIA.TOTAL_Actual_AP_import\export</to>
-            <to>S_S_AFR.TOTAL_Actual_AP_import\export</to>
-            <to>S_o_Amer.TOTAL_Actual_AP_import\export</to>
-            <to>MEAS_NAfr.TOTAL_Actual_AP_import\export</to>
-            <to>EU27.TOTAL_Actual_AP_import\export</to>
-            <to>CHIHKG.TOTAL_Actual_AP_import\export</to>
             <to>Mala_Indo.TOTAL_Actual_AP_import\export</to>
+            <to>R_SE_Asia.TOTAL_Actual_AP_import\export</to>
+            <to>MEAS_NAfr.TOTAL_Actual_AP_import\export</to>
+            <to>Oceania.TOTAL_Actual_AP_import\export</to>
+            <to>E_Asia.TOTAL_Actual_AP_import\export</to>
+            <to>C_C_Amer.TOTAL_Actual_AP_import\export</to>
+            <to>CHIHKG.TOTAL_Actual_AP_import\export</to>
+            <to>S_S_AFR.TOTAL_Actual_AP_import\export</to>
+            <to>EU27.TOTAL_Actual_AP_import\export</to>
+            <to>S_o_Amer.TOTAL_Actual_AP_import\export</to>
+            <to>BRAZIL.TOTAL_Actual_AP_import\export</to>
+            <to>USA.TOTAL_Actual_AP_import\export</to>
             <to>Oth_CEE_CIS.TOTAL_Actual_AP_import\export</to>
+            <to>Russia.TOTAL_Actual_AP_import\export</to>
+            <to>R_Europe.TOTAL_Actual_AP_import\export</to>
+            <to>CAN.TOTAL_Actual_AP_import\export</to>
             <to>R_S_Asia.TOTAL_Actual_AP_import\export</to>
+            <to>INDIA.TOTAL_Actual_AP_import\export</to>
             <to>JAPAN.TOTAL_Actual_AP_import\export</to>
             <display x="995" y="257" color="#008F44" label_side="right" />
         </aux>
@@ -585,25 +585,25 @@
             <eqn>0</eqn>
             <inflow>chg_CP_prodn_shortfall</inflow>
             <units>gigagrams/yr</units>
-            <to>Russia.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>EU27.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>MEAS_NAfr.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>R_SE_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>CHIHKG.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>CAN.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>E_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>R_S_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>S_o_Amer.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>JAPAN.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>Oth_CEE_CIS.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>R_S_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>S_S_AFR.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>INDIA.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>R_Europe.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>C_C_Amer.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>R_SE_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>E_Asia.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>Oceania.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>USA.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>S_S_AFR.Global_Avg_Commodity_Prodn_Shortfall</to>
-            <to>BRAZIL.Global_Avg_Commodity_Prodn_Shortfall</to>
             <to>Mala_Indo.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>CHIHKG.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>MEAS_NAfr.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>BRAZIL.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>Russia.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>CAN.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>C_C_Amer.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>EU27.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>JAPAN.Global_Avg_Commodity_Prodn_Shortfall</to>
+            <to>R_Europe.Global_Avg_Commodity_Prodn_Shortfall</to>
             <display x="1218" y="43" color="blue" />
         </stock>
         <flow name="chg_CP_prodn_shortfall">
@@ -626,25 +626,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic * (GDP_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>EU27.GDPScenarioModLogic</to>
-            <to>S_S_AFR.GDPScenarioModLogic</to>
             <to>C_C_Amer.GDPScenarioModLogic</to>
-            <to>R_S_Asia.GDPScenarioModLogic</to>
-            <to>E_Asia.GDPScenarioModLogic</to>
             <to>Mala_Indo.GDPScenarioModLogic</to>
-            <to>BRAZIL.GDPScenarioModLogic</to>
-            <to>Oceania.GDPScenarioModLogic</to>
-            <to>USA.GDPScenarioModLogic</to>
-            <to>R_SE_Asia.GDPScenarioModLogic</to>
-            <to>R_Europe.GDPScenarioModLogic</to>
-            <to>JAPAN.GDPScenarioModLogic</to>
-            <to>INDIA.GDPScenarioModLogic</to>
-            <to>MEAS_NAfr.GDPScenarioModLogic</to>
-            <to>CHIHKG.GDPScenarioModLogic</to>
-            <to>Oth_CEE_CIS.GDPScenarioModLogic</to>
+            <to>EU27.GDPScenarioModLogic</to>
             <to>Russia.GDPScenarioModLogic</to>
+            <to>CHIHKG.GDPScenarioModLogic</to>
+            <to>JAPAN.GDPScenarioModLogic</to>
+            <to>E_Asia.GDPScenarioModLogic</to>
             <to>S_o_Amer.GDPScenarioModLogic</to>
+            <to>R_SE_Asia.GDPScenarioModLogic</to>
             <to>CAN.GDPScenarioModLogic</to>
+            <to>R_S_Asia.GDPScenarioModLogic</to>
+            <to>USA.GDPScenarioModLogic</to>
+            <to>MEAS_NAfr.GDPScenarioModLogic</to>
+            <to>S_S_AFR.GDPScenarioModLogic</to>
+            <to>Oth_CEE_CIS.GDPScenarioModLogic</to>
+            <to>R_Europe.GDPScenarioModLogic</to>
+            <to>Oceania.GDPScenarioModLogic</to>
+            <to>BRAZIL.GDPScenarioModLogic</to>
+            <to>INDIA.GDPScenarioModLogic</to>
             <display x="3601" y="229" color="black" />
         </aux>
         <aux name="time_to_perceive_CP">
@@ -661,25 +661,25 @@
             <eqn>0</eqn>
             <inflow>chg_AP_prodn_shortfall</inflow>
             <units>gigagrams/yr</units>
-            <to>R_S_Asia.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>Oceania.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>USA.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>BRAZIL.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>C_C_Amer.Global_Avg_AP_Prodn_Shortfall</to>
             <to>EU27.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>S_o_Amer.Global_Avg_AP_Prodn_Shortfall</to>
             <to>CAN.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>CHIHKG.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>Oceania.Global_Avg_AP_Prodn_Shortfall</to>
             <to>R_Europe.Global_Avg_AP_Prodn_Shortfall</to>
             <to>Russia.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>R_SE_Asia.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>INDIA.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>CHIHKG.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>Oth_CEE_CIS.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>Mala_Indo.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>USA.Global_Avg_AP_Prodn_Shortfall</to>
             <to>MEAS_NAfr.Global_Avg_AP_Prodn_Shortfall</to>
             <to>S_S_AFR.Global_Avg_AP_Prodn_Shortfall</to>
-            <to>JAPAN.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>R_S_Asia.Global_Avg_AP_Prodn_Shortfall</to>
             <to>E_Asia.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>S_o_Amer.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>JAPAN.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>R_SE_Asia.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>BRAZIL.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>Mala_Indo.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>Oth_CEE_CIS.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>INDIA.Global_Avg_AP_Prodn_Shortfall</to>
+            <to>C_C_Amer.Global_Avg_AP_Prodn_Shortfall</to>
             <display x="1054" y="429" color="blue" />
         </stock>
         <aux name="time_to_perceive_AP">
@@ -1604,25 +1604,25 @@
             </dimensions>
             <eqn>(1 + ramp_in_logic * (population_mod_pct[Region]/100)) </eqn>
             <units>Unitless</units>
-            <to>R_Europe.PopScenarioModLogic</to>
-            <to>EU27.PopScenarioModLogic</to>
-            <to>INDIA.PopScenarioModLogic</to>
-            <to>R_S_Asia.PopScenarioModLogic</to>
-            <to>R_SE_Asia.PopScenarioModLogic</to>
-            <to>JAPAN.PopScenarioModLogic</to>
-            <to>Oceania.PopScenarioModLogic</to>
-            <to>Oth_CEE_CIS.PopScenarioModLogic</to>
-            <to>E_Asia.PopScenarioModLogic</to>
-            <to>C_C_Amer.PopScenarioModLogic</to>
-            <to>S_o_Amer.PopScenarioModLogic</to>
-            <to>Mala_Indo.PopScenarioModLogic</to>
-            <to>USA.PopScenarioModLogic</to>
-            <to>CHIHKG.PopScenarioModLogic</to>
-            <to>BRAZIL.PopScenarioModLogic</to>
-            <to>S_S_AFR.PopScenarioModLogic</to>
-            <to>Russia.PopScenarioModLogic</to>
-            <to>MEAS_NAfr.PopScenarioModLogic</to>
             <to>CAN.PopScenarioModLogic</to>
+            <to>BRAZIL.PopScenarioModLogic</to>
+            <to>CHIHKG.PopScenarioModLogic</to>
+            <to>Russia.PopScenarioModLogic</to>
+            <to>EU27.PopScenarioModLogic</to>
+            <to>S_S_AFR.PopScenarioModLogic</to>
+            <to>Oth_CEE_CIS.PopScenarioModLogic</to>
+            <to>INDIA.PopScenarioModLogic</to>
+            <to>MEAS_NAfr.PopScenarioModLogic</to>
+            <to>E_Asia.PopScenarioModLogic</to>
+            <to>JAPAN.PopScenarioModLogic</to>
+            <to>C_C_Amer.PopScenarioModLogic</to>
+            <to>Mala_Indo.PopScenarioModLogic</to>
+            <to>Oceania.PopScenarioModLogic</to>
+            <to>R_S_Asia.PopScenarioModLogic</to>
+            <to>R_Europe.PopScenarioModLogic</to>
+            <to>USA.PopScenarioModLogic</to>
+            <to>S_o_Amer.PopScenarioModLogic</to>
+            <to>R_SE_Asia.PopScenarioModLogic</to>
             <display x="3566" y="170" color="black" />
         </aux>
         <aux name="AP_demand_mod_pct">
@@ -1641,25 +1641,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic *  (AP_demand_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>Oceania.AP_demand_mod_logic</to>
-            <to>EU27.AP_demand_mod_logic</to>
-            <to>INDIA.AP_demand_mod_logic</to>
-            <to>BRAZIL.AP_demand_mod_logic</to>
-            <to>S_o_Amer.AP_demand_mod_logic</to>
-            <to>R_S_Asia.AP_demand_mod_logic</to>
-            <to>C_C_Amer.AP_demand_mod_logic</to>
-            <to>S_S_AFR.AP_demand_mod_logic</to>
-            <to>Russia.AP_demand_mod_logic</to>
-            <to>CAN.AP_demand_mod_logic</to>
-            <to>CHIHKG.AP_demand_mod_logic</to>
             <to>MEAS_NAfr.AP_demand_mod_logic</to>
-            <to>Mala_Indo.AP_demand_mod_logic</to>
+            <to>INDIA.AP_demand_mod_logic</to>
+            <to>Oceania.AP_demand_mod_logic</to>
             <to>E_Asia.AP_demand_mod_logic</to>
-            <to>Oth_CEE_CIS.AP_demand_mod_logic</to>
-            <to>USA.AP_demand_mod_logic</to>
-            <to>R_SE_Asia.AP_demand_mod_logic</to>
+            <to>C_C_Amer.AP_demand_mod_logic</to>
+            <to>CHIHKG.AP_demand_mod_logic</to>
+            <to>BRAZIL.AP_demand_mod_logic</to>
+            <to>CAN.AP_demand_mod_logic</to>
             <to>R_Europe.AP_demand_mod_logic</to>
+            <to>EU27.AP_demand_mod_logic</to>
+            <to>Mala_Indo.AP_demand_mod_logic</to>
+            <to>S_S_AFR.AP_demand_mod_logic</to>
+            <to>Oth_CEE_CIS.AP_demand_mod_logic</to>
+            <to>R_S_Asia.AP_demand_mod_logic</to>
+            <to>S_o_Amer.AP_demand_mod_logic</to>
             <to>JAPAN.AP_demand_mod_logic</to>
+            <to>Russia.AP_demand_mod_logic</to>
+            <to>R_SE_Asia.AP_demand_mod_logic</to>
+            <to>USA.AP_demand_mod_logic</to>
             <display x="3406" y="313" color="black" />
         </aux>
         <aux name="other_demand_mod_pct">
@@ -1678,25 +1678,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic *  (other_demand_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>EU27.other_demand_mod_logic</to>
-            <to>S_o_Amer.other_demand_mod_logic</to>
-            <to>R_S_Asia.other_demand_mod_logic</to>
-            <to>INDIA.other_demand_mod_logic</to>
-            <to>E_Asia.other_demand_mod_logic</to>
-            <to>MEAS_NAfr.other_demand_mod_logic</to>
-            <to>Oceania.other_demand_mod_logic</to>
-            <to>S_S_AFR.other_demand_mod_logic</to>
-            <to>BRAZIL.other_demand_mod_logic</to>
-            <to>Russia.other_demand_mod_logic</to>
-            <to>JAPAN.other_demand_mod_logic</to>
-            <to>USA.other_demand_mod_logic</to>
-            <to>CHIHKG.other_demand_mod_logic</to>
-            <to>Mala_Indo.other_demand_mod_logic</to>
-            <to>C_C_Amer.other_demand_mod_logic</to>
-            <to>Oth_CEE_CIS.other_demand_mod_logic</to>
-            <to>R_Europe.other_demand_mod_logic</to>
             <to>CAN.other_demand_mod_logic</to>
+            <to>Mala_Indo.other_demand_mod_logic</to>
+            <to>Russia.other_demand_mod_logic</to>
+            <to>R_Europe.other_demand_mod_logic</to>
+            <to>R_S_Asia.other_demand_mod_logic</to>
+            <to>USA.other_demand_mod_logic</to>
+            <to>S_o_Amer.other_demand_mod_logic</to>
+            <to>INDIA.other_demand_mod_logic</to>
+            <to>JAPAN.other_demand_mod_logic</to>
+            <to>EU27.other_demand_mod_logic</to>
+            <to>S_S_AFR.other_demand_mod_logic</to>
+            <to>C_C_Amer.other_demand_mod_logic</to>
+            <to>MEAS_NAfr.other_demand_mod_logic</to>
+            <to>Oth_CEE_CIS.other_demand_mod_logic</to>
+            <to>E_Asia.other_demand_mod_logic</to>
             <to>R_SE_Asia.other_demand_mod_logic</to>
+            <to>CHIHKG.other_demand_mod_logic</to>
+            <to>BRAZIL.other_demand_mod_logic</to>
+            <to>Oceania.other_demand_mod_logic</to>
             <display x="3398" y="460" color="black" />
         </aux>
         <aux name="other_yield_mod_pct">
@@ -1715,25 +1715,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic *  (other_yield_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>R_S_Asia.other_yield_mod_logic</to>
+            <to>INDIA.other_yield_mod_logic</to>
+            <to>EU27.other_yield_mod_logic</to>
+            <to>CHIHKG.other_yield_mod_logic</to>
             <to>Russia.other_yield_mod_logic</to>
+            <to>C_C_Amer.other_yield_mod_logic</to>
+            <to>BRAZIL.other_yield_mod_logic</to>
+            <to>R_S_Asia.other_yield_mod_logic</to>
+            <to>Mala_Indo.other_yield_mod_logic</to>
+            <to>R_SE_Asia.other_yield_mod_logic</to>
             <to>JAPAN.other_yield_mod_logic</to>
-            <to>USA.other_yield_mod_logic</to>
+            <to>S_o_Amer.other_yield_mod_logic</to>
+            <to>S_S_AFR.other_yield_mod_logic</to>
             <to>MEAS_NAfr.other_yield_mod_logic</to>
             <to>CAN.other_yield_mod_logic</to>
-            <to>CHIHKG.other_yield_mod_logic</to>
-            <to>INDIA.other_yield_mod_logic</to>
-            <to>S_S_AFR.other_yield_mod_logic</to>
-            <to>R_Europe.other_yield_mod_logic</to>
-            <to>Oceania.other_yield_mod_logic</to>
-            <to>EU27.other_yield_mod_logic</to>
-            <to>R_SE_Asia.other_yield_mod_logic</to>
-            <to>S_o_Amer.other_yield_mod_logic</to>
-            <to>Mala_Indo.other_yield_mod_logic</to>
-            <to>C_C_Amer.other_yield_mod_logic</to>
+            <to>USA.other_yield_mod_logic</to>
             <to>Oth_CEE_CIS.other_yield_mod_logic</to>
-            <to>BRAZIL.other_yield_mod_logic</to>
+            <to>Oceania.other_yield_mod_logic</to>
             <to>E_Asia.other_yield_mod_logic</to>
+            <to>R_Europe.other_yield_mod_logic</to>
             <display x="3565" y="376" color="black" />
         </aux>
         <aux name="CP_demand_mod_pct">
@@ -1761,25 +1761,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic *  (forage_yield_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>JAPAN.forage_yield_mod_logic</to>
-            <to>EU27.forage_yield_mod_logic</to>
-            <to>Mala_Indo.forage_yield_mod_logic</to>
-            <to>MEAS_NAfr.forage_yield_mod_logic</to>
-            <to>CHIHKG.forage_yield_mod_logic</to>
-            <to>Oceania.forage_yield_mod_logic</to>
-            <to>INDIA.forage_yield_mod_logic</to>
-            <to>R_S_Asia.forage_yield_mod_logic</to>
-            <to>BRAZIL.forage_yield_mod_logic</to>
-            <to>R_SE_Asia.forage_yield_mod_logic</to>
-            <to>C_C_Amer.forage_yield_mod_logic</to>
-            <to>USA.forage_yield_mod_logic</to>
-            <to>Russia.forage_yield_mod_logic</to>
-            <to>E_Asia.forage_yield_mod_logic</to>
-            <to>CAN.forage_yield_mod_logic</to>
-            <to>S_o_Amer.forage_yield_mod_logic</to>
-            <to>R_Europe.forage_yield_mod_logic</to>
-            <to>S_S_AFR.forage_yield_mod_logic</to>
             <to>Oth_CEE_CIS.forage_yield_mod_logic</to>
+            <to>C_C_Amer.forage_yield_mod_logic</to>
+            <to>CAN.forage_yield_mod_logic</to>
+            <to>JAPAN.forage_yield_mod_logic</to>
+            <to>BRAZIL.forage_yield_mod_logic</to>
+            <to>USA.forage_yield_mod_logic</to>
+            <to>R_S_Asia.forage_yield_mod_logic</to>
+            <to>S_o_Amer.forage_yield_mod_logic</to>
+            <to>Mala_Indo.forage_yield_mod_logic</to>
+            <to>E_Asia.forage_yield_mod_logic</to>
+            <to>INDIA.forage_yield_mod_logic</to>
+            <to>CHIHKG.forage_yield_mod_logic</to>
+            <to>R_Europe.forage_yield_mod_logic</to>
+            <to>EU27.forage_yield_mod_logic</to>
+            <to>S_S_AFR.forage_yield_mod_logic</to>
+            <to>Russia.forage_yield_mod_logic</to>
+            <to>MEAS_NAfr.forage_yield_mod_logic</to>
+            <to>R_SE_Asia.forage_yield_mod_logic</to>
+            <to>Oceania.forage_yield_mod_logic</to>
             <display x="3572" y="454" color="black" />
         </aux>
         <aux name="CP_demand_mod_logic" access="output">
@@ -1789,25 +1789,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic *  (CP_demand_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>MEAS_NAfr.CP_demand_mod_logic</to>
-            <to>USA.CP_demand_mod_logic</to>
-            <to>R_SE_Asia.CP_demand_mod_logic</to>
-            <to>R_Europe.CP_demand_mod_logic</to>
-            <to>Russia.CP_demand_mod_logic</to>
-            <to>CHIHKG.CP_demand_mod_logic</to>
-            <to>E_Asia.CP_demand_mod_logic</to>
             <to>Mala_Indo.CP_demand_mod_logic</to>
-            <to>Oth_CEE_CIS.CP_demand_mod_logic</to>
-            <to>INDIA.CP_demand_mod_logic</to>
-            <to>EU27.CP_demand_mod_logic</to>
-            <to>Oceania.CP_demand_mod_logic</to>
-            <to>CAN.CP_demand_mod_logic</to>
-            <to>S_o_Amer.CP_demand_mod_logic</to>
-            <to>BRAZIL.CP_demand_mod_logic</to>
             <to>R_S_Asia.CP_demand_mod_logic</to>
-            <to>JAPAN.CP_demand_mod_logic</to>
-            <to>C_C_Amer.CP_demand_mod_logic</to>
+            <to>R_Europe.CP_demand_mod_logic</to>
+            <to>EU27.CP_demand_mod_logic</to>
+            <to>INDIA.CP_demand_mod_logic</to>
+            <to>BRAZIL.CP_demand_mod_logic</to>
+            <to>MEAS_NAfr.CP_demand_mod_logic</to>
             <to>S_S_AFR.CP_demand_mod_logic</to>
+            <to>Russia.CP_demand_mod_logic</to>
+            <to>E_Asia.CP_demand_mod_logic</to>
+            <to>C_C_Amer.CP_demand_mod_logic</to>
+            <to>USA.CP_demand_mod_logic</to>
+            <to>JAPAN.CP_demand_mod_logic</to>
+            <to>CAN.CP_demand_mod_logic</to>
+            <to>CHIHKG.CP_demand_mod_logic</to>
+            <to>Oceania.CP_demand_mod_logic</to>
+            <to>Oth_CEE_CIS.CP_demand_mod_logic</to>
+            <to>R_SE_Asia.CP_demand_mod_logic</to>
+            <to>S_o_Amer.CP_demand_mod_logic</to>
             <display x="3406" y="388" color="black" />
         </aux>
         <aux name="biofuel_mod_pct">
@@ -1826,25 +1826,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic * (biofuel_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>Russia.biofuel_mod_logic</to>
-            <to>CHIHKG.biofuel_mod_logic</to>
-            <to>INDIA.biofuel_mod_logic</to>
-            <to>MEAS_NAfr.biofuel_mod_logic</to>
-            <to>EU27.biofuel_mod_logic</to>
-            <to>R_S_Asia.biofuel_mod_logic</to>
-            <to>C_C_Amer.biofuel_mod_logic</to>
-            <to>S_o_Amer.biofuel_mod_logic</to>
             <to>R_Europe.biofuel_mod_logic</to>
-            <to>R_SE_Asia.biofuel_mod_logic</to>
+            <to>EU27.biofuel_mod_logic</to>
             <to>USA.biofuel_mod_logic</to>
-            <to>E_Asia.biofuel_mod_logic</to>
-            <to>Oceania.biofuel_mod_logic</to>
-            <to>BRAZIL.biofuel_mod_logic</to>
             <to>CAN.biofuel_mod_logic</to>
             <to>S_S_AFR.biofuel_mod_logic</to>
-            <to>Mala_Indo.biofuel_mod_logic</to>
+            <to>E_Asia.biofuel_mod_logic</to>
             <to>JAPAN.biofuel_mod_logic</to>
+            <to>INDIA.biofuel_mod_logic</to>
+            <to>R_S_Asia.biofuel_mod_logic</to>
+            <to>Russia.biofuel_mod_logic</to>
+            <to>Oceania.biofuel_mod_logic</to>
+            <to>S_o_Amer.biofuel_mod_logic</to>
+            <to>MEAS_NAfr.biofuel_mod_logic</to>
             <to>Oth_CEE_CIS.biofuel_mod_logic</to>
+            <to>Mala_Indo.biofuel_mod_logic</to>
+            <to>CHIHKG.biofuel_mod_logic</to>
+            <to>R_SE_Asia.biofuel_mod_logic</to>
+            <to>C_C_Amer.biofuel_mod_logic</to>
+            <to>BRAZIL.biofuel_mod_logic</to>
             <display x="3386" y="229" color="black" />
         </aux>
         <aux name="CP_yield_mod_pct">
@@ -1863,25 +1863,25 @@
             </dimensions>
             <eqn>1 + ramp_in_logic * (CP_yield_mod_pct[Region]/100)</eqn>
             <units>Unitless</units>
-            <to>R_S_Asia.CP_yield_mod_logic</to>
-            <to>MEAS_NAfr.CP_yield_mod_logic</to>
-            <to>Mala_Indo.CP_yield_mod_logic</to>
-            <to>CHIHKG.CP_yield_mod_logic</to>
-            <to>S_o_Amer.CP_yield_mod_logic</to>
-            <to>Oceania.CP_yield_mod_logic</to>
-            <to>USA.CP_yield_mod_logic</to>
-            <to>R_SE_Asia.CP_yield_mod_logic</to>
             <to>JAPAN.CP_yield_mod_logic</to>
-            <to>C_C_Amer.CP_yield_mod_logic</to>
             <to>E_Asia.CP_yield_mod_logic</to>
             <to>BRAZIL.CP_yield_mod_logic</to>
+            <to>Oceania.CP_yield_mod_logic</to>
+            <to>S_o_Amer.CP_yield_mod_logic</to>
             <to>CAN.CP_yield_mod_logic</to>
-            <to>S_S_AFR.CP_yield_mod_logic</to>
-            <to>EU27.CP_yield_mod_logic</to>
-            <to>Russia.CP_yield_mod_logic</to>
-            <to>INDIA.CP_yield_mod_logic</to>
             <to>R_Europe.CP_yield_mod_logic</to>
+            <to>EU27.CP_yield_mod_logic</to>
+            <to>R_S_Asia.CP_yield_mod_logic</to>
+            <to>INDIA.CP_yield_mod_logic</to>
+            <to>CHIHKG.CP_yield_mod_logic</to>
+            <to>USA.CP_yield_mod_logic</to>
+            <to>Mala_Indo.CP_yield_mod_logic</to>
+            <to>S_S_AFR.CP_yield_mod_logic</to>
+            <to>R_SE_Asia.CP_yield_mod_logic</to>
+            <to>C_C_Amer.CP_yield_mod_logic</to>
             <to>Oth_CEE_CIS.CP_yield_mod_logic</to>
+            <to>MEAS_NAfr.CP_yield_mod_logic</to>
+            <to>Russia.CP_yield_mod_logic</to>
             <display x="3562" y="306" color="black" />
         </aux>
         <aux name="ramp_in_logic">
@@ -1995,997 +1995,997 @@
             <display x="3654" y="1083" color="blue" />
         </aux>
         <display show_pages="true" page_width="768" page_height="588" page_cols="5" page_rows="5" isee:show_values_on_hover="true" isee:converter_size="medium" scroll_x="547">
-            <alias x="874" y="257" uid="2594">
-                <of>TOTAL_potential_AP_imports</of>
-            </alias>
-            <alias x="850" y="164" uid="2595">
-                <of>TOTAL_potential_CP_exports</of>
-            </alias>
-            <alias x="868" y="348" uid="2596">
+            <alias x="868" y="348" uid="2594">
                 <of>TOTAL_desired_AP_exports</of>
             </alias>
-            <alias x="852" y="50" uid="2597">
+            <alias x="852" y="50" uid="2595">
                 <of>TOTAL_potential_CP_imports</of>
             </alias>
-            <connector x="1714" y="1080" uid="2598" color="black">
-                <from>NPL_117</from>
-                <to>Near_Pristine_Land</to>
+            <alias x="850" y="164" uid="2596">
+                <of>TOTAL_potential_CP_exports</of>
+            </alias>
+            <alias x="874" y="257" uid="2597">
+                <of>TOTAL_potential_AP_imports</of>
+            </alias>
+            <connector x="154" y="1316" uid="2598" color="black">
+                <from>potential_AP_imports_2</from>
+                <to>TOTAL_potential_AP_imports</to>
             </connector>
-            <connector x="1720" y="1288" uid="2599" color="black">
-                <from>NPL_67</from>
-                <to>Crop_Land</to>
+            <connector x="895" y="814" uid="2599" color="black">
+                <from>potential_CP_exports_5</from>
+                <to>TOTAL_potential_CP_exports</to>
             </connector>
-            <connector x="3648" y="666" uid="2600" color="black">
-                <from>Oceania_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2480" y="1229" uid="2601" color="blue">
-                <from>NPL_59</from>
+            <connector x="2496" y="1611" uid="2600" color="black">
+                <from>NPL_107</from>
                 <to>Abandoned_Land</to>
             </connector>
-            <connector x="3632" y="777" uid="2602" color="black">
-                <from>R_Europe_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2087" y="2052" uid="2603" color="black">
-                <from>NPL_148</from>
+            <connector x="1717" y="2209" uid="2601" color="black">
+                <from>NPL_112</from>
                 <to>Set_Aside_Land</to>
             </connector>
-            <connector x="1712" y="1036" uid="2604" color="black">
-                <from>NPL_111</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="894" y="853" uid="2605" color="black">
-                <from>potential_CP_exports_6</from>
+            <connector x="1308" y="930" uid="2602" color="black">
+                <from>potential_CP_exports_16</from>
                 <to>TOTAL_potential_CP_exports</to>
             </connector>
-            <connector x="2479" y="814" uid="2606" color="black">
-                <from>NPL_80</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2103" y="1295" uid="2607" color="black">
-                <from>NPL_127</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="140" y="1635" uid="2608" color="black">
-                <from>potential_AP_imports_8</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="898" y="730" uid="2609" color="black">
-                <from>potential_CP_exports_3</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1327" y="1704" uid="2610" color="black">
-                <from>potentila_AP_exports_19</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2859" y="883" uid="2611" color="black">
-                <from>NPL_146</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="3495" y="349" uid="2612" color="black">
-                <from>ramp_in_logic</from>
-                <to>CP_yield_mod_logic</to>
-            </connector>
-            <connector x="2086" y="1030" uid="2613" color="black">
-                <from>NPL_165</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="119" y="1009" uid="2614" color="black">
-                <from>potential_CP_imports_8</from>
+            <connector x="530" y="660" uid="2603" color="black">
+                <from>potential_CP_imports_11</from>
                 <to>TOTAL_potential_CP_imports</to>
             </connector>
-            <connector x="1187" y="110" uid="2615" color="black">
-                <from>time_to_perceive_CP</from>
-                <to>chg_CP_prodn_shortfall</to>
-            </connector>
-            <connector x="118" y="1060" uid="2616" color="black">
-                <from>potential_CP_imports_9</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="505" y="1598" uid="2617" color="black">
-                <from>potential_AP_imports_17</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2860" y="829" uid="2618" color="black">
-                <from>NPL_140</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2865" y="1244" uid="2619" color="black">
-                <from>NPL_119</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="3485" y="343" uid="2620" color="black">
-                <from>ramp_in_logic</from>
-                <to>biofuel_mod_logic</to>
-            </connector>
-            <connector x="1328" y="1320" uid="2621" color="black">
-                <from>potentila_AP_exports_12</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="899" y="900" uid="2622" color="black">
-                <from>potential_CP_exports_7</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="2084" y="825" uid="2623" color="black">
-                <from>NPL_141</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="1713" y="2031" uid="2624" color="black">
-                <from>NPL_88</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="511" y="1428" uid="2625" color="black">
-                <from>potential_AP_imports_14</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="1712" y="947" uid="2626" color="black">
-                <from>NPL_99</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="3296" y="460" uid="2627" color="black">
-                <from>other_demand_mod_pct</from>
-                <to>other_demand_mod_logic</to>
-            </connector>
-            <connector x="1712" y="995" uid="2628" color="black">
-                <from>NPL_105</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="3496" y="354" uid="2629" color="black">
-                <from>ramp_in_logic</from>
-                <to>other_yield_mod_logic</to>
-            </connector>
-            <connector x="3491" y="345" uid="2630" color="black">
-                <from>ramp_in_logic</from>
-                <to>population_mod_logic</to>
-            </connector>
-            <connector x="2865" y="1293" uid="2631" color="black">
-                <from>NPL_125</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="3649" y="719" uid="2632" color="black">
-                <from>Oth_CEE_CIS_Pop</from>
+            <connector x="3204" y="727" uid="2604" color="black">
+                <from>CAN_Pop</from>
                 <to>population</to>
             </connector>
-            <connector x="3651" y="1022" uid="2633" color="black">
-                <from>S_S_Afr_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="3769" y="454" uid="2634" color="black">
-                <from>forage_yield_mod_pct</from>
-                <to>forage_yield_mod_logic</to>
-            </connector>
-            <connector x="501" y="1726" uid="2635" color="black">
-                <from>potential_AP_imports_19</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2860" y="2183" uid="2636" color="black">
-                <from>NPL_156</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="3202" y="674" uid="2637" color="black">
-                <from>Brazil_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2490" y="2276" uid="2638" color="black">
-                <from>NPL_114</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="2495" y="1522" uid="2639" color="black">
-                <from>NPL_95</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="2105" y="1402" uid="2640" color="black">
-                <from>NPL_139</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="3749" y="229" uid="2641" color="black">
-                <from>GDP_mod_pct</from>
-                <to>GDP_mod_logic</to>
-            </connector>
-            <connector x="1312" y="704" uid="2642" color="black">
-                <from>potential_CP_exports_13</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1327" y="1656" uid="2643" color="black">
-                <from>potentila_AP_exports_18</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="3479" y="357" uid="2644" color="black">
-                <from>ramp_in_logic</from>
-                <to>CP_demand_mod_logic</to>
-            </connector>
-            <connector x="2115" y="1667" uid="2645" color="black">
-                <from>NPL_169</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="2487" y="2189" uid="2646" color="black">
-                <from>NPL_102</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="2494" y="1567" uid="2647" color="black">
-                <from>NPL_101</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="883" y="257" uid="2648" color="black">
-                <from>
-                    <alias uid="2594" />
-                </from>
-                <to>total_interregional_AP_flow</to>
-            </connector>
-            <connector x="1306" y="791" uid="2649" color="black">
-                <from>potential_CP_exports_14</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1732" y="1479" uid="2650" color="black">
-                <from>NPL_91</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="536" y="841" uid="2651" color="black">
-                <from>potential_CP_imports_15</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="2858" y="1866" uid="2652" color="black">
-                <from>NPL_120</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="2088" y="2159" uid="2653" color="black">
-                <from>NPL_160</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2475" y="1908" uid="2654" color="black">
-                <from>NPL_66</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="3494" y="359" uid="2655" color="black">
-                <from>ramp_in_logic</from>
-                <to>forage_yield_mod_logic</to>
-            </connector>
-            <connector x="506" y="1221" uid="2656" color="black">
-                <from>potential_AP_imports_10</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2858" y="1915" uid="2657" color="black">
-                <from>NPL_126</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="1336" y="1607" uid="2658" color="black">
-                <from>potentila_AP_exports_17</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2086" y="1943" uid="2659" color="black">
-                <from>NPL_136</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2490" y="1083" uid="2660" color="black">
-                <from>NPL_116</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="128" y="921" uid="2661" color="black">
-                <from>potential_CP_imports_6</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="535" y="700" uid="2662" color="black">
-                <from>potential_CP_imports_12</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="3205" y="968" uid="2663" color="black">
-                <from>INDIA_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="3768" y="376" uid="2664" color="black">
-                <from>other_yield_mod_pct</from>
-                <to>other_yield_mod_logic</to>
-            </connector>
-            <connector x="1331" y="1246" uid="2665" color="black">
-                <from>potentila_AP_exports_11</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2105" y="1563" uid="2666" color="black">
-                <from>NPL_157</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="3660" y="973" uid="2667" color="black">
-                <from>S_o_Amer_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="894" y="1458" uid="2668" color="black">
-                <from>potentila_AP_exports_5</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="1703" y="811" uid="2669" color="black">
-                <from>NPL_81</from>
+            <connector x="1699" y="712" uid="2605" color="black">
+                <from>NPL_69</from>
                 <to>Near_Pristine_Land</to>
             </connector>
-            <connector x="3479" y="349" uid="2670" color="black">
-                <from>ramp_in_logic</from>
-                <to>AP_demand_mod_logic</to>
-            </connector>
-            <connector x="2488" y="951" uid="2671" color="black">
-                <from>NPL_98</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2497" y="1654" uid="2672" color="black">
-                <from>NPL_113</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="513" y="1279" uid="2673" color="black">
-                <from>potential_AP_imports_11</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2482" y="1286" uid="2674" color="black">
-                <from>NPL_65</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="1716" y="2120" uid="2675" color="black">
-                <from>NPL_100</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="1703" y="1884" uid="2676" color="black">
-                <from>NPL_70</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2487" y="2099" uid="2677" color="black">
-                <from>NPL_90</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="110" y="1119" uid="2678" color="black">
-                <from>potential_CP_imports_10</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="899" y="1284" uid="2679" color="black">
-                <from>potentila_AP_exports_2</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="901" y="1221" uid="2680" color="black">
-                <from>potential_AP_exports_1</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="1282" y="629" uid="2681" color="black">
-                <from>potential_CP_exports_12</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1351" y="1494" uid="2682" color="black">
-                <from>potentila_AP_exports_15</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2479" y="2007" uid="2683" color="black">
-                <from>NPL_78</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="902" y="1068" uid="2684" color="black">
-                <from>potential_CP_exports_10</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="895" y="646" uid="2685" color="black">
-                <from>potential_CP_exports1</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1330" y="1436" uid="2686" color="black">
-                <from>potentila_AP_exports_14</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="885" y="1601" uid="2687" color="black">
-                <from>potentila_AP_exports_8</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2867" y="1400" uid="2688" color="black">
-                <from>NPL_137</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="3200" y="1022" uid="2689" color="black">
-                <from>JAPAN_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2103" y="1246" uid="2690" color="black">
-                <from>NPL_121</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="541" y="1103" uid="2691" color="black">
-                <from>potential_CP_imports_19</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="2866" y="1509" uid="2692" color="black">
-                <from>NPL_149</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="2087" y="2107" uid="2693" color="black">
-                <from>NPL_154</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="509" y="1475" uid="2694" color="black">
-                <from>potential_AP_imports_15</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2486" y="1334" uid="2695" color="black">
-                <from>NPL_71</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="3662" y="170" uid="2696" color="black">
-                <from>population_mod_pct</from>
-                <to>population_mod_logic</to>
-            </connector>
-            <connector x="1724" y="1336" uid="2697" color="black">
-                <from>NPL_73</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="143" y="1523" uid="2698" color="black">
-                <from>potential_AP_imports_6</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2489" y="2233" uid="2699" color="black">
-                <from>NPL_108</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="2487" y="996" uid="2700" color="black">
-                <from>NPL_104</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="1709" y="860" uid="2701" color="black">
+            <connector x="1709" y="860" uid="2606" color="black">
                 <from>NPL_87</from>
                 <to>Near_Pristine_Land</to>
             </connector>
-            <connector x="2098" y="2263" uid="2702" color="black">
-                <from>NPL_172</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2104" y="1511" uid="2703" color="black">
-                <from>NPL_151</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="151" y="1248" uid="2704" color="black">
-                <from>potential_AP_imports_20</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2486" y="1385" uid="2705" color="black">
-                <from>NPL_77</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="859" y="56" uid="2706" color="black">
-                <from>
-                    <alias uid="2597" />
-                </from>
-                <to>total_interregional_CP_flow</to>
-            </connector>
-            <connector x="2862" y="1033" uid="2707" color="black">
-                <from>NPL_164</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="115" y="644" uid="2708" color="black">
-                <from>potential_CP_imports_20</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="529" y="798" uid="2709" color="black">
-                <from>potential_CP_imports_14</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="144" y="1576" uid="2710" color="black">
-                <from>potential_AP_imports_7</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="861" y="50" uid="2711" color="black">
-                <from>
-                    <alias uid="2597" />
-                </from>
-                <to>global_commodity_prodn_shortfall</to>
-            </connector>
-            <connector x="894" y="682" uid="2712" color="black">
-                <from>potential_CP_exports_2</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="140" y="1470" uid="2713" color="black">
-                <from>potential_AP_imports_5</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="895" y="779" uid="2714" color="black">
-                <from>potential_CP_exports_4</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="1032" y="440" uid="2715" color="black">
-                <from>Avg_AP_Prodn_Shortfall</from>
-                <to>chg_AP_prodn_shortfall</to>
-            </connector>
-            <connector x="2877" y="1665" uid="2716" color="black">
-                <from>NPL_167</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="875" y="343" uid="2717" color="black">
-                <from>
-                    <alias uid="2596" />
-                </from>
-                <to>total_interregional_AP_flow</to>
-            </connector>
-            <connector x="3206" y="1113" uid="2718" color="black">
-                <from>MEAS_Nafr_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2859" y="938" uid="2719" color="black">
-                <from>NPL_152</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2485" y="2055" uid="2720" color="black">
-                <from>NPL_84</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="1707" y="1983" uid="2721" color="black">
-                <from>NPL_82</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="507" y="1537" uid="2722" color="black">
-                <from>potential_AP_imports_16</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="540" y="1029" uid="2723" color="black">
-                <from>potential_CP_imports_18</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="971" y="54" uid="2724" color="black">
-                <from>global_commodity_prodn_shortfall</from>
-                <to>chg_CP_prodn_shortfall</to>
-            </connector>
-            <connector x="124" y="858" uid="2725" color="black">
-                <from>potential_CP_imports_5</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="533" y="922" uid="2726" color="black">
-                <from>potential_CP_imports_16</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="3650" y="918" uid="2727" color="black">
-                <from>R_S_Asia_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="877" y="348" uid="2728" color="black">
-                <from>
-                    <alias uid="2596" />
-                </from>
-                <to>global_AP_prodn_shortfall</to>
-            </connector>
-            <connector x="1697" y="655" uid="2729" color="black">
-                <from>NPL_63</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="1339" y="1552" uid="2730" color="black">
-                <from>potentila_AP_exports_16</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="127" y="796" uid="2731" color="black">
-                <from>potential_CP_imports_4</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="2859" y="2131" uid="2732" color="black">
-                <from>NPL_150</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="898" y="1691" uid="2733" color="black">
-                <from>potentila_AP_exports_10</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="880" y="263" uid="2734" color="black">
-                <from>
-                    <alias uid="2594" />
-                </from>
-                <to>global_AP_prodn_shortfall</to>
-            </connector>
-            <connector x="2870" y="2287" uid="2735" color="black">
-                <from>NPL_168</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="2082" y="719" uid="2736" color="black">
-                <from>NPL_129</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="1718" y="1231" uid="2737" color="black">
-                <from>NPL_61</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="2866" y="1454" uid="2738" color="black">
-                <from>NPL_143</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="123" y="692" uid="2739" color="black">
-                <from>potential_CP_imports_2</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="3649" y="828" uid="2740" color="black">
-                <from>Russia_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="1732" y="1569" uid="2741" color="black">
-                <from>NPL_103</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="2859" y="2076" uid="2742" color="black">
-                <from>NPL_144</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="893" y="1646" uid="2743" color="black">
-                <from>potentila_AP_exports_9</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2473" y="1851" uid="2744" color="black">
-                <from>NPL_60</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="3203" y="926" uid="2745" color="black">
-                <from>E_Asia_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="2083" y="772" uid="2746" color="black">
+            <connector x="2083" y="772" uid="2607" color="black">
                 <from>NPL_135</from>
                 <to>Near_Pristine_Land</to>
             </connector>
-            <connector x="3304" y="388" uid="2747" color="black">
-                <from>CP_demand_mod_pct</from>
-                <to>CP_demand_mod_logic</to>
+            <connector x="143" y="1523" uid="2608" color="black">
+                <from>potential_AP_imports_6</from>
+                <to>TOTAL_potential_AP_imports</to>
             </connector>
-            <connector x="2867" y="1561" uid="2748" color="black">
+            <connector x="3495" y="349" uid="2609" color="black">
+                <from>ramp_in_logic</from>
+                <to>CP_yield_mod_logic</to>
+            </connector>
+            <connector x="1718" y="1231" uid="2610" color="black">
+                <from>NPL_61</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="1707" y="1932" uid="2611" color="black">
+                <from>NPL_76</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="2858" y="1915" uid="2612" color="black">
+                <from>NPL_126</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2487" y="906" uid="2613" color="black">
+                <from>NPL_92</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="3649" y="828" uid="2614" color="black">
+                <from>Russia_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="3205" y="968" uid="2615" color="black">
+                <from>INDIA_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="2489" y="1040" uid="2616" color="black">
+                <from>NPL_110</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="140" y="1635" uid="2617" color="black">
+                <from>potential_AP_imports_8</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2867" y="1561" uid="2618" color="black">
                 <from>NPL_155</from>
                 <to>Abandoned_Land</to>
             </connector>
-            <connector x="3483" y="361" uid="2749" color="black">
-                <from>ramp_in_logic</from>
-                <to>other_demand_mod_logic</to>
+            <connector x="2487" y="2189" uid="2619" color="black">
+                <from>NPL_102</from>
+                <to>Builtup_Land</to>
             </connector>
-            <connector x="3202" y="1064" uid="2750" color="black">
-                <from>MALA_Indo_Pop</from>
+            <connector x="127" y="796" uid="2620" color="black">
+                <from>potential_CP_imports_4</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="3749" y="229" uid="2621" color="black">
+                <from>GDP_mod_pct</from>
+                <to>GDP_mod_logic</to>
+            </connector>
+            <connector x="908" y="1011" uid="2622" color="black">
+                <from>potential_CP_exports_9</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="3632" y="777" uid="2623" color="black">
+                <from>R_Europe_Pop</from>
                 <to>population</to>
             </connector>
-            <connector x="3492" y="346" uid="2751" color="black">
+            <connector x="856" y="158" uid="2624" color="black">
+                <from>
+                    <alias uid="2596" />
+                </from>
+                <to>global_commodity_prodn_shortfall</to>
+            </connector>
+            <connector x="1187" y="110" uid="2625" color="black">
+                <from>time_to_perceive_CP</from>
+                <to>chg_CP_prodn_shortfall</to>
+            </connector>
+            <connector x="2488" y="951" uid="2626" color="black">
+                <from>NPL_98</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="895" y="646" uid="2627" color="black">
+                <from>potential_CP_exports1</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="511" y="1428" uid="2628" color="black">
+                <from>potential_AP_imports_14</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2860" y="829" uid="2629" color="black">
+                <from>NPL_140</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="3492" y="346" uid="2630" color="black">
                 <from>ramp_in_logic</from>
                 <to>GDP_mod_logic</to>
             </connector>
-            <connector x="3205" y="866" uid="2752" color="black">
-                <from>EU_27_Pop</from>
+            <connector x="125" y="744" uid="2631" color="black">
+                <from>potential_CP_imports_3</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1317" y="986" uid="2632" color="black">
+                <from>potential_CP_exports_17</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="1715" y="2075" uid="2633" color="black">
+                <from>NPL_94</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="2094" y="1091" uid="2634" color="black">
+                <from>NPL_171</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2088" y="2159" uid="2635" color="black">
+                <from>NPL_160</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="3769" y="454" uid="2636" color="black">
+                <from>forage_yield_mod_pct</from>
+                <to>forage_yield_mod_logic</to>
+            </connector>
+            <connector x="2479" y="763" uid="2637" color="black">
+                <from>NPL_74</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="1697" y="655" uid="2638" color="black">
+                <from>NPL_63</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2870" y="2287" uid="2639" color="black">
+                <from>NPL_168</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="144" y="1576" uid="2640" color="black">
+                <from>potential_AP_imports_7</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="1724" y="1336" uid="2641" color="black">
+                <from>NPL_73</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="1701" y="1827" uid="2642" color="black">
+                <from>NPL_64</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="513" y="1279" uid="2643" color="black">
+                <from>potential_AP_imports_11</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2479" y="1956" uid="2644" color="black">
+                <from>NPL_72</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="897" y="956" uid="2645" color="black">
+                <from>potential_CP_exports_8</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="3647" y="1077" uid="2646" color="black">
+                <from>USA_Pop_9</from>
                 <to>population</to>
             </connector>
-            <connector x="2083" y="880" uid="2753" color="black">
+            <connector x="3650" y="918" uid="2647" color="black">
+                <from>R_S_Asia_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="146" y="1415" uid="2648" color="black">
+                <from>potential_AP_imports_4</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2487" y="996" uid="2649" color="black">
+                <from>NPL_104</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="1712" y="1036" uid="2650" color="black">
+                <from>NPL_111</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="3660" y="973" uid="2651" color="black">
+                <from>S_o_Amer_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="901" y="1221" uid="2652" color="black">
+                <from>potential_AP_exports_1</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="118" y="1060" uid="2653" color="black">
+                <from>potential_CP_imports_9</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="3203" y="926" uid="2654" color="black">
+                <from>E_Asia_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="3284" y="229" uid="2655" color="black">
+                <from>biofuel_mod_pct</from>
+                <to>biofuel_mod_logic</to>
+            </connector>
+            <connector x="2486" y="1385" uid="2656" color="black">
+                <from>NPL_77</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="2487" y="2099" uid="2657" color="black">
+                <from>NPL_90</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="507" y="1537" uid="2658" color="black">
+                <from>potential_AP_imports_16</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="899" y="1284" uid="2659" color="black">
+                <from>potentila_AP_exports_2</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2859" y="883" uid="2660" color="black">
+                <from>NPL_146</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="540" y="1029" uid="2661" color="black">
+                <from>potential_CP_imports_18</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="2103" y="1246" uid="2662" color="black">
+                <from>NPL_121</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2497" y="1654" uid="2663" color="black">
+                <from>NPL_113</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="1711" y="902" uid="2664" color="black">
+                <from>NPL_93</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="1330" y="1436" uid="2665" color="black">
+                <from>potentila_AP_exports_14</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="529" y="798" uid="2666" color="black">
+                <from>potential_CP_imports_14</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="971" y="54" uid="2667" color="black">
+                <from>global_commodity_prodn_shortfall</from>
+                <to>chg_CP_prodn_shortfall</to>
+            </connector>
+            <connector x="3494" y="359" uid="2668" color="black">
+                <from>ramp_in_logic</from>
+                <to>forage_yield_mod_logic</to>
+            </connector>
+            <connector x="3648" y="666" uid="2669" color="black">
+                <from>Oceania_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="893" y="1646" uid="2670" color="black">
+                <from>potentila_AP_exports_9</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2867" y="1400" uid="2671" color="black">
+                <from>NPL_137</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="861" y="50" uid="2672" color="black">
+                <from>
+                    <alias uid="2595" />
+                </from>
+                <to>global_commodity_prodn_shortfall</to>
+            </connector>
+            <connector x="1327" y="1118" uid="2673" color="black">
+                <from>potential_CP_exports_19</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="2086" y="1030" uid="2674" color="black">
+                <from>NPL_165</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2082" y="670" uid="2675" color="black">
+                <from>NPL_123</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="1714" y="1080" uid="2676" color="black">
+                <from>NPL_117</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2107" y="1606" uid="2677" color="black">
+                <from>NPL_163</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2860" y="2183" uid="2678" color="black">
+                <from>NPL_156</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2105" y="1563" uid="2679" color="black">
+                <from>NPL_157</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2494" y="1567" uid="2680" color="black">
+                <from>NPL_101</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="1713" y="2031" uid="2681" color="black">
+                <from>NPL_88</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="134" y="964" uid="2682" color="black">
+                <from>potential_CP_imports_7</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1703" y="1884" uid="2683" color="black">
+                <from>NPL_70</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="1331" y="1246" uid="2684" color="black">
+                <from>potentila_AP_exports_11</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2103" y="1295" uid="2685" color="black">
+                <from>NPL_127</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2083" y="880" uid="2686" color="black">
                 <from>NPL_147</from>
                 <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="859" y="56" uid="2687" color="black">
+                <from>
+                    <alias uid="2595" />
+                </from>
+                <to>total_interregional_CP_flow</to>
+            </connector>
+            <connector x="3202" y="674" uid="2688" color="black">
+                <from>Brazil_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="2104" y="1511" uid="2689" color="black">
+                <from>NPL_151</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="894" y="853" uid="2690" color="black">
+                <from>potential_CP_exports_6</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="2084" y="987" uid="2691" color="black">
+                <from>NPL_159</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="902" y="1068" uid="2692" color="black">
+                <from>potential_CP_exports_10</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="2098" y="2263" uid="2693" color="black">
+                <from>NPL_172</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="542" y="971" uid="2694" color="black">
+                <from>potential_CP_imports_17</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="2087" y="2052" uid="2695" color="black">
+                <from>NPL_148</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="536" y="841" uid="2696" color="black">
+                <from>potential_CP_imports_15</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="3496" y="354" uid="2697" color="black">
+                <from>ramp_in_logic</from>
+                <to>other_yield_mod_logic</to>
+            </connector>
+            <connector x="115" y="644" uid="2698" color="black">
+                <from>potential_CP_imports_20</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="2083" y="935" uid="2699" color="black">
+                <from>NPL_153</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="896" y="1124" uid="2700" color="black">
+                <from>potential_CP_exports_11</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="2859" y="2131" uid="2701" color="black">
+                <from>NPL_150</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="3483" y="361" uid="2702" color="black">
+                <from>ramp_in_logic</from>
+                <to>other_demand_mod_logic</to>
+            </connector>
+            <connector x="2858" y="1866" uid="2703" color="black">
+                <from>NPL_120</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2490" y="2276" uid="2704" color="black">
+                <from>NPL_114</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="3296" y="460" uid="2705" color="black">
+                <from>other_demand_mod_pct</from>
+                <to>other_demand_mod_logic</to>
+            </connector>
+            <connector x="1712" y="995" uid="2706" color="black">
+                <from>NPL_105</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2492" y="1433" uid="2707" color="black">
+                <from>NPL_83</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="2485" y="862" uid="2708" color="black">
+                <from>NPL_86</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="1312" y="704" uid="2709" color="black">
+                <from>potential_CP_exports_13</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="3491" y="345" uid="2710" color="black">
+                <from>ramp_in_logic</from>
+                <to>population_mod_logic</to>
+            </connector>
+            <connector x="2859" y="938" uid="2711" color="black">
+                <from>NPL_152</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="110" y="1119" uid="2712" color="black">
+                <from>potential_CP_imports_10</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="2858" y="722" uid="2713" color="black">
+                <from>NPL_128</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="2479" y="814" uid="2714" color="black">
+                <from>NPL_80</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="1730" y="1435" uid="2715" color="black">
+                <from>NPL_85</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="1202" y="60" uid="2716" color="black">
+                <from>Avg_Commodity_Prodn_Shortfall</from>
+                <to>chg_CP_prodn_shortfall</to>
+            </connector>
+            <connector x="128" y="921" uid="2717" color="black">
+                <from>potential_CP_imports_6</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="2479" y="2007" uid="2718" color="black">
+                <from>NPL_78</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2473" y="1851" uid="2719" color="black">
+                <from>NPL_60</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2858" y="774" uid="2720" color="black">
+                <from>NPL_134</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="515" y="1374" uid="2721" color="black">
+                <from>potential_AP_imports_13</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2086" y="1891" uid="2722" color="black">
+                <from>NPL_130</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="535" y="700" uid="2723" color="black">
+                <from>potential_CP_imports_12</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1732" y="1569" uid="2724" color="black">
+                <from>NPL_103</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="859" y="164" uid="2725" color="black">
+                <from>
+                    <alias uid="2596" />
+                </from>
+                <to>total_interregional_CP_flow</to>
+            </connector>
+            <connector x="2480" y="1229" uid="2726" color="blue">
+                <from>NPL_59</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="2865" y="1244" uid="2727" color="black">
+                <from>NPL_119</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="2489" y="2233" uid="2728" color="black">
+                <from>NPL_108</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="892" y="1349" uid="2729" color="black">
+                <from>potentila_AP_exports_3</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="976" y="474" uid="2730" color="black">
+                <from>time_to_perceive_AP</from>
+                <to>chg_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="2495" y="1522" uid="2731" color="black">
+                <from>NPL_95</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="518" y="1325" uid="2732" color="black">
+                <from>potential_AP_imports_12</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2862" y="2226" uid="2733" color="black">
+                <from>NPL_162</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2858" y="1967" uid="2734" color="black">
+                <from>NPL_132</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="2082" y="719" uid="2735" color="black">
+                <from>NPL_129</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2494" y="1477" uid="2736" color="black">
+                <from>NPL_89</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="3200" y="1022" uid="2737" color="black">
+                <from>JAPAN_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="1718" y="2252" uid="2738" color="black">
+                <from>NPL_118</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="506" y="1221" uid="2739" color="black">
+                <from>potential_AP_imports_10</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="1716" y="2120" uid="2740" color="black">
+                <from>NPL_100</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="2862" y="1033" uid="2741" color="black">
+                <from>NPL_164</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="2105" y="1402" uid="2742" color="black">
+                <from>NPL_139</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2084" y="825" uid="2743" color="black">
+                <from>NPL_141</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2115" y="1667" uid="2744" color="black">
+                <from>NPL_169</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2104" y="1456" uid="2745" color="black">
+                <from>NPL_145</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2090" y="2202" uid="2746" color="black">
+                <from>NPL_166</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="1715" y="2165" uid="2747" color="black">
+                <from>NPL_106</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="894" y="682" uid="2748" color="black">
+                <from>potential_CP_exports_2</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="1336" y="1607" uid="2749" color="black">
+                <from>potentila_AP_exports_17</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="875" y="343" uid="2750" color="black">
+                <from>
+                    <alias uid="2594" />
+                </from>
+                <to>total_interregional_AP_flow</to>
+            </connector>
+            <connector x="2490" y="1083" uid="2751" color="black">
+                <from>NPL_116</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="3649" y="874" uid="2752" color="black">
+                <from>R_SE_Asia_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="2482" y="1286" uid="2753" color="black">
+                <from>NPL_65</from>
+                <to>Abandoned_Land</to>
             </connector>
             <connector x="134" y="1689" uid="2754" color="black">
                 <from>potential_AP_imports_9</from>
                 <to>TOTAL_potential_AP_imports</to>
             </connector>
-            <connector x="856" y="158" uid="2755" color="black">
-                <from>
-                    <alias uid="2595" />
-                </from>
-                <to>global_commodity_prodn_shortfall</to>
-            </connector>
-            <connector x="892" y="1349" uid="2756" color="black">
-                <from>potentila_AP_exports_3</from>
+            <connector x="1327" y="1704" uid="2755" color="black">
+                <from>potentila_AP_exports_19</from>
                 <to>TOTAL_desired_AP_exports</to>
             </connector>
-            <connector x="1734" y="1613" uid="2757" color="black">
-                <from>NPL_109</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="1334" y="1384" uid="2758" color="black">
-                <from>potentila_AP_exports_13</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="513" y="1651" uid="2759" color="black">
-                <from>potential_AP_imports_18</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2485" y="862" uid="2760" color="black">
-                <from>NPL_86</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="530" y="660" uid="2761" color="black">
-                <from>potential_CP_imports_11</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="2865" y="1345" uid="2762" color="black">
-                <from>NPL_131</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="2488" y="2144" uid="2763" color="black">
-                <from>NPL_96</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="1724" y="1387" uid="2764" color="black">
-                <from>NPL_79</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="1703" y="760" uid="2765" color="black">
-                <from>NPL_75</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="2082" y="670" uid="2766" color="black">
-                <from>NPL_123</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="908" y="1011" uid="2767" color="black">
-                <from>potential_CP_exports_9</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="3649" y="874" uid="2768" color="black">
-                <from>R_SE_Asia_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="1327" y="1118" uid="2769" color="black">
-                <from>potential_CP_exports_19</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="3304" y="313" uid="2770" color="black">
-                <from>AP_demand_mod_pct</from>
-                <to>AP_demand_mod_logic</to>
-            </connector>
-            <connector x="2094" y="1091" uid="2771" color="black">
-                <from>NPL_171</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="1715" y="2165" uid="2772" color="black">
-                <from>NPL_106</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2090" y="2202" uid="2773" color="black">
-                <from>NPL_166</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2479" y="1956" uid="2774" color="black">
-                <from>NPL_72</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="894" y="1512" uid="2775" color="black">
-                <from>potentila_AP_exports_6</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="896" y="1124" uid="2776" color="black">
-                <from>potential_CP_exports_11</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="2858" y="774" uid="2777" color="black">
-                <from>NPL_134</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="897" y="956" uid="2778" color="black">
-                <from>potential_CP_exports_8</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="125" y="744" uid="2779" color="black">
-                <from>potential_CP_imports_3</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="1717" y="2209" uid="2780" color="black">
-                <from>NPL_112</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="967" y="357" uid="2781" color="black">
-                <from>global_AP_prodn_shortfall</from>
-                <to>chg_AP_prodn_shortfall</to>
-            </connector>
-            <connector x="542" y="971" uid="2782" color="black">
-                <from>potential_CP_imports_17</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="2858" y="673" uid="2783" color="black">
-                <from>NPL_122</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="893" y="1559" uid="2784" color="black">
-                <from>potentila_AP_exports_7</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="2494" y="1477" uid="2785" color="black">
-                <from>NPL_89</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="3207" y="814" uid="2786" color="black">
-                <from>CC_Amer_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="3647" y="1077" uid="2787" color="black">
-                <from>USA_Pop_9</from>
-                <to>population</to>
-            </connector>
-            <connector x="3284" y="229" uid="2788" color="black">
-                <from>biofuel_mod_pct</from>
-                <to>biofuel_mod_logic</to>
-            </connector>
-            <connector x="1733" y="1524" uid="2789" color="black">
-                <from>NPL_97</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="2107" y="1606" uid="2790" color="black">
-                <from>NPL_163</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="1317" y="1059" uid="2791" color="black">
-                <from>potential_CP_exports_18</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="3205" y="775" uid="2792" color="black">
-                <from>CHIHKG_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="154" y="1316" uid="2793" color="black">
-                <from>potential_AP_imports_2</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="1707" y="1932" uid="2794" color="black">
-                <from>NPL_76</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2479" y="763" uid="2795" color="black">
-                <from>NPL_74</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="897" y="1408" uid="2796" color="black">
-                <from>potentila_AP_exports_4</from>
-                <to>TOTAL_desired_AP_exports</to>
-            </connector>
-            <connector x="1715" y="2075" uid="2797" color="black">
-                <from>NPL_94</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2870" y="1094" uid="2798" color="black">
-                <from>NPL_170</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="1317" y="986" uid="2799" color="black">
-                <from>potential_CP_exports_17</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="976" y="474" uid="2800" color="black">
-                <from>time_to_perceive_AP</from>
-                <to>chg_AP_prodn_shortfall</to>
-            </connector>
-            <connector x="2496" y="1611" uid="2801" color="black">
-                <from>NPL_107</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="532" y="741" uid="2802" color="black">
-                <from>potential_CP_imports_13</from>
-                <to>TOTAL_potential_CP_imports</to>
-            </connector>
-            <connector x="1735" y="1656" uid="2803" color="black">
-                <from>NPL_115</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="2860" y="2022" uid="2804" color="black">
-                <from>NPL_138</from>
-                <to>Builtup_Land</to>
-            </connector>
-            <connector x="1308" y="930" uid="2805" color="black">
-                <from>potential_CP_exports_16</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="2086" y="1842" uid="2806" color="black">
-                <from>NPL_124</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="1711" y="902" uid="2807" color="black">
-                <from>NPL_93</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="2475" y="715" uid="2808" color="black">
-                <from>NPL_68</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2086" y="1891" uid="2809" color="black">
-                <from>NPL_130</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="3765" y="306" uid="2810" color="black">
-                <from>CP_yield_mod_pct</from>
-                <to>CP_yield_mod_logic</to>
-            </connector>
-            <connector x="2858" y="722" uid="2811" color="black">
-                <from>NPL_128</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="1730" y="1435" uid="2812" color="black">
-                <from>NPL_85</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="3204" y="727" uid="2813" color="black">
-                <from>CAN_Pop</from>
-                <to>population</to>
-            </connector>
-            <connector x="1699" y="712" uid="2814" color="black">
-                <from>NPL_69</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="2869" y="1604" uid="2815" color="black">
-                <from>NPL_161</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="1701" y="1827" uid="2816" color="black">
-                <from>NPL_64</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="895" y="814" uid="2817" color="black">
-                <from>potential_CP_exports_5</from>
-                <to>TOTAL_potential_CP_exports</to>
-            </connector>
-            <connector x="518" y="1325" uid="2818" color="black">
-                <from>potential_AP_imports_12</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="2088" y="1998" uid="2819" color="black">
-                <from>NPL_142</from>
-                <to>Set_Aside_Land</to>
-            </connector>
-            <connector x="2492" y="1433" uid="2820" color="black">
-                <from>NPL_83</from>
-                <to>Abandoned_Land</to>
-            </connector>
-            <connector x="2104" y="1456" uid="2821" color="black">
-                <from>NPL_145</from>
-                <to>Crop_Land</to>
-            </connector>
-            <connector x="146" y="1415" uid="2822" color="black">
-                <from>potential_AP_imports_4</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="1202" y="60" uid="2823" color="black">
-                <from>Avg_Commodity_Prodn_Shortfall</from>
-                <to>chg_CP_prodn_shortfall</to>
-            </connector>
-            <connector x="2489" y="1040" uid="2824" color="black">
-                <from>NPL_110</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2487" y="906" uid="2825" color="black">
-                <from>NPL_92</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="515" y="1374" uid="2826" color="black">
-                <from>potential_AP_imports_13</from>
-                <to>TOTAL_potential_AP_imports</to>
-            </connector>
-            <connector x="859" y="164" uid="2827" color="black">
-                <from>
-                    <alias uid="2595" />
-                </from>
-                <to>total_interregional_CP_flow</to>
-            </connector>
-            <connector x="2473" y="658" uid="2828" color="black">
-                <from>NPL_62</from>
-                <to>Latent_Land</to>
-            </connector>
-            <connector x="2084" y="987" uid="2829" color="black">
-                <from>NPL_159</from>
-                <to>Near_Pristine_Land</to>
-            </connector>
-            <connector x="2103" y="1347" uid="2830" color="black">
+            <connector x="2103" y="1347" uid="2756" color="black">
                 <from>NPL_133</from>
                 <to>Crop_Land</to>
             </connector>
-            <connector x="2860" y="990" uid="2831" color="black">
-                <from>NPL_158</from>
-                <to>Latent_Land</to>
+            <connector x="3765" y="306" uid="2757" color="black">
+                <from>CP_yield_mod_pct</from>
+                <to>CP_yield_mod_logic</to>
             </connector>
-            <connector x="134" y="964" uid="2832" color="black">
-                <from>potential_CP_imports_7</from>
+            <connector x="885" y="1601" uid="2758" color="black">
+                <from>potentila_AP_exports_8</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2869" y="1604" uid="2759" color="black">
+                <from>NPL_161</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="3205" y="775" uid="2760" color="black">
+                <from>CHIHKG_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="1334" y="1384" uid="2761" color="black">
+                <from>potentila_AP_exports_13</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2486" y="1334" uid="2762" color="black">
+                <from>NPL_71</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="3304" y="388" uid="2763" color="black">
+                <from>CP_demand_mod_pct</from>
+                <to>CP_demand_mod_logic</to>
+            </connector>
+            <connector x="1317" y="1059" uid="2764" color="black">
+                <from>potential_CP_exports_18</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="505" y="1598" uid="2765" color="black">
+                <from>potential_AP_imports_17</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="1732" y="1479" uid="2766" color="black">
+                <from>NPL_91</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2877" y="1665" uid="2767" color="black">
+                <from>NPL_167</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="893" y="1559" uid="2768" color="black">
+                <from>potentila_AP_exports_7</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="541" y="1103" uid="2769" color="black">
+                <from>potential_CP_imports_19</from>
                 <to>TOTAL_potential_CP_imports</to>
             </connector>
-            <connector x="1718" y="2252" uid="2833" color="black">
-                <from>NPL_118</from>
+            <connector x="3651" y="1022" uid="2770" color="black">
+                <from>S_S_Afr_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="3479" y="357" uid="2771" color="black">
+                <from>ramp_in_logic</from>
+                <to>CP_demand_mod_logic</to>
+            </connector>
+            <connector x="119" y="1009" uid="2772" color="black">
+                <from>potential_CP_imports_8</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1734" y="1613" uid="2773" color="black">
+                <from>NPL_109</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="1724" y="1387" uid="2774" color="black">
+                <from>NPL_79</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="1712" y="947" uid="2775" color="black">
+                <from>NPL_99</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="501" y="1726" uid="2776" color="black">
+                <from>potential_AP_imports_19</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="123" y="692" uid="2777" color="black">
+                <from>potential_CP_imports_2</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="895" y="779" uid="2778" color="black">
+                <from>potential_CP_exports_4</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="1328" y="1320" uid="2779" color="black">
+                <from>potentila_AP_exports_12</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2870" y="1094" uid="2780" color="black">
+                <from>NPL_170</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="3205" y="866" uid="2781" color="black">
+                <from>EU_27_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="1735" y="1656" uid="2782" color="black">
+                <from>NPL_115</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="3649" y="719" uid="2783" color="black">
+                <from>Oth_CEE_CIS_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="899" y="900" uid="2784" color="black">
+                <from>potential_CP_exports_7</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="3768" y="376" uid="2785" color="black">
+                <from>other_yield_mod_pct</from>
+                <to>other_yield_mod_logic</to>
+            </connector>
+            <connector x="1282" y="629" uid="2786" color="black">
+                <from>potential_CP_exports_12</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="2086" y="1943" uid="2787" color="black">
+                <from>NPL_136</from>
                 <to>Set_Aside_Land</to>
             </connector>
-            <connector x="2862" y="2226" uid="2834" color="black">
-                <from>NPL_162</from>
+            <connector x="3304" y="313" uid="2788" color="black">
+                <from>AP_demand_mod_pct</from>
+                <to>AP_demand_mod_logic</to>
+            </connector>
+            <connector x="1351" y="1494" uid="2789" color="black">
+                <from>potentila_AP_exports_15</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="2865" y="1293" uid="2790" color="black">
+                <from>NPL_125</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="3202" y="1064" uid="2791" color="black">
+                <from>MALA_Indo_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="532" y="741" uid="2792" color="black">
+                <from>potential_CP_imports_13</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="894" y="1512" uid="2793" color="black">
+                <from>potentila_AP_exports_6</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="880" y="263" uid="2794" color="black">
+                <from>
+                    <alias uid="2597" />
+                </from>
+                <to>global_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="2488" y="2144" uid="2795" color="black">
+                <from>NPL_96</from>
                 <to>Builtup_Land</to>
             </connector>
-            <connector x="1312" y="866" uid="2835" color="black">
+            <connector x="124" y="858" uid="2796" color="black">
+                <from>potential_CP_imports_5</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1703" y="760" uid="2797" color="black">
+                <from>NPL_75</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2859" y="2076" uid="2798" color="black">
+                <from>NPL_144</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="894" y="1458" uid="2799" color="black">
+                <from>potentila_AP_exports_5</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="151" y="1248" uid="2800" color="black">
+                <from>potential_AP_imports_20</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="3206" y="1113" uid="2801" color="black">
+                <from>MEAS_Nafr_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="898" y="730" uid="2802" color="black">
+                <from>potential_CP_exports_3</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="877" y="348" uid="2803" color="black">
+                <from>
+                    <alias uid="2594" />
+                </from>
+                <to>global_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="3207" y="814" uid="2804" color="black">
+                <from>CC_Amer_Pop</from>
+                <to>population</to>
+            </connector>
+            <connector x="2086" y="1842" uid="2805" color="black">
+                <from>NPL_124</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="140" y="1470" uid="2806" color="black">
+                <from>potential_AP_imports_5</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="509" y="1475" uid="2807" color="black">
+                <from>potential_AP_imports_15</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2865" y="1345" uid="2808" color="black">
+                <from>NPL_131</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="2088" y="1998" uid="2809" color="black">
+                <from>NPL_142</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="2485" y="2055" uid="2810" color="black">
+                <from>NPL_84</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="513" y="1651" uid="2811" color="black">
+                <from>potential_AP_imports_18</from>
+                <to>TOTAL_potential_AP_imports</to>
+            </connector>
+            <connector x="2858" y="673" uid="2812" color="black">
+                <from>NPL_122</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="883" y="257" uid="2813" color="black">
+                <from>
+                    <alias uid="2597" />
+                </from>
+                <to>total_interregional_AP_flow</to>
+            </connector>
+            <connector x="1306" y="791" uid="2814" color="black">
+                <from>potential_CP_exports_14</from>
+                <to>TOTAL_potential_CP_exports</to>
+            </connector>
+            <connector x="3479" y="349" uid="2815" color="black">
+                <from>ramp_in_logic</from>
+                <to>AP_demand_mod_logic</to>
+            </connector>
+            <connector x="2475" y="1908" uid="2816" color="black">
+                <from>NPL_66</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="533" y="922" uid="2817" color="black">
+                <from>potential_CP_imports_16</from>
+                <to>TOTAL_potential_CP_imports</to>
+            </connector>
+            <connector x="1327" y="1656" uid="2818" color="black">
+                <from>potentila_AP_exports_18</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="1720" y="1288" uid="2819" color="black">
+                <from>NPL_67</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="2866" y="1509" uid="2820" color="black">
+                <from>NPL_149</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="3485" y="343" uid="2821" color="black">
+                <from>ramp_in_logic</from>
+                <to>biofuel_mod_logic</to>
+            </connector>
+            <connector x="1703" y="811" uid="2822" color="black">
+                <from>NPL_81</from>
+                <to>Near_Pristine_Land</to>
+            </connector>
+            <connector x="2860" y="2022" uid="2823" color="black">
+                <from>NPL_138</from>
+                <to>Builtup_Land</to>
+            </connector>
+            <connector x="1733" y="1524" uid="2824" color="black">
+                <from>NPL_97</from>
+                <to>Crop_Land</to>
+            </connector>
+            <connector x="3662" y="170" uid="2825" color="black">
+                <from>population_mod_pct</from>
+                <to>population_mod_logic</to>
+            </connector>
+            <connector x="898" y="1691" uid="2826" color="black">
+                <from>potentila_AP_exports_10</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="1312" y="866" uid="2827" color="black">
                 <from>potential_CP_exports_15</from>
                 <to>TOTAL_potential_CP_exports</to>
             </connector>
-            <connector x="2858" y="1967" uid="2836" color="black">
-                <from>NPL_132</from>
-                <to>Builtup_Land</to>
+            <connector x="2860" y="990" uid="2828" color="black">
+                <from>NPL_158</from>
+                <to>Latent_Land</to>
             </connector>
-            <connector x="150" y="1362" uid="2837" color="black">
+            <connector x="150" y="1362" uid="2829" color="black">
                 <from>potential_AP_imports_3</from>
                 <to>TOTAL_potential_AP_imports</to>
             </connector>
-            <connector x="2083" y="935" uid="2838" color="black">
-                <from>NPL_153</from>
-                <to>Near_Pristine_Land</to>
+            <connector x="897" y="1408" uid="2830" color="black">
+                <from>potentila_AP_exports_4</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="967" y="357" uid="2831" color="black">
+                <from>global_AP_prodn_shortfall</from>
+                <to>chg_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="2087" y="2107" uid="2832" color="black">
+                <from>NPL_154</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="2475" y="715" uid="2833" color="black">
+                <from>NPL_68</from>
+                <to>Latent_Land</to>
+            </connector>
+            <connector x="2866" y="1454" uid="2834" color="black">
+                <from>NPL_143</from>
+                <to>Abandoned_Land</to>
+            </connector>
+            <connector x="1339" y="1552" uid="2835" color="black">
+                <from>potentila_AP_exports_16</from>
+                <to>TOTAL_desired_AP_exports</to>
+            </connector>
+            <connector x="1707" y="1983" uid="2836" color="black">
+                <from>NPL_82</from>
+                <to>Set_Aside_Land</to>
+            </connector>
+            <connector x="1032" y="440" uid="2837" color="black">
+                <from>Avg_AP_Prodn_Shortfall</from>
+                <to>chg_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="2473" y="658" uid="2838" color="black">
+                <from>NPL_62</from>
+                <to>Latent_Land</to>
             </connector>
             <text_box x="1" y="3" uid="2839" color="black" font-family="Arial" font-size="18" font-weight="bold" lock_text="true" margin="1" width="746" height="40" appearance="transparent">NREL Global Land Use Change Model (NGLUCKM)</text_box>
             <text_box x="1" y="40" uid="2840" color="black" font-family="Arial" font-size="18" font-style="italic" margin="1" width="577" height="38" appearance="transparent">Global calculations module</text_box>
