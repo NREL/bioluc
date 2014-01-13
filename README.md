@@ -58,6 +58,9 @@ Ethan can direct questions and issues to the appropriate project team member.
 
 ##File Structure and Description
 
+####Downloading
+Users can download a zip file of all the folders by going here: https://github.com/NREL/bioluc/releases
+
 ####Models and Data
 Located within [this](https://github.com/NREL/bioluc/tree/master/Model%20and%20Data) folder are versions of the BioLUC model. The latest version of the BioLUC model is [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/19-Region%20Model).
 
