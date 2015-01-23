@@ -131,7 +131,7 @@
             <table name="interface:Yield: p1" />
         </export>
     </data>
-    <isee:prefs layer="interface" grid_width="20" grid_height="50" divide_by_zero_alert="true" hide_taskbar="true" show_module_prefix="true" hide_transparent_buttons="true">
+    <isee:prefs layer="model" grid_width="20" grid_height="50" divide_by_zero_alert="true" hide_taskbar="true" show_module_prefix="true" hide_transparent_buttons="true">
         <isee:window width="1600" height="818" />
         <isee:security />
         <isee:print_setup width="768" height="588" />
@@ -199,157 +199,157 @@
             <display x="618" y="500" color="#000D98" label_side="bottom" label_angle="275" />
         </module>
         <display show_pages="true" page_width="768" page_height="588" page_cols="11" page_rows="5" isee:show_values_on_hover="true" isee:converter_size="medium" zoom="150">
-            <connector x="344" y="284" uid="0" color="#E0E0E0">
-                <from>Global</from>
-                <to>C_C_Amer</to>
-            </connector>
-            <connector x="470" y="495" uid="1" color="#E0E0E0">
+            <connector x="470" y="495" uid="0" color="#E0E0E0">
                 <from>R_S_Asia</from>
                 <to>Global</to>
             </connector>
-            <connector x="260" y="465" uid="2" color="#E0E0E0">
-                <from>S_S_AFR</from>
-                <to>Global</to>
-            </connector>
-            <connector x="587" y="248" uid="3" color="#E0E0E0">
-                <from>INDIA</from>
-                <to>Global</to>
-            </connector>
-            <connector x="595" y="480" uid="4" color="#E0E0E0">
-                <from>Oceania</from>
-                <to>Global</to>
-            </connector>
-            <connector x="662" y="194" uid="5" color="#E0E0E0">
+            <connector x="662" y="194" uid="1" color="#E0E0E0">
                 <from>E_Asia</from>
                 <to>Global</to>
             </connector>
-            <connector x="324" y="129" uid="6" color="#E0E0E0">
-                <from>EU27</from>
-                <to>Global</to>
-            </connector>
-            <connector x="374" y="264" uid="7" color="#E0E0E0">
+            <connector x="394" y="297" uid="2" color="#E0E0E0">
                 <from>Global</from>
-                <to>Oth_CEE_CIS</to>
+                <to>Mala_Indo</to>
             </connector>
-            <connector x="344" y="277" uid="8" color="#E0E0E0">
+            <connector x="231" y="142" uid="3" type="info" color="#E0E0E0">
+                <from>R_Europe</from>
+                <to>Global</to>
+            </connector>
+            <connector x="101" y="371" uid="4" color="#E0E0E0">
+                <from>BRAZIL</from>
+                <to>Global</to>
+            </connector>
+            <connector x="407" y="130" uid="5" color="#E0E0E0">
+                <from>Oth_CEE_CIS</from>
+                <to>Global</to>
+            </connector>
+            <connector x="394" y="276" uid="6" color="#E0E0E0">
                 <from>Global</from>
-                <to>USA</to>
+                <to>E_Asia</to>
             </connector>
-            <connector x="583" y="156" uid="9" color="#E0E0E0">
-                <from>CHIHKG</from>
+            <connector x="363" y="264" uid="7" color="#E0E0E0">
+                <from>Global</from>
+                <to>EU27</to>
+            </connector>
+            <connector x="379" y="304" uid="8" color="#E0E0E0">
+                <from>Global</from>
+                <to>R_S_Asia</to>
+            </connector>
+            <connector x="595" y="480" uid="9" color="#E0E0E0">
+                <from>Oceania</from>
                 <to>Global</to>
             </connector>
-            <connector x="133" y="147" uid="10" color="#E0E0E0">
-                <from>CAN</from>
-                <to>Global</to>
+            <connector x="349" y="264" uid="10" color="#E0E0E0">
+                <from>Global</from>
+                <to>R_Europe</to>
             </connector>
             <connector x="394" y="290" uid="11" color="#E0E0E0">
                 <from>Global</from>
                 <to>R_SE_Asia</to>
             </connector>
-            <connector x="394" y="276" uid="12" color="#E0E0E0">
-                <from>Global</from>
-                <to>E_Asia</to>
-            </connector>
-            <connector x="231" y="142" uid="13" type="info" color="#E0E0E0">
-                <from>R_Europe</from>
+            <connector x="133" y="147" uid="12" color="#E0E0E0">
+                <from>CAN</from>
                 <to>Global</to>
             </connector>
-            <connector x="619" y="415" uid="14" color="#E0E0E0">
-                <from>Mala_Indo</from>
+            <connector x="154" y="447" uid="13" color="#E0E0E0">
+                <from>S_o_Amer</from>
                 <to>Global</to>
             </connector>
-            <connector x="656" y="290" uid="15" color="#E0E0E0">
-                <from>JAPAN</from>
+            <connector x="632" y="348" uid="14" color="#E0E0E0">
+                <from>R_SE_Asia</from>
+                <to>Global</to>
+            </connector>
+            <connector x="91" y="212" uid="15" color="#E0E0E0">
+                <from>USA</from>
                 <to>Global</to>
             </connector>
             <connector x="394" y="269" uid="16" color="#E0E0E0">
                 <from>Global</from>
                 <to>CHIHKG</to>
             </connector>
-            <connector x="91" y="212" uid="17" color="#E0E0E0">
-                <from>USA</from>
-                <to>Global</to>
-            </connector>
-            <connector x="387" y="264" uid="18" color="#E0E0E0">
+            <connector x="394" y="284" uid="17" color="#E0E0E0">
                 <from>Global</from>
-                <to>Russia</to>
+                <to>JAPAN</to>
             </connector>
-            <connector x="510" y="127" uid="19" color="#E0E0E0">
-                <from>Russia</from>
-                <to>Global</to>
-            </connector>
-            <connector x="392" y="304" uid="20" color="#E0E0E0">
-                <from>Global</from>
-                <to>Oceania</to>
-            </connector>
-            <connector x="88" y="286" uid="21" color="#E0E0E0">
+            <connector x="88" y="286" uid="18" color="#E0E0E0">
                 <from>C_C_Amer</from>
                 <to>Global</to>
             </connector>
-            <connector x="632" y="348" uid="22" color="#E0E0E0">
-                <from>R_SE_Asia</from>
+            <connector x="619" y="415" uid="19" color="#E0E0E0">
+                <from>Mala_Indo</from>
                 <to>Global</to>
             </connector>
-            <connector x="154" y="447" uid="23" color="#E0E0E0">
-                <from>S_o_Amer</from>
+            <connector x="583" y="156" uid="20" color="#E0E0E0">
+                <from>CHIHKG</from>
                 <to>Global</to>
             </connector>
-            <connector x="349" y="264" uid="24" color="#E0E0E0">
+            <connector x="392" y="304" uid="21" color="#E0E0E0">
                 <from>Global</from>
-                <to>R_Europe</to>
+                <to>Oceania</to>
             </connector>
-            <connector x="379" y="304" uid="25" color="#E0E0E0">
-                <from>Global</from>
-                <to>R_S_Asia</to>
-            </connector>
-            <connector x="363" y="264" uid="26" color="#E0E0E0">
-                <from>Global</from>
-                <to>EU27</to>
-            </connector>
-            <connector x="407" y="130" uid="27" color="#E0E0E0">
-                <from>Oth_CEE_CIS</from>
+            <connector x="510" y="127" uid="22" color="#E0E0E0">
+                <from>Russia</from>
                 <to>Global</to>
             </connector>
-            <connector x="101" y="371" uid="28" color="#E0E0E0">
-                <from>BRAZIL</from>
+            <connector x="387" y="264" uid="23" color="#E0E0E0">
+                <from>Global</from>
+                <to>Russia</to>
+            </connector>
+            <connector x="344" y="277" uid="24" color="#E0E0E0">
+                <from>Global</from>
+                <to>USA</to>
+            </connector>
+            <connector x="587" y="248" uid="25" color="#E0E0E0">
+                <from>INDIA</from>
                 <to>Global</to>
             </connector>
-            <connector x="394" y="297" uid="29" color="#E0E0E0">
+            <connector x="344" y="284" uid="26" color="#E0E0E0">
                 <from>Global</from>
-                <to>Mala_Indo</to>
+                <to>C_C_Amer</to>
             </connector>
-            <connector x="345" y="489" uid="30" color="#E0E0E0">
-                <from>MEAS_NAfr</from>
+            <connector x="260" y="465" uid="27" color="#E0E0E0">
+                <from>S_S_AFR</from>
                 <to>Global</to>
             </connector>
-            <connector x="394" y="280" uid="31" color="#E0E0E0">
+            <connector x="344" y="292" uid="28" color="#E0E0E0">
                 <from>Global</from>
-                <to>INDIA</to>
+                <to>BRAZIL</to>
             </connector>
-            <connector x="357" y="304" uid="32" color="#E0E0E0">
+            <connector x="344" y="303" uid="29" color="#E0E0E0">
                 <from>Global</from>
-                <to>S_S_AFR</to>
+                <to>S_o_Amer</to>
+            </connector>
+            <connector x="367" y="304" uid="30" color="#E0E0E0">
+                <from>Global</from>
+                <to>MEAS_NAfr</to>
+            </connector>
+            <connector x="374" y="264" uid="31" color="#E0E0E0">
+                <from>Global</from>
+                <to>Oth_CEE_CIS</to>
+            </connector>
+            <connector x="656" y="290" uid="32" color="#E0E0E0">
+                <from>JAPAN</from>
+                <to>Global</to>
             </connector>
             <connector x="344" y="270" uid="33" color="#E0E0E0">
                 <from>Global</from>
                 <to>CAN</to>
             </connector>
-            <connector x="394" y="284" uid="34" color="#E0E0E0">
+            <connector x="357" y="304" uid="34" color="#E0E0E0">
                 <from>Global</from>
-                <to>JAPAN</to>
+                <to>S_S_AFR</to>
             </connector>
-            <connector x="367" y="304" uid="35" color="#E0E0E0">
+            <connector x="394" y="280" uid="35" color="#E0E0E0">
                 <from>Global</from>
-                <to>MEAS_NAfr</to>
+                <to>INDIA</to>
             </connector>
-            <connector x="344" y="303" uid="36" color="#E0E0E0">
-                <from>Global</from>
-                <to>S_o_Amer</to>
+            <connector x="324" y="129" uid="36" color="#E0E0E0">
+                <from>EU27</from>
+                <to>Global</to>
             </connector>
-            <connector x="344" y="292" uid="37" color="#E0E0E0">
-                <from>Global</from>
-                <to>BRAZIL</to>
+            <connector x="345" y="489" uid="37" color="#E0E0E0">
+                <from>MEAS_NAfr</from>
+                <to>Global</to>
             </connector>
             <text_box x="0" y="0" uid="38" color="black" font-family="Arial" font-size="24" font-weight="bold" margin="1" width="746" height="40" appearance="transparent">NREL Global Land Use Change Model (BioLUC)</text_box>
             <text_box x="4" y="38" uid="39" color="black" font-family="Arial" font-size="18" font-style="italic" lock_text="true" margin="1" width="360" height="32" appearance="transparent">Double-click to enter a module</text_box>

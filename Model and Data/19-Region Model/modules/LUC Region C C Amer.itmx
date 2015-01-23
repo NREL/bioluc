@@ -1308,7 +1308,7 @@
                 <gf>
                     <xscale min="1991" max="2050" />
                     <yscale min="0" max="100" />
-                    <ypts>9.4000000000000008e-005,9.5133333333333306e-005,9.6266666666666698e-005,9.7400000000000009e-005,9.8533333333333293e-005,9.9666666666666699e-005,0.0001008,0.000101933333333333,0.000103066666666667,0.0001042,0.000105333333333333,0.000106466666666667,0.00010760000000000001,0.000108733333333333,0.000109866666666667,0.00011100000000000001,0.000111708333333333,0.000112416666666667,0.00011312499999999999,0.000113833333333333,0.00011454166666666699,0.00011525000000000001,0.000115958333333333,0.000116666666666667,0.00011737499999999999,0.000118083333333333,0.000118791666666667,0.0001195,0.00012020833333333299,0.000120916666666667,0.00012162499999999999,0.00012233333333333299,0.000123041666666667,0.00012375,0.000124458333333333,0.00012516666666666701,0.00012587499999999998,0.00012658333333333301,0.00012729166666666699,0.00012800000000000002,0.00012855000000000001,0.00012909999999999999,0.00012965000000000001,0.00013019999999999999,0.00013075000000000001,0.00013129999999999999,0.00013185000000000001,0.00013240000000000002,0.00013295000000000001,0.00013349999999999999,0.00013405000000000001,0.00013459999999999999,0.00013514999999999998,0.00013570000000000002,0.00013625000000000001,0.00013679999999999999,0.00013735,0.00013789999999999999,0.00013844999999999998,0.00013899999999999999</ypts>
+                    <ypts>9.4000000000000008e-005,9.5133333333333306e-005,9.6266666666666698e-005,9.7400000000000009e-005,9.8533333333333293e-005,9.9666666666666699e-005,0.0001008,0.000101933333333333,0.000103066666666667,0.0001042,0.00010533333333333301,0.00010646666666666699,0.00010760000000000001,0.00010873333333333301,0.00010986666666666702,0.00011100000000000001,0.00011170833333333299,0.000112416666666667,0.00011312499999999999,0.000113833333333333,0.00011454166666666701,0.00011525000000000001,0.000115958333333333,0.000116666666666667,0.00011737499999999999,0.000118083333333333,0.000118791666666667,0.0001195,0.00012020833333333298,0.000120916666666667,0.00012162499999999999,0.00012233333333333299,0.000123041666666667,0.00012375,0.000124458333333333,0.00012516666666666701,0.00012587499999999998,0.00012658333333333301,0.00012729166666666699,0.00012800000000000002,0.00012855000000000001,0.00012909999999999999,0.00012965000000000001,0.00013019999999999997,0.00013075000000000001,0.00013129999999999999,0.00013185000000000001,0.00013240000000000002,0.00013295000000000001,0.00013349999999999999,0.00013405000000000001,0.00013459999999999999,0.00013514999999999998,0.00013570000000000002,0.00013625000000000003,0.00013679999999999999,0.00013735,0.00013789999999999999,0.00013844999999999998,0.00013899999999999999</ypts>
                 </gf>
             </aux>
             <aux subscript="Pig">
@@ -2679,7 +2679,7 @@
             </dimensions>
             <eqn>MAX(0,total_target_AP_outflux[AnimalProduct] + AP_target_stock_adj[AnimalProduct])</eqn>
             <units>gigagrams/yr</units>
-            <display x="5040" y="607" color="black" label_side="left" label_angle="126" />
+            <display x="5040" y="607" color="black" label_side="left" label_angle="125" />
         </aux>
         <aux name="total_target_AP_outflux">
             <doc>Variable type:  Algebraic calculation&#x0D;&#x0D;Units:  Gg/yr&#x0D;&#x0D;Description:  Sums regional demand and average net exports for animal products.&#x0D;&#x0D;Notes:&#x0D;</doc>
@@ -2884,7 +2884,14 @@
             </display>
         </group>
         <group name="Crop_Land_Allocation_Forage_and_Commodity_Products">
+            <entity name="net_commodity_export" />
+            <entity name="chg_forage_land" />
+            <entity name="direct_commodity_consn" />
+            <entity name="commodity_prodn" />
             <entity name="total_reqd_crop_land" />
+            <entity name="chg_indicated_land_alloc" />
+            <entity name="AP_commodity_consn" />
+            <entity name="chg_net_CP_export" />
             <entity name="crop_land_alloc_to_fallow" />
             <entity name="crop_land_forage_yield" />
             <entity name="reqd_forage_land" />
@@ -2892,9 +2899,6 @@
             <entity name="distn_forage_consn" />
             <entity name="reqd_forage_consn_AP" />
             <entity name="non_fallow_crop_land" />
-            <entity name="chg_forage_land" />
-            <entity name="direct_commodity_consn" />
-            <entity name="AP_commodity_consn" />
             <entity name="Actual_Forage_Land" />
             <entity name="total_crop_land_allocated_to_commodiities" />
             <entity name="forage_land_gap_prodn_equivalent" />
@@ -2907,11 +2911,8 @@
             <entity name="AP_prodn_shortfall_commodity_2D" />
             <entity name="AP_prodn_shortfall_commodity" />
             <entity name="total_AP_prodn_shortfall" />
-            <entity name="commodity_prodn" />
             <entity name="indicated_land_alloc" />
             <entity name="land_alloc_logic" />
-            <entity name="chg_indicated_land_alloc" />
-            <entity name="chg_net_CP_export" />
             <entity name="commodity_crop_prodn_from_crop_land" />
             <entity name="alloc_of_crop_lands_to_commodities" />
             <entity name="commodity_crop_yield" />
@@ -2938,7 +2939,6 @@
             <entity name="share_total_exports" />
             <entity name="potential_net_exports" />
             <entity name="reqd_commodity_prodn_x_export" />
-            <entity name="net_commodity_export" />
             <entity name="imports" />
             <entity name="exports" />
             <display x="2304" y="27" width="2228" height="1495" color="#3D4A65" border-style="solid" border-width="5px">
@@ -3167,24 +3167,24 @@
             <entity name="NPL_to_latent" />
             <entity name="Set_Aside_Land" />
             <entity name="pristine_to_set_aside" />
+            <entity name="latent_to_NPL" />
             <entity name="latent_to_set_aside" />
             <entity name="Latent_Land" />
             <entity name="latent_to_crop" />
+            <entity name="abandoning" />
+            <entity name="abandoned_to_built_up" />
+            <entity name="abandoned_to_latent" />
             <entity name="crop_to_latent" />
             <entity name="latent_to_built_up" />
             <entity name="indicated_crop_pasture_flux" />
+            <entity name="crop_to_built_up" />
             <entity name="latent_land_constraint" />
             <entity name="Crop_Land" />
             <entity name="crop_land_gap" />
             <entity name="Builtup_Land" />
-            <entity name="crop_to_built_up" />
             <entity name="population_pressure_NPL" />
             <entity name="indicated_frac_land_NPL" />
-            <entity name="latent_to_NPL" />
-            <entity name="abandoned_to_latent" />
             <entity name="Abandoned_Land" />
-            <entity name="abandoning" />
-            <entity name="abandoned_to_built_up" />
             <display x="774" y="28" width="994" height="559" color="#3D4A65" border-style="solid" border-width="5px">
                 <item uid="1588" />
                 <item uid="1589" />
@@ -3232,20 +3232,20 @@
             </display>
         </group>
         <group name="Animal_Products">
+            <entity name="AP_net_export" />
             <entity name="AP_food_consn" />
+            <entity name="AP_prodn" />
             <entity name="AP_inventory_ratio" />
             <entity name="AP_inventory_effect_consn" />
+            <entity name="chg_net_AP_export" />
             <entity name="AP_target_inventory" />
             <entity name="Animal_Product_Inventory" />
-            <entity name="AP_prodn" />
-            <entity name="chg_net_AP_export" />
             <entity name="reqd_AP_prodn_x_global_shortfall" />
             <entity name="potential_AP_net_exports" />
             <entity name="AP_target_stock_adj" />
             <entity name="Avg_Net_AP_Export" />
             <entity name="reqd_AP_prodn_x_export" />
             <entity name="total_target_AP_outflux" />
-            <entity name="AP_net_export" />
             <entity name="potential_AP_exports" />
             <entity name="potential_AP_imports" />
             <entity name="AP_exports" />
@@ -3398,7 +3398,9 @@
         <group name="Animal_Product_Crosswalk_Calculations">
             <entity name="CP_protein_content" />
             <entity name="CP_protein_mass_crosswalk" />
+            <entity name="CP_crosswalk_flux" />
             <entity name="protein_input_per_unit_mass_output" />
+            <entity name="F_crosswalk_flux" />
             <entity name="forage_protein_content" />
             <entity name="F_protein_mass_crosswalk" />
             <entity name="kg_commodity_per_kg_finished_product" />
@@ -3407,7 +3409,6 @@
             <entity name="CP_feed_data_protein_eq" />
             <entity name="CP_feed_protein_distn" />
             <entity name="CP_crosswalk" />
-            <entity name="CP_crosswalk_flux" />
             <entity name="years_of_data_to_consider" />
             <entity name="kg_forage_per_kg_finished_product" />
             <entity name="CP_Crosswalk_Accumulator" />
@@ -3415,7 +3416,6 @@
             <entity name="F_Crosswalk_Accumulator" />
             <entity name="F_crosswalk_input" />
             <entity name="protein_weighted_output_distn" />
-            <entity name="F_crosswalk_flux" />
             <entity name="F_crosswalk" />
             <display x="8" y="2385" width="1000" height="547" color="#3D4A65" border-style="solid" border-width="5px">
                 <item uid="1743" />
@@ -3457,16 +3457,12 @@
                 <label_side>right</label_side>
                 <label_angle>348</label_angle>
             </alias>
-            <alias x="3086" y="289" uid="1439">
-                <of>forage_yield_mod_logic</of>
+            <alias x="948" y="2206" uid="1673">
+                <of>other_yield_mod_logic</of>
+                <label_angle>197</label_angle>
             </alias>
-            <alias x="1065" y="2006" uid="1673">
-                <of>milling_factor_other</of>
-                <label_side>left</label_side>
-                <label_angle>192</label_angle>
-            </alias>
-            <alias x="5269" y="282" uid="1632" color="blue">
-                <of>animal_product_demand</of>
+            <alias x="2370" y="1987" uid="1404" color="black">
+                <of>Abandoned_Land</of>
             </alias>
             <alias x="896" y="2322" uid="1674">
                 <of>Potential_other_yield</of>
@@ -3476,15 +3472,20 @@
                 <label_side>left</label_side>
                 <label_angle>200</label_angle>
             </alias>
-            <alias x="1383" y="2166" uid="1676">
-                <of>biofuel_mod_logic</of>
-                <label_side>left</label_side>
-                <label_angle>227</label_angle>
-            </alias>
-            <alias x="858" y="1958" uid="1677">
+            <alias x="858" y="1958" uid="1676">
                 <of>per_capita_VFN_demand_scenario</of>
                 <label_side>top</label_side>
                 <label_angle>94</label_angle>
+            </alias>
+            <alias x="5096" y="957" uid="1632">
+                <of>TOTAL_Actual_AP_import\export</of>
+                <label_side>top</label_side>
+                <label_angle>111</label_angle>
+            </alias>
+            <alias x="1383" y="2166" uid="1677">
+                <of>biofuel_mod_logic</of>
+                <label_side>left</label_side>
+                <label_angle>227</label_angle>
             </alias>
             <alias x="461" y="2733" uid="1743" color="blue">
                 <of>animal_product_demand</of>
@@ -3495,45 +3496,55 @@
                 <of>crop_land_adj_time</of>
                 <label_angle>302</label_angle>
             </alias>
-            <alias x="5096" y="957" uid="1633">
-                <of>TOTAL_Actual_AP_import\export</of>
-                <label_side>top</label_side>
-                <label_angle>111</label_angle>
+            <alias x="561" y="1024" uid="1573">
+                <of>Crop_Land</of>
+                <label_side>center</label_side>
             </alias>
-            <alias x="4406" y="983" uid="1440">
-                <of>Global_Avg_AP_Prodn_Shortfall</of>
-            </alias>
-            <alias x="4889" y="876" uid="1634">
-                <of>TOTAL_desired_AP_imports</of>
-            </alias>
-            <alias x="2693" y="349" uid="1441" color="blue">
+            <alias x="2693" y="349" uid="1439" color="blue">
                 <of>total_crop_land_allocated_to_all_other_uses</of>
                 <label_side>top</label_side>
                 <label_angle>99</label_angle>
             </alias>
-            <alias x="1359" y="1252" uid="1678">
-                <of>PopScenarioModLogic</of>
+            <alias x="4292" y="910" uid="1440">
+                <of>responsiveness_to_global_ap_shortfall</of>
+                <label_angle>225</label_angle>
             </alias>
-            <alias x="561" y="912" uid="1573">
-                <of>Set_Aside_Land</of>
-                <label_side>center</label_side>
-            </alias>
-            <alias x="892" y="2004" uid="1679">
-                <of>other_demand_mod_logic</of>
-            </alias>
-            <alias x="561" y="987" uid="1574">
-                <of>Latent_Land</of>
-                <label_side>center</label_side>
-            </alias>
-            <alias x="3094" y="1031" uid="1442">
+            <alias x="3094" y="1031" uid="1441">
                 <of>potential_commodity_crop_yield</of>
                 <label_side>top</label_side>
                 <label_angle>77</label_angle>
             </alias>
-            <alias x="2367" y="2060" uid="1404" color="black">
+            <alias x="1065" y="2006" uid="1678">
+                <of>milling_factor_other</of>
+                <label_side>left</label_side>
+                <label_angle>192</label_angle>
+            </alias>
+            <alias x="5269" y="282" uid="1633" color="blue">
+                <of>animal_product_demand</of>
+            </alias>
+            <alias x="892" y="2004" uid="1679">
+                <of>other_demand_mod_logic</of>
+            </alias>
+            <alias x="1359" y="1252" uid="1680">
+                <of>PopScenarioModLogic</of>
+            </alias>
+            <alias x="561" y="912" uid="1574">
+                <of>Set_Aside_Land</of>
+                <label_side>center</label_side>
+            </alias>
+            <alias x="561" y="987" uid="1575">
+                <of>Latent_Land</of>
+                <label_side>center</label_side>
+            </alias>
+            <alias x="2367" y="2060" uid="1405" color="black">
                 <of>Crop_Land</of>
             </alias>
-            <alias x="661" y="896" uid="1575">
+            <alias x="3664" y="765" uid="1442" color="blue">
+                <of>commodity_crop_demand</of>
+                <label_side>right</label_side>
+                <label_angle>8</label_angle>
+            </alias>
+            <alias x="661" y="896" uid="1576">
                 <of>Actual_Forage_Land</of>
                 <label_side>center</label_side>
             </alias>
@@ -3542,32 +3553,27 @@
                 <label_side>top</label_side>
                 <label_angle>107</label_angle>
             </alias>
-            <alias x="4292" y="910" uid="1444">
-                <of>responsiveness_to_global_ap_shortfall</of>
-                <label_angle>225</label_angle>
+            <alias x="1974" y="2131" uid="1406">
+                <of>build_up_rate_constant</of>
             </alias>
-            <alias x="3369" y="995" uid="1445">
+            <alias x="3369" y="995" uid="1444">
                 <of>time_to_adjust_inventories</of>
                 <label_angle>295</label_angle>
             </alias>
-            <alias x="1974" y="2131" uid="1405">
-                <of>build_up_rate_constant</of>
-            </alias>
-            <alias x="3042" y="1229" uid="1446">
+            <alias x="3042" y="1229" uid="1445">
                 <of>responsiveness_to_global_shortfall</of>
             </alias>
-            <alias x="3664" y="765" uid="1447" color="blue">
-                <of>commodity_crop_demand</of>
-                <label_side>right</label_side>
-                <label_angle>8</label_angle>
+            <alias x="3167" y="1306" uid="1446">
+                <of>Global_Avg_Commodity_Prodn_Shortfall</of>
             </alias>
-            <alias x="2370" y="1987" uid="1406" color="black">
-                <of>Abandoned_Land</of>
-            </alias>
-            <alias x="3591" y="1415" uid="1448">
-                <of>TOTAL_Actual_CP_import_export</of>
+            <alias x="5088" y="867" uid="1634">
+                <of>TOTAL_desired_AP_export</of>
                 <label_side>top</label_side>
-                <label_angle>107</label_angle>
+                <label_angle>69</label_angle>
+            </alias>
+            <alias x="996" y="1638" uid="1681">
+                <of>commodity_disposition_data</of>
+                <label_side>top</label_side>
             </alias>
             <alias x="1652" y="2176" uid="1407">
                 <of>base_builtup_land_per_capita</of>
@@ -3577,23 +3583,26 @@
                 <label_side>top</label_side>
                 <label_angle>151</label_angle>
             </alias>
+            <alias x="989" y="1552" uid="1682">
+                <of>net_processing_factors</of>
+            </alias>
+            <alias x="3591" y="1415" uid="1447">
+                <of>TOTAL_Actual_CP_import_export</of>
+                <label_side>top</label_side>
+                <label_angle>107</label_angle>
+            </alias>
             <alias x="5489" y="563" uid="1635">
                 <of>AP_export_averaging_time</of>
             </alias>
-            <alias x="989" y="1552" uid="1680">
-                <of>net_processing_factors</of>
-            </alias>
-            <alias x="561" y="1099" uid="1576">
+            <alias x="561" y="1099" uid="1577">
                 <of>Abandoned_Land</of>
                 <label_side>center</label_side>
             </alias>
-            <alias x="996" y="1638" uid="1681">
-                <of>commodity_disposition_data</of>
-                <label_side>top</label_side>
+            <alias x="889" y="1541" uid="1683">
+                <of>CP_demand_mod_logic</of>
             </alias>
-            <alias x="561" y="1024" uid="1577">
-                <of>Crop_Land</of>
-                <label_side>center</label_side>
+            <alias x="891" y="2249" uid="1684">
+                <of>Potential_VFN_yield</of>
             </alias>
             <alias x="555" y="842" uid="1578">
                 <of>potential_AP_exports</of>
@@ -3602,88 +3611,86 @@
             <alias x="1340" y="105" uid="1590">
                 <of>latent_to_built_up_rate</of>
             </alias>
-            <alias x="5088" y="867" uid="1636">
-                <of>TOTAL_desired_AP_export</of>
-                <label_side>top</label_side>
-                <label_angle>69</label_angle>
-            </alias>
-            <alias x="3167" y="1306" uid="1449">
-                <of>Global_Avg_Commodity_Prodn_Shortfall</of>
-            </alias>
-            <alias x="2352" y="340" uid="1450">
+            <alias x="2352" y="340" uid="1448">
                 <of>frac_land_in_fallow</of>
             </alias>
-            <alias x="889" y="1541" uid="1682">
-                <of>CP_demand_mod_logic</of>
+            <alias x="1878" y="2236" uid="1408" color="blue">
+                <of>Builtup_Land</of>
+                <label_side>bottom</label_side>
+                <label_angle>275</label_angle>
             </alias>
-            <alias x="891" y="2249" uid="1683">
-                <of>Potential_VFN_yield</of>
-            </alias>
-            <alias x="548" y="679" uid="1579">
-                <of>potential_imports</of>
-                <label_side>right</label_side>
-                <label_angle>356</label_angle>
-            </alias>
-            <alias x="1764" y="2135" uid="1408" color="blue">
-                <of>population</of>
-            </alias>
-            <alias x="847" y="2067" uid="1684">
-                <of>per_capita_other_demand_scenario</of>
-            </alias>
-            <alias x="3077" y="586" uid="1451">
-                <of>forage_land_adj_time</of>
-            </alias>
-            <alias x="560" y="949" uid="1580">
-                <of>Near_Pristine_Land</of>
-                <label_side>right</label_side>
-            </alias>
-            <alias x="549" y="709" uid="1581">
-                <of>potential_exports</of>
-                <label_side>right</label_side>
-            </alias>
-            <alias x="1615" y="488" uid="1591">
-                <of>abandoned_to_built_up_rate</of>
-                <label_side>top</label_side>
-                <label_angle>103</label_angle>
-            </alias>
-            <alias x="2364" y="2140" uid="1409" color="black">
-                <of>Latent_Land</of>
-            </alias>
-            <alias x="1611" y="423" uid="1592">
-                <of>land_abandon_rate</of>
-                <label_angle>217</label_angle>
-            </alias>
-            <alias x="823" y="451" uid="1593">
-                <of>km_ha_conversion</of>
-            </alias>
-            <alias x="3394" y="1343" uid="1452">
-                <of>TOTAL_Desired_CP_Import</of>
-                <label_angle>261</label_angle>
-            </alias>
-            <alias x="1592" y="145" uid="1594">
-                <of>crop_to_built_up_rate</of>
-            </alias>
-            <alias x="4251" y="651" uid="1453" color="blue">
-                <of>kg_commodity_per_kg_finished_product</of>
-            </alias>
-            <alias x="884" y="1467" uid="1685">
-                <of>per_capita_commodity_crop_demand_scenario</of>
-            </alias>
-            <alias x="3167" y="1046" uid="1454">
-                <of>milling_factor_commodity</of>
-            </alias>
-            <alias x="869" y="1871" uid="1686">
-                <of>per_capita_fiber_demand_scenario</of>
-            </alias>
-            <alias x="553" y="810" uid="1582">
+            <alias x="553" y="810" uid="1579">
                 <of>potential_AP_imports</of>
                 <label_side>right</label_side>
                 <label_angle>352</label_angle>
             </alias>
-            <alias x="901" y="2167" uid="1687">
-                <of>potential_fiber_yield</of>
+            <alias x="1764" y="2135" uid="1409" color="blue">
+                <of>population</of>
             </alias>
-            <alias x="882" y="1396" uid="1688">
+            <alias x="1592" y="145" uid="1591">
+                <of>crop_to_built_up_rate</of>
+            </alias>
+            <alias x="2364" y="2140" uid="1410" color="black">
+                <of>Latent_Land</of>
+            </alias>
+            <alias x="3077" y="586" uid="1449">
+                <of>forage_land_adj_time</of>
+            </alias>
+            <alias x="4889" y="876" uid="1636">
+                <of>TOTAL_desired_AP_imports</of>
+            </alias>
+            <alias x="549" y="709" uid="1580">
+                <of>potential_exports</of>
+                <label_side>right</label_side>
+            </alias>
+            <alias x="847" y="2067" uid="1685">
+                <of>per_capita_other_demand_scenario</of>
+            </alias>
+            <alias x="560" y="949" uid="1581">
+                <of>Near_Pristine_Land</of>
+                <label_side>right</label_side>
+            </alias>
+            <alias x="1615" y="488" uid="1592">
+                <of>abandoned_to_built_up_rate</of>
+                <label_side>top</label_side>
+                <label_angle>103</label_angle>
+            </alias>
+            <alias x="1611" y="423" uid="1593">
+                <of>land_abandon_rate</of>
+                <label_angle>217</label_angle>
+            </alias>
+            <alias x="869" y="1871" uid="1686">
+                <of>per_capita_fiber_demand_scenario</of>
+            </alias>
+            <alias x="823" y="451" uid="1594">
+                <of>km_ha_conversion</of>
+            </alias>
+            <alias x="3394" y="1343" uid="1450">
+                <of>TOTAL_Desired_CP_Import</of>
+                <label_angle>261</label_angle>
+            </alias>
+            <alias x="884" y="1467" uid="1687">
+                <of>per_capita_commodity_crop_demand_scenario</of>
+            </alias>
+            <alias x="4251" y="651" uid="1451" color="blue">
+                <of>kg_commodity_per_kg_finished_product</of>
+            </alias>
+            <alias x="3167" y="1046" uid="1452">
+                <of>milling_factor_commodity</of>
+            </alias>
+            <alias x="3306" y="252" uid="1453">
+                <of>potential_crop_land_forage_yield</of>
+                <label_side>top</label_side>
+                <label_angle>122</label_angle>
+            </alias>
+            <alias x="882" y="1333" uid="1688">
+                <of>per_capita_animal_product_demand_scenario</of>
+            </alias>
+            <alias x="3387" y="836" uid="1454">
+                <of>commodity_inventory_target_coverage</of>
+                <label_angle>212</label_angle>
+            </alias>
+            <alias x="882" y="1396" uid="1689">
                 <of>AP_demand_mod_logic</of>
             </alias>
             <alias x="4226" y="295" uid="1455" color="blue">
@@ -3691,67 +3698,49 @@
                 <label_side>left</label_side>
                 <label_angle>142</label_angle>
             </alias>
+            <alias x="274" y="2278" uid="1584">
+                <of>GDPScenarioModLogic</of>
+            </alias>
+            <alias x="901" y="2167" uid="1690">
+                <of>potential_fiber_yield</of>
+            </alias>
             <alias x="1423" y="504" uid="1595">
                 <of>land_restoration_rate</of>
                 <label_side>top</label_side>
                 <label_angle>94</label_angle>
             </alias>
-            <alias x="274" y="2278" uid="1584">
-                <of>GDPScenarioModLogic</of>
-            </alias>
-            <alias x="561" y="1061" uid="1583">
+            <alias x="561" y="1061" uid="1582">
                 <of>Builtup_Land</of>
                 <label_side>center</label_side>
             </alias>
-            <alias x="3387" y="836" uid="1456">
-                <of>commodity_inventory_target_coverage</of>
-                <label_angle>212</label_angle>
-            </alias>
-            <alias x="3306" y="252" uid="1457">
-                <of>potential_crop_land_forage_yield</of>
+            <alias x="2675" y="859" uid="1456">
+                <of>land_alloc_time</of>
                 <label_side>top</label_side>
-                <label_angle>122</label_angle>
+                <label_angle>111</label_angle>
+            </alias>
+            <alias x="1374" y="2233" uid="1691">
+                <of>crop_land_alloc_to_energy_crop</of>
             </alias>
             <alias x="1299" y="2466" uid="1571">
                 <of>CP_inventory_impact_on_consn</of>
                 <label_side>right</label_side>
                 <label_angle>4</label_angle>
             </alias>
-            <alias x="1461" y="1405" uid="1689">
+            <alias x="1461" y="1405" uid="1692">
                 <of>population_scenario</of>
-            </alias>
-            <alias x="882" y="1333" uid="1690">
-                <of>per_capita_animal_product_demand_scenario</of>
-            </alias>
-            <alias x="2675" y="859" uid="1458">
-                <of>land_alloc_time</of>
-                <label_side>top</label_side>
-                <label_angle>111</label_angle>
             </alias>
             <alias x="946" y="356" uid="1596" color="blue">
                 <of>max_NPL_forest</of>
             </alias>
-            <alias x="3751" y="1026" uid="1459">
+            <alias x="3751" y="1026" uid="1457">
                 <of>CP_export_averaging_time</of>
-            </alias>
-            <alias x="1374" y="2233" uid="1691">
-                <of>crop_land_alloc_to_energy_crop</of>
-            </alias>
-            <alias x="948" y="2206" uid="1692">
-                <of>other_yield_mod_logic</of>
-                <label_angle>197</label_angle>
-            </alias>
-            <alias x="1878" y="2236" uid="1410" color="blue">
-                <of>Builtup_Land</of>
-                <label_side>bottom</label_side>
-                <label_angle>275</label_angle>
             </alias>
             <alias x="1078" y="500" uid="1597">
                 <of>latent_to_NPL_rate</of>
                 <label_side>top</label_side>
                 <label_angle>65</label_angle>
             </alias>
-            <alias x="3577" y="1344" uid="1460">
+            <alias x="3577" y="1344" uid="1458">
                 <of>Total_desired_CP_Export</of>
                 <label_side>top</label_side>
                 <label_angle>69</label_angle>
@@ -3761,6 +3750,20 @@
                 <label_side>left</label_side>
                 <label_angle>176</label_angle>
             </alias>
+            <alias x="996" y="477" uid="1598" color="blue">
+                <of>population</of>
+            </alias>
+            <alias x="4406" y="983" uid="1459">
+                <of>Global_Avg_AP_Prodn_Shortfall</of>
+            </alias>
+            <alias x="548" y="679" uid="1583">
+                <of>potential_imports</of>
+                <label_side>right</label_side>
+                <label_angle>356</label_angle>
+            </alias>
+            <alias x="3086" y="289" uid="1460">
+                <of>forage_yield_mod_logic</of>
+            </alias>
             <alias x="87" y="2496" uid="1744">
                 <of>commodity_disposition_data</of>
             </alias>
@@ -3769,42 +3772,19 @@
                 <label_side>right</label_side>
                 <label_angle>272</label_angle>
             </alias>
-            <alias x="996" y="477" uid="1598" color="blue">
-                <of>population</of>
-            </alias>
-            <connector x="3916" y="836" uid="1540" color="#6B6B6B">
-                <from>reqd_commodity_consn_AP</from>
-                <to>distn_of_AP_commodity_consn</to>
-            </connector>
-            <connector x="267" y="1394" uid="1770" color="#C8C8C8">
-                <from>builtup_land_data</from>
-                <to>total_land_base</to>
-            </connector>
-            <connector x="206" y="2505" uid="1754" color="black">
-                <from>CP_feed_data_protein_eq</from>
-                <to>CP_feed_protein_distn</to>
-            </connector>
-            <connector x="2993" y="1142" uid="1547" color="black">
-                <from>reqd_crop_prod&apos;n_land_equivalent</from>
-                <to>total_reqd_commodity_crop_land</to>
-            </connector>
-            <connector x="1100" y="221" uid="1606" color="black">
-                <from>
-                    <alias uid="1589" />
-                </from>
-                <to>NPL_to_latent</to>
-            </connector>
-            <connector x="2504" y="177" uid="1461" color="black">
-                <from>total_reqd_crop_land</from>
-                <to>crop_land_gap</to>
-            </connector>
-            <connector x="2436" y="251" uid="1462" color="black">
-                <from>crop_land_alloc_to_fallow</from>
-                <to>total_reqd_crop_land</to>
-            </connector>
             <connector x="3189" y="442" uid="1492" color="black">
                 <from>forage_land_gap_prodn_equivalent</from>
                 <to>forage_shortfall_by_AP</to>
+            </connector>
+            <connector x="2686" y="343" uid="1465" color="black">
+                <from>
+                    <alias uid="1439" />
+                </from>
+                <to>total_reqd_crop_land</to>
+            </connector>
+            <connector x="1771" y="2229" uid="1433" color="black">
+                <from>INIT_other_non_built_up_land_estimate</from>
+                <to>built_up_land_estimate</to>
             </connector>
             <connector x="282" y="2274" uid="1586" color="black">
                 <from>
@@ -3812,417 +3792,237 @@
                 </from>
                 <to>GDP_per_capita</to>
             </connector>
-            <connector x="2725" y="951" uid="1511" color="black">
-                <from>indicated_land_alloc</from>
-                <to>chg_indicated_land_alloc</to>
-            </connector>
-            <connector x="3664" y="987" uid="1533" color="black">
-                <from>Avg_Net_C_Export</from>
-                <to>reqd_commodity_prodn_x_export</to>
-            </connector>
-            <connector x="5162" y="706" uid="1662" color="black">
-                <from>potential_AP_net_exports</from>
-                <to>potential_AP_imports</to>
-            </connector>
-            <connector x="938" y="450" uid="1623" color="black">
-                <from>population_pressure_NPL</from>
-                <to>indicated_frac_land_NPL</to>
-            </connector>
-            <connector x="3917" y="522" uid="1500" color="black">
-                <from>AP_commodity_consn_shortfall</from>
-                <to>AP_commodity_consn_shortfall_2D</to>
-            </connector>
-            <connector x="3902" y="832" uid="1494" color="black">
-                <from>reqd_commodity_consn_AP</from>
-                <to>AP_commodity_consn</to>
-            </connector>
-            <connector x="891" y="1393" uid="1694" color="black">
+            <connector x="1764" y="2126" uid="1414" color="black">
                 <from>
-                    <alias uid="1688" />
-                </from>
-                <to>per_capita_animal_product_demand</to>
-            </connector>
-            <connector x="1771" y="2229" uid="1433" color="black">
-                <from>INIT_other_non_built_up_land_estimate</from>
-                <to>built_up_land_estimate</to>
-            </connector>
-            <connector x="295" y="2187" uid="1587" color="black">
-                <from>GDP_per_capita_scenario</from>
-                <to>GDP_per_capita</to>
-            </connector>
-            <connector x="2747" y="922" uid="1512" color="black">
-                <from>indicated_land_alloc</from>
-                <to>land_alloc_logic</to>
-            </connector>
-            <connector x="1764" y="2144" uid="1434" color="black">
-                <from>
-                    <alias uid="1408" />
-                </from>
-                <to>INIT_other_non_built_up_land_estimate</to>
-            </connector>
-            <connector x="3172" y="249" uid="1469" color="black">
-                <from>crop_land_forage_yield</from>
-                <to>reqd_forage_land</to>
-            </connector>
-            <connector x="5166" y="966" uid="1663" color="black">
-                <from>AP_exports</from>
-                <to>AP_net_export</to>
-            </connector>
-            <connector x="3158" y="1134" uid="1550" color="black">
-                <from>reqd_commodity_prodn</from>
-                <to>reqd_crop_prod&apos;n_land_equivalent</to>
-            </connector>
-            <connector x="869" y="97" uid="1599" color="black">
-                <from>Set_Aside_Land</from>
-                <to>population_pressure_NPL</to>
-            </connector>
-            <connector x="2686" y="343" uid="1465" color="black">
-                <from>
-                    <alias uid="1441" />
-                </from>
-                <to>total_reqd_crop_land</to>
-            </connector>
-            <connector x="1349" y="103" uid="1607" color="black">
-                <from>
-                    <alias uid="1590" />
-                </from>
-                <to>latent_to_built_up</to>
-            </connector>
-            <connector x="3680" y="186" uid="1476" color="#6B6B6B">
-                <from>rollup_reqd_forage_consn_AP</from>
-                <to>distn_forage_consn</to>
-            </connector>
-            <connector x="955" y="2211" uid="1737" color="black">
-                <from>
-                    <alias uid="1692" />
-                </from>
-                <to>other_yield</to>
-            </connector>
-            <connector x="454" y="2633" uid="1755" color="black">
-                <from>AP_demand_CP_protein_eq</from>
-                <to>protein_weighted_output_distn</to>
-            </connector>
-            <connector x="1456" y="1341" uid="1696" color="#9F9F9F">
-                <from>population</from>
-                <to>reqd_fiber_prodn</to>
-            </connector>
-            <connector x="2675" y="1125" uid="1513" color="black">
-                <from>reqd_crop_land_alloc</from>
-                <to>chg_indicated_land_alloc</to>
-            </connector>
-            <connector x="1982" y="2065" uid="1414" color="black">
-                <from>creating_builtup_land</from>
-                <to>latent_to_built_up_rate</to>
-            </connector>
-            <connector x="1292" y="2068" uid="1723" color="black">
-                <from>crop_land_alloc_to_other</from>
-                <to>total_crop_land_allocated_to_all_other_uses</to>
-            </connector>
-            <connector x="3659" y="757" uid="1495" color="black">
-                <from>
-                    <alias uid="1447" />
-                </from>
-                <to>direct_commodity_consn</to>
-            </connector>
-            <connector x="1982" y="2057" uid="1415" color="black">
-                <from>creating_builtup_land</from>
-                <to>abandoned_to_built_up_rate</to>
-            </connector>
-            <connector x="1856" y="2235" uid="1435" color="black">
-                <from>
-                    <alias uid="1410" />
-                </from>
-                <to>INIT_other_non_built_up_land_estimate</to>
-            </connector>
-            <connector x="3523" y="632" uid="1496" color="black">
-                <from>CP_inventory_impact_on_consn</from>
-                <to>direct_commodity_consn</to>
-            </connector>
-            <connector x="1764" y="2126" uid="1416" color="black">
-                <from>
-                    <alias uid="1408" />
+                    <alias uid="1409" />
                 </from>
                 <to>reqd_built_up_land</to>
             </connector>
-            <connector x="206" y="2807" uid="1756" color="black">
-                <from>protein_weighted_output_distn</from>
-                <to>CP_AP_distn</to>
-            </connector>
-            <connector x="1324" y="1878" uid="1724" color="black">
+            <connector x="1324" y="1878" uid="1723" color="black">
                 <from>crop_land_alloc_to_fiber</from>
                 <to>total_crop_land_allocated_to_all_other_uses</to>
             </connector>
-            <connector x="3085" y="1031" uid="1516" color="black">
-                <from>
-                    <alias uid="1442" />
-                </from>
-                <to>commodity_crop_yield</to>
-            </connector>
-            <connector x="62" y="1377" uid="1771" color="#C8C8C8">
-                <from>Fiber_area_harvested_data</from>
-                <to>total_cropland_data</to>
-            </connector>
-            <connector x="3004" y="449" uid="1486" color="black">
-                <from>forage_land_gap</from>
-                <to>chg_forage_land</to>
-            </connector>
-            <connector x="2675" y="868" uid="1514" color="black">
-                <from>
-                    <alias uid="1458" />
-                </from>
-                <to>chg_indicated_land_alloc</to>
-            </connector>
-            <connector x="1452" y="1333" uid="1697" color="black">
-                <from>population</from>
-                <to>animal_product_demand</to>
-            </connector>
-            <connector x="267" y="1307" uid="1772" color="#C8C8C8">
-                <from>latent_land_data</from>
-                <to>total_land_base</to>
-            </connector>
-            <connector x="1087" y="1802" uid="1725" color="black">
-                <from>
-                    <alias uid="1693" />
-                </from>
-                <to>reqd_fiber_prodn</to>
-            </connector>
-            <connector x="5166" y="876" uid="1664" color="black">
-                <from>AP_share_total_exports</from>
-                <to>AP_exports</to>
-            </connector>
-            <connector x="4242" y="836" uid="1541" color="black">
-                <from>reqd_AP_commodity_consn_2D</from>
-                <to>reqd_commodity_consn_AP</to>
-            </connector>
-            <connector x="215" y="2614" uid="1757" color="black">
-                <from>CP_AP_distn</from>
-                <to>CP_crosswalk</to>
-            </connector>
-            <connector x="5107" y="301" uid="1639" color="black">
-                <from>
-                    <alias uid="1637" />
-                </from>
-                <to>AP_target_inventory</to>
-            </connector>
-            <connector x="1983" y="2061" uid="1417" color="black">
-                <from>creating_builtup_land</from>
-                <to>crop_to_built_up_rate</to>
-            </connector>
-            <connector x="470" y="2427" uid="1749" color="black">
-                <from>protein_input_per_unit_mass_output</from>
-                <to>F_protein_mass_crosswalk</to>
-            </connector>
-            <connector x="1603" y="419" uid="1629" color="black">
-                <from>
-                    <alias uid="1592" />
-                </from>
-                <to>abandoning</to>
-            </connector>
-            <connector x="978" y="2067" uid="1714" color="black">
-                <from>per_capita_other_consn</from>
-                <to>reqd_other_prodn</to>
-            </connector>
-            <connector x="1012" y="402" uid="1600" color="black">
-                <from>indicated_frac_land_NPL</from>
-                <to>indicated_NPL</to>
+            <connector x="1292" y="2068" uid="1724" color="black">
+                <from>crop_land_alloc_to_other</from>
+                <to>total_crop_land_allocated_to_all_other_uses</to>
             </connector>
             <connector x="1166" y="1630" uid="1710" color="black">
                 <from>seed_and_other_demand</from>
                 <to>net_processing_seed_and_other</to>
             </connector>
+            <connector x="4242" y="836" uid="1540" color="black">
+                <from>reqd_AP_commodity_consn_2D</from>
+                <to>reqd_commodity_consn_AP</to>
+            </connector>
+            <connector x="3085" y="1031" uid="1516" color="black">
+                <from>
+                    <alias uid="1441" />
+                </from>
+                <to>commodity_crop_yield</to>
+            </connector>
+            <connector x="3916" y="836" uid="1541" color="#6B6B6B">
+                <from>reqd_commodity_consn_AP</from>
+                <to>distn_of_AP_commodity_consn</to>
+            </connector>
+            <connector x="767" y="2718" uid="1763" color="black">
+                <from>years_of_data_to_consider</from>
+                <to>CP_crosswalk_input</to>
+            </connector>
+            <connector x="1100" y="221" uid="1606" color="black">
+                <from>
+                    <alias uid="1589" />
+                </from>
+                <to>NPL_to_latent</to>
+            </connector>
+            <connector x="939" y="450" uid="1623" color="black">
+                <from>population_pressure_NPL</from>
+                <to>indicated_frac_land_NPL</to>
+            </connector>
+            <connector x="5166" y="966" uid="1663" color="black">
+                <from>AP_exports</from>
+                <to>AP_net_export</to>
+            </connector>
+            <connector x="3172" y="249" uid="1469" color="black">
+                <from>crop_land_forage_yield</from>
+                <to>reqd_forage_land</to>
+            </connector>
+            <connector x="956" y="2209" uid="1737" color="black">
+                <from>
+                    <alias uid="1673" />
+                </from>
+                <to>VFN_yield</to>
+            </connector>
+            <connector x="454" y="2633" uid="1754" color="black">
+                <from>AP_demand_CP_protein_eq</from>
+                <to>protein_weighted_output_distn</to>
+            </connector>
+            <connector x="3523" y="632" uid="1494" color="black">
+                <from>CP_inventory_impact_on_consn</from>
+                <to>direct_commodity_consn</to>
+            </connector>
+            <connector x="1452" y="1333" uid="1696" color="black">
+                <from>population</from>
+                <to>animal_product_demand</to>
+            </connector>
+            <connector x="1603" y="419" uid="1629" color="black">
+                <from>
+                    <alias uid="1593" />
+                </from>
+                <to>abandoning</to>
+            </connector>
+            <connector x="470" y="2427" uid="1749" color="black">
+                <from>protein_input_per_unit_mass_output</from>
+                <to>F_protein_mass_crosswalk</to>
+            </connector>
+            <connector x="998" y="1552" uid="1705" color="black">
+                <from>
+                    <alias uid="1682" />
+                </from>
+                <to>net_processing_demand</to>
+            </connector>
+            <connector x="3172" y="963" uid="1522" color="black">
+                <from>commodity_prodn</from>
+                <to>potential_net_exports</to>
+            </connector>
+            <connector x="1115" y="2161" uid="1725" color="#9F9F9F">
+                <from>fiber_yield</from>
+                <to>crop_land_alloc_to_fiber</to>
+            </connector>
+            <connector x="5201" y="433" uid="1639" color="black">
+                <from>total_target_AP_outflux</from>
+                <to>AP_target_inventory</to>
+            </connector>
+            <connector x="3529" y="615" uid="1495" color="black">
+                <from>CP_inventory_impact_on_consn</from>
+                <to>AP_commodity_consn</to>
+            </connector>
+            <connector x="2358" y="333" uid="1461" color="black">
+                <from>
+                    <alias uid="1448" />
+                </from>
+                <to>crop_land_alloc_to_fallow</to>
+            </connector>
+            <connector x="267" y="1394" uid="1770" color="#C8C8C8">
+                <from>builtup_land_data</from>
+                <to>total_land_base</to>
+            </connector>
+            <connector x="4406" y="827" uid="1482" color="#9F9F9F">
+                <from>reqd_AP_prodn</from>
+                <to>reqd_forage_consn_AP</to>
+            </connector>
+            <connector x="3664" y="987" uid="1533" color="black">
+                <from>Avg_Net_C_Export</from>
+                <to>reqd_commodity_prodn_x_export</to>
+            </connector>
+            <connector x="2436" y="251" uid="1462" color="black">
+                <from>crop_land_alloc_to_fallow</from>
+                <to>total_reqd_crop_land</to>
+            </connector>
+            <connector x="5166" y="802" uid="1664" color="black">
+                <from>potential_AP_exports</from>
+                <to>AP_share_total_exports</to>
+            </connector>
+            <connector x="2513" y="1125" uid="1466" color="black">
+                <from>total_reqd_commodity_crop_land</from>
+                <to>total_reqd_crop_land</to>
+            </connector>
+            <connector x="3902" y="832" uid="1496" color="black">
+                <from>reqd_commodity_consn_AP</from>
+                <to>AP_commodity_consn</to>
+            </connector>
+            <connector x="2747" y="922" uid="1511" color="black">
+                <from>indicated_land_alloc</from>
+                <to>land_alloc_logic</to>
+            </connector>
+            <connector x="3917" y="522" uid="1500" color="black">
+                <from>AP_commodity_consn_shortfall</from>
+                <to>AP_commodity_consn_shortfall_2D</to>
+            </connector>
+            <connector x="3158" y="1134" uid="1550" color="black">
+                <from>reqd_commodity_prodn</from>
+                <to>reqd_crop_prod&apos;n_land_equivalent</to>
+            </connector>
+            <connector x="3680" y="186" uid="1476" color="#6B6B6B">
+                <from>rollup_reqd_forage_consn_AP</from>
+                <to>distn_forage_consn</to>
+            </connector>
+            <connector x="869" y="97" uid="1599" color="black">
+                <from>Set_Aside_Land</from>
+                <to>population_pressure_NPL</to>
+            </connector>
+            <connector x="1982" y="2057" uid="1415" color="black">
+                <from>creating_builtup_land</from>
+                <to>abandoned_to_built_up_rate</to>
+            </connector>
+            <connector x="2675" y="1125" uid="1512" color="black">
+                <from>reqd_crop_land_alloc</from>
+                <to>chg_indicated_land_alloc</to>
+            </connector>
+            <connector x="1456" y="1341" uid="1697" color="#9F9F9F">
+                <from>population</from>
+                <to>reqd_fiber_prodn</to>
+            </connector>
+            <connector x="3004" y="449" uid="1486" color="black">
+                <from>forage_land_gap</from>
+                <to>chg_forage_land</to>
+            </connector>
+            <connector x="206" y="2807" uid="1755" color="black">
+                <from>protein_weighted_output_distn</from>
+                <to>CP_AP_distn</to>
+            </connector>
+            <connector x="4874" y="444" uid="1648" color="black">
+                <from>Animal_Product_Inventory</from>
+                <to>AP_target_stock_adj</to>
+            </connector>
+            <connector x="1087" y="1802" uid="1726" color="black">
+                <from>
+                    <alias uid="1693" />
+                </from>
+                <to>reqd_fiber_prodn</to>
+            </connector>
+            <connector x="5107" y="301" uid="1640" color="black">
+                <from>
+                    <alias uid="1637" />
+                </from>
+                <to>AP_target_inventory</to>
+            </connector>
+            <connector x="267" y="1307" uid="1771" color="#C8C8C8">
+                <from>latent_land_data</from>
+                <to>total_land_base</to>
+            </connector>
+            <connector x="978" y="2067" uid="1714" color="black">
+                <from>per_capita_other_consn</from>
+                <to>reqd_other_prodn</to>
+            </connector>
             <connector x="1454" y="1338" uid="1698" color="black">
                 <from>population</from>
                 <to>commodity_crop_demand</to>
             </connector>
-            <connector x="264" y="1272" uid="1773" color="#C8C8C8">
-                <from>NPL_data</from>
-                <to>total_land_base</to>
+            <connector x="1012" y="402" uid="1600" color="black">
+                <from>indicated_frac_land_NPL</from>
+                <to>indicated_NPL</to>
             </connector>
-            <connector x="867" y="1958" uid="1715" color="black">
-                <from>
-                    <alias uid="1677" />
-                </from>
-                <to>per_capita_VFN_consn</to>
-            </connector>
-            <connector x="2342" y="2141" uid="1437" color="black">
-                <from>
-                    <alias uid="1409" />
-                </from>
-                <to>latent_builtup_weighting_factor</to>
-            </connector>
-            <connector x="2345" y="2076" uid="1423" color="black">
-                <from>
-                    <alias uid="1404" />
-                </from>
-                <to>latent_builtup_weighting_factor</to>
-            </connector>
-            <connector x="2345" y="2061" uid="1424" color="black">
-                <from>
-                    <alias uid="1404" />
-                </from>
-                <to>crop_builtup_weighting_factor</to>
-            </connector>
-            <connector x="5166" y="705" uid="1665" color="black">
-                <from>potential_AP_net_exports</from>
-                <to>potential_AP_exports</to>
-            </connector>
-            <connector x="2239" y="2061" uid="1425" color="black">
-                <from>crop_builtup_weighting_factor</from>
-                <to>crop_to_built_up_rate</to>
-            </connector>
-            <connector x="391" y="1393" uid="1774" color="black">
+            <connector x="391" y="1393" uid="1772" color="black">
                 <from>total_land_base</from>
                 <to>max_NPL_forest</to>
             </connector>
-            <connector x="96" y="2496" uid="1758" color="black">
-                <from>
-                    <alias uid="1744" />
-                </from>
-                <to>CP_feed_data_protein_eq</to>
-            </connector>
-            <connector x="1547" y="266" uid="1615" color="black">
-                <from>Crop_Land</from>
-                <to>non_fallow_crop_land</to>
-            </connector>
-            <connector x="2429" y="266" uid="1463" color="black">
-                <from>crop_land_alloc_to_fallow</from>
-                <to>non_fallow_crop_land</to>
-            </connector>
-            <connector x="2342" y="2129" uid="1426" color="black">
-                <from>
-                    <alias uid="1409" />
-                </from>
-                <to>crop_builtup_weighting_factor</to>
-            </connector>
-            <connector x="5023" y="236" uid="1640" color="black">
-                <from>AP_inventory_effect_consn</from>
-                <to>AP_food_consn</to>
-            </connector>
-            <connector x="1098" y="1552" uid="1711" color="black">
-                <from>net_processing_demand</from>
-                <to>net_processing_seed_and_other</to>
-            </connector>
-            <connector x="998" y="1552" uid="1705" color="black">
-                <from>
-                    <alias uid="1680" />
-                </from>
-                <to>net_processing_demand</to>
-            </connector>
-            <connector x="3396" y="836" uid="1522" color="black">
-                <from>
-                    <alias uid="1456" />
-                </from>
-                <to>commodity_inventory_target</to>
-            </connector>
-            <connector x="1592" y="136" uid="1616" color="black">
-                <from>
-                    <alias uid="1594" />
-                </from>
-                <to>crop_to_built_up</to>
-            </connector>
-            <connector x="4397" y="178" uid="1477" color="#6B6B6B">
-                <from>reqd_forage_consn_AP</from>
-                <to>distn_forage_consn</to>
-            </connector>
-            <connector x="953" y="1871" uid="1716" color="black">
-                <from>per_capita_fiber_consn</from>
-                <to>reqd_fiber_prodn</to>
-            </connector>
-            <connector x="3664" y="1203" uid="1560" color="black">
-                <from>potential_net_exports</from>
-                <to>potential_exports</to>
-            </connector>
-            <connector x="3051" y="1229" uid="1551" color="black">
-                <from>
-                    <alias uid="1446" />
-                </from>
-                <to>local_pressure_from_global_supply_demand_shortfall</to>
-            </connector>
-            <connector x="3689" y="442" uid="1497" color="black">
-                <from>forage_shortfall_by_AP</from>
-                <to>AP_prodn_shortfall_forage</to>
-            </connector>
-            <connector x="3167" y="1297" uid="1552" color="black">
-                <from>
-                    <alias uid="1449" />
-                </from>
-                <to>local_pressure_from_global_supply_demand_shortfall</to>
-            </connector>
-            <connector x="3169" y="1055" uid="1553" color="black">
+            <connector x="3396" y="836" uid="1523" color="black">
                 <from>
                     <alias uid="1454" />
                 </from>
-                <to>reqd_commodity_prodn</to>
+                <to>commodity_inventory_target</to>
             </connector>
-            <connector x="3377" y="991" uid="1523" color="black">
-                <from>
-                    <alias uid="1445" />
-                </from>
-                <to>reqd_chg_commodity_inventory</to>
-            </connector>
-            <connector x="1222" y="1544" uid="1712" color="black">
-                <from>net_processing_seed_and_other</from>
-                <to>commodity_crop_demand</to>
-            </connector>
-            <connector x="1390" y="2161" uid="1726" color="black">
-                <from>
-                    <alias uid="1676" />
-                </from>
-                <to>total_crop_land_allocated_to_all_other_uses</to>
-            </connector>
-            <connector x="4243" y="833" uid="1542" color="#6B6B6B">
-                <from>reqd_AP_commodity_consn_2D</from>
-                <to>distn_of_AP_commodity_consn</to>
-            </connector>
-            <connector x="2998" y="519" uid="1487" color="black">
-                <from>Actual_Forage_Land</from>
-                <to>forage_land_gap</to>
-            </connector>
-            <connector x="3664" y="1143" uid="1561" color="black">
-                <from>reqd_commodity_prodn_x_export</from>
-                <to>potential_net_exports</to>
-            </connector>
-            <connector x="3172" y="964" uid="1524" color="black">
-                <from>commodity_prodn</from>
-                <to>potential_net_exports</to>
+            <connector x="2993" y="1142" uid="1547" color="black">
+                <from>reqd_crop_prod&apos;n_land_equivalent</from>
+                <to>total_reqd_commodity_crop_land</to>
             </connector>
             <connector x="461" y="2436" uid="1750" color="black">
                 <from>protein_input_per_unit_mass_output</from>
                 <to>AP_demand_CP_protein_eq</to>
             </connector>
-            <connector x="3445" y="828" uid="1525" color="black">
-                <from>commodity_inventory_target</from>
-                <to>CP_inventory_ratio</to>
-            </connector>
-            <connector x="1652" y="2167" uid="1411" color="black">
-                <from>
-                    <alias uid="1407" />
-                </from>
-                <to>reqd_builtup_land_per_capita</to>
-            </connector>
-            <connector x="987" y="1958" uid="1717" color="black">
-                <from>per_capita_VFN_consn</from>
-                <to>Reqd_VFN_prodn</to>
-            </connector>
-            <connector x="2998" y="650" uid="1488" color="black">
-                <from>total_crop_land_allocated_to_commodiities</from>
-                <to>alloc_of_crop_lands_to_commodities</to>
-            </connector>
-            <connector x="957" y="2204" uid="1738" color="black">
-                <from>
-                    <alias uid="1692" />
-                </from>
-                <to>fiber_yield</to>
-            </connector>
-            <connector x="2345" y="2046" uid="1427" color="black">
-                <from>
-                    <alias uid="1404" />
-                </from>
-                <to>abandoned_builtup_weighting_factor</to>
-            </connector>
-            <connector x="5013" y="814" uid="1666" color="black">
-                <from>potential_AP_imports</from>
-                <to>AP_share_total_imports</to>
+            <connector x="3664" y="1143" uid="1560" color="black">
+                <from>reqd_commodity_prodn_x_export</from>
+                <to>potential_net_exports</to>
             </connector>
             <connector x="1070" y="504" uid="1624" color="black">
                 <from>
@@ -4230,21 +4030,461 @@
                 </from>
                 <to>latent_to_NPL</to>
             </connector>
-            <connector x="2348" y="1987" uid="1428" color="black">
+            <connector x="4406" y="974" uid="1543" color="black">
                 <from>
-                    <alias uid="1406" />
+                    <alias uid="1459" />
+                </from>
+                <to>AP_global_shortfall_surplus_relevant_to_region</to>
+            </connector>
+            <connector x="3671" y="177" uid="1470" color="black">
+                <from>rollup_reqd_forage_consn_AP</from>
+                <to>reqd_forage_land</to>
+            </connector>
+            <connector x="832" y="451" uid="1625" color="black">
+                <from>
+                    <alias uid="1594" />
+                </from>
+                <to>population_pressure_NPL</to>
+            </connector>
+            <connector x="1071" y="2013" uid="1727" color="black">
+                <from>
+                    <alias uid="1678" />
+                </from>
+                <to>reqd_other_prodn</to>
+            </connector>
+            <connector x="4251" y="660" uid="1505" color="black">
+                <from>
+                    <alias uid="1451" />
+                </from>
+                <to>reqd_AP_commodity_consn_2D</to>
+            </connector>
+            <connector x="5310" y="503" uid="1660" color="black">
+                <from>Avg_Net_AP_Export</from>
+                <to>chg_net_AP_export</to>
+            </connector>
+            <connector x="5105" y="957" uid="1665" color="black">
+                <from>
+                    <alias uid="1632" />
+                </from>
+                <to>AP_exports</to>
+            </connector>
+            <connector x="2998" y="1022" uid="1517" color="black">
+                <from>commodity_crop_yield</from>
+                <to>commodity_crop_prodn_from_crop_land</to>
+            </connector>
+            <connector x="891" y="1333" uid="1694" color="black">
+                <from>
+                    <alias uid="1688" />
+                </from>
+                <to>per_capita_animal_product_demand</to>
+            </connector>
+            <connector x="894" y="1995" uid="1715" color="black">
+                <from>
+                    <alias uid="1679" />
+                </from>
+                <to>per_capita_fiber_consn</to>
+            </connector>
+            <connector x="2998" y="186" uid="1471" color="black">
+                <from>reqd_forage_land</from>
+                <to>forage_land_gap</to>
+            </connector>
+            <connector x="4982" y="496" uid="1651" color="black">
+                <from>
+                    <alias uid="1631" />
+                </from>
+                <to>AP_target_stock_adj</to>
+            </connector>
+            <connector x="3672" y="1497" uid="1534" color="black">
+                <from>net_commodity_export</from>
+                <to>chg_net_CP_export</to>
+            </connector>
+            <connector x="901" y="279" uid="1601" color="black">
+                <from>Near_Pristine_Land</from>
+                <to>NPL_gap</to>
+            </connector>
+            <connector x="4346" y="440" uid="1506" color="black">
+                <from>total_AP_prodn_shortfall</from>
+                <to>AP_prodn</to>
+            </connector>
+            <connector x="1615" y="497" uid="1630" color="black">
+                <from>
+                    <alias uid="1592" />
+                </from>
+                <to>abandoned_to_built_up</to>
+            </connector>
+            <connector x="3686" y="957" uid="1535" color="black">
+                <from>Avg_Net_C_Export</from>
+                <to>chg_net_CP_export</to>
+            </connector>
+            <connector x="3094" y="286" uid="1472" color="black">
+                <from>
+                    <alias uid="1460" />
+                </from>
+                <to>crop_land_forage_yield</to>
+            </connector>
+            <connector x="1457" y="1341" uid="1699" color="#9F9F9F">
+                <from>population</from>
+                <to>Reqd_VFN_prodn</to>
+            </connector>
+            <connector x="1300" y="178" uid="1607" color="black">
+                <from>
+                    <alias uid="1588" />
+                </from>
+                <to>indicated_crop_pasture_flux</to>
+            </connector>
+            <connector x="3659" y="1202" uid="1561" color="black">
+                <from>potential_net_exports</from>
+                <to>potential_imports</to>
+            </connector>
+            <connector x="5173" y="1041" uid="1652" color="black">
+                <from>AP_net_export</from>
+                <to>chg_net_AP_export</to>
+            </connector>
+            <connector x="3450" y="959" uid="1524" color="black">
+                <from>reqd_chg_commodity_inventory</from>
+                <to>reqd_commodity_prodn_x_global_shortfall</to>
+            </connector>
+            <connector x="3077" y="577" uid="1487" color="black">
+                <from>
+                    <alias uid="1449" />
+                </from>
+                <to>chg_forage_land</to>
+            </connector>
+            <connector x="3664" y="1353" uid="1562" color="black">
+                <from>share_total_exports</from>
+                <to>exports</to>
+            </connector>
+            <connector x="2700" y="355" uid="1485" color="black">
+                <from>
+                    <alias uid="1439" />
+                </from>
+                <to>total_crop_land_allocated_to_commodiities</to>
+            </connector>
+            <connector x="1887" y="2061" uid="1416" color="black">
+                <from>builtup_land_gap</from>
+                <to>creating_builtup_land</to>
+            </connector>
+            <connector x="591" y="2436" uid="1751" color="black">
+                <from>F_protein_mass_crosswalk</from>
+                <to>F_crosswalk</to>
+            </connector>
+            <connector x="206" y="2505" uid="1756" color="black">
+                <from>CP_feed_data_protein_eq</from>
+                <to>CP_feed_protein_distn</to>
+            </connector>
+            <connector x="3297" y="252" uid="1473" color="black">
+                <from>
+                    <alias uid="1453" />
+                </from>
+                <to>crop_land_forage_yield</to>
+            </connector>
+            <connector x="2504" y="177" uid="1463" color="black">
+                <from>total_reqd_crop_land</from>
+                <to>crop_land_gap</to>
+            </connector>
+            <connector x="3582" y="1415" uid="1563" color="black">
+                <from>
+                    <alias uid="1447" />
+                </from>
+                <to>imports</to>
+            </connector>
+            <connector x="5162" y="704" uid="1653" color="black">
+                <from>potential_AP_net_exports</from>
+                <to>potential_AP_imports</to>
+            </connector>
+            <connector x="1516" y="178" uid="1615" color="black">
+                <from>crop_land_gap</from>
+                <to>indicated_crop_pasture_flux</to>
+            </connector>
+            <connector x="2725" y="951" uid="1513" color="black">
+                <from>indicated_land_alloc</from>
+                <to>chg_indicated_land_alloc</to>
+            </connector>
+            <connector x="891" y="1393" uid="1695" color="black">
+                <from>
+                    <alias uid="1689" />
+                </from>
+                <to>per_capita_animal_product_demand</to>
+            </connector>
+            <connector x="1764" y="2144" uid="1434" color="black">
+                <from>
+                    <alias uid="1409" />
+                </from>
+                <to>INIT_other_non_built_up_land_estimate</to>
+            </connector>
+            <connector x="295" y="2187" uid="1587" color="black">
+                <from>GDP_per_capita_scenario</from>
+                <to>GDP_per_capita</to>
+            </connector>
+            <connector x="3655" y="836" uid="1525" color="black">
+                <from>total_target_CP_outflow</from>
+                <to>commodity_inventory_target</to>
+            </connector>
+            <connector x="955" y="2211" uid="1738" color="black">
+                <from>
+                    <alias uid="1673" />
+                </from>
+                <to>other_yield</to>
+            </connector>
+            <connector x="2241" y="1987" uid="1423" color="black">
+                <from>abandoned_builtup_weighting_factor</from>
+                <to>abandoned_to_built_up_rate</to>
+            </connector>
+            <connector x="1349" y="103" uid="1608" color="black">
+                <from>
+                    <alias uid="1590" />
+                </from>
+                <to>latent_to_built_up</to>
+            </connector>
+            <connector x="1982" y="2065" uid="1417" color="black">
+                <from>creating_builtup_land</from>
+                <to>latent_to_built_up_rate</to>
+            </connector>
+            <connector x="2998" y="553" uid="1488" color="black">
+                <from>Actual_Forage_Land</from>
+                <to>total_crop_land_allocated_to_commodiities</to>
+            </connector>
+            <connector x="1856" y="2235" uid="1435" color="black">
+                <from>
+                    <alias uid="1408" />
+                </from>
+                <to>INIT_other_non_built_up_land_estimate</to>
+            </connector>
+            <connector x="3659" y="757" uid="1497" color="black">
+                <from>
+                    <alias uid="1442" />
+                </from>
+                <to>direct_commodity_consn</to>
+            </connector>
+            <connector x="5040" y="453" uid="1654" color="black">
+                <from>AP_target_stock_adj</from>
+                <to>reqd_AP_prodn_x_global_shortfall</to>
+            </connector>
+            <connector x="2675" y="868" uid="1514" color="black">
+                <from>
+                    <alias uid="1456" />
+                </from>
+                <to>chg_indicated_land_alloc</to>
+            </connector>
+            <connector x="62" y="1377" uid="1773" color="#C8C8C8">
+                <from>Fiber_area_harvested_data</from>
+                <to>total_cropland_data</to>
+            </connector>
+            <connector x="5166" y="876" uid="1666" color="black">
+                <from>AP_share_total_exports</from>
+                <to>AP_exports</to>
+            </connector>
+            <connector x="3007" y="442" uid="1489" color="black">
+                <from>forage_land_gap</from>
+                <to>forage_land_gap_prodn_equivalent</to>
+            </connector>
+            <connector x="1983" y="2061" uid="1418" color="black">
+                <from>creating_builtup_land</from>
+                <to>crop_to_built_up_rate</to>
+            </connector>
+            <connector x="215" y="2614" uid="1757" color="black">
+                <from>CP_AP_distn</from>
+                <to>CP_crosswalk</to>
+            </connector>
+            <connector x="264" y="1333" uid="1774" color="#C8C8C8">
+                <from>crop_land_data</from>
+                <to>total_land_base</to>
+            </connector>
+            <connector x="867" y="1958" uid="1716" color="black">
+                <from>
+                    <alias uid="1676" />
+                </from>
+                <to>per_capita_VFN_consn</to>
+            </connector>
+            <connector x="264" y="1272" uid="1775" color="#C8C8C8">
+                <from>NPL_data</from>
+                <to>total_land_base</to>
+            </connector>
+            <connector x="2342" y="2141" uid="1437" color="black">
+                <from>
+                    <alias uid="1410" />
+                </from>
+                <to>latent_builtup_weighting_factor</to>
+            </connector>
+            <connector x="2345" y="2076" uid="1424" color="black">
+                <from>
+                    <alias uid="1405" />
+                </from>
+                <to>latent_builtup_weighting_factor</to>
+            </connector>
+            <connector x="2345" y="2061" uid="1425" color="black">
+                <from>
+                    <alias uid="1405" />
+                </from>
+                <to>crop_builtup_weighting_factor</to>
+            </connector>
+            <connector x="5166" y="705" uid="1667" color="black">
+                <from>potential_AP_net_exports</from>
+                <to>potential_AP_exports</to>
+            </connector>
+            <connector x="2239" y="2061" uid="1426" color="black">
+                <from>crop_builtup_weighting_factor</from>
+                <to>crop_to_built_up_rate</to>
+            </connector>
+            <connector x="1525" y="241" uid="1616" color="black">
+                <from>Crop_Land</from>
+                <to>crop_land_gap</to>
+            </connector>
+            <connector x="3664" y="1424" uid="1568" color="black">
+                <from>exports</from>
+                <to>net_commodity_export</to>
+            </connector>
+            <connector x="1547" y="266" uid="1617" color="black">
+                <from>Crop_Land</from>
+                <to>non_fallow_crop_land</to>
+            </connector>
+            <connector x="96" y="2496" uid="1758" color="black">
+                <from>
+                    <alias uid="1744" />
+                </from>
+                <to>CP_feed_data_protein_eq</to>
+            </connector>
+            <connector x="2429" y="266" uid="1464" color="black">
+                <from>crop_land_alloc_to_fallow</from>
+                <to>non_fallow_crop_land</to>
+            </connector>
+            <connector x="2342" y="2129" uid="1427" color="black">
+                <from>
+                    <alias uid="1410" />
+                </from>
+                <to>crop_builtup_weighting_factor</to>
+            </connector>
+            <connector x="1098" y="1552" uid="1711" color="black">
+                <from>net_processing_demand</from>
+                <to>net_processing_seed_and_other</to>
+            </connector>
+            <connector x="5023" y="237" uid="1641" color="black">
+                <from>AP_inventory_effect_consn</from>
+                <to>AP_food_consn</to>
+            </connector>
+            <connector x="1144" y="1871" uid="1728" color="black">
+                <from>reqd_fiber_prodn</from>
+                <to>crop_land_alloc_to_fiber</to>
+            </connector>
+            <connector x="1592" y="136" uid="1618" color="black">
+                <from>
+                    <alias uid="1591" />
+                </from>
+                <to>crop_to_built_up</to>
+            </connector>
+            <connector x="4397" y="178" uid="1477" color="#6B6B6B">
+                <from>reqd_forage_consn_AP</from>
+                <to>distn_forage_consn</to>
+            </connector>
+            <connector x="953" y="1871" uid="1717" color="black">
+                <from>per_capita_fiber_consn</from>
+                <to>reqd_fiber_prodn</to>
+            </connector>
+            <connector x="3664" y="1203" uid="1564" color="black">
+                <from>potential_net_exports</from>
+                <to>potential_exports</to>
+            </connector>
+            <connector x="3051" y="1229" uid="1551" color="black">
+                <from>
+                    <alias uid="1445" />
+                </from>
+                <to>local_pressure_from_global_supply_demand_shortfall</to>
+            </connector>
+            <connector x="3689" y="442" uid="1498" color="black">
+                <from>forage_shortfall_by_AP</from>
+                <to>AP_prodn_shortfall_forage</to>
+            </connector>
+            <connector x="3167" y="1297" uid="1552" color="black">
+                <from>
+                    <alias uid="1446" />
+                </from>
+                <to>local_pressure_from_global_supply_demand_shortfall</to>
+            </connector>
+            <connector x="3169" y="1055" uid="1553" color="black">
+                <from>
+                    <alias uid="1452" />
+                </from>
+                <to>reqd_commodity_prodn</to>
+            </connector>
+            <connector x="3377" y="991" uid="1526" color="black">
+                <from>
+                    <alias uid="1444" />
+                </from>
+                <to>reqd_chg_commodity_inventory</to>
+            </connector>
+            <connector x="1222" y="1544" uid="1712" color="black">
+                <from>net_processing_seed_and_other</from>
+                <to>commodity_crop_demand</to>
+            </connector>
+            <connector x="1390" y="2161" uid="1729" color="black">
+                <from>
+                    <alias uid="1677" />
+                </from>
+                <to>total_crop_land_allocated_to_all_other_uses</to>
+            </connector>
+            <connector x="4243" y="833" uid="1542" color="#6B6B6B">
+                <from>reqd_AP_commodity_consn_2D</from>
+                <to>distn_of_AP_commodity_consn</to>
+            </connector>
+            <connector x="2998" y="519" uid="1490" color="black">
+                <from>Actual_Forage_Land</from>
+                <to>forage_land_gap</to>
+            </connector>
+            <connector x="3445" y="828" uid="1527" color="black">
+                <from>commodity_inventory_target</from>
+                <to>CP_inventory_ratio</to>
+            </connector>
+            <connector x="1085" y="1905" uid="1730" color="black">
+                <from>
+                    <alias uid="1675" />
+                </from>
+                <to>Reqd_VFN_prodn</to>
+            </connector>
+            <connector x="1652" y="2167" uid="1411" color="black">
+                <from>
+                    <alias uid="1407" />
+                </from>
+                <to>reqd_builtup_land_per_capita</to>
+            </connector>
+            <connector x="987" y="1958" uid="1718" color="black">
+                <from>per_capita_VFN_consn</from>
+                <to>Reqd_VFN_prodn</to>
+            </connector>
+            <connector x="2998" y="650" uid="1491" color="black">
+                <from>total_crop_land_allocated_to_commodiities</from>
+                <to>alloc_of_crop_lands_to_commodities</to>
+            </connector>
+            <connector x="957" y="2204" uid="1739" color="black">
+                <from>
+                    <alias uid="1673" />
+                </from>
+                <to>fiber_yield</to>
+            </connector>
+            <connector x="2345" y="2046" uid="1428" color="black">
+                <from>
+                    <alias uid="1405" />
                 </from>
                 <to>abandoned_builtup_weighting_factor</to>
             </connector>
-            <connector x="2350" y="2123" uid="1429" color="black">
+            <connector x="5013" y="814" uid="1668" color="black">
+                <from>potential_AP_imports</from>
+                <to>AP_share_total_imports</to>
+            </connector>
+            <connector x="2348" y="1987" uid="1429" color="black">
                 <from>
-                    <alias uid="1409" />
+                    <alias uid="1404" />
+                </from>
+                <to>abandoned_builtup_weighting_factor</to>
+            </connector>
+            <connector x="2350" y="2123" uid="1430" color="black">
+                <from>
+                    <alias uid="1410" />
                 </from>
                 <to>abandoned_builtup_weighting_factor</to>
             </connector>
             <connector x="1878" y="2219" uid="1436" color="black">
                 <from>
-                    <alias uid="1410" />
+                    <alias uid="1408" />
                 </from>
                 <to>built_up_land_estimate</to>
             </connector>
@@ -4252,185 +4492,159 @@
                 <from>AP_prodn_shortfall_forage</from>
                 <to>total_AP_prodn_shortfall</to>
             </connector>
-            <connector x="4260" y="522" uid="1505" color="black">
+            <connector x="899" y="1999" uid="1719" color="black">
+                <from>
+                    <alias uid="1679" />
+                </from>
+                <to>per_capita_VFN_consn</to>
+            </connector>
+            <connector x="4260" y="522" uid="1507" color="black">
                 <from>AP_prodn_shortfall_commodity_2D</from>
                 <to>AP_prodn_shortfall_commodity</to>
             </connector>
-            <connector x="1115" y="2161" uid="1727" color="#9F9F9F">
-                <from>fiber_yield</from>
-                <to>crop_land_alloc_to_fiber</to>
-            </connector>
-            <connector x="5201" y="433" uid="1641" color="black">
-                <from>total_target_AP_outflux</from>
-                <to>AP_target_inventory</to>
-            </connector>
-            <connector x="4406" y="974" uid="1543" color="black">
-                <from>
-                    <alias uid="1440" />
-                </from>
-                <to>AP_global_shortfall_surplus_relevant_to_region</to>
-            </connector>
-            <connector x="709" y="2427" uid="1751" color="black">
+            <connector x="709" y="2427" uid="1752" color="black">
                 <from>forage_protein_content</from>
                 <to>F_protein_mass_crosswalk</to>
             </connector>
-            <connector x="3301" y="950" uid="1526" color="black">
+            <connector x="1457" y="1341" uid="1700" color="#9F9F9F">
+                <from>population</from>
+                <to>reqd_other_prodn</to>
+            </connector>
+            <connector x="3301" y="950" uid="1528" color="black">
                 <from>Commodity_Inventory</from>
                 <to>reqd_chg_commodity_inventory</to>
             </connector>
             <connector x="897" y="1538" uid="1706" color="black">
                 <from>
-                    <alias uid="1682" />
+                    <alias uid="1683" />
                 </from>
                 <to>per_capita_commodity_crop_demand</to>
+            </connector>
+            <connector x="1517" y="557" uid="1627" color="black">
+                <from>Abandoned_Land</from>
+                <to>abandoned_to_latent</to>
             </connector>
             <connector x="2522" y="1134" uid="1548" color="black">
                 <from>total_reqd_commodity_crop_land</from>
                 <to>reqd_crop_land_alloc</to>
             </connector>
-            <connector x="1516" y="558" uid="1627" color="black">
-                <from>Abandoned_Land</from>
-                <to>abandoned_to_latent</to>
+            <connector x="1119" y="2067" uid="1731" color="black">
+                <from>reqd_other_prodn</from>
+                <to>crop_land_alloc_to_other</to>
             </connector>
             <connector x="5031" y="301" uid="1642" color="black">
                 <from>AP_target_inventory</from>
                 <to>AP_inventory_ratio</to>
             </connector>
-            <connector x="1119" y="2067" uid="1728" color="black">
-                <from>reqd_other_prodn</from>
-                <to>crop_land_alloc_to_other</to>
-            </connector>
-            <connector x="832" y="451" uid="1625" color="black">
-                <from>
-                    <alias uid="1593" />
-                </from>
-                <to>population_pressure_NPL</to>
-            </connector>
-            <connector x="452" y="2427" uid="1745" color="black">
-                <from>protein_input_per_unit_mass_output</from>
-                <to>CP_protein_mass_crosswalk</to>
-            </connector>
-            <connector x="899" y="2009" uid="1718" color="black">
+            <connector x="899" y="2009" uid="1720" color="black">
                 <from>
                     <alias uid="1679" />
                 </from>
                 <to>per_capita_other_consn</to>
             </connector>
-            <connector x="3510" y="1419" uid="1568" color="black">
+            <connector x="452" y="2427" uid="1745" color="black">
+                <from>protein_input_per_unit_mass_output</from>
+                <to>CP_protein_mass_crosswalk</to>
+            </connector>
+            <connector x="3510" y="1419" uid="1569" color="black">
                 <from>imports</from>
                 <to>net_commodity_export</to>
             </connector>
-            <connector x="886" y="281" uid="1601" color="black">
+            <connector x="886" y="279" uid="1602" color="black">
                 <from>Near_Pristine_Land</from>
                 <to>population_pressure_NPL</to>
             </connector>
-            <connector x="3168" y="1037" uid="1527" color="black">
-                <from>
-                    <alias uid="1454" />
-                </from>
-                <to>commodity_prodn</to>
-            </connector>
-            <connector x="846" y="2645" uid="1763" color="black">
+            <connector x="846" y="2645" uid="1764" color="black">
                 <from>CP_Crosswalk_Accumulator</from>
                 <to>CP_crosswalk_input</to>
             </connector>
-            <connector x="4251" y="660" uid="1506" color="black">
+            <connector x="3168" y="1037" uid="1529" color="black">
                 <from>
-                    <alias uid="1453" />
+                    <alias uid="1452" />
                 </from>
-                <to>reqd_AP_commodity_consn_2D</to>
-            </connector>
-            <connector x="1071" y="2013" uid="1729" color="black">
-                <from>
-                    <alias uid="1673" />
-                </from>
-                <to>reqd_other_prodn</to>
-            </connector>
-            <connector x="2989" y="177" uid="1466" color="black">
-                <from>reqd_forage_land</from>
-                <to>total_reqd_crop_land</to>
+                <to>commodity_prodn</to>
             </connector>
             <connector x="1657" y="2069" uid="1412" color="black">
                 <from>reqd_builtup_land_per_capita</from>
                 <to>INIT_other_non_built_up_land_estimate</to>
             </connector>
-            <connector x="1317" y="313" uid="1608" color="#9F9F9F">
+            <connector x="3403" y="1343" uid="1554" color="black">
+                <from>
+                    <alias uid="1450" />
+                </from>
+                <to>share_total_imports</to>
+            </connector>
+            <connector x="2989" y="1134" uid="1549" color="black">
+                <from>reqd_crop_prod&apos;n_land_equivalent</from>
+                <to>reqd_crop_land_alloc</to>
+            </connector>
+            <connector x="2989" y="177" uid="1467" color="black">
+                <from>reqd_forage_land</from>
+                <to>total_reqd_crop_land</to>
+            </connector>
+            <connector x="1317" y="313" uid="1609" color="#9F9F9F">
                 <from>latent_land_constraint</from>
                 <to>latent_to_crop</to>
             </connector>
-            <connector x="5310" y="503" uid="1659" color="black">
-                <from>Avg_Net_AP_Export</from>
-                <to>chg_net_AP_export</to>
+            <connector x="1012" y="347" uid="1603" color="black">
+                <from>indicated_NPL</from>
+                <to>NPL_gap</to>
             </connector>
             <connector x="206" y="2562" uid="1759" color="black">
                 <from>CP_feed_protein_distn</from>
                 <to>CP_AP_distn</to>
             </connector>
-            <connector x="1012" y="347" uid="1602" color="black">
-                <from>indicated_NPL</from>
-                <to>NPL_gap</to>
-            </connector>
-            <connector x="3664" y="953" uid="1534" color="black">
-                <from>Avg_Net_C_Export</from>
-                <to>total_target_CP_outflow</to>
-            </connector>
-            <connector x="5105" y="957" uid="1667" color="black">
-                <from>
-                    <alias uid="1633" />
-                </from>
-                <to>AP_exports</to>
-            </connector>
-            <connector x="1878" y="2134" uid="1418" color="black">
+            <connector x="1878" y="2134" uid="1419" color="black">
                 <from>built_up_land_estimate</from>
                 <to>builtup_land_gap</to>
             </connector>
-            <connector x="3450" y="845" uid="1528" color="black">
-                <from>commodity_inventory_target</from>
-                <to>reqd_chg_commodity_inventory</to>
-            </connector>
-            <connector x="600" y="2817" uid="1769" color="black">
-                <from>F_crosswalk</from>
-                <to>F_crosswalk_flux</to>
-            </connector>
-            <connector x="3664" y="1284" uid="1562" color="black">
-                <from>potential_exports</from>
-                <to>share_total_exports</to>
+            <connector x="3664" y="953" uid="1536" color="black">
+                <from>Avg_Net_C_Export</from>
+                <to>total_target_CP_outflow</to>
             </connector>
             <connector x="206" y="2436" uid="1746" color="black">
                 <from>CP_protein_content</from>
                 <to>CP_feed_data_protein_eq</to>
             </connector>
-            <connector x="4080" y="757" uid="1502" color="#6B6B6B">
+            <connector x="600" y="2817" uid="1769" color="black">
+                <from>F_crosswalk</from>
+                <to>F_crosswalk_flux</to>
+            </connector>
+            <connector x="3450" y="845" uid="1530" color="black">
+                <from>commodity_inventory_target</from>
+                <to>reqd_chg_commodity_inventory</to>
+            </connector>
+            <connector x="3664" y="1284" uid="1565" color="black">
+                <from>potential_exports</from>
+                <to>share_total_exports</to>
+            </connector>
+            <connector x="4089" y="522" uid="1502" color="black">
+                <from>AP_commodity_consn_shortfall_2D</from>
+                <to>AP_prodn_shortfall_commodity_2D</to>
+            </connector>
+            <connector x="848" y="2822" uid="1765" color="black">
+                <from>F_Crosswalk_Accumulator</from>
+                <to>F_crosswalk_input</to>
+            </connector>
+            <connector x="4080" y="757" uid="1503" color="#6B6B6B">
                 <from>distn_of_AP_commodity_consn</from>
                 <to>AP_commodity_consn_shortfall_2D</to>
             </connector>
-            <connector x="891" y="1333" uid="1695" color="black">
-                <from>
-                    <alias uid="1690" />
-                </from>
-                <to>per_capita_animal_product_demand</to>
-            </connector>
-            <connector x="2998" y="1022" uid="1517" color="black">
-                <from>commodity_crop_yield</from>
-                <to>commodity_crop_prodn_from_crop_land</to>
-            </connector>
-            <connector x="1104" y="1333" uid="1699" color="black">
+            <connector x="1104" y="1333" uid="1701" color="black">
                 <from>per_capita_animal_product_demand</from>
                 <to>animal_product_demand</to>
-            </connector>
-            <connector x="4089" y="522" uid="1503" color="black">
-                <from>AP_commodity_consn_shortfall_2D</from>
-                <to>AP_prodn_shortfall_commodity_2D</to>
             </connector>
             <connector x="341" y="2612" uid="1760" color="#929292">
                 <from>CP_crosswalk</from>
                 <to>CP_crosswalk_flux</to>
             </connector>
-            <connector x="894" y="1995" uid="1719" color="black">
-                <from>
-                    <alias uid="1679" />
-                </from>
-                <to>per_capita_fiber_consn</to>
+            <connector x="4337" y="513" uid="1508" color="black">
+                <from>AP_prodn_shortfall_commodity</from>
+                <to>total_AP_prodn_shortfall</to>
+            </connector>
+            <connector x="1520" y="276" uid="1619" color="black">
+                <from>Crop_Land</from>
+                <to>abandoning</to>
             </connector>
             <connector x="1005" y="1639" uid="1707" color="black">
                 <from>
@@ -4438,19 +4652,11 @@
                 </from>
                 <to>seed_and_other_demand</to>
             </connector>
-            <connector x="1520" y="276" uid="1617" color="black">
-                <from>Crop_Land</from>
-                <to>abandoning</to>
-            </connector>
-            <connector x="4898" y="876" uid="1661" color="white">
+            <connector x="4898" y="876" uid="1662" color="white">
                 <from>
-                    <alias uid="1634" />
+                    <alias uid="1636" />
                 </from>
                 <to>AP_share_total_imports</to>
-            </connector>
-            <connector x="2998" y="186" uid="1470" color="black">
-                <from>reqd_forage_land</from>
-                <to>forage_land_gap</to>
             </connector>
             <connector x="5040" y="310" uid="1643" color="black">
                 <from>AP_target_inventory</from>
@@ -4464,33 +4670,33 @@
                 <from>reqd_builtup_land_per_capita</from>
                 <to>reqd_built_up_land</to>
             </connector>
-            <connector x="2357" y="2004" uid="1430" color="black">
-                <from>
-                    <alias uid="1406" />
-                </from>
-                <to>latent_builtup_weighting_factor</to>
-            </connector>
-            <connector x="1143" y="1958" uid="1730" color="black">
+            <connector x="1143" y="1958" uid="1732" color="black">
                 <from>Reqd_VFN_prodn</from>
                 <to>crop_land_alloc_to_VFN</to>
             </connector>
-            <connector x="5266" y="290" uid="1644" color="black">
+            <connector x="2357" y="2004" uid="1431" color="black">
                 <from>
-                    <alias uid="1632" />
+                    <alias uid="1404" />
                 </from>
-                <to>total_target_AP_outflux</to>
+                <to>latent_builtup_weighting_factor</to>
             </connector>
-            <connector x="5097" y="867" uid="1668" color="white">
+            <connector x="900" y="2249" uid="1740" color="black">
                 <from>
-                    <alias uid="1636" />
+                    <alias uid="1684" />
+                </from>
+                <to>VFN_yield</to>
+            </connector>
+            <connector x="5097" y="867" uid="1669" color="white">
+                <from>
+                    <alias uid="1634" />
                 </from>
                 <to>AP_share_total_exports</to>
             </connector>
-            <connector x="4982" y="496" uid="1651" color="black">
+            <connector x="5266" y="290" uid="1644" color="black">
                 <from>
-                    <alias uid="1631" />
+                    <alias uid="1633" />
                 </from>
-                <to>AP_target_stock_adj</to>
+                <to>total_target_AP_outflux</to>
             </connector>
             <connector x="2916" y="1031" uid="1518" color="black">
                 <from>
@@ -4498,19 +4704,17 @@
                 </from>
                 <to>commodity_crop_yield</to>
             </connector>
-            <connector x="900" y="2249" uid="1739" color="black">
-                <from>
-                    <alias uid="1683" />
-                </from>
-                <to>VFN_yield</to>
-            </connector>
-            <connector x="4752" y="450" uid="1648" color="black">
+            <connector x="4752" y="450" uid="1649" color="black">
                 <from>AP_prodn</from>
                 <to>potential_AP_net_exports</to>
             </connector>
-            <connector x="758" y="2727" uid="1764" color="black">
+            <connector x="758" y="2727" uid="1766" color="black">
                 <from>years_of_data_to_consider</from>
                 <to>F_crosswalk_flux</to>
+            </connector>
+            <connector x="1539" y="395" uid="1620" color="#C8C8C8">
+                <from>abandoning</from>
+                <to>indicated_crop_pasture_flux</to>
             </connector>
             <connector x="4218" y="299" uid="1480" color="black">
                 <from>
@@ -4518,55 +4722,41 @@
                 </from>
                 <to>AP_prodn_shortfall_forage</to>
             </connector>
-            <connector x="1539" y="395" uid="1618" color="#C8C8C8">
-                <from>abandoning</from>
-                <to>indicated_crop_pasture_flux</to>
-            </connector>
-            <connector x="3459" y="1134" uid="1554" color="black">
+            <connector x="3459" y="1134" uid="1555" color="black">
                 <from>reqd_commodity_prodn_x_global_shortfall</from>
                 <to>reqd_commodity_prodn_x_export</to>
             </connector>
-            <connector x="3672" y="1497" uid="1535" color="black">
-                <from>net_commodity_export</from>
-                <to>chg_net_CP_export</to>
-            </connector>
-            <connector x="3566" y="545" uid="1498" color="black">
-                <from>AP_commodity_consn</from>
-                <to>AP_commodity_consn_shortfall</to>
-            </connector>
-            <connector x="263" y="1424" uid="1775" color="#C8C8C8">
+            <connector x="263" y="1424" uid="1776" color="#C8C8C8">
                 <from>set_aside_land_data</from>
                 <to>total_land_base</to>
             </connector>
-            <connector x="758" y="2709" uid="1765" color="black">
-                <from>years_of_data_to_consider</from>
-                <to>CP_crosswalk_flux</to>
+            <connector x="3566" y="545" uid="1499" color="black">
+                <from>AP_commodity_consn</from>
+                <to>AP_commodity_consn_shortfall</to>
             </connector>
-            <connector x="955" y="356" uid="1603" color="black">
+            <connector x="955" y="356" uid="1604" color="black">
                 <from>
                     <alias uid="1596" />
                 </from>
                 <to>indicated_NPL</to>
             </connector>
-            <connector x="1367" y="1256" uid="1700" color="black">
+            <connector x="758" y="2709" uid="1767" color="black">
+                <from>years_of_data_to_consider</from>
+                <to>CP_crosswalk_flux</to>
+            </connector>
+            <connector x="5266" y="500" uid="1655" color="black">
+                <from>Avg_Net_AP_Export</from>
+                <to>total_target_AP_outflux</to>
+            </connector>
+            <connector x="1367" y="1256" uid="1702" color="black">
                 <from>
-                    <alias uid="1678" />
+                    <alias uid="1680" />
                 </from>
                 <to>population</to>
             </connector>
-            <connector x="901" y="279" uid="1604" color="black">
-                <from>Near_Pristine_Land</from>
-                <to>NPL_gap</to>
-            </connector>
-            <connector x="1615" y="497" uid="1630" color="black">
+            <connector x="3600" y="1415" uid="1566" color="black">
                 <from>
-                    <alias uid="1591" />
-                </from>
-                <to>abandoned_to_built_up</to>
-            </connector>
-            <connector x="3600" y="1415" uid="1563" color="black">
-                <from>
-                    <alias uid="1448" />
+                    <alias uid="1447" />
                 </from>
                 <to>exports</to>
             </connector>
@@ -4574,37 +4764,33 @@
                 <from>commodity_crop_prodn_from_crop_land</from>
                 <to>commodity_prodn</to>
             </connector>
-            <connector x="5049" y="607" uid="1652" color="black">
-                <from>reqd_AP_prodn_x_global_shortfall</from>
-                <to>reqd_AP_prodn_x_export</to>
-            </connector>
             <connector x="2439" y="641" uid="1484" color="black">
                 <from>non_fallow_crop_land</from>
                 <to>total_crop_land_allocated_to_commodiities</to>
             </connector>
-            <connector x="3586" y="1344" uid="1564" color="black">
-                <from>
-                    <alias uid="1460" />
-                </from>
-                <to>share_total_exports</to>
+            <connector x="5049" y="607" uid="1656" color="black">
+                <from>reqd_AP_prodn_x_global_shortfall</from>
+                <to>reqd_AP_prodn_x_export</to>
             </connector>
-            <connector x="1098" y="2242" uid="1731" color="#9F9F9F">
+            <connector x="1098" y="2242" uid="1733" color="#9F9F9F">
                 <from>VFN_yield</from>
                 <to>crop_land_alloc_to_VFN</to>
             </connector>
-            <connector x="1584" y="108" uid="1619" color="#C8C8C8">
+            <connector x="3586" y="1344" uid="1567" color="black">
+                <from>
+                    <alias uid="1458" />
+                </from>
+                <to>share_total_exports</to>
+            </connector>
+            <connector x="461" y="2724" uid="1762" color="black">
+                <from>
+                    <alias uid="1743" />
+                </from>
+                <to>AP_demand_CP_protein_eq</to>
+            </connector>
+            <connector x="1584" y="108" uid="1621" color="#C8C8C8">
                 <from>crop_to_built_up</from>
                 <to>indicated_crop_pasture_flux</to>
-            </connector>
-            <connector x="3094" y="286" uid="1471" color="black">
-                <from>
-                    <alias uid="1439" />
-                </from>
-                <to>crop_land_forage_yield</to>
-            </connector>
-            <connector x="3686" y="957" uid="1536" color="black">
-                <from>Avg_Net_C_Export</from>
-                <to>chg_net_CP_export</to>
             </connector>
             <connector x="2243" y="2141" uid="1438" color="black">
                 <from>latent_builtup_weighting_factor</from>
@@ -4616,137 +4802,119 @@
                 </from>
                 <to>net_processing_demand</to>
             </connector>
+            <connector x="3664" y="774" uid="1537" color="black">
+                <from>
+                    <alias uid="1442" />
+                </from>
+                <to>total_target_CP_outflow</to>
+            </connector>
             <connector x="994" y="302" uid="1605" color="black">
                 <from>NPL_gap</from>
                 <to>NPL_to_latent</to>
             </connector>
-            <connector x="3664" y="774" uid="1537" color="black">
-                <from>
-                    <alias uid="1447" />
-                </from>
-                <to>total_target_CP_outflow</to>
+            <connector x="65" y="1449" uid="1777" color="#C8C8C8">
+                <from>other_area_harvested_data</from>
+                <to>total_cropland_data</to>
             </connector>
-            <connector x="5021" y="962" uid="1669" color="black">
-                <from>AP_imports</from>
-                <to>AP_net_export</to>
-            </connector>
-            <connector x="4412" y="829" uid="1507" color="black">
+            <connector x="4412" y="829" uid="1509" color="black">
                 <from>reqd_AP_prodn</from>
                 <to>AP_prodn</to>
             </connector>
-            <connector x="1457" y="1341" uid="1701" color="#9F9F9F">
-                <from>population</from>
-                <to>Reqd_VFN_prodn</to>
+            <connector x="5021" y="962" uid="1670" color="black">
+                <from>AP_imports</from>
+                <to>AP_net_export</to>
             </connector>
-            <connector x="1300" y="178" uid="1609" color="black">
-                <from>
-                    <alias uid="1588" />
-                </from>
-                <to>indicated_crop_pasture_flux</to>
-            </connector>
-            <connector x="65" y="1449" uid="1776" color="#C8C8C8">
-                <from>other_area_harvested_data</from>
-                <to>total_cropland_data</to>
+            <connector x="266" y="1366" uid="1778" color="#C8C8C8">
+                <from>abandoned_land_data</from>
+                <to>total_land_base</to>
             </connector>
             <connector x="2756" y="792" uid="1515" color="black">
                 <from>land_alloc_logic</from>
                 <to>alloc_of_crop_lands_to_commodities</to>
             </connector>
-            <connector x="3277" y="932" uid="1529" color="black">
+            <connector x="3277" y="932" uid="1531" color="black">
                 <from>Commodity_Inventory</from>
                 <to>CP_inventory_ratio</to>
-            </connector>
-            <connector x="3180" y="261" uid="1473" color="black">
-                <from>crop_land_forage_yield</from>
-                <to>forage_land_gap_prodn_equivalent</to>
             </connector>
             <connector x="3356" y="762" uid="1493" color="black">
                 <from>CP_inventory_ratio</from>
                 <to>CP_inventory_impact_on_consn</to>
             </connector>
-            <connector x="4852" y="427" uid="1638" color="black">
-                <from>Animal_Product_Inventory</from>
-                <to>AP_inventory_ratio</to>
+            <connector x="3180" y="261" uid="1474" color="black">
+                <from>crop_land_forage_yield</from>
+                <to>forage_land_gap_prodn_equivalent</to>
             </connector>
-            <connector x="905" y="2322" uid="1740" color="black">
+            <connector x="905" y="2322" uid="1741" color="black">
                 <from>
                     <alias uid="1674" />
                 </from>
                 <to>other_yield</to>
             </connector>
-            <connector x="2241" y="1987" uid="1431" color="black">
-                <from>abandoned_builtup_weighting_factor</from>
-                <to>abandoned_to_built_up_rate</to>
-            </connector>
-            <connector x="3502" y="1276" uid="1555" color="black">
-                <from>potential_imports</from>
-                <to>share_total_imports</to>
+            <connector x="4852" y="427" uid="1638" color="black">
+                <from>Animal_Product_Inventory</from>
+                <to>AP_inventory_ratio</to>
             </connector>
             <connector x="3680" y="272" uid="1478" color="black">
                 <from>distn_forage_consn</from>
                 <to>forage_shortfall_by_AP</to>
             </connector>
-            <connector x="1974" y="2122" uid="1419" color="black">
-                <from>
-                    <alias uid="1405" />
-                </from>
-                <to>creating_builtup_land</to>
+            <connector x="3502" y="1276" uid="1556" color="black">
+                <from>potential_imports</from>
+                <to>share_total_imports</to>
+            </connector>
+            <connector x="61" y="1344" uid="1779" color="#C8C8C8">
+                <from>VFN_area_harvested_data</from>
+                <to>total_cropland_data</to>
             </connector>
             <connector x="4397" y="177" uid="1479" color="black">
                 <from>reqd_forage_consn_AP</from>
                 <to>rollup_reqd_forage_consn_AP</to>
             </connector>
-            <connector x="1317" y="1964" uid="1732" color="black">
+            <connector x="1974" y="2122" uid="1420" color="black">
+                <from>
+                    <alias uid="1406" />
+                </from>
+                <to>creating_builtup_land</to>
+            </connector>
+            <connector x="1317" y="1964" uid="1734" color="black">
                 <from>crop_land_alloc_to_VFN</from>
                 <to>total_crop_land_allocated_to_all_other_uses</to>
             </connector>
-            <connector x="61" y="1344" uid="1777" color="#C8C8C8">
-                <from>VFN_area_harvested_data</from>
-                <to>total_cropland_data</to>
-            </connector>
-            <connector x="3664" y="1424" uid="1569" color="black">
-                <from>exports</from>
-                <to>net_commodity_export</to>
-            </connector>
-            <connector x="1457" y="1341" uid="1702" color="#9F9F9F">
-                <from>population</from>
-                <to>reqd_other_prodn</to>
-            </connector>
-            <connector x="5166" y="616" uid="1653" color="black">
+            <connector x="5166" y="616" uid="1657" color="black">
                 <from>reqd_AP_prodn_x_export</from>
                 <to>potential_AP_net_exports</to>
             </connector>
-            <connector x="5087" y="957" uid="1670" color="black">
+            <connector x="3756" y="1019" uid="1538" color="black">
                 <from>
-                    <alias uid="1633" />
+                    <alias uid="1457" />
+                </from>
+                <to>chg_net_CP_export</to>
+            </connector>
+            <connector x="5087" y="957" uid="1671" color="black">
+                <from>
+                    <alias uid="1632" />
                 </from>
                 <to>AP_imports</to>
             </connector>
-            <connector x="394" y="1315" uid="1778" color="black">
+            <connector x="394" y="1315" uid="1780" color="black">
                 <from>forest_frac</from>
                 <to>max_NPL_forest</to>
             </connector>
-            <connector x="3403" y="1343" uid="1556" color="black">
-                <from>
-                    <alias uid="1452" />
-                </from>
-                <to>share_total_imports</to>
-            </connector>
-            <connector x="1107" y="2315" uid="1733" color="#9F9F9F">
-                <from>other_yield</from>
-                <to>crop_land_alloc_to_other</to>
-            </connector>
-            <connector x="1547" y="258" uid="1620" color="black">
+            <connector x="1547" y="258" uid="1622" color="black">
                 <from>Crop_Land</from>
                 <to>crop_land_alloc_to_fallow</to>
             </connector>
-            <connector x="3659" y="843" uid="1530" color="black">
+            <connector x="1107" y="2315" uid="1735" color="#9F9F9F">
+                <from>other_yield</from>
+                <to>crop_land_alloc_to_other</to>
+            </connector>
+            <connector x="3659" y="843" uid="1532" color="black">
                 <from>total_target_CP_outflow</from>
                 <to>reqd_commodity_prodn_x_global_shortfall</to>
             </connector>
-            <connector x="4337" y="513" uid="1508" color="black">
-                <from>AP_prodn_shortfall_commodity</from>
-                <to>total_AP_prodn_shortfall</to>
+            <connector x="3899" y="839" uid="1539" color="black">
+                <from>reqd_commodity_consn_AP</from>
+                <to>total_target_CP_outflow</to>
             </connector>
             <connector x="987" y="479" uid="1626" color="black">
                 <from>
@@ -4754,65 +4922,39 @@
                 </from>
                 <to>population_pressure_NPL</to>
             </connector>
-            <connector x="3899" y="839" uid="1538" color="black">
-                <from>reqd_commodity_consn_AP</from>
-                <to>total_target_CP_outflow</to>
-            </connector>
-            <connector x="5032" y="610" uid="1649" color="black">
+            <connector x="5032" y="610" uid="1650" color="black">
                 <from>reqd_AP_prodn_x_global_shortfall</from>
                 <to>reqd_AP_prodn</to>
             </connector>
-            <connector x="5202" y="445" uid="1654" color="black">
+            <connector x="5202" y="445" uid="1658" color="black">
                 <from>total_target_AP_outflux</from>
                 <to>reqd_AP_prodn_x_global_shortfall</to>
             </connector>
-            <connector x="1378" y="2225" uid="1734" color="black">
+            <connector x="4952" y="293" uid="1645" color="black">
+                <from>AP_inventory_ratio</from>
+                <to>AP_inventory_effect_consn</to>
+            </connector>
+            <connector x="1378" y="2225" uid="1736" color="black">
                 <from>
                     <alias uid="1691" />
                 </from>
                 <to>total_crop_land_allocated_to_all_other_uses</to>
             </connector>
-            <connector x="4952" y="292" uid="1645" color="black">
-                <from>AP_inventory_ratio</from>
-                <to>AP_inventory_effect_consn</to>
-            </connector>
             <connector x="4301" y="910" uid="1545" color="black">
                 <from>
-                    <alias uid="1444" />
+                    <alias uid="1440" />
                 </from>
                 <to>AP_global_shortfall_surplus_relevant_to_region</to>
-            </connector>
-            <connector x="3756" y="1019" uid="1539" color="black">
-                <from>
-                    <alias uid="1459" />
-                </from>
-                <to>chg_net_CP_export</to>
             </connector>
             <connector x="3167" y="1220" uid="1557" color="black">
                 <from>local_pressure_from_global_supply_demand_shortfall</from>
                 <to>reqd_commodity_prodn</to>
             </connector>
-            <connector x="1224" y="279" uid="1610" color="black">
-                <from>Latent_Land</from>
-                <to>latent_to_NPL</to>
-            </connector>
-            <connector x="4251" y="642" uid="1509" color="black">
-                <from>
-                    <alias uid="1453" />
-                </from>
-                <to>AP_prodn_shortfall_commodity_2D</to>
-            </connector>
             <connector x="4397" y="836" uid="1546" color="black">
                 <from>reqd_AP_prodn</from>
                 <to>reqd_AP_commodity_consn_2D</to>
             </connector>
-            <connector x="2348" y="2001" uid="1432" color="black">
-                <from>
-                    <alias uid="1406" />
-                </from>
-                <to>crop_builtup_weighting_factor</to>
-            </connector>
-            <connector x="5481" y="559" uid="1660" color="black">
+            <connector x="5481" y="559" uid="1661" color="black">
                 <from>
                     <alias uid="1635" />
                 </from>
@@ -4822,45 +4964,25 @@
                 <from>CP_protein_content</from>
                 <to>CP_protein_mass_crosswalk</to>
             </connector>
-            <connector x="878" y="1871" uid="1720" color="black">
-                <from>
-                    <alias uid="1686" />
-                </from>
-                <to>per_capita_fiber_consn</to>
-            </connector>
-            <connector x="4234" y="290" uid="1482" color="black">
+            <connector x="4234" y="290" uid="1483" color="black">
                 <from>
                     <alias uid="1455" />
                 </from>
                 <to>reqd_forage_consn_AP</to>
             </connector>
-            <connector x="1773" y="2061" uid="1420" color="black">
+            <connector x="878" y="1871" uid="1721" color="black">
+                <from>
+                    <alias uid="1686" />
+                </from>
+                <to>per_capita_fiber_consn</to>
+            </connector>
+            <connector x="1773" y="2061" uid="1421" color="black">
                 <from>reqd_built_up_land</from>
                 <to>builtup_land_gap</to>
             </connector>
             <connector x="3908" y="830" uid="1504" color="black">
                 <from>reqd_commodity_consn_AP</from>
                 <to>AP_commodity_consn_shortfall</to>
-            </connector>
-            <connector x="215" y="2816" uid="1761" color="black">
-                <from>protein_weighted_output_distn</from>
-                <to>F_crosswalk</to>
-            </connector>
-            <connector x="2998" y="1040" uid="1520" color="black">
-                <from>commodity_crop_yield</from>
-                <to>reqd_crop_prod&apos;n_land_equivalent</to>
-            </connector>
-            <connector x="3441" y="1134" uid="1558" color="black">
-                <from>reqd_commodity_prodn_x_global_shortfall</from>
-                <to>reqd_commodity_prodn</to>
-            </connector>
-            <connector x="58" y="1308" uid="1779" color="#C8C8C8">
-                <from>commodity_area_harvested_data</from>
-                <to>total_cropland_data</to>
-            </connector>
-            <connector x="3659" y="1202" uid="1565" color="black">
-                <from>potential_net_exports</from>
-                <to>potential_imports</to>
             </connector>
             <connector x="1414" y="506" uid="1628" color="black">
                 <from>
@@ -4870,231 +4992,109 @@
             </connector>
             <connector x="5261" y="278" uid="1646" color="black">
                 <from>
-                    <alias uid="1632" />
+                    <alias uid="1633" />
                 </from>
                 <to>AP_food_consn</to>
             </connector>
-            <connector x="1403" y="186" uid="1611" color="black">
-                <from>indicated_crop_pasture_flux</from>
-                <to>latent_to_crop</to>
+            <connector x="215" y="2816" uid="1761" color="black">
+                <from>protein_weighted_output_distn</from>
+                <to>F_crosswalk</to>
             </connector>
-            <connector x="5176" y="1039" uid="1655" color="black">
-                <from>AP_net_export</from>
-                <to>chg_net_AP_export</to>
-            </connector>
-            <connector x="2998" y="801" uid="1521" color="black">
-                <from>alloc_of_crop_lands_to_commodities</from>
-                <to>commodity_crop_prodn_from_crop_land</to>
-            </connector>
-            <connector x="910" y="2167" uid="1741" color="black">
+            <connector x="910" y="2167" uid="1742" color="black">
                 <from>
-                    <alias uid="1687" />
+                    <alias uid="1690" />
                 </from>
                 <to>fiber_yield</to>
             </connector>
-            <connector x="856" y="2067" uid="1721" color="black">
+            <connector x="856" y="2067" uid="1722" color="black">
                 <from>
-                    <alias uid="1684" />
+                    <alias uid="1685" />
                 </from>
                 <to>per_capita_other_consn</to>
             </connector>
-            <connector x="3450" y="959" uid="1531" color="black">
-                <from>reqd_chg_commodity_inventory</from>
-                <to>reqd_commodity_prodn_x_global_shortfall</to>
+            <connector x="2998" y="1040" uid="1520" color="black">
+                <from>commodity_crop_yield</from>
+                <to>reqd_crop_prod&apos;n_land_equivalent</to>
             </connector>
-            <connector x="3502" y="1352" uid="1559" color="black">
+            <connector x="3502" y="1352" uid="1558" color="black">
                 <from>share_total_imports</from>
                 <to>imports</to>
             </connector>
-            <connector x="5266" y="533" uid="1656" color="black">
+            <connector x="5266" y="533" uid="1659" color="black">
                 <from>Avg_Net_AP_Export</from>
                 <to>reqd_AP_prodn_x_export</to>
             </connector>
             <connector x="893" y="1467" uid="1709" color="black">
                 <from>
-                    <alias uid="1685" />
+                    <alias uid="1687" />
                 </from>
                 <to>per_capita_commodity_crop_demand</to>
             </connector>
-            <connector x="64" y="1414" uid="1780" color="#C8C8C8">
-                <from>Forage_area_harvested_data</from>
-                <to>total_cropland_data</to>
-            </connector>
-            <connector x="765" y="2723" uid="1766" color="black">
-                <from>years_of_data_to_consider</from>
-                <to>F_crosswalk_input</to>
-            </connector>
-            <connector x="1245" y="267" uid="1612" color="#9F9F9F">
+            <connector x="1245" y="267" uid="1610" color="#9F9F9F">
                 <from>Latent_Land</from>
                 <to>latent_land_constraint</to>
             </connector>
-            <connector x="1405" y="187" uid="1613" color="black">
-                <from>indicated_crop_pasture_flux</from>
-                <to>crop_to_latent</to>
-            </connector>
-            <connector x="3077" y="577" uid="1489" color="black">
-                <from>
-                    <alias uid="1451" />
-                </from>
-                <to>chg_forage_land</to>
+            <connector x="5013" y="885" uid="1672" color="black">
+                <from>AP_share_total_imports</from>
+                <to>AP_imports</to>
             </connector>
             <connector x="1083" y="1467" uid="1713" color="black">
                 <from>per_capita_commodity_crop_demand</from>
                 <to>commodity_crop_demand</to>
             </connector>
+            <connector x="1405" y="187" uid="1611" color="black">
+                <from>indicated_crop_pasture_flux</from>
+                <to>crop_to_latent</to>
+            </connector>
             <connector x="332" y="2436" uid="1748" color="#653A2A">
                 <from>CP_protein_mass_crosswalk</from>
                 <to>CP_crosswalk</to>
             </connector>
-            <connector x="899" y="1999" uid="1722" color="black">
-                <from>
-                    <alias uid="1679" />
-                </from>
-                <to>per_capita_VFN_consn</to>
-            </connector>
-            <connector x="5040" y="453" uid="1657" color="black">
-                <from>AP_target_stock_adj</from>
-                <to>reqd_AP_prodn_x_global_shortfall</to>
-            </connector>
-            <connector x="1516" y="178" uid="1621" color="black">
-                <from>crop_land_gap</from>
-                <to>indicated_crop_pasture_flux</to>
-            </connector>
-            <connector x="3671" y="177" uid="1472" color="black">
-                <from>rollup_reqd_forage_consn_AP</from>
-                <to>reqd_forage_land</to>
-            </connector>
-            <connector x="1144" y="1871" uid="1735" color="black">
-                <from>reqd_fiber_prodn</from>
-                <to>crop_land_alloc_to_fiber</to>
-            </connector>
-            <connector x="3664" y="1353" uid="1566" color="black">
-                <from>share_total_exports</from>
-                <to>exports</to>
-            </connector>
-            <connector x="4874" y="444" uid="1650" color="black">
-                <from>Animal_Product_Inventory</from>
-                <to>AP_target_stock_adj</to>
-            </connector>
-            <connector x="2513" y="1125" uid="1467" color="black">
-                <from>total_reqd_commodity_crop_land</from>
-                <to>total_reqd_crop_land</to>
-            </connector>
-            <connector x="956" y="2209" uid="1742" color="black">
+            <connector x="1462" y="1396" uid="1704" color="black">
                 <from>
                     <alias uid="1692" />
                 </from>
-                <to>VFN_yield</to>
+                <to>population</to>
             </connector>
-            <connector x="1085" y="1905" uid="1736" color="black">
+            <connector x="3441" y="1134" uid="1559" color="black">
+                <from>reqd_commodity_prodn_x_global_shortfall</from>
+                <to>reqd_commodity_prodn</to>
+            </connector>
+            <connector x="58" y="1308" uid="1781" color="#C8C8C8">
+                <from>commodity_area_harvested_data</from>
+                <to>total_cropland_data</to>
+            </connector>
+            <connector x="1224" y="279" uid="1612" color="black">
+                <from>Latent_Land</from>
+                <to>latent_to_NPL</to>
+            </connector>
+            <connector x="4251" y="642" uid="1510" color="black">
                 <from>
-                    <alias uid="1675" />
+                    <alias uid="1451" />
                 </from>
-                <to>Reqd_VFN_prodn</to>
+                <to>AP_prodn_shortfall_commodity_2D</to>
             </connector>
-            <connector x="264" y="1333" uid="1781" color="#C8C8C8">
-                <from>crop_land_data</from>
-                <to>total_land_base</to>
-            </connector>
-            <connector x="5266" y="500" uid="1658" color="black">
-                <from>Avg_Net_AP_Export</from>
-                <to>total_target_AP_outflux</to>
-            </connector>
-            <connector x="2358" y="333" uid="1464" color="black">
+            <connector x="2348" y="2001" uid="1432" color="black">
                 <from>
-                    <alias uid="1450" />
+                    <alias uid="1404" />
                 </from>
-                <to>crop_land_alloc_to_fallow</to>
+                <to>crop_builtup_weighting_factor</to>
             </connector>
-            <connector x="1887" y="2061" uid="1421" color="black">
-                <from>builtup_land_gap</from>
-                <to>creating_builtup_land</to>
+            <connector x="1403" y="186" uid="1613" color="black">
+                <from>indicated_crop_pasture_flux</from>
+                <to>latent_to_crop</to>
             </connector>
-            <connector x="3007" y="442" uid="1490" color="black">
-                <from>forage_land_gap</from>
-                <to>forage_land_gap_prodn_equivalent</to>
+            <connector x="64" y="1414" uid="1782" color="#C8C8C8">
+                <from>Forage_area_harvested_data</from>
+                <to>total_cropland_data</to>
             </connector>
-            <connector x="3655" y="836" uid="1532" color="black">
-                <from>total_target_CP_outflow</from>
-                <to>commodity_inventory_target</to>
-            </connector>
-            <connector x="591" y="2436" uid="1752" color="black">
-                <from>F_protein_mass_crosswalk</from>
-                <to>F_crosswalk</to>
-            </connector>
-            <connector x="5013" y="885" uid="1671" color="black">
-                <from>AP_share_total_imports</from>
-                <to>AP_imports</to>
-            </connector>
-            <connector x="2700" y="355" uid="1485" color="black">
-                <from>
-                    <alias uid="1441" />
-                </from>
-                <to>total_crop_land_allocated_to_commodiities</to>
-            </connector>
-            <connector x="4406" y="827" uid="1483" color="#9F9F9F">
-                <from>reqd_AP_prodn</from>
-                <to>reqd_forage_consn_AP</to>
-            </connector>
-            <connector x="767" y="2718" uid="1767" color="black">
+            <connector x="765" y="2723" uid="1768" color="black">
                 <from>years_of_data_to_consider</from>
-                <to>CP_crosswalk_input</to>
-            </connector>
-            <connector x="3582" y="1415" uid="1567" color="black">
-                <from>
-                    <alias uid="1448" />
-                </from>
-                <to>imports</to>
-            </connector>
-            <connector x="5166" y="802" uid="1672" color="black">
-                <from>potential_AP_exports</from>
-                <to>AP_share_total_exports</to>
-            </connector>
-            <connector x="2998" y="553" uid="1491" color="black">
-                <from>Actual_Forage_Land</from>
-                <to>total_crop_land_allocated_to_commodiities</to>
-            </connector>
-            <connector x="3529" y="615" uid="1499" color="black">
-                <from>CP_inventory_impact_on_consn</from>
-                <to>AP_commodity_consn</to>
-            </connector>
-            <connector x="266" y="1366" uid="1782" color="#C8C8C8">
-                <from>abandoned_land_data</from>
-                <to>total_land_base</to>
-            </connector>
-            <connector x="848" y="2822" uid="1768" color="black">
-                <from>F_Crosswalk_Accumulator</from>
                 <to>F_crosswalk_input</to>
             </connector>
-            <connector x="2989" y="1134" uid="1549" color="black">
-                <from>reqd_crop_prod&apos;n_land_equivalent</from>
-                <to>reqd_crop_land_alloc</to>
-            </connector>
-            <connector x="4346" y="440" uid="1510" color="black">
-                <from>total_AP_prodn_shortfall</from>
-                <to>AP_prodn</to>
-            </connector>
-            <connector x="3297" y="252" uid="1474" color="black">
-                <from>
-                    <alias uid="1457" />
-                </from>
-                <to>crop_land_forage_yield</to>
-            </connector>
-            <connector x="461" y="2724" uid="1762" color="black">
-                <from>
-                    <alias uid="1743" />
-                </from>
-                <to>AP_demand_CP_protein_eq</to>
-            </connector>
-            <connector x="1525" y="241" uid="1622" color="black">
-                <from>Crop_Land</from>
-                <to>crop_land_gap</to>
-            </connector>
-            <connector x="1462" y="1396" uid="1704" color="black">
-                <from>
-                    <alias uid="1689" />
-                </from>
-                <to>population</to>
+            <connector x="2998" y="801" uid="1521" color="black">
+                <from>alloc_of_crop_lands_to_commodities</from>
+                <to>commodity_crop_prodn_from_crop_land</to>
             </connector>
             <button x="1724" y="44" width="22" height="22" uid="1614" appearance="opaque" background="black" color="white" style="square">
                 <link target="model" x="0" y="0">C_C_Amer</link>
