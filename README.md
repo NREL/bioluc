@@ -41,15 +41,15 @@ See [ISEE Systems] (http://www.iseesystems.com) for documentation and training r
 ####Wiki and Frequently Asked Questions (FAQ)
 The wiki and FAQ are under development [here](https://github.com/NREL/bioluc/wiki).
 
-The wiki will include an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of know modeling limitations and data issues, and a FAQ.
-The wiki and FAQ are works in-progress for 2013/2014. 
+The wiki will include an overview of the BioLUC model, additional guidance for using the BioLUC model, documentation of known modeling limitations and data issues, and a FAQ.
+The wiki and FAQ that are updated resources permitting. 
 
 ####Interacting with the BioLUC Development Team
-We are open to questions unrelated to troubleshooting Github and Stella, the raising of theoritical land use issues associated with the model or the general topic of land use change, and documenting model bugs.
+We are open to certain questions and to documentation of model bugs. We are not open to questions un related to troubleshooting Github and Stella or , the raising of theoritical land use issues associated with the model or the general topic of land use change.
 
 Options for interactions with the project team:
 
-1.	Our prefered method is submission of an issue [ticket](https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open) to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). The use of tickets will prevent duplicatation of issues being raised for the project team and will allow for public tracking or the project teams response.
+1.	Our prefered method is submission of an issue [tickets](https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open) to Ethan Warner [here]( https://github.com/NREL/bioluc/issues?direction=desc&sort=updated&state=open). Tickets will prevent duplicatation of issues and will allow for public tracking of the project teams response.
 
 2.	Email ethan.warner@nrel.gov or daniel.inman@nrel.gov directly.
 
@@ -67,14 +67,14 @@ Two data files associated with latest version of model are located [here]( https
 
 The first file is “Outputs Visualizations.xlsx” which automatically visualizes results exported from BioLUC using the tables in the interface. When exporting data from BioLUC using the interface, the Excel file should already be open. See the “readme” spreadsheet in the “Outputs Visualizations.xlsx” file and directions in the user interface of the BioLUC model for additional directions.
 
-The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx“ which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was proceed, and multiple alternative scenarios that can be used as input into BIOLUC. See the “readme” spreadsheet for details.
+The second file is “BioLUC Data Processing and Model Inputs_2013-10-01.xlsx“ which includes data, data processing, and data documentation associated with BioLUC. This file can be used to understand the sources of data, how data was processed, and multiple alternative scenarios that can be used as input into BioLUC. See the “readme” spreadsheet for details.
 
-An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model). The 2-region version of the model corresponds to our concept paper in [Environmental Research Letters](http://iopscience.iop.org/1748-9326/8/1/015003). The 2-region version of the model is only available in version 9.1.4 of Stella.
+An older 2-region version of the model is available [here]( https://github.com/NREL/bioluc/tree/master/Model%20and%20Data/Old%202-Region%20Model). The 2-region version of the model corresponds to our concept paper in [Environmental Research Letters](http://iopscience.iop.org/1748-9326/8/1/015003). The 2-region version of the model is only available in version 9.1.4 of STELLA (TM).
 
 ####Model Testing
-[This](https://github.com/NREL/bioluc/tree/master/Model%20Testing) folder includes a presentation documenting the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
+[This](https://github.com/NREL/bioluc/tree/master/Model%20Testing) folder includes a presentation that documents the general testing the BioLUC model underwent prior to release. Please note that the presentation is not completely current as it was created prior to testing over the summer 2013.
 The [Sensitivity Analysis](https://github.com/NREL/bioluc/tree/master/Model%20Testing/Senstivity%20Analysis) folder includes a report and sensitivity analysis completed by Eric Bryant using a semi-final version of the model.
 
-####Workshop at Oak Ridge National Laboratory (ORNL) May 7-8th
-[This](https://github.com/NREL/bioluc/tree/master/Workshop%20at%20ORNL%20May%207-8th) folder contains documents and presentations used in the land use workshop at ORNL on May 7-8th.
+####Workshop at Oak Ridge National Laboratory (ORNL) May 7-8th, 2013
+[This](https://github.com/NREL/bioluc/tree/master/Workshop%20at%20ORNL%20May%207-8th) folder contains documents and presentations used in the land use workshop at ORNL on May 7-8th, 2013.
 Please note that these documents may not be up to-date.
