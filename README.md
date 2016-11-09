@@ -3,40 +3,39 @@
 ##Development
 
 ####Project Team (alphabetical order): 
-Daniel Inman ([National Renewable Energy Laboratory](http://www.nrel.gov/) [NREL]), Brian Bush (NREL), Steve Peterson (The Peterson Group), Laura Vimmerstadt (NREL), Ethan Warner (NREL)
+Daniel Inman ([National Renewable Energy Laboratory](http://www.nrel.gov/) [NREL]), Brian Bush (NREL), Steve Peterson (The Peterson Group), Laura Vimmerstedt (NREL), Ethan Warner (NREL)
 
 ####Special Thanks (alphabetical order):
 Eric Bryant (NREL), Virginia Dale ([Oak Ridge National Laboratory](http://www.ornl.gov/) [ORNL]), Keith Kline (ORNL), Ben Kuntsman (NREL), Jordan Macknick (NREL)
 Gbadebo Oladosu (ORNL), John Sheehan ([University of Minnesota](http://www1.umn.edu/twincities/index.html)), Campbell Skinner ([Bangor University](http://www.bangor.ac.uk/)), Trisha Troop ([Aberystwyth University](http://www.aber.ac.uk/en/)) 
 
 ####Project Location and Funding
-Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html)
-This work was funded by the [United States Department of Energy’s](http://energy.gov/) [Bioenergy Technologies Office](http://www1.eere.energy.gov/bioenergy/) under agreement #: 22692
+Built in Golden, CO within NREL's [Strategic Energy Analysis Center](http://www.nrel.gov/analysis/about_office.html).
+This work was funded by the [United States Department of Energy’s](http://energy.gov/) [Bioenergy Technologies Office](http://www1.eere.energy.gov/bioenergy/) under agreement #: DE-AC36-08GO28308
 
 ##Licensing
 
-Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribution. You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+Summary: You are free to copy, adapt, distribute, and transmit the work provided you attribute. You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
 
-Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details.
-
+Please go [here](http://creativecommons.org/licenses/by-sa/3.0/) for details
 ##User Guidance
 
 ####Github
-For directions on using Github please see the Github guide available on the front page of your user profile.
+For directions on using Github, please see the Github guide available on the front page of your user profile.
 
 ####Software
 Running simulations requires [STELLA 10.0.3](http://www.iseesystems.com/softwares/Education/StellaSoftware.aspx).
-See [ISEE Systems] (http://www.iseesystems.com) for documentation and training related to the Stella model.
+See [ISEE Systems] (http://www.iseesystems.com) for documentation and training related to the STELLA (TM) model.
 
 #####Trial Version Will Allow:
 -	Running the BioLUC model
--	Changes to assumptions in the user interface
+-	Changing assumptions in the user interface
 
-#####Trail Version Will Not Allow:
--	Importing of data
+#####Trial Version Will Not Allow:
+-	Importing data
 -	Saving  changes to the model 
 
-#####Full Version Will:
+#####Full Version Will Allow:
 -	Allow access to all the features of the BioLUC model.
 
 ####Wiki and Frequently Asked Questions (FAQ)
